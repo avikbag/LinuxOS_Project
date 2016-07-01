@@ -151,6 +151,9 @@ static unsigned int max_cpus = NR_CPUS;
 unsigned int reset_devices;
 EXPORT_SYMBOL(reset_devices);
 
+unsigned int printme;
+EXPORT_SYMBOL(printme);
+
 /*
  * Setup routine for controlling SMP activation
  *
@@ -184,6 +187,14 @@ static int __init set_reset_devices(char *str)
 }
 
 __setup("reset_devices", set_reset_devices);
+
+static int __init set_printme(char *str)
+{
+	printme = 1;
+	return 1;
+}
+
+__setup("printme", set_printme);
 
 static char * argv_init[MAX_INIT_ARGS+2] = { "init", NULL, };
 char * envp_init[MAX_INIT_ENVS+2] = { "HOME=/", "TERM=linux", NULL, };
@@ -626,6 +637,8 @@ asmlinkage void __init start_kernel(void)
 	if (late_time_init)
 		late_time_init();
 	calibrate_delay();
+	if (printme)
+		printk("Hello World from Me!\n");
 	pidmap_init();
 	pgtable_cache_init();
 	prio_tree_init();

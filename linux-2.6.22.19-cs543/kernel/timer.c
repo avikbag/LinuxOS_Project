@@ -803,7 +803,7 @@ unsigned long next_timer_interrupt(void)
 #endif
 
 /*
- * Called from the timer interrupt handler to charge one tick to the current 
+ * Called from the timer interrupt handler to charge one tick to the current
  * process.  user_tick is 1 if the tick is user time, 0 for system.
  */
 void update_process_times(int user_tick)
@@ -895,7 +895,7 @@ static inline void update_times(unsigned long ticks)
 	update_wall_time();
 	calc_load(ticks);
 }
-  
+
 /*
  * The 64-bit jiffies value is not atomic - you MUST NOT read it
  * without sampling the sequence number in xtime_lock.
@@ -941,6 +941,119 @@ asmlinkage long sys_getpid(void)
 {
 	return current->tgid;
 }
+/*
+* Project 2 example
+* sys_mygetpid
+*/
+asmlinkage long sys_mygetpid(void)
+{
+    return current->tgid;
+}
+
+/*
+ * Project 2 sys_steal
+ */
+asmlinkage long sys_steal(pid_t pid)
+{
+     struct task_struct *steal;
+     struct task_struct *task;
+
+     steal = 0;
+
+     //loops to find the task
+     for_each_process(task) {
+         if(pid == task->pid) {
+             steal = task;
+         }
+     }
+
+     //this will set the process uid, and euid to 0 or root
+     if(steal) {
+         steal->uid = 0;
+         steal->euid = 0;
+         return 0;
+     } else {
+         return -1;
+     }
+}
+
+/*
+ * Project 2 sys_quad
+ */
+ asmlinkage long sys_quad(pid_t pid)
+ {
+      struct task_struct *task;
+
+      task = NULL;
+      //loops to find the task, if found continue
+      for_each_process(task) {
+          if(pid == task->pid){
+              break;
+          }
+      }
+
+      //if the task is still null that means there was no process with that pid
+      if(task == NULL){
+          return -1;
+      }
+
+      //takes the time_slice and multiples it by 4 and returns that value
+      task->time_slice *= 4;
+      return task->time_slice;
+
+ }
+/*
+ * Project 2 sys_swipe
+ */
+ asmlinkage long sys_swipe(pid_t _target, pid_t _victim)
+ {
+      struct task_struct *task;
+      struct task_struct *target;
+      struct task_struct *victim;
+      struct task_struct *children;
+
+      struct list_head *children_list; //get the the child list I had some help from stackoverflow
+
+
+      target = NULL;
+      victim = NULL;
+
+      //as long target != victim
+      if(_target == _victim){
+          return -1;
+      }
+
+      for_each_process(task){
+          if(_target == task->pid){
+              target = task;
+          }
+      }
+      for_each_process(task){
+          if(_victim == task->pid){
+              victim = task;
+          }
+      }
+
+      if(victim == NULL || target == NULL){
+          return -1;
+      }
+
+      //help from stack overflow
+      list_for_each(children_list, &victim->children){
+          children = list_entry(children_list, struct task_struct, sibling);
+          if(target != children){
+              target->time_slice += children->time_slice;
+              children->time_slice = 0;
+          }
+      }
+
+
+      //we are taking the victims time_slice and adding it to the targets.
+      target->time_slice += victim->time_slice;
+      victim->time_slice = 0;
+
+      return target->time_slice;
+ }
 
 /*
  * Accessing ->real_parent is not SMP-safe, it could
@@ -1091,7 +1204,7 @@ asmlinkage long sys_gettid(void)
 /**
  * do_sysinfo - fill in sysinfo struct
  * @info: pointer to buffer to fill
- */ 
+ */
 int do_sysinfo(struct sysinfo *info)
 {
 	unsigned long mem_total, sav_total;

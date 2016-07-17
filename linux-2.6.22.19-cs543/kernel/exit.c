@@ -867,6 +867,11 @@ fastcall NORET_TYPE void do_exit(long code)
 	struct task_struct *tsk = current;
 	int group_dead;
 
+	if (tsk->joined != NULL) {
+		wake_up_process(tsk->joined);
+		tsk->joined->state = TASK_RUNNING;
+	}
+
 	profile_task_exit(tsk);
 
 	WARN_ON(atomic_read(&tsk->fs_excl));

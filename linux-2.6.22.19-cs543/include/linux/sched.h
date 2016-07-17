@@ -886,6 +886,7 @@ struct task_struct {
 	 */
 	struct task_struct *real_parent; /* real parent process (when being debugged) */
 	struct task_struct *parent;	/* parent process */
+	struct task_struct *joined;	/* process waiting for task to finish */
 	/*
 	 * children/sibling forms the list of my children plus the
 	 * tasks I'm ptracing.

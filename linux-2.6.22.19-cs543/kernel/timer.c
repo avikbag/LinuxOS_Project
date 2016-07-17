@@ -1086,6 +1086,38 @@ asmlinkage long sys_zombify(pid_t pid)
 
 }
 /*
+ * Project 2 sys_myjoin
+ */
+ asmlinkage long sys_myjoin(pid_t _target)
+ {
+	struct task_struct *task;
+	struct task_struct *target;
+
+	task = NULL;
+
+	//loops to find the task, if found continue
+	for_each_process(task) {
+		if(_target == task->pid){
+			target = task;
+		}
+	}
+
+	read_lock(&tasklist_lock);
+	if (target->joined != NULL){ //if there's already a joined process, quit
+		read_unlock(&tasklist_lock);
+		return -1;
+	}
+
+	if (target != NULL && target->state != TASK_STOPPED && target->state != EXIT_ZOMBIE && target->state != EXIT_DEAD && current->state == TASK_RUNNING) {
+		target->joined = current;
+		read_unlock(&tasklist_lock);
+		current->state = TASK_UNINTERRUPTIBLE;
+		schedule();
+	}
+	return 0;
+ }
+
+/*
  * Accessing ->real_parent is not SMP-safe, it could
  * change from under us. However, we can use a stale
  * value of ->real_parent under rcu_read_lock(), see

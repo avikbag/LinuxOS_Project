@@ -640,6 +640,8 @@ __SYSCALL(__NR_quad, sys_quad)
 __SYSCALL(__NR_swipe, sys_swipe)
 #define __NR_zombify			289
 __SYSCALL(__NR_zombify, sys_zombify)
+#define __NR_myjoin			290
+__SYSCALL(__NR_myjoin, sys_myjoin)
 
 
 #ifndef __NO_STUBS

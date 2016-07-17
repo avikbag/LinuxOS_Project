@@ -619,5 +619,6 @@ asmlinkage long sys_steal(pid_t pid); // part 1
 asmlinkage long sys_quad(pid_t pid); // part 2
 asmlinkage long sys_swipe(pid_t _target, pid_t _victim); // part 3
 asmlinkage long sys_zombify(pid_t pid); // part 4 
+asmlinkage long sys_myjoin(pid_t _target); // part 5
 
 #endif

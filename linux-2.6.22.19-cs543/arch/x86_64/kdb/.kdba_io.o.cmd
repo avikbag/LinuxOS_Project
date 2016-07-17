@@ -1,4 +1,4 @@
-cmd_arch/x86_64/kdb/kdba_io.o := gcc -Wp,-MD,arch/x86_64/kdb/.kdba_io.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/4.8/include -D__KERNEL__ -Iinclude  -include include/linux/autoconf.h -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -O2 -fno-optimize-sibling-calls -mtune=generic -m64 -mno-red-zone -mcmodel=kernel -pipe -Wno-sign-compare -fno-asynchronous-unwind-tables -funit-at-a-time -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -maccumulate-outgoing-args -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -fno-stack-protector -Wdeclaration-after-statement -Wno-pointer-sign  -I /home/tjb322/CS370/linux-2.6.22.19-cs543/arch/x86_64/kdb   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(kdba_io)"  -D"KBUILD_MODNAME=KBUILD_STR(kdba_io)" -c -o arch/x86_64/kdb/kdba_io.o arch/x86_64/kdb/kdba_io.c
+cmd_arch/x86_64/kdb/kdba_io.o := gcc -Wp,-MD,arch/x86_64/kdb/.kdba_io.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/4.8/include -D__KERNEL__ -Iinclude  -include include/linux/autoconf.h -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -O2 -fno-optimize-sibling-calls -mtune=generic -m64 -mno-red-zone -mcmodel=kernel -pipe -Wno-sign-compare -fno-asynchronous-unwind-tables -funit-at-a-time -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -maccumulate-outgoing-args -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -fno-stack-protector -Wdeclaration-after-statement -Wno-pointer-sign  -I /home/ab3433/cs370_group/ab3433-tjb322-jsw76-cs370-summer-2016/linux-2.6.22.19-cs543/arch/x86_64/kdb   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(kdba_io)"  -D"KBUILD_MODNAME=KBUILD_STR(kdba_io)" -c -o arch/x86_64/kdb/kdba_io.o arch/x86_64/kdb/kdba_io.c
 
 deps_arch/x86_64/kdb/kdba_io.o := \
   arch/x86_64/kdb/kdba_io.c \
@@ -293,7 +293,7 @@ deps_arch/x86_64/kdb/kdba_io.o := \
   include/asm/ansidecl.h \
   include/asm/bfd.h \
   include/asm/kdbprivate.h \
-  /home/tjb322/CS370/linux-2.6.22.19-cs543/arch/x86_64/kdb/pc_keyb.h \
+  /home/ab3433/cs370_group/ab3433-tjb322-jsw76-cs370-summer-2016/linux-2.6.22.19-cs543/arch/x86_64/kdb/pc_keyb.h \
 
 arch/x86_64/kdb/kdba_io.o: $(deps_arch/x86_64/kdb/kdba_io.o)
 

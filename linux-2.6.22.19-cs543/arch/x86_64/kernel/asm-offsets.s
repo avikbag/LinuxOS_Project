@@ -205,7 +205,7 @@ main:
 	.loc 1 83 0
 # 83 "arch/x86_64/kernel/asm-offsets.c" 1
 	
-->__NR_syscall_max $284 sizeof(syscalls) - 1	#
+->__NR_syscall_max $289 sizeof(syscalls) - 1	#
 # 0 "" 2
 	.loc 1 85 0
 #NO_APP
@@ -12927,7 +12927,7 @@ main:
 	.long	0x68b7
 	.uleb128 0x39
 	.long	0x29
-	.value	0x11c
+	.value	0x121
 	.byte	0
 	.uleb128 0x3a
 	.long	.LASF1381
@@ -14910,8 +14910,6 @@ main:
 	.string	"fa_next"
 .LASF1142:
 	.string	"release_dquot"
-.LASF1379:
-	.string	"/home/tjb322/CS370/linux-2.6.22.19-cs543"
 .LASF882:
 	.string	"last_queued"
 .LASF678:
@@ -15631,6 +15629,8 @@ main:
 	.string	"ra_pages"
 .LASF888:
 	.string	"SLEEP_INTERACTIVE"
+.LASF795:
+	.string	"ki_dtor"
 .LASF862:
 	.string	"it_virt_incr"
 .LASF468:
@@ -16329,8 +16329,8 @@ main:
 	.string	"dqb_btime"
 .LASF823:
 	.string	"f_ep_links"
-.LASF795:
-	.string	"ki_dtor"
+.LASF1379:
+	.string	"/home/ab3433/cs370_group/ab3433-tjb322-jsw76-cs370-summer-2016/linux-2.6.22.19-cs543"
 .LASF757:
 	.string	"i_private"
 .LASF1243:

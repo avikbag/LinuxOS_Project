@@ -1,7 +1,7 @@
 /*
  * Automatically generated C config: don't edit
- * Linux kernel version: 2.6.22.19-BOSWELL
- * Tue Jun 28 18:56:33 2016
+ * Linux kernel version: 2.6.22.19-GROUP
+ * Sun Jul 17 16:51:16 2016
  */
 #define AUTOCONF_INCLUDED
 #define CONFIG_ACPI_AC 1
@@ -257,7 +257,7 @@
 #define CONFIG_ZONE_DMA_FLAG 1
 #define CONFIG_HT_IRQ 1
 #define CONFIG_NET 1
-#define CONFIG_KERNELVERSION "2.6.22.19-BOSWELL"
+#define CONFIG_KERNELVERSION "2.6.22.19-GROUP"
 #define CONFIG_VORTEX 1
 #define CONFIG_MODULE_UNLOAD 1
 #define CONFIG_STANDALONE 1

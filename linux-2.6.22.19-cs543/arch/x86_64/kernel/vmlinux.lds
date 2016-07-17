@@ -1,7 +1,7 @@
 /*
  * Automatically generated C config: don't edit
- * Linux kernel version: 2.6.22.19-BOSWELL
- * Tue Jun 28 18:56:33 2016
+ * Linux kernel version: 2.6.22.19-GROUP
+ * Sun Jul 17 16:51:16 2016
  */
 /* ld script to make x86-64 Linux kernel
  * Written by Martin Mares <mj@atrey.karlin.mff.cuni.cz>;

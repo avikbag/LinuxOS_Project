@@ -1,0 +1,25 @@
+Sys_steal
+It will set your bash to su, when you run this on the bash process ID.
+You can get the bash process ID by typing echo $$ in console.  To see the changes
+you will need to type bash in the console to reload bash.
+The output is:
+user@debian-amd64:~/test/p2$ echo $$
+1571
+user@debian-amd64:~/test/p2$ ./a.out 1572
+pid doesn't exist!
+user@debian-amd64:~/test/p2$ ./a.out 1571
+user@debian-amd64:~/test/p2$ bash
+root@debian-amd64:~/test/p2#
+
+Sys_quad
+It will multiple the time_slice by 4 and return the value after it has been multiplied
+If the time_splice is 3 it will return 12.
+The output of this is:
+user@debian-amd64:~/test/p2$ ./a.out 1
+The new time_slice is 2860
+
+Sys_swipe
+It will take a target and a victim and it will add the victims time_slice to the target's
+the output of this is:
+user@debian-amd64:~/test/p2$ ./a.out 1 2
+The process 1 now has a time_slice of 715

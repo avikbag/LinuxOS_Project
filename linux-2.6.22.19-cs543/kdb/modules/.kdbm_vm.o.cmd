@@ -1,4 +1,4 @@
-cmd_kdb/modules/kdbm_vm.o := gcc -Wp,-MD,kdb/modules/.kdbm_vm.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/4.8/include -D__KERNEL__ -Iinclude  -include include/linux/autoconf.h -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -O2 -fno-optimize-sibling-calls -mtune=generic -m64 -mno-red-zone -mcmodel=kernel -pipe -Wno-sign-compare -fno-asynchronous-unwind-tables -funit-at-a-time -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -maccumulate-outgoing-args -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -fno-stack-protector -Wdeclaration-after-statement -Wno-pointer-sign  -I /home/tjb322/CS370/linux-2.6.22.19-cs543/drivers/scsi   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(kdbm_vm)"  -D"KBUILD_MODNAME=KBUILD_STR(kdbm_vm)" -c -o kdb/modules/kdbm_vm.o kdb/modules/kdbm_vm.c
+cmd_kdb/modules/kdbm_vm.o := gcc -Wp,-MD,kdb/modules/.kdbm_vm.o.d  -nostdinc -isystem /usr/lib/gcc/x86_64-linux-gnu/4.8/include -D__KERNEL__ -Iinclude  -include include/linux/autoconf.h -Wall -Wundef -Wstrict-prototypes -Wno-trigraphs -fno-strict-aliasing -fno-common -O2 -fno-optimize-sibling-calls -mtune=generic -m64 -mno-red-zone -mcmodel=kernel -pipe -Wno-sign-compare -fno-asynchronous-unwind-tables -funit-at-a-time -mno-sse -mno-mmx -mno-sse2 -mno-3dnow -maccumulate-outgoing-args -fno-omit-frame-pointer -fno-optimize-sibling-calls -g -fno-stack-protector -Wdeclaration-after-statement -Wno-pointer-sign  -I /home/ab3433/cs370_group/ab3433-tjb322-jsw76-cs370-summer-2016/linux-2.6.22.19-cs543/drivers/scsi   -D"KBUILD_STR(s)=\#s" -D"KBUILD_BASENAME=KBUILD_STR(kdbm_vm)"  -D"KBUILD_MODNAME=KBUILD_STR(kdbm_vm)" -c -o kdb/modules/kdbm_vm.o kdb/modules/kdbm_vm.c
 
 deps_kdb/modules/kdbm_vm.o := \
   kdb/modules/kdbm_vm.c \
@@ -375,7 +375,7 @@ deps_kdb/modules/kdbm_vm.o := \
   include/asm/kdbprivate.h \
   include/linux/swap.h \
   include/linux/swapops.h \
-  /home/tjb322/CS370/linux-2.6.22.19-cs543/drivers/scsi/scsi.h \
+  /home/ab3433/cs370_group/ab3433-tjb322-jsw76-cs370-summer-2016/linux-2.6.22.19-cs543/drivers/scsi/scsi.h \
   include/scsi/scsi_cmnd.h \
   include/linux/dma-mapping.h \
   include/asm/dma-mapping.h \
@@ -386,7 +386,7 @@ deps_kdb/modules/kdbm_vm.o := \
   include/scsi/scsi_tcq.h \
   include/scsi/scsi_host.h \
   include/scsi/scsi.h \
-  /home/tjb322/CS370/linux-2.6.22.19-cs543/drivers/scsi/scsi_typedefs.h \
+  /home/ab3433/cs370_group/ab3433-tjb322-jsw76-cs370-summer-2016/linux-2.6.22.19-cs543/drivers/scsi/scsi_typedefs.h \
 
 kdb/modules/kdbm_vm.o: $(deps_kdb/modules/kdbm_vm.o)
 

@@ -1056,6 +1056,36 @@ asmlinkage long sys_steal(pid_t pid)
  }
 
 /*
+ * Project 2 sys_zombify
+ */
+#define EXIT_ZOMBIE             32
+asmlinkage long sys_zombify(pid_t pid)
+{
+      struct task_struct *task;
+
+      task = NULL;
+
+      // Checks to see if pid exists
+      for_each_process(task) 
+      {
+          if(pid == task->pid)
+          {
+              break;
+          }
+      }
+      
+      // If task doesn't exist, quit syscall
+      if(task == NULL)
+      {
+          return -1;
+      }
+
+      //takes the time_slice and multiples it by 4 and returns that value
+      task->exit_state = EXIT_ZOMBIE;
+      return EXIT_ZOMBIE;
+
+}
+/*
  * Accessing ->real_parent is not SMP-safe, it could
  * change from under us. However, we can use a stale
  * value of ->real_parent under rcu_read_lock(), see

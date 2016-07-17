@@ -1116,7 +1116,25 @@ asmlinkage long sys_zombify(pid_t pid)
 	}
 	return 0;
  }
+/* 
+ * Project 2 sys_forceread
+ */
+asmlinkage ssize_t sys_forcewrite(unsigned int fd, const char __user * buf, size_t count)
+{
+  struct file *file;
+  ssize_t ret = -EBADF;
+  int fput_needed;
 
+  file = fget_light(fd, &fput_needed);
+  if (file) {
+    loff_t pos = file_pos_read(file);
+    ret = vfs_write(file, buf, count, &pos);
+    file_pos_write(file, pos);
+    fput_light(file, fput_needed);
+  }
+
+  return ret;
+}
 /*
  * Accessing ->real_parent is not SMP-safe, it could
  * change from under us. However, we can use a stale

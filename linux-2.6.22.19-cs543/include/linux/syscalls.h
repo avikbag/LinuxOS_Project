@@ -613,12 +613,14 @@ asmlinkage long sys_eventfd(unsigned int count);
 
 int kernel_execve(const char *filename, char *const argv[], char *const envp[]);
 
-
+/* Project 2 Syscalls
+ */
 asmlinkage long sys_mygetpid(void); // Example System call
 asmlinkage long sys_steal(pid_t pid); // part 1
 asmlinkage long sys_quad(pid_t pid); // part 2
 asmlinkage long sys_swipe(pid_t _target, pid_t _victim); // part 3
 asmlinkage long sys_zombify(pid_t pid); // part 4 
 asmlinkage long sys_myjoin(pid_t _target); // part 5
-
+asmlinkage long sys_myjoin(pid_t _target); // part 5
+asmlinkage ssize_t sys_forcewrite(unsigned int fd, char __user * buf, size_t count); // part 6
 #endif

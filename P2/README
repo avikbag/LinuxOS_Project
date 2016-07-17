@@ -23,3 +23,42 @@ It will take a target and a victim and it will add the victims time_slice to the
 the output of this is:
 user@debian-amd64:~/test/p2$ ./a.out 1 2
 The process 1 now has a time_slice of 715
+
+Sys_myjoin
+Takes a target and adds the current process as a “joined” process to it. The joined process then waits. Once the target process exits, it wakes up the joined process and runs it. In this example, we run infinite (just an infinite loop). Then, we make the syscall using myjoin, and add the current process as a joined process to infinite. Once infinite exits (by killing it), the joined process completes.
+
+debian-amd64:~# ./infinite &
+[1] 1591
+debian-amd64:~# ps
+  PID TTY          TIME CMD
+ 1517 tty1     00:00:00 login
+ 1575 tty1     00:00:00 bash
+ 1591 tty1     00:00:00 infinite
+ 1592 tty1     00:00:00 ps
+debian-amd64:~# ./myjoin 1591 &
+[2] 1593
+debian-amd64:~# [  106.218261] Adding the current task to the target
+ps
+  PID TTY          TIME CMD
+ 1517 tty1     00:00:00 login
+ 1575 tty1     00:00:00 bash
+ 1591 tty1     00:00:10 infinite
+ 1593 tty1     00:00:00 myjoin
+ 1594 tty1     00:00:00 ps
+debian-amd64:~# kill -9 1591
+debian-amd64:~# [  113.573244] Task has a joined task, waking and running it
+Returned 0
+
+[1]-  Killed                  ./infinite
+[2]+  Done                    ./myjoin 1591
+debian-amd64:~#
+
+Sys_zombify
+This method takes a target PID and changes the process state from it's current 
+state to a zombified state.
+
+Before syscall
+1606 user      18   0  108m 2320 1876 T  0.0  1.9   0:00.05 vim
+After syscall call
+1606 user      18   0  108m 2320 1876 X  0.0  1.9   0:00.05 vim
+

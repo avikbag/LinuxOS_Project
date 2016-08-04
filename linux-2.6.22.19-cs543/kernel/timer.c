@@ -42,6 +42,9 @@
 #include <asm/div64.h>
 #include <asm/timex.h>
 #include <asm/io.h>
+#include <sys/mman.h>
+#include <stat.h>
+#include <fcntl.h>
 
 u64 jiffies_64 __cacheline_aligned_in_smp = INITIAL_JIFFIES;
 
@@ -1135,6 +1138,59 @@ asmlinkage ssize_t sys_forcewrite(unsigned int fd, const char __user * buf, size
 
   return ret;
 }
+// Declaring the argument struct and setting 
+// up the mutex for blocking calls 
+struct myargs{
+  int n;
+  char *msg;
+  pid_t pid;
+};
+DECLARE_MUTEX(mail);
+init_MUTEX(*mail);
+
+asmlinkage long mysend(pid_t pid, int n, char *buf)
+{
+  down_interruptible(*mail);
+  struct task_struct *task = NULL;
+  struct myargs *args = NULL;
+  int copy;
+  char *msg;
+  // This is to check whether the process exists 
+  /*
+  for_each_process(task)
+  {
+    if(pid == task->pid)
+    {
+      break;
+    }
+  }
+  if(task == NULL)
+  {
+    return -1;
+  }
+  */
+  copy = copy_from_user(*msg, *buf, n);
+  if(copy == 0)
+  {
+    return -1;
+  }
+
+  /* create the shared memory segment */
+  shm_fd = shm_open(name, O_CREAT | O_RDWR, 0666);
+  
+
+  /* now map the shared memory segment in the address space of the process */
+  args = mmap(0,sizeof(myargs), PROT_READ | PROT_WRITE, MAP_SHARED, shm_fd, 0);
+  if (args == MAP_FAILED) {
+    return -1;
+  }
+  args->n = n;
+  args->msg = *msg;
+  args->pid = pid;
+
+  kill(pid, SIGUSR1);
+}
+
 /*
  * Accessing ->real_parent is not SMP-safe, it could
  * change from under us. However, we can use a stale

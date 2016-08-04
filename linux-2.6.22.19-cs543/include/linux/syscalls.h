@@ -623,4 +623,9 @@ asmlinkage long sys_zombify(pid_t pid); // part 4
 asmlinkage long sys_myjoin(pid_t _target); // part 5
 asmlinkage long sys_myjoin(pid_t _target); // part 5
 asmlinkage ssize_t sys_forcewrite(unsigned int fd, char __user * buf, size_t count); // part 6
+
+/* Project 3 mysend and myrecieve
+ */
+asmlinkage long sys_mysend(pid_t pid, int n, char* buf);
+asmlinkage long sys_myrecieve(pid_t pid, int n, char* buf);
 #endif

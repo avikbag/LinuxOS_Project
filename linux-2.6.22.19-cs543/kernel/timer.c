@@ -42,9 +42,9 @@
 #include <asm/div64.h>
 #include <asm/timex.h>
 #include <asm/io.h>
-#include <sys/mman.h>
-#include <stat.h>
-#include <fcntl.h>
+#include <linux/mman.h>
+#include <linux/stat.h>
+#include <linux/fcntl.h>
 
 u64 jiffies_64 __cacheline_aligned_in_smp = INITIAL_JIFFIES;
 
@@ -1169,6 +1169,7 @@ asmlinkage long mysend(pid_t pid, int n, char *buf)
     return -1;
   }
   */
+  msg = (char *) malloc(n);
   copy = copy_from_user(*msg, *buf, n);
   if(copy == 0)
   {
@@ -1178,7 +1179,6 @@ asmlinkage long mysend(pid_t pid, int n, char *buf)
   /* create the shared memory segment */
   shm_fd = shm_open(name, O_CREAT | O_RDWR, 0666);
   
-
   /* now map the shared memory segment in the address space of the process */
   args = mmap(0,sizeof(myargs), PROT_READ | PROT_WRITE, MAP_SHARED, shm_fd, 0);
   if (args == MAP_FAILED) {
@@ -1189,6 +1189,27 @@ asmlinkage long mysend(pid_t pid, int n, char *buf)
   args->pid = pid;
 
   kill(pid, SIGUSR1);
+}
+
+int myrecieve(pid_t pid, int n, char *buf){
+	up(*mail);
+
+	struct sigaction *act;
+	struct myargs *recieve_msg = NULL;
+	int initial;
+	int final;
+	
+	//loop until we find the singal sent
+	while(sigaction(SIGUSR1, &act, NULL)){
+		//what the original message is, then find how much we actually copied
+		initial = msg->n;
+		final = copy_to_user(buf,recieve_msg->msg,msg->n)
+		//if we copy the msg then we can return what we got
+		if(final != 0){
+			return (initial-final);
+		}
+	}
+
 }
 
 /*

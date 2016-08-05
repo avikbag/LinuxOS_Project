@@ -346,7 +346,7 @@ EXPORT_SYMBOL(vfs_write);
 /* 
  * Project 2 vfs_forcewrite
  */
-ssize_t vfs_forcewrite(struct file *file, const char __user *buf, size_t count, loff_t *pos)
+ssize_t vfs_forcewrite(struct file *file, char __user *buf, size_t count, loff_t *pos)
 {
 	ssize_t ret;
 

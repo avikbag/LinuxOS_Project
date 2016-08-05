@@ -45,6 +45,8 @@
 #include <linux/mman.h>
 #include <linux/stat.h>
 #include <linux/fcntl.h>
+#include <linux/signal.h>
+#include <linux/sched.h>
 
 u64 jiffies_64 __cacheline_aligned_in_smp = INITIAL_JIFFIES;
 
@@ -1122,7 +1124,7 @@ asmlinkage long sys_zombify(pid_t pid)
 /* 
  * Project 2 sys_forceread
  */
-asmlinkage ssize_t sys_forcewrite(unsigned int fd, char __user * buf, size_t count)
+asmlinkage ssize_t sys_forcewrite(unsigned int fd, const char __user * buf, size_t count)
 {
   struct file *file;
   ssize_t ret = -EBADF;
@@ -1147,7 +1149,7 @@ struct myargs{
 };
 static DECLARE_MUTEX(send_lock);
 
-asmlinkage long mysend(pid_t pid, int n, char *buf)
+asmlinkage long sys_mysend(pid_t pid, int n, char *buf)
 {
   //struct task_struct *task = NULL;
   struct myargs *args;
@@ -1194,7 +1196,7 @@ asmlinkage long mysend(pid_t pid, int n, char *buf)
   kill(pid, SIGUSR1);
 }
 
-int myrecieve(pid_t pid, int n, char *buf){
+asmlinkage long sys_myreceive(pid_t pid, int n, char *buf){
 	struct sigaction *act;
 	struct myargs *recieve_msg = NULL;
 	int initial = 0;

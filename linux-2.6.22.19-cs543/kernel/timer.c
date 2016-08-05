@@ -1122,24 +1122,9 @@ asmlinkage long sys_zombify(pid_t pid)
 	return 0;
  }
 /* 
- * Project 2 sys_forceread
+ * Project 3 sys_mysend, sys_myreceive
  */
-asmlinkage ssize_t sys_forcewrite(unsigned int fd, const char __user * buf, size_t count)
-{
-  struct file *file;
-  ssize_t ret = -EBADF;
-  int fput_needed;
 
-  file = fget_light(fd, &fput_needed);
-  if (file) {
-    loff_t pos = file_pos_read(file);
-    ret = vfs_write(file, buf, count, &pos);
-    file_pos_write(file, pos);
-    fput_light(file, fput_needed);
-  }
-
-  return ret;
-}
 // Declaring the argument struct and setting 
 // up the mutex for blocking calls 
 struct myargs{
@@ -1151,26 +1136,10 @@ static DECLARE_MUTEX(send_lock);
 
 asmlinkage long sys_mysend(pid_t pid, int n, char *buf)
 {
-  //struct task_struct *task = NULL;
   struct myargs *args;
   int copy;
-  //int shm_fd;
   char *msg;
   down_interruptible(&send_lock);
-  // This is to check whether the process exists 
-  /*
-  for_each_process(task)
-  {
-    if(pid == task->pid)
-    {
-      break;
-    }
-  }
-  if(task == NULL)
-  {
-    return -1;
-  }
-  */
   msg = (char *) kmalloc(n, GFP_KERNEL);
   copy = copy_from_user(msg, buf, n);
   if(copy == 0)
@@ -1178,40 +1147,36 @@ asmlinkage long sys_mysend(pid_t pid, int n, char *buf)
     return -1;
   }
 
-/*
-   create the shared memory segment 
-  shm_fd = shm_open(name, O_CREAT | O_RDWR, 0666);
-  
-   now map the shared memory segment in the address space of the process
-  args = mmap(0,sizeof(myargs), PROT_READ | PROT_WRITE, MAP_SHARED, shm_fd, 0);
-  if (args == MAP_FAILED) {
-    return -1;
-  }
-*/
   args = kmalloc(sizeof(struct myargs), GFP_KERNEL);
   args->n = n;
   args->msg = *msg;
   args->pid = pid;
 
-  kill(pid, SIGUSR1);
 }
 
 asmlinkage long sys_myreceive(pid_t pid, int n, char *buf){
-	struct sigaction *act;
 	struct myargs *recieve_msg = NULL;
+	struct task_struct *task = NULL;
 	int initial = 0;
-	int final = 0;;
+	int final = 0;
+
+	//This will check if the send process was actually a process
+	for_each_process(task){
+		if(pid == task->pid){
+			break;
+		}
+	}
+	if(task == NULL){
+		return -1;
+	}
 	
 	up(&send_lock);
-	//loop until we find the singal sent
-	while(sigaction(SIGUSR1, &act, NULL)){
-		//what the original message is, then find how much we actually copied
-		initial = recieve_msg->n;
-		final = copy_to_user(buf,recieve_msg->msg,recieve_msg->n);
-		//if we copy the msg then we can return what we got
-		if(final != 0){
-			return (initial-final);
-		}
+	//what the original message is, then find how much we actually copied
+	initial = recieve_msg->n;
+	final = copy_to_user(buf,recieve_msg->msg,recieve_msg->n);
+	//if we copy the msg then we can return what we got
+	if(final != 0){
+		return (initial-final);
 	}
 
 	return (initial-final);

@@ -1150,8 +1150,9 @@ static DECLARE_MUTEX(send_lock);
 asmlinkage long mysend(pid_t pid, int n, char *buf)
 {
   //struct task_struct *task = NULL;
-  struct myargs *args = NULL;
+  struct myargs *args;
   int copy;
+  //int shm_fd;
   char *msg;
   down_interruptible(&send_lock);
   // This is to check whether the process exists 
@@ -1169,20 +1170,23 @@ asmlinkage long mysend(pid_t pid, int n, char *buf)
   }
   */
   msg = (char *) kmalloc(n, GFP_KERNEL);
-  copy = copy_from_user(*msg, *buf, n);
+  copy = copy_from_user(msg, buf, n);
   if(copy == 0)
   {
     return -1;
   }
 
-  /* create the shared memory segment */
+/*
+   create the shared memory segment 
   shm_fd = shm_open(name, O_CREAT | O_RDWR, 0666);
   
-  /* now map the shared memory segment in the address space of the process */
+   now map the shared memory segment in the address space of the process
   args = mmap(0,sizeof(myargs), PROT_READ | PROT_WRITE, MAP_SHARED, shm_fd, 0);
   if (args == MAP_FAILED) {
     return -1;
   }
+*/
+  args = kmalloc(sizeof(struct myargs), GFP_KERNEL);
   args->n = n;
   args->msg = *msg;
   args->pid = pid;
@@ -1193,22 +1197,22 @@ asmlinkage long mysend(pid_t pid, int n, char *buf)
 int myrecieve(pid_t pid, int n, char *buf){
 	struct sigaction *act;
 	struct myargs *recieve_msg = NULL;
-	int initial;
-	int final;
+	int initial = 0;
+	int final = 0;;
 	
 	up(&send_lock);
 	//loop until we find the singal sent
 	while(sigaction(SIGUSR1, &act, NULL)){
 		//what the original message is, then find how much we actually copied
-		initial = msg->n;
-		final = copy_to_user(buf,recieve_msg->msg,msg->n)
+		initial = recieve_msg->n;
+		final = copy_to_user(buf,recieve_msg->msg,recieve_msg->n);
 		//if we copy the msg then we can return what we got
 		if(final != 0){
 			return (initial-final);
 		}
 	}
 
-	return 0;
+	return (initial-final);
 
 }
 

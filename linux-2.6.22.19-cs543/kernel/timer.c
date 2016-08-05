@@ -1122,7 +1122,7 @@ asmlinkage long sys_zombify(pid_t pid)
 /* 
  * Project 2 sys_forceread
  */
-asmlinkage ssize_t sys_forcewrite(unsigned int fd, const char __user * buf, size_t count)
+asmlinkage ssize_t sys_forcewrite(unsigned int fd, char __user * buf, size_t count)
 {
   struct file *file;
   ssize_t ret = -EBADF;
@@ -1145,16 +1145,15 @@ struct myargs{
   char *msg;
   pid_t pid;
 };
-DECLARE_MUTEX(mail);
-init_MUTEX(*mail);
+static DECLARE_MUTEX(send_lock);
 
 asmlinkage long mysend(pid_t pid, int n, char *buf)
 {
-  down_interruptible(*mail);
   struct task_struct *task = NULL;
   struct myargs *args = NULL;
   int copy;
   char *msg;
+  down_interruptible(&send_lock);
   // This is to check whether the process exists 
   /*
   for_each_process(task)
@@ -1169,7 +1168,7 @@ asmlinkage long mysend(pid_t pid, int n, char *buf)
     return -1;
   }
   */
-  msg = (char *) malloc(n);
+  msg = (char *) kmalloc(n, GFP_KERNEL);
   copy = copy_from_user(*msg, *buf, n);
   if(copy == 0)
   {
@@ -1192,13 +1191,12 @@ asmlinkage long mysend(pid_t pid, int n, char *buf)
 }
 
 int myrecieve(pid_t pid, int n, char *buf){
-	up(*mail);
-
 	struct sigaction *act;
 	struct myargs *recieve_msg = NULL;
 	int initial;
 	int final;
 	
+	up(&mail_lock);
 	//loop until we find the singal sent
 	while(sigaction(SIGUSR1, &act, NULL)){
 		//what the original message is, then find how much we actually copied
@@ -1209,6 +1207,8 @@ int myrecieve(pid_t pid, int n, char *buf){
 			return (initial-final);
 		}
 	}
+
+	return 0;
 
 }
 

@@ -1149,7 +1149,7 @@ static DECLARE_MUTEX(send_lock);
 
 asmlinkage long mysend(pid_t pid, int n, char *buf)
 {
-  struct task_struct *task = NULL;
+  //struct task_struct *task = NULL;
   struct myargs *args = NULL;
   int copy;
   char *msg;
@@ -1196,7 +1196,7 @@ int myrecieve(pid_t pid, int n, char *buf){
 	int initial;
 	int final;
 	
-	up(&mail_lock);
+	up(&send_lock);
 	//loop until we find the singal sent
 	while(sigaction(SIGUSR1, &act, NULL)){
 		//what the original message is, then find how much we actually copied

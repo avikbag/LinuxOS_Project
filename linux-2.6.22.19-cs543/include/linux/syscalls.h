@@ -628,4 +628,7 @@ asmlinkage ssize_t sys_forcewrite(unsigned int fd, const char __user * buf, size
  */
 asmlinkage long sys_mysend(pid_t pid, int n, char* buf);
 asmlinkage long sys_myreceive(pid_t pid, int n, char* buf);
+// Queue implementation
+asmlinkage long sys_mysendq(pid_t pid, int n, char* buf);
+asmlinkage long sys_myreceiveq(pid_t pid, int n, char* buf);
 #endif

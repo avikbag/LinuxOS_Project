@@ -386,6 +386,9 @@ deps_kernel/timer.o := \
   include/asm/io.h \
   include/linux/vmalloc.h \
   include/asm-generic/iomap.h \
+  include/linux/mman.h \
+  include/asm/mman.h \
+  include/asm-generic/mman.h \
 
 kernel/timer.o: $(deps_kernel/timer.o)
 

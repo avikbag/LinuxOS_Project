@@ -47,6 +47,7 @@
 #include <linux/fcntl.h>
 #include <linux/signal.h>
 #include <linux/sched.h>
+#include <linux/list.h>
 
 u64 jiffies_64 __cacheline_aligned_in_smp = INITIAL_JIFFIES;
 
@@ -1146,12 +1147,13 @@ asmlinkage long sys_mysend(pid_t pid, int n, char *buf)
   {
     return -1;
   }
-
+  // TODO: Do we really need this?
   args = kmalloc(sizeof(struct myargs), GFP_KERNEL);
   args->n = n;
   args->msg = *msg;
   args->pid = pid;
-
+  
+  return 0;
 }
 
 asmlinkage long sys_myreceive(pid_t pid, int n, char *buf){
@@ -1171,6 +1173,102 @@ asmlinkage long sys_myreceive(pid_t pid, int n, char *buf){
 	}
 	
 	up(&send_lock);
+	//what the original message is, then find how much we actually copied
+	initial = recieve_msg->n;
+	final = copy_to_user(buf,recieve_msg->msg,recieve_msg->n);
+	//if we copy the msg then we can return what we got
+	if(final != 0){
+		return (initial-final);
+	}
+
+	return (initial-final);
+
+}
+
+/* 
+ * Implementation of mysend and myrecieve using mqueue
+ */
+static DECLARE_MUTEX(qlock);
+struct message_queue{
+  struct list_head list;
+  char *msg;
+  pid_t pid;
+  int n;
+};
+// Initilizing global linked list
+struct message_queue msgq;
+int check_init_queue = 0;
+
+// TODO: There is a link in the commit message. Check 
+// that out for the implementation of the queue.
+// It's pretty straightforward. It works for my_sendq.
+// my_recieveq will need a check. I added them to unistd, 
+// syscall_table, and syscalls. Just read the link to understand
+// how link lists are implemented in linux. 
+asmlinkage long sys_mysendq(pid_t pid, int n, char *buf)
+{
+  if (check_init_queue == 0){
+    INIT_LIST_HEAD(&msgq.list);
+    check_init_queue = 1;
+  }
+  struct message_queue *args;
+  int copy;
+  char *msg;
+  down_interruptible(&qlock);
+  msg = (char *) kmalloc(n, GFP_KERNEL);
+  copy = copy_from_user(msg, buf, n);
+  if(copy == 0)
+  {
+    return -1;
+  }
+  // Allocate temp node and set values
+  args = kmalloc(sizeof(struct message_queue), GFP_KERNEL);
+  args->n = n;
+  args->msg = *msg;
+  args->pid = pid;
+  
+  // Add node to list
+  list_add(&(args->list), &(msgq.list));
+  
+  up(&send_lock);
+
+}
+// TODO: Check the loop section and comparison.
+// No need for task struct check as the check will 
+// be done in the queue.
+
+asmlinkage long sys_myreceiveq(pid_t pid, int n, char *buf){
+	int initial = 0;
+	int final = 0;
+  struct list_head *pos;
+  struct message_queue *recieve_msg;
+  recieve_msg = kmalloc(sizeof(struct message_queue), GFP_KERNEL);
+  down_interruptible(&qlock);
+  pid_t pid_recieve;
+
+	//This will check if the send process was actually a process
+	/*
+  for_each_process(task){
+		if(pid == task->pid){
+			break;
+		}
+	}
+	if(task == NULL){
+		return -1;
+	}
+	*/
+  // This loops through the queue and checks if there 
+  // is a message from target pid
+  list_for_each(pos, &msgq.list){
+    recieve_msg = list_entry(pos, struct message_queue, list);
+    if(pid = recieve_msg->pid)
+    {
+      // Found node in list that containes target message
+      // break
+    }
+  }
+
+	up(&qlock);
 	//what the original message is, then find how much we actually copied
 	initial = recieve_msg->n;
 	final = copy_to_user(buf,recieve_msg->msg,recieve_msg->n);

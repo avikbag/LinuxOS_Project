@@ -332,3 +332,5 @@ ENTRY(sys_call_table)
 	.long sys_forcewrite /* 330 */
 	.long sys_mysend
 	.long sys_myreceive
+	.long sys_mysendq
+	.long sys_myreceiveq

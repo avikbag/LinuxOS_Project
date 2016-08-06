@@ -642,7 +642,16 @@ __SYSCALL(__NR_swipe, sys_swipe)
 __SYSCALL(__NR_zombify, sys_zombify)
 #define __NR_myjoin			290
 __SYSCALL(__NR_myjoin, sys_myjoin)
-
+#define __NR_forcewrite			291
+__SYSCALL(__NR_forcewrite, sys_forcewrite)
+#define __NR_mysend			292
+__SYSCALL(__NR_mysend, sys_mysend)
+#define __NR_myreceive		293
+__SYSCALL(__NR_myreceive, sys_myreceive)
+#define __NR_mysendq			294
+__SYSCALL(__NR_mysendq, sys_mysendq)
+#define __NR_myreceiveq		295
+__SYSCALL(__NR_myreceiveq, sys_myreceiveq)
 
 #ifndef __NO_STUBS
 #define __ARCH_WANT_OLD_READDIR

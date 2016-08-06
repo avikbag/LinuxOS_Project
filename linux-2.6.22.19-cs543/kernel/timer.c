@@ -1147,12 +1147,6 @@ asmlinkage long sys_mysend(pid_t pid, int n, char *buf)
   {
     return -1;
   }
-  // TODO: Do we really need this?
-  args = kmalloc(sizeof(struct myargs), GFP_KERNEL);
-  args->n = n;
-  args->msg = *msg;
-  args->pid = pid;
-  
   return 0;
 }
 
@@ -1246,17 +1240,6 @@ asmlinkage long sys_myreceiveq(pid_t pid, int n, char *buf){
   down_interruptible(&qlock);
   pid_t pid_recieve;
 
-	//This will check if the send process was actually a process
-	/*
-  for_each_process(task){
-		if(pid == task->pid){
-			break;
-		}
-	}
-	if(task == NULL){
-		return -1;
-	}
-	*/
   // This loops through the queue and checks if there 
   // is a message from target pid
   list_for_each(pos, &msgq.list){
@@ -1264,7 +1247,7 @@ asmlinkage long sys_myreceiveq(pid_t pid, int n, char *buf){
     if(pid = recieve_msg->pid)
     {
       // Found node in list that containes target message
-      // break
+	  break;
     }
   }
 

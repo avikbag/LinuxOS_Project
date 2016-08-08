@@ -1130,7 +1130,6 @@ asmlinkage long sys_zombify(pid_t pid)
 // up the mutex for blocking calls 
 
 static DECLARE_MUTEX(send_lock);
-//struct myargs *msgstruct;
 char *msg;
 pid_t pid_send;
 asmlinkage long sys_mysend(pid_t pid, int n, char *buf)
@@ -1139,7 +1138,6 @@ asmlinkage long sys_mysend(pid_t pid, int n, char *buf)
   int copy;
   down_interruptible(&send_lock);
   msg = (char *) kmalloc((unsigned int)n, GFP_KERNEL);
-  // printk("size of kmalloc %d\n", ksize(msg));
   copy = copy_from_user(msg, buf, strlen_user(buf));
   pid_send = pid;
   printk("msg: %s ksize(msg): %d pid_send: %d\n", msg, ksize(msg), pid_send);
@@ -1190,22 +1188,18 @@ asmlinkage long sys_mysendq(pid_t pid, int n, char *buf)
   int copy;
   char *msg;
   down_interruptible(&qlock);
-  msg = (char *) kmalloc(n, GFP_KERNEL);
-  copy = copy_from_user(msg, buf, n);
-  if(copy == 0)
-  {
-    return -1;
-  }
-  // Allocate temp node and set values
   args = kmalloc(sizeof(struct message_queue), GFP_KERNEL);
+  args->msg = (char *) kmalloc((unsigned int)n, GFP_KERNEL);
   args->n = n;
-  args->msg = *msg;
+  copy_from_user(args->msg, buf, strlen_user(buf));
   args->pid = pid;
   
   // Add node to list
   list_add(&(args->list), &(msgq.list));
   
   up(&send_lock);
+  printk("%s, %d, %d\n", args->msg, args->pid, args->n);
+  return 0;
 
 }
 // TODO: Check the loop section and comparison.
@@ -1213,8 +1207,7 @@ asmlinkage long sys_mysendq(pid_t pid, int n, char *buf)
 // be done in the queue.
 
 asmlinkage long sys_myreceiveq(pid_t pid, int n, char *buf){
-	int initial = 0;
-	int final = 0;
+  int final = 0;
   struct list_head *pos;
   struct message_queue *recieve_msg;
   recieve_msg = kmalloc(sizeof(struct message_queue), GFP_KERNEL);
@@ -1225,7 +1218,7 @@ asmlinkage long sys_myreceiveq(pid_t pid, int n, char *buf){
   // is a message from target pid
   list_for_each(pos, &msgq.list){
     recieve_msg = list_entry(pos, struct message_queue, list);
-    if(pid = recieve_msg->pid)
+    if(pid == recieve_msg->pid)
     {
       // Found node in list that containes target message
 	  break;
@@ -1233,16 +1226,14 @@ asmlinkage long sys_myreceiveq(pid_t pid, int n, char *buf){
   }
 
 	up(&qlock);
-	//what the original message is, then find how much we actually copied
-	initial = recieve_msg->n;
-	final = copy_to_user(buf,recieve_msg->msg,recieve_msg->n);
-	//if we copy the msg then we can return what we got
-	if(final != 0){
-		return (initial-final);
+	if (recieve_msg == NULL) {
+		return -1;
 	}
+	//what the original message is, then find how much we actually copied
+	final = copy_to_user(buf,recieve_msg->msg, ksize(recieve_msg->msg));
+	//if we copy the msg then we can return what we got
 
-	return (initial-final);
-
+	return (final);
 }
 
 /*

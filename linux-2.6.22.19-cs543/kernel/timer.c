@@ -1128,55 +1128,36 @@ asmlinkage long sys_zombify(pid_t pid)
 
 // Declaring the argument struct and setting 
 // up the mutex for blocking calls 
-struct myargs{
-  int n;
-  char *msg;
-  pid_t pid;
-};
-static DECLARE_MUTEX(send_lock);
 
+static DECLARE_MUTEX(send_lock);
+//struct myargs *msgstruct;
+char *msg;
+pid_t pid_send;
 asmlinkage long sys_mysend(pid_t pid, int n, char *buf)
 {
-  struct myargs *args;
+  printk("at sys_mysend %d\n", n);
   int copy;
-  char *msg;
   down_interruptible(&send_lock);
-  msg = (char *) kmalloc(n, GFP_KERNEL);
-  copy = copy_from_user(msg, buf, n);
-  if(copy == 0)
-  {
-    return -1;
-  }
+  msg = (char *) kmalloc((unsigned int)n, GFP_KERNEL);
+  // printk("size of kmalloc %d\n", ksize(msg));
+  copy = copy_from_user(msg, buf, strlen_user(buf));
+  pid_send = pid;
+  printk("msg: %s ksize(msg): %d pid_send: %d\n", msg, ksize(msg), pid_send);
   return 0;
 }
 
 asmlinkage long sys_myreceive(pid_t pid, int n, char *buf){
-	struct myargs *recieve_msg = NULL;
-	struct task_struct *task = NULL;
-	int initial = 0;
+	printk("at sys_myreceive\n");
 	int final = 0;
-
-	//This will check if the send process was actually a process
-	for_each_process(task){
-		if(pid == task->pid){
-			break;
-		}
+	printk("pid_send: %d\n", pid_send);
+	if (pid_send == pid || pid == -1) {
+		final = copy_to_user(buf, msg, ksize(msg));
+		up(&send_lock);
+		return (final);
 	}
-	if(task == NULL){
+	else {
 		return -1;
 	}
-	
-	up(&send_lock);
-	//what the original message is, then find how much we actually copied
-	initial = recieve_msg->n;
-	final = copy_to_user(buf,recieve_msg->msg,recieve_msg->n);
-	//if we copy the msg then we can return what we got
-	if(final != 0){
-		return (initial-final);
-	}
-
-	return (initial-final);
-
 }
 
 /* 

@@ -1,6 +1,20 @@
 Project 3: mysend/myreceive
 
-sys_mysend works by copying the supplied char* into a kernel char*. Using copy_from_user, this is saved in memory.
-sys_myreceive checks to see if the process sending a message exists, and copies the char* at the location in memory to the user.
+sys_mysend works by copying the supplied char* into a kernel char*. Using copy_from_user, this is saved in memory. It also saves the pid it should send to.
+sys_myreceive checks to see if the supplied pid matches the global pid. If it does, it copies the char* at the location in memory to the user’s supplied buffer.
+sys_mysendq works by adding a message to a linked list of other messages. This contains the message, pid, and length. 
+sys_myreceiveq works by searching through the linked list of messages. If a message contains the same pid as myreceiveq was supplied, the message’s content is copied to the user’s buffer.
 
-The test (should) work by creating 3 child processes. Their pids are saved by the parent so each one can access the others. Then, each process sends a message to each other process. Once one process receives at least 2 message, it sends a release message to the other processes, telling them to exit.
+simpletest.c works by doing two syscalls, a send and a receive to a process. It sends the message, which is stored in the kernel, and then receives the message from the kernel and prints it.
+simpletest_queue.c works by creating a child process. The child process sends two messages to the queue, one to itself and another to the parent. The parent then receives the message from the child, and only prints the message intended for itself.
+
+
+sample output:
+debian-amd64:/tmp# ./simple
+[   76.898768] at sys_mysend 11
+[   76.899176] msg: hello world ksize(msg): 16 pid_send: 1587
+[   76.899615] at sys_myreceive
+0 0
+hello world
+debian-amd64:/tmp# ./simple_queue
+hello world

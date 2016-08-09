@@ -1141,6 +1141,7 @@ asmlinkage long sys_mysend(pid_t pid, int n, char *buf)
   copy = copy_from_user(msg, buf, strlen_user(buf));
   pid_send = pid;
   printk("msg: %s ksize(msg): %d pid_send: %d\n", msg, ksize(msg), pid_send);
+  up(&send_lock);
   return 0;
 }
 
@@ -1154,6 +1155,7 @@ asmlinkage long sys_myreceive(pid_t pid, int n, char *buf){
 		return (final);
 	}
 	else {
+		up(&send_lock);
 		return -1;
 	}
 }
@@ -1197,8 +1199,8 @@ asmlinkage long sys_mysendq(pid_t pid, int n, char *buf)
   // Add node to list
   list_add(&(args->list), &(msgq.list));
   
-  up(&send_lock);
-  printk("%s, %d, %d\n", args->msg, args->pid, args->n);
+  up(&qlock);
+  // printk("%s, %d, %d\n", args->msg, args->pid, args->n);
   return 0;
 
 }
@@ -1209,28 +1211,29 @@ asmlinkage long sys_mysendq(pid_t pid, int n, char *buf)
 asmlinkage long sys_myreceiveq(pid_t pid, int n, char *buf){
   int final = 0;
   struct list_head *pos;
-  struct message_queue *recieve_msg;
-  recieve_msg = kmalloc(sizeof(struct message_queue), GFP_KERNEL);
+  struct message_queue *receive_msg;
+  receive_msg = kmalloc(sizeof(struct message_queue), GFP_KERNEL);
   down_interruptible(&qlock);
-  pid_t pid_recieve;
-
   // This loops through the queue and checks if there 
   // is a message from target pid
   list_for_each(pos, &msgq.list){
-    recieve_msg = list_entry(pos, struct message_queue, list);
-    if(pid == recieve_msg->pid)
+    receive_msg = list_entry(pos, struct message_queue, list);
+    // printk("%d %d %d %s", pid, receive_msg->pid, receive_msg->n, receive_msg->msg);
+    if(pid == receive_msg->pid || pid == -1)
     {
       // Found node in list that containes target message
+
 	  break;
     }
-  }
+  }	  
 
-	up(&qlock);
-	if (recieve_msg == NULL) {
+  	up(&qlock);
+
+	if (receive_msg == NULL) {
 		return -1;
 	}
 	//what the original message is, then find how much we actually copied
-	final = copy_to_user(buf,recieve_msg->msg, ksize(recieve_msg->msg));
+	final = copy_to_user(buf,receive_msg->msg, ksize(receive_msg->msg));
 	//if we copy the msg then we can return what we got
 
 	return (final);

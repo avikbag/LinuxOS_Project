@@ -1,0 +1,4 @@
+In the task_stuct I would add a fields so that you can get the users and their user's process given their uid
+That or just make a whole new struct dedicated to user process
+This way in the kernel/sched.c you can get the process, then all the user process and spilt them up evenly among the users
+then split that among the user process

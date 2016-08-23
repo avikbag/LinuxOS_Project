@@ -3563,6 +3563,12 @@ static inline int interactive_sleep(enum sleep_type sleep_type)
 /*
  * schedule() is the main scheduler function.
  */
+struct user_list {
+	struct list_head list;
+	unsigned short uid;
+};
+struct user_list users;
+int check_init_users = 0;
 asmlinkage void __sched schedule(void)
 {
 	struct task_struct *prev, *next;
@@ -3574,6 +3580,37 @@ asmlinkage void __sched schedule(void)
 	long *switch_count;
 	struct rq *rq;
 
+	struct task_struct *p;
+
+
+	if (check_init_users == 0) {
+    	INIT_LIST_HEAD(&users.list);
+    	check_init_users = 1;
+    }
+
+	for_each_process(p) {
+		struct list_head *pos;
+		struct user_list *user;
+		user = kmalloc(sizeof(struct user_list), GFP_KERNEL);
+		if(list_empty(&users.list)) {
+			user->uid = p->user->uid;
+			list_add(&(user->list), &(users.list));
+		}
+		else {
+	  		INIT_LIST_HEAD(&user->list);
+			int exists = 0;
+			list_for_each(pos, &users.list) {
+				user = list_entry(pos, struct user_list, list);
+				if (user->uid == p->user->uid) {
+					exists = 1;
+				}
+			}
+			if (exists == 0) {
+				list_add(&(user->list), &(users.list));
+			}
+		}
+	}
+ 
 	/*
 	 * Test if we are atomic.  Since do_exit() needs to call into
 	 * schedule() atomically, we ignore that path for now.

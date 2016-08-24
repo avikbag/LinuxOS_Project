@@ -3563,11 +3563,10 @@ static inline int interactive_sleep(enum sleep_type sleep_type)
 /*
  * schedule() is the main scheduler function.
  */
-unsigned short uids[100];
-int numUsers = 0;
 asmlinkage void __sched schedule(void)
 {
-	
+  unsigned short uids[100];
+  int numUsers = 0;
   struct task_struct *prev, *next;
 	struct prio_array *array;	
 	struct list_head *queue;
@@ -3579,7 +3578,14 @@ asmlinkage void __sched schedule(void)
 
 	struct task_struct *p;
 	unsigned long total_time = 0;
-  /* this is the atempted linked list
+  
+  //This is the first implementation of the linked list of users
+  //It adds the users to a linked list then tallies the total number of unique users
+  //However the problem is that when it finishes compiling with no errors
+  //but when we try to boot the kernel we always hang up on trying to set it up
+  //We attempted to implement this linked list multiple ways, but they all hung up on different spots
+
+  /*
   LIST_HEAD(users);
   struct user_list *tmp;
   struct user_list *data;
@@ -3603,6 +3609,8 @@ asmlinkage void __sched schedule(void)
 }*/
 
 	int exists = 0;
+  //Goes through each process and finds the total time_slice.
+  //It also takes the users and totals the number of unique users
 	for_each_process(p) {
 		if (p->uid != 0) {
       total_time += p->time_slice;
@@ -3621,8 +3629,8 @@ asmlinkage void __sched schedule(void)
 	}
 
      //Calculate the total time slice
-
      //Here we assign each process the fair time slice
+     //We take the total_time_slice / # of users / # of process per user
     for_each_process(p){
       if (p->uid != 0) {
       int numUserProcesses = atomic_read(&(p->user->processes));

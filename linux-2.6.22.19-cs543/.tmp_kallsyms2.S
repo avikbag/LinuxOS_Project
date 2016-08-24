@@ -10750,157 +10750,157 @@ kallsyms_addresses:
 	PTR	_text + 0x2908f0
 	PTR	_text + 0x290a00
 	PTR	_text + 0x290b30
-	PTR	_text + 0x290f59
-	PTR	_text + 0x291320
-	PTR	_text + 0x291410
-	PTR	_text + 0x291520
-	PTR	_text + 0x2915a0
-	PTR	_text + 0x291620
+	PTR	_text + 0x290f75
+	PTR	_text + 0x291370
+	PTR	_text + 0x291460
+	PTR	_text + 0x291570
+	PTR	_text + 0x2915f0
 	PTR	_text + 0x291670
-	PTR	_text + 0x2916d0
-	PTR	_text + 0x2916f0
-	PTR	_text + 0x291710
-	PTR	_text + 0x291730
-	PTR	_text + 0x291750
-	PTR	_text + 0x291820
-	PTR	_text + 0x291840
-	PTR	_text + 0x291860
-	PTR	_text + 0x2918f0
-	PTR	_text + 0x291980
-	PTR	_text + 0x291a00
-	PTR	_text + 0x291a80
-	PTR	_text + 0x291ab0
-	PTR	_text + 0x291c20
-	PTR	_text + 0x291ed0
-	PTR	_text + 0x2921f0
-	PTR	_text + 0x292220
-	PTR	_text + 0x2924e0
-	PTR	_text + 0x292810
-	PTR	_text + 0x292970
-	PTR	_text + 0x292980
-	PTR	_text + 0x292a20
-	PTR	_text + 0x292b00
-	PTR	_text + 0x292b70
-	PTR	_text + 0x2931f0
-	PTR	_text + 0x293230
-	PTR	_text + 0x293270
-	PTR	_text + 0x2934e0
-	PTR	_text + 0x293590
-	PTR	_text + 0x293640
-	PTR	_text + 0x29364d
-	PTR	_text + 0x293687
-	PTR	_text + 0x2936c1
-	PTR	_text + 0x2936fb
-	PTR	_text + 0x293735
-	PTR	_text + 0x29376c
-	PTR	_text + 0x2937d3
-	PTR	_text + 0x293834
-	PTR	_text + 0x293860
-	PTR	_text + 0x293970
-	PTR	_text + 0x293ab6
-	PTR	_text + 0x293ab8
-	PTR	_text + 0x293ac0
-	PTR	_text + 0x293b00
-	PTR	_text + 0x293b40
-	PTR	_text + 0x293b80
-	PTR	_text + 0x293bc0
-	PTR	_text + 0x293c00
-	PTR	_text + 0x293c40
-	PTR	_text + 0x293c80
+	PTR	_text + 0x2916c0
+	PTR	_text + 0x291720
+	PTR	_text + 0x291740
+	PTR	_text + 0x291760
+	PTR	_text + 0x291780
+	PTR	_text + 0x2917a0
+	PTR	_text + 0x291870
+	PTR	_text + 0x291890
+	PTR	_text + 0x2918b0
+	PTR	_text + 0x291940
+	PTR	_text + 0x2919d0
+	PTR	_text + 0x291a50
+	PTR	_text + 0x291ad0
+	PTR	_text + 0x291b00
+	PTR	_text + 0x291c70
+	PTR	_text + 0x291f20
+	PTR	_text + 0x292240
+	PTR	_text + 0x292270
+	PTR	_text + 0x292530
+	PTR	_text + 0x292860
+	PTR	_text + 0x2929c0
+	PTR	_text + 0x2929d0
+	PTR	_text + 0x292a70
+	PTR	_text + 0x292b50
+	PTR	_text + 0x292bc0
+	PTR	_text + 0x293240
+	PTR	_text + 0x293280
+	PTR	_text + 0x2932c0
+	PTR	_text + 0x293530
+	PTR	_text + 0x2935e0
+	PTR	_text + 0x293690
+	PTR	_text + 0x29369d
+	PTR	_text + 0x2936d7
+	PTR	_text + 0x293711
+	PTR	_text + 0x29374b
+	PTR	_text + 0x293785
+	PTR	_text + 0x2937bc
+	PTR	_text + 0x293823
+	PTR	_text + 0x293884
+	PTR	_text + 0x2938b0
+	PTR	_text + 0x2939c0
+	PTR	_text + 0x293b06
+	PTR	_text + 0x293b08
+	PTR	_text + 0x293b10
+	PTR	_text + 0x293b50
+	PTR	_text + 0x293b90
+	PTR	_text + 0x293bd0
+	PTR	_text + 0x293c10
+	PTR	_text + 0x293c50
+	PTR	_text + 0x293c90
 	PTR	_text + 0x293cd0
-	PTR	_text + 0x293d10
-	PTR	_text + 0x293d50
-	PTR	_text + 0x293d90
-	PTR	_text + 0x293dd0
-	PTR	_text + 0x293e10
-	PTR	_text + 0x293e50
-	PTR	_text + 0x293e80
-	PTR	_text + 0x293eb0
-	PTR	_text + 0x293ee0
+	PTR	_text + 0x293d20
+	PTR	_text + 0x293d60
+	PTR	_text + 0x293da0
+	PTR	_text + 0x293de0
+	PTR	_text + 0x293e20
+	PTR	_text + 0x293e60
+	PTR	_text + 0x293ea0
+	PTR	_text + 0x293ed0
+	PTR	_text + 0x293f00
 	PTR	_text + 0x293f30
-	PTR	_text + 0x293f70
+	PTR	_text + 0x293f80
 	PTR	_text + 0x293fc0
-	PTR	_text + 0x294000
+	PTR	_text + 0x294010
 	PTR	_text + 0x294050
-	PTR	_text + 0x294090
-	PTR	_text + 0x2940d0
-	PTR	_text + 0x294110
-	PTR	_text + 0x294150
-	PTR	_text + 0x294190
-	PTR	_text + 0x2941d0
-	PTR	_text + 0x294210
-	PTR	_text + 0x294270
-	PTR	_text + 0x294270
-	PTR	_text + 0x294270
-	PTR	_text + 0x2942d2
-	PTR	_text + 0x2942d5
-	PTR	_text + 0x2942ed
-	PTR	_text + 0x294383
-	PTR	_text + 0x2943d0
-	PTR	_text + 0x2943e0
-	PTR	_text + 0x294484
-	PTR	_text + 0x294495
-	PTR	_text + 0x2944a8
-	PTR	_text + 0x2944fb
-	PTR	_text + 0x294547
-	PTR	_text + 0x294560
-	PTR	_text + 0x2945e0
-	PTR	_text + 0x2945f1
-	PTR	_text + 0x2945f4
-	PTR	_text + 0x294647
-	PTR	_text + 0x294685
-	PTR	_text + 0x294690
-	PTR	_text + 0x294740
-	PTR	_text + 0x294750
-	PTR	_text + 0x294760
-	PTR	_text + 0x294821
-	PTR	_text + 0x294ac0
-	PTR	_text + 0x294ad2
-	PTR	_text + 0x294fc5
-	PTR	_text + 0x294fcb
-	PTR	_text + 0x295207
-	PTR	_text + 0x29524f
-	PTR	_text + 0x2952da
-	PTR	_text + 0x295326
-	PTR	_text + 0x2953f3
-	PTR	_text + 0x295436
-	PTR	_text + 0x2954cf
-	PTR	_text + 0x2955e9
-	PTR	_text + 0x295664
-	PTR	_text + 0x2956e2
-	PTR	_text + 0x295851
-	PTR	_text + 0x2958d3
-	PTR	_text + 0x295975
-	PTR	_text + 0x295a83
-	PTR	_text + 0x295e44
-	PTR	_text + 0x295e4c
-	PTR	_text + 0x295edb
-	PTR	_text + 0x295f33
-	PTR	_text + 0x296244
-	PTR	_text + 0x2962a7
-	PTR	_text + 0x296381
-	PTR	_text + 0x296451
-	PTR	_text + 0x2964f2
-	PTR	_text + 0x29690b
-	PTR	_text + 0x296969
-	PTR	_text + 0x2969a7
-	PTR	_text + 0x2969f6
-	PTR	_text + 0x296a9b
-	PTR	_text + 0x296ae8
-	PTR	_text + 0x296b7e
-	PTR	_text + 0x296c56
-	PTR	_text + 0x296d1d
-	PTR	_text + 0x296f07
-	PTR	_text + 0x296f6b
-	PTR	_text + 0x296f73
-	PTR	_text + 0x296f7b
-	PTR	_text + 0x296fb4
-	PTR	_text + 0x29711a
-	PTR	_text + 0x29718b
-	PTR	_text + 0x297190
-	PTR	_text + 0x298550
-	PTR	_text + 0x298550
-	PTR	_text + 0x29fc30
+	PTR	_text + 0x2940a0
+	PTR	_text + 0x2940e0
+	PTR	_text + 0x294120
+	PTR	_text + 0x294160
+	PTR	_text + 0x2941a0
+	PTR	_text + 0x2941e0
+	PTR	_text + 0x294220
+	PTR	_text + 0x294260
+	PTR	_text + 0x2942c0
+	PTR	_text + 0x2942c0
+	PTR	_text + 0x2942c0
+	PTR	_text + 0x294322
+	PTR	_text + 0x294325
+	PTR	_text + 0x29433d
+	PTR	_text + 0x2943d3
+	PTR	_text + 0x294420
+	PTR	_text + 0x294430
+	PTR	_text + 0x2944d4
+	PTR	_text + 0x2944e5
+	PTR	_text + 0x2944f8
+	PTR	_text + 0x29454b
+	PTR	_text + 0x294597
+	PTR	_text + 0x2945b0
+	PTR	_text + 0x294630
+	PTR	_text + 0x294641
+	PTR	_text + 0x294644
+	PTR	_text + 0x294697
+	PTR	_text + 0x2946d5
+	PTR	_text + 0x2946e0
+	PTR	_text + 0x294790
+	PTR	_text + 0x2947a0
+	PTR	_text + 0x2947b0
+	PTR	_text + 0x294871
+	PTR	_text + 0x294b10
+	PTR	_text + 0x294b22
+	PTR	_text + 0x295015
+	PTR	_text + 0x29501b
+	PTR	_text + 0x295257
+	PTR	_text + 0x29529f
+	PTR	_text + 0x29532a
+	PTR	_text + 0x295376
+	PTR	_text + 0x295443
+	PTR	_text + 0x295486
+	PTR	_text + 0x29551f
+	PTR	_text + 0x295639
+	PTR	_text + 0x2956b4
+	PTR	_text + 0x295732
+	PTR	_text + 0x2958a1
+	PTR	_text + 0x295923
+	PTR	_text + 0x2959c5
+	PTR	_text + 0x295ad3
+	PTR	_text + 0x295e94
+	PTR	_text + 0x295e9c
+	PTR	_text + 0x295f2b
+	PTR	_text + 0x295f83
+	PTR	_text + 0x296294
+	PTR	_text + 0x2962f7
+	PTR	_text + 0x2963d1
+	PTR	_text + 0x2964a1
+	PTR	_text + 0x296542
+	PTR	_text + 0x29695b
+	PTR	_text + 0x2969b9
+	PTR	_text + 0x2969f7
+	PTR	_text + 0x296a46
+	PTR	_text + 0x296aeb
+	PTR	_text + 0x296b38
+	PTR	_text + 0x296bce
+	PTR	_text + 0x296ca6
+	PTR	_text + 0x296d6d
+	PTR	_text + 0x296f57
+	PTR	_text + 0x296fbb
+	PTR	_text + 0x296fc3
+	PTR	_text + 0x296fcb
+	PTR	_text + 0x297004
+	PTR	_text + 0x29716a
+	PTR	_text + 0x2971db
+	PTR	_text + 0x2971e0
+	PTR	_text + 0x2985a0
+	PTR	_text + 0x2985a0
+	PTR	_text + 0x29fc80
 	PTR	_text + 0x2a0000
 	PTR	_text + 0x2a0000
 	PTR	_text + 0x2a0080
@@ -12131,7 +12131,8 @@ kallsyms_addresses:
 	PTR	_text + 0x2dd200
 	PTR	_text + 0x2dd2e0
 	PTR	_text + 0x2dd3a0
-	PTR	_text + 0x38e5f0
+	PTR	_text + 0x38e5e0
+	PTR	_text + 0x38e5e0
 	PTR	_text + 0x38e5f0
 	PTR	_text + 0x38e600
 	PTR	_text + 0x38e610
@@ -12150,8 +12151,8 @@ kallsyms_addresses:
 	PTR	_text + 0x38e6e0
 	PTR	_text + 0x38e6f0
 	PTR	_text + 0x38e700
-	PTR	_text + 0x38e710
-	PTR	_text + 0x38e710
+	PTR	_text + 0x38e700
+	PTR	_text + 0x38e700
 	PTR	_text + 0x38e710
 	PTR	_text + 0x38e720
 	PTR	_text + 0x38e730
@@ -12245,8 +12246,8 @@ kallsyms_addresses:
 	PTR	_text + 0x38ecb0
 	PTR	_text + 0x38ecc0
 	PTR	_text + 0x38ecd0
-	PTR	_text + 0x38ece0
-	PTR	_text + 0x38ece0
+	PTR	_text + 0x38ecd0
+	PTR	_text + 0x38ecd0
 	PTR	_text + 0x38ece0
 	PTR	_text + 0x38ecf0
 	PTR	_text + 0x38ed00
@@ -12322,12 +12323,12 @@ kallsyms_addresses:
 	PTR	_text + 0x38f160
 	PTR	_text + 0x38f170
 	PTR	_text + 0x38f180
-	PTR	_text + 0x38f190
-	PTR	_text + 0x38f190
+	PTR	_text + 0x38f180
+	PTR	_text + 0x38f180
 	PTR	_text + 0x38f190
 	PTR	_text + 0x38f1a0
-	PTR	_text + 0x38f1b0
-	PTR	_text + 0x38f1b0
+	PTR	_text + 0x38f1a0
+	PTR	_text + 0x38f1a0
 	PTR	_text + 0x38f1b0
 	PTR	_text + 0x38f1c0
 	PTR	_text + 0x38f1d0
@@ -12366,10 +12367,10 @@ kallsyms_addresses:
 	PTR	_text + 0x38f3e0
 	PTR	_text + 0x38f3f0
 	PTR	_text + 0x38f400
-	PTR	_text + 0x38f410
-	PTR	_text + 0x38f410
-	PTR	_text + 0x38f410
-	PTR	_text + 0x38f410
+	PTR	_text + 0x38f400
+	PTR	_text + 0x38f400
+	PTR	_text + 0x38f400
+	PTR	_text + 0x38f400
 	PTR	_text + 0x38f410
 	PTR	_text + 0x38f420
 	PTR	_text + 0x38f430
@@ -14716,8 +14717,8 @@ kallsyms_addresses:
 	PTR	_text + 0x398680
 	PTR	_text + 0x398690
 	PTR	_text + 0x3986a0
-	PTR	_text + 0x3986b0
-	PTR	_text + 0x3986b0
+	PTR	_text + 0x3986a0
+	PTR	_text + 0x3986a0
 	PTR	_text + 0x3986b0
 	PTR	_text + 0x3986c0
 	PTR	_text + 0x3986d0
@@ -15366,87 +15367,87 @@ kallsyms_addresses:
 	PTR	_text + 0x39af00
 	PTR	_text + 0x39af10
 	PTR	_text + 0x39af20
-	PTR	_text + 0x39af30
-	PTR	_text + 0x39af30
-	PTR	_text + 0x39af30
-	PTR	_text + 0x39af30
-	PTR	_text + 0x39af30
-	PTR	_text + 0x39af30
-	PTR	_text + 0x39af30
-	PTR	_text + 0x39af30
-	PTR	_text + 0x39af30
-	PTR	_text + 0x39af30
-	PTR	_text + 0x39af30
-	PTR	_text + 0x39af30
-	PTR	_text + 0x39af30
-	PTR	_text + 0x39af30
-	PTR	_text + 0x39af30
-	PTR	_text + 0x39af30
-	PTR	_text + 0x39af30
+	PTR	_text + 0x39af20
+	PTR	_text + 0x39af20
+	PTR	_text + 0x39af20
+	PTR	_text + 0x39af20
+	PTR	_text + 0x39af20
+	PTR	_text + 0x39af20
+	PTR	_text + 0x39af20
+	PTR	_text + 0x39af20
+	PTR	_text + 0x39af20
+	PTR	_text + 0x39af20
+	PTR	_text + 0x39af20
+	PTR	_text + 0x39af20
+	PTR	_text + 0x39af20
+	PTR	_text + 0x39af20
+	PTR	_text + 0x39af20
+	PTR	_text + 0x39af20
+	PTR	_text + 0x39af20
+	PTR	_text + 0x39af2a
 	PTR	_text + 0x39af40
-	PTR	_text + 0x39af4a
-	PTR	_text + 0x39af60
-	PTR	_text + 0x39af70
-	PTR	_text + 0x39af78
-	PTR	_text + 0x39af86
-	PTR	_text + 0x39af93
-	PTR	_text + 0x39afa0
+	PTR	_text + 0x39af50
+	PTR	_text + 0x39af58
+	PTR	_text + 0x39af66
+	PTR	_text + 0x39af73
+	PTR	_text + 0x39af80
+	PTR	_text + 0x39af90
 	PTR	_text + 0x39afb0
+	PTR	_text + 0x39afc7
 	PTR	_text + 0x39afd0
-	PTR	_text + 0x39afe7
 	PTR	_text + 0x39aff0
-	PTR	_text + 0x39b010
-	PTR	_text + 0x39b020
-	PTR	_text + 0x39b02b
-	PTR	_text + 0x39b036
-	PTR	_text + 0x39b041
-	PTR	_text + 0x39b04c
-	PTR	_text + 0x39b055
-	PTR	_text + 0x39b05f
+	PTR	_text + 0x39b000
+	PTR	_text + 0x39b00b
+	PTR	_text + 0x39b016
+	PTR	_text + 0x39b021
+	PTR	_text + 0x39b02c
+	PTR	_text + 0x39b035
+	PTR	_text + 0x39b03f
+	PTR	_text + 0x39b04b
+	PTR	_text + 0x39b060
 	PTR	_text + 0x39b06b
 	PTR	_text + 0x39b080
-	PTR	_text + 0x39b08b
+	PTR	_text + 0x39b090
 	PTR	_text + 0x39b0a0
+	PTR	_text + 0x39b0a9
 	PTR	_text + 0x39b0b0
-	PTR	_text + 0x39b0c0
-	PTR	_text + 0x39b0c9
+	PTR	_text + 0x39b0b7
+	PTR	_text + 0x39b0c2
 	PTR	_text + 0x39b0d0
-	PTR	_text + 0x39b0d7
-	PTR	_text + 0x39b0e2
-	PTR	_text + 0x39b0f0
-	PTR	_text + 0x39b10a
-	PTR	_text + 0x39b117
+	PTR	_text + 0x39b0ea
+	PTR	_text + 0x39b0f7
+	PTR	_text + 0x39b110
 	PTR	_text + 0x39b130
-	PTR	_text + 0x39b150
-	PTR	_text + 0x39b162
-	PTR	_text + 0x39b16f
-	PTR	_text + 0x39b17c
-	PTR	_text + 0x39b189
-	PTR	_text + 0x39b196
-	PTR	_text + 0x39b1a3
-	PTR	_text + 0x39b1b0
-	PTR	_text + 0x39b1bd
-	PTR	_text + 0x39b1ca
+	PTR	_text + 0x39b142
+	PTR	_text + 0x39b14f
+	PTR	_text + 0x39b15c
+	PTR	_text + 0x39b169
+	PTR	_text + 0x39b176
+	PTR	_text + 0x39b183
+	PTR	_text + 0x39b190
+	PTR	_text + 0x39b19d
+	PTR	_text + 0x39b1aa
+	PTR	_text + 0x39b1c0
 	PTR	_text + 0x39b1e0
-	PTR	_text + 0x39b200
-	PTR	_text + 0x39b21c
-	PTR	_text + 0x39b22a
-	PTR	_text + 0x39b238
+	PTR	_text + 0x39b1fc
+	PTR	_text + 0x39b20a
+	PTR	_text + 0x39b218
+	PTR	_text + 0x39b230
+	PTR	_text + 0x39b240
 	PTR	_text + 0x39b250
-	PTR	_text + 0x39b260
+	PTR	_text + 0x39b258
 	PTR	_text + 0x39b270
-	PTR	_text + 0x39b278
+	PTR	_text + 0x39b27d
 	PTR	_text + 0x39b290
-	PTR	_text + 0x39b29d
 	PTR	_text + 0x39b2b0
 	PTR	_text + 0x39b2d0
+	PTR	_text + 0x39b2e0
 	PTR	_text + 0x39b2f0
 	PTR	_text + 0x39b300
 	PTR	_text + 0x39b310
-	PTR	_text + 0x39b320
-	PTR	_text + 0x39b330
-	PTR	_text + 0x39b342
-	PTR	_text + 0x39b34a
+	PTR	_text + 0x39b322
+	PTR	_text + 0x39b32a
+	PTR	_text + 0x39b340
 	PTR	_text + 0x39b360
 	PTR	_text + 0x39b380
 	PTR	_text + 0x39b3a0
@@ -15456,104 +15457,104 @@ kallsyms_addresses:
 	PTR	_text + 0x39b420
 	PTR	_text + 0x39b440
 	PTR	_text + 0x39b460
-	PTR	_text + 0x39b480
-	PTR	_text + 0x39b492
-	PTR	_text + 0x39b49e
+	PTR	_text + 0x39b472
+	PTR	_text + 0x39b47e
+	PTR	_text + 0x39b4a0
 	PTR	_text + 0x39b4c0
 	PTR	_text + 0x39b4e0
 	PTR	_text + 0x39b500
-	PTR	_text + 0x39b520
+	PTR	_text + 0x39b530
 	PTR	_text + 0x39b550
 	PTR	_text + 0x39b570
 	PTR	_text + 0x39b590
+	PTR	_text + 0x39b5a3
 	PTR	_text + 0x39b5b0
-	PTR	_text + 0x39b5c3
-	PTR	_text + 0x39b5d0
+	PTR	_text + 0x39b5c0
+	PTR	_text + 0x39b5d2
 	PTR	_text + 0x39b5e0
-	PTR	_text + 0x39b5f2
-	PTR	_text + 0x39b600
+	PTR	_text + 0x39b5f0
 	PTR	_text + 0x39b610
+	PTR	_text + 0x39b620
 	PTR	_text + 0x39b630
-	PTR	_text + 0x39b640
 	PTR	_text + 0x39b650
-	PTR	_text + 0x39b670
+	PTR	_text + 0x39b660
 	PTR	_text + 0x39b680
 	PTR	_text + 0x39b6a0
+	PTR	_text + 0x39b6b0
 	PTR	_text + 0x39b6c0
-	PTR	_text + 0x39b6d0
+	PTR	_text + 0x39b6ca
 	PTR	_text + 0x39b6e0
-	PTR	_text + 0x39b6ea
 	PTR	_text + 0x39b700
 	PTR	_text + 0x39b720
-	PTR	_text + 0x39b740
-	PTR	_text + 0x39b74d
-	PTR	_text + 0x39b75b
-	PTR	_text + 0x39b767
+	PTR	_text + 0x39b72d
+	PTR	_text + 0x39b73b
+	PTR	_text + 0x39b747
+	PTR	_text + 0x39b750
 	PTR	_text + 0x39b770
+	PTR	_text + 0x39b782
 	PTR	_text + 0x39b790
-	PTR	_text + 0x39b7a2
+	PTR	_text + 0x39b7a1
 	PTR	_text + 0x39b7b0
-	PTR	_text + 0x39b7c1
-	PTR	_text + 0x39b7d0
-	PTR	_text + 0x39b7e0
-	PTR	_text + 0x39b7f3
-	PTR	_text + 0x39b7fd
+	PTR	_text + 0x39b7c0
+	PTR	_text + 0x39b7d3
+	PTR	_text + 0x39b7dd
+	PTR	_text + 0x39b7f0
+	PTR	_text + 0x39b801
 	PTR	_text + 0x39b810
-	PTR	_text + 0x39b821
 	PTR	_text + 0x39b830
-	PTR	_text + 0x39b850
-	PTR	_text + 0x39b880
-	PTR	_text + 0x39b8c0
+	PTR	_text + 0x39b860
+	PTR	_text + 0x39b8a0
+	PTR	_text + 0x39b8d0
 	PTR	_text + 0x39b8f0
-	PTR	_text + 0x39b910
-	PTR	_text + 0x39b924
-	PTR	_text + 0x39b931
-	PTR	_text + 0x39b93a
-	PTR	_text + 0x39b949
-	PTR	_text + 0x39b960
-	PTR	_text + 0x39b976
-	PTR	_text + 0x39b97f
-	PTR	_text + 0x39b990
-	PTR	_text + 0x39b9a0
-	PTR	_text + 0x39b9ae
-	PTR	_text + 0x39b9bd
-	PTR	_text + 0x39b9c9
-	PTR	_text + 0x39b9cf
+	PTR	_text + 0x39b904
+	PTR	_text + 0x39b911
+	PTR	_text + 0x39b91a
+	PTR	_text + 0x39b929
+	PTR	_text + 0x39b940
+	PTR	_text + 0x39b956
+	PTR	_text + 0x39b95f
+	PTR	_text + 0x39b970
+	PTR	_text + 0x39b980
+	PTR	_text + 0x39b98e
+	PTR	_text + 0x39b99d
+	PTR	_text + 0x39b9a9
+	PTR	_text + 0x39b9af
+	PTR	_text + 0x39b9c0
 	PTR	_text + 0x39b9e0
 	PTR	_text + 0x39ba00
 	PTR	_text + 0x39ba20
+	PTR	_text + 0x39ba2a
+	PTR	_text + 0x39ba30
 	PTR	_text + 0x39ba40
-	PTR	_text + 0x39ba4a
-	PTR	_text + 0x39ba50
 	PTR	_text + 0x39ba60
 	PTR	_text + 0x39ba80
 	PTR	_text + 0x39baa0
 	PTR	_text + 0x39bac0
 	PTR	_text + 0x39bae0
-	PTR	_text + 0x39bb00
-	PTR	_text + 0x39bb11
-	PTR	_text + 0x39bb1f
-	PTR	_text + 0x39bb2c
+	PTR	_text + 0x39baf1
+	PTR	_text + 0x39baff
+	PTR	_text + 0x39bb0c
+	PTR	_text + 0x39bb20
 	PTR	_text + 0x39bb40
 	PTR	_text + 0x39bb60
 	PTR	_text + 0x39bb80
-	PTR	_text + 0x39bba0
-	PTR	_text + 0x39bbb4
-	PTR	_text + 0x39bbbc
+	PTR	_text + 0x39bb94
+	PTR	_text + 0x39bb9c
+	PTR	_text + 0x39bbb0
 	PTR	_text + 0x39bbd0
-	PTR	_text + 0x39bbf0
+	PTR	_text + 0x39bbe0
 	PTR	_text + 0x39bc00
+	PTR	_text + 0x39bc17
 	PTR	_text + 0x39bc20
-	PTR	_text + 0x39bc37
-	PTR	_text + 0x39bc40
-	PTR	_text + 0x39bc52
-	PTR	_text + 0x39bc5a
+	PTR	_text + 0x39bc32
+	PTR	_text + 0x39bc3a
+	PTR	_text + 0x39bc50
 	PTR	_text + 0x39bc70
+	PTR	_text + 0x39bc81
 	PTR	_text + 0x39bc90
-	PTR	_text + 0x39bca1
+	PTR	_text + 0x39bca0
 	PTR	_text + 0x39bcb0
 	PTR	_text + 0x39bcc0
-	PTR	_text + 0x39bcd0
 	PTR	_text + 0x39bce0
 	PTR	_text + 0x39bd00
 	PTR	_text + 0x39bd20
@@ -15562,95 +15563,95 @@ kallsyms_addresses:
 	PTR	_text + 0x39bd80
 	PTR	_text + 0x39bda0
 	PTR	_text + 0x39bdc0
-	PTR	_text + 0x39bde0
-	PTR	_text + 0x39bdf1
-	PTR	_text + 0x39bdff
-	PTR	_text + 0x39be0e
-	PTR	_text + 0x39be15
+	PTR	_text + 0x39bdd1
+	PTR	_text + 0x39bddf
+	PTR	_text + 0x39bdee
+	PTR	_text + 0x39bdf5
+	PTR	_text + 0x39be10
 	PTR	_text + 0x39be30
 	PTR	_text + 0x39be50
-	PTR	_text + 0x39be70
+	PTR	_text + 0x39be60
+	PTR	_text + 0x39be74
 	PTR	_text + 0x39be80
-	PTR	_text + 0x39be94
+	PTR	_text + 0x39be8d
 	PTR	_text + 0x39bea0
-	PTR	_text + 0x39bead
 	PTR	_text + 0x39bec0
 	PTR	_text + 0x39bee0
 	PTR	_text + 0x39bf00
 	PTR	_text + 0x39bf20
-	PTR	_text + 0x39bf40
+	PTR	_text + 0x39bf30
 	PTR	_text + 0x39bf50
 	PTR	_text + 0x39bf70
 	PTR	_text + 0x39bf90
 	PTR	_text + 0x39bfb0
 	PTR	_text + 0x39bfd0
+	PTR	_text + 0x39bfe1
 	PTR	_text + 0x39bff0
-	PTR	_text + 0x39c001
 	PTR	_text + 0x39c010
-	PTR	_text + 0x39c030
+	PTR	_text + 0x39c020
 	PTR	_text + 0x39c040
 	PTR	_text + 0x39c060
+	PTR	_text + 0x39c071
 	PTR	_text + 0x39c080
-	PTR	_text + 0x39c091
 	PTR	_text + 0x39c0a0
-	PTR	_text + 0x39c0c0
-	PTR	_text + 0x39c0d8
-	PTR	_text + 0x39c0f0
-	PTR	_text + 0x39c102
-	PTR	_text + 0x39c111
+	PTR	_text + 0x39c0b8
+	PTR	_text + 0x39c0d0
+	PTR	_text + 0x39c0e2
+	PTR	_text + 0x39c0f1
+	PTR	_text + 0x39c100
 	PTR	_text + 0x39c120
-	PTR	_text + 0x39c140
-	PTR	_text + 0x39c170
-	PTR	_text + 0x39c187
+	PTR	_text + 0x39c150
+	PTR	_text + 0x39c167
+	PTR	_text + 0x39c180
 	PTR	_text + 0x39c1a0
 	PTR	_text + 0x39c1c0
 	PTR	_text + 0x39c1e0
-	PTR	_text + 0x39c200
+	PTR	_text + 0x39c1f6
+	PTR	_text + 0x39c204
+	PTR	_text + 0x39c20c
 	PTR	_text + 0x39c216
-	PTR	_text + 0x39c224
-	PTR	_text + 0x39c22c
-	PTR	_text + 0x39c236
-	PTR	_text + 0x39c23f
+	PTR	_text + 0x39c21f
+	PTR	_text + 0x39c240
+	PTR	_text + 0x39c255
 	PTR	_text + 0x39c260
-	PTR	_text + 0x39c275
-	PTR	_text + 0x39c280
+	PTR	_text + 0x39c290
 	PTR	_text + 0x39c2b0
-	PTR	_text + 0x39c2d0
-	PTR	_text + 0x39c2e1
-	PTR	_text + 0x39c2e9
-	PTR	_text + 0x39c2f3
-	PTR	_text + 0x39c2fd
-	PTR	_text + 0x39c310
-	PTR	_text + 0x39c326
-	PTR	_text + 0x39c340
-	PTR	_text + 0x39c357
+	PTR	_text + 0x39c2c1
+	PTR	_text + 0x39c2c9
+	PTR	_text + 0x39c2d3
+	PTR	_text + 0x39c2dd
+	PTR	_text + 0x39c2f0
+	PTR	_text + 0x39c306
+	PTR	_text + 0x39c320
+	PTR	_text + 0x39c337
+	PTR	_text + 0x39c350
 	PTR	_text + 0x39c370
+	PTR	_text + 0x39c380
 	PTR	_text + 0x39c390
 	PTR	_text + 0x39c3a0
-	PTR	_text + 0x39c3b0
 	PTR	_text + 0x39c3c0
-	PTR	_text + 0x39c3e0
-	PTR	_text + 0x39c3f2
-	PTR	_text + 0x39c3fe
-	PTR	_text + 0x39c40c
-	PTR	_text + 0x39c415
-	PTR	_text + 0x39c423
-	PTR	_text + 0x39c42d
-	PTR	_text + 0x39c437
-	PTR	_text + 0x39c445
-	PTR	_text + 0x39c460
-	PTR	_text + 0x39c472
-	PTR	_text + 0x39c47b
-	PTR	_text + 0x39c490
+	PTR	_text + 0x39c3d2
+	PTR	_text + 0x39c3de
+	PTR	_text + 0x39c3ec
+	PTR	_text + 0x39c3f5
+	PTR	_text + 0x39c403
+	PTR	_text + 0x39c40d
+	PTR	_text + 0x39c417
+	PTR	_text + 0x39c425
+	PTR	_text + 0x39c440
+	PTR	_text + 0x39c452
+	PTR	_text + 0x39c45b
+	PTR	_text + 0x39c470
+	PTR	_text + 0x39c4a0
+	PTR	_text + 0x39c4a8
+	PTR	_text + 0x39c4b4
 	PTR	_text + 0x39c4c0
-	PTR	_text + 0x39c4c8
-	PTR	_text + 0x39c4d4
-	PTR	_text + 0x39c4e0
-	PTR	_text + 0x39c4f3
-	PTR	_text + 0x39c4ff
-	PTR	_text + 0x39c510
-	PTR	_text + 0x39c521
-	PTR	_text + 0x39c52d
+	PTR	_text + 0x39c4d3
+	PTR	_text + 0x39c4df
+	PTR	_text + 0x39c4f0
+	PTR	_text + 0x39c501
+	PTR	_text + 0x39c50d
+	PTR	_text + 0x39c520
 	PTR	_text + 0x39c540
 	PTR	_text + 0x39c560
 	PTR	_text + 0x39c580
@@ -15665,122 +15666,122 @@ kallsyms_addresses:
 	PTR	_text + 0x39c6a0
 	PTR	_text + 0x39c6c0
 	PTR	_text + 0x39c6e0
-	PTR	_text + 0x39c700
-	PTR	_text + 0x39c740
+	PTR	_text + 0x39c720
+	PTR	_text + 0x39c750
 	PTR	_text + 0x39c770
-	PTR	_text + 0x39c790
-	PTR	_text + 0x39c7c0
-	PTR	_text + 0x39c7f0
-	PTR	_text + 0x39c80f
-	PTR	_text + 0x39c817
-	PTR	_text + 0x39c826
+	PTR	_text + 0x39c7a0
+	PTR	_text + 0x39c7d0
+	PTR	_text + 0x39c7ef
+	PTR	_text + 0x39c7f7
+	PTR	_text + 0x39c806
+	PTR	_text + 0x39c820
 	PTR	_text + 0x39c840
-	PTR	_text + 0x39c860
-	PTR	_text + 0x39c879
+	PTR	_text + 0x39c859
+	PTR	_text + 0x39c870
 	PTR	_text + 0x39c890
 	PTR	_text + 0x39c8b0
 	PTR	_text + 0x39c8d0
 	PTR	_text + 0x39c8f0
 	PTR	_text + 0x39c910
-	PTR	_text + 0x39c930
-	PTR	_text + 0x39c946
+	PTR	_text + 0x39c926
+	PTR	_text + 0x39c940
 	PTR	_text + 0x39c960
 	PTR	_text + 0x39c980
-	PTR	_text + 0x39c9a0
+	PTR	_text + 0x39c990
 	PTR	_text + 0x39c9b0
+	PTR	_text + 0x39c9c3
 	PTR	_text + 0x39c9d0
-	PTR	_text + 0x39c9e3
-	PTR	_text + 0x39c9f0
-	PTR	_text + 0x39ca00
-	PTR	_text + 0x39ca16
-	PTR	_text + 0x39ca1f
-	PTR	_text + 0x39ca30
+	PTR	_text + 0x39c9e0
+	PTR	_text + 0x39c9f6
+	PTR	_text + 0x39c9ff
+	PTR	_text + 0x39ca10
+	PTR	_text + 0x39ca20
+	PTR	_text + 0x39ca2c
 	PTR	_text + 0x39ca40
-	PTR	_text + 0x39ca4c
 	PTR	_text + 0x39ca60
-	PTR	_text + 0x39ca80
-	PTR	_text + 0x39ca96
+	PTR	_text + 0x39ca76
+	PTR	_text + 0x39ca90
 	PTR	_text + 0x39cab0
 	PTR	_text + 0x39cad0
+	PTR	_text + 0x39cae0
 	PTR	_text + 0x39caf0
-	PTR	_text + 0x39cb00
 	PTR	_text + 0x39cb10
-	PTR	_text + 0x39cb30
-	PTR	_text + 0x39cb42
-	PTR	_text + 0x39cb51
+	PTR	_text + 0x39cb22
+	PTR	_text + 0x39cb31
+	PTR	_text + 0x39cb40
+	PTR	_text + 0x39cb50
 	PTR	_text + 0x39cb60
 	PTR	_text + 0x39cb70
 	PTR	_text + 0x39cb80
-	PTR	_text + 0x39cb90
-	PTR	_text + 0x39cba0
-	PTR	_text + 0x39cbaf
-	PTR	_text + 0x39cbbe
-	PTR	_text + 0x39cbcd
-	PTR	_text + 0x39cbdc
-	PTR	_text + 0x39cbea
+	PTR	_text + 0x39cb8f
+	PTR	_text + 0x39cb9e
+	PTR	_text + 0x39cbad
+	PTR	_text + 0x39cbbc
+	PTR	_text + 0x39cbca
+	PTR	_text + 0x39cbe0
 	PTR	_text + 0x39cc00
 	PTR	_text + 0x39cc20
+	PTR	_text + 0x39cc30
 	PTR	_text + 0x39cc40
-	PTR	_text + 0x39cc50
+	PTR	_text + 0x39cc4f
 	PTR	_text + 0x39cc60
-	PTR	_text + 0x39cc6f
 	PTR	_text + 0x39cc80
 	PTR	_text + 0x39cca0
 	PTR	_text + 0x39ccc0
 	PTR	_text + 0x39cce0
-	PTR	_text + 0x39cd00
-	PTR	_text + 0x39cd0d
-	PTR	_text + 0x39cd1a
+	PTR	_text + 0x39cced
+	PTR	_text + 0x39ccfa
+	PTR	_text + 0x39cd10
 	PTR	_text + 0x39cd30
-	PTR	_text + 0x39cd50
-	PTR	_text + 0x39cd5e
-	PTR	_text + 0x39cd6a
+	PTR	_text + 0x39cd3e
+	PTR	_text + 0x39cd4a
+	PTR	_text + 0x39cd60
 	PTR	_text + 0x39cd80
 	PTR	_text + 0x39cda0
-	PTR	_text + 0x39cdc0
-	PTR	_text + 0x39cdd8
+	PTR	_text + 0x39cdb8
+	PTR	_text + 0x39cdd0
 	PTR	_text + 0x39cdf0
-	PTR	_text + 0x39ce10
-	PTR	_text + 0x39ce29
+	PTR	_text + 0x39ce09
+	PTR	_text + 0x39ce20
 	PTR	_text + 0x39ce40
-	PTR	_text + 0x39ce60
+	PTR	_text + 0x39ce50
 	PTR	_text + 0x39ce70
-	PTR	_text + 0x39ce90
-	PTR	_text + 0x39cea9
+	PTR	_text + 0x39ce89
+	PTR	_text + 0x39cea0
+	PTR	_text + 0x39ceb4
 	PTR	_text + 0x39cec0
-	PTR	_text + 0x39ced4
-	PTR	_text + 0x39cee0
-	PTR	_text + 0x39ceec
-	PTR	_text + 0x39cef7
-	PTR	_text + 0x39cf03
-	PTR	_text + 0x39cf20
-	PTR	_text + 0x39cf30
+	PTR	_text + 0x39cecc
+	PTR	_text + 0x39ced7
+	PTR	_text + 0x39cee3
+	PTR	_text + 0x39cf00
+	PTR	_text + 0x39cf10
+	PTR	_text + 0x39cf40
 	PTR	_text + 0x39cf60
-	PTR	_text + 0x39cf80
-	PTR	_text + 0x39cf92
-	PTR	_text + 0x39cf9f
-	PTR	_text + 0x39cfaa
+	PTR	_text + 0x39cf72
+	PTR	_text + 0x39cf7f
+	PTR	_text + 0x39cf8a
+	PTR	_text + 0x39cfa0
+	PTR	_text + 0x39cfb0
 	PTR	_text + 0x39cfc0
-	PTR	_text + 0x39cfd0
-	PTR	_text + 0x39cfe0
-	PTR	_text + 0x39cff6
-	PTR	_text + 0x39d010
-	PTR	_text + 0x39d026
-	PTR	_text + 0x39d040
-	PTR	_text + 0x39d050
-	PTR	_text + 0x39d05d
-	PTR	_text + 0x39d06c
+	PTR	_text + 0x39cfd6
+	PTR	_text + 0x39cff0
+	PTR	_text + 0x39d006
+	PTR	_text + 0x39d020
+	PTR	_text + 0x39d030
+	PTR	_text + 0x39d03d
+	PTR	_text + 0x39d04c
+	PTR	_text + 0x39d060
 	PTR	_text + 0x39d080
 	PTR	_text + 0x39d0a0
 	PTR	_text + 0x39d0c0
 	PTR	_text + 0x39d0e0
-	PTR	_text + 0x39d100
+	PTR	_text + 0x39d0f0
+	PTR	_text + 0x39d0f9
 	PTR	_text + 0x39d110
-	PTR	_text + 0x39d119
+	PTR	_text + 0x39d123
 	PTR	_text + 0x39d130
-	PTR	_text + 0x39d143
+	PTR	_text + 0x39d142
 	PTR	_text + 0x39d150
-	PTR	_text + 0x39d162
 	PTR	_text + 0x39d170
 	PTR	_text + 0x39d190
 	PTR	_text + 0x39d1b0
@@ -15791,119 +15792,119 @@ kallsyms_addresses:
 	PTR	_text + 0x39d250
 	PTR	_text + 0x39d270
 	PTR	_text + 0x39d290
+	PTR	_text + 0x39d2a1
 	PTR	_text + 0x39d2b0
-	PTR	_text + 0x39d2c1
 	PTR	_text + 0x39d2d0
 	PTR	_text + 0x39d2f0
 	PTR	_text + 0x39d310
 	PTR	_text + 0x39d330
+	PTR	_text + 0x39d340
 	PTR	_text + 0x39d350
-	PTR	_text + 0x39d360
+	PTR	_text + 0x39d35f
+	PTR	_text + 0x39d365
 	PTR	_text + 0x39d370
-	PTR	_text + 0x39d37f
 	PTR	_text + 0x39d385
-	PTR	_text + 0x39d390
-	PTR	_text + 0x39d3a5
+	PTR	_text + 0x39d3a0
 	PTR	_text + 0x39d3c0
 	PTR	_text + 0x39d3e0
-	PTR	_text + 0x39d400
-	PTR	_text + 0x39d41b
-	PTR	_text + 0x39d428
+	PTR	_text + 0x39d3fb
+	PTR	_text + 0x39d408
+	PTR	_text + 0x39d420
 	PTR	_text + 0x39d440
 	PTR	_text + 0x39d460
-	PTR	_text + 0x39d480
-	PTR	_text + 0x39d492
-	PTR	_text + 0x39d49d
+	PTR	_text + 0x39d472
+	PTR	_text + 0x39d47d
+	PTR	_text + 0x39d490
 	PTR	_text + 0x39d4b0
-	PTR	_text + 0x39d4d0
-	PTR	_text + 0x39d4e3
-	PTR	_text + 0x39d500
+	PTR	_text + 0x39d4c3
+	PTR	_text + 0x39d4e0
+	PTR	_text + 0x39d4f0
 	PTR	_text + 0x39d510
-	PTR	_text + 0x39d530
+	PTR	_text + 0x39d520
 	PTR	_text + 0x39d540
 	PTR	_text + 0x39d560
-	PTR	_text + 0x39d580
-	PTR	_text + 0x39d59c
-	PTR	_text + 0x39d5aa
-	PTR	_text + 0x39d5b8
-	PTR	_text + 0x39d5c1
+	PTR	_text + 0x39d57c
+	PTR	_text + 0x39d58a
+	PTR	_text + 0x39d598
+	PTR	_text + 0x39d5a1
+	PTR	_text + 0x39d5b0
 	PTR	_text + 0x39d5d0
 	PTR	_text + 0x39d5f0
 	PTR	_text + 0x39d610
 	PTR	_text + 0x39d630
 	PTR	_text + 0x39d650
-	PTR	_text + 0x39d670
+	PTR	_text + 0x39d660
 	PTR	_text + 0x39d680
 	PTR	_text + 0x39d6a0
-	PTR	_text + 0x39d6c0
+	PTR	_text + 0x39d6b0
 	PTR	_text + 0x39d6d0
-	PTR	_text + 0x39d6f0
-	PTR	_text + 0x39d708
-	PTR	_text + 0x39d715
-	PTR	_text + 0x39d723
+	PTR	_text + 0x39d6e8
+	PTR	_text + 0x39d6f5
+	PTR	_text + 0x39d703
+	PTR	_text + 0x39d710
 	PTR	_text + 0x39d730
-	PTR	_text + 0x39d750
-	PTR	_text + 0x39d762
-	PTR	_text + 0x39d76e
-	PTR	_text + 0x39d779
-	PTR	_text + 0x39d790
-	PTR	_text + 0x39d7a0
-	PTR	_text + 0x39d7b4
-	PTR	_text + 0x39d7c2
-	PTR	_text + 0x39d7e0
-	PTR	_text + 0x39d7f3
-	PTR	_text + 0x39d801
-	PTR	_text + 0x39d810
-	PTR	_text + 0x39d823
-	PTR	_text + 0x39d82e
-	PTR	_text + 0x39d83d
-	PTR	_text + 0x39d84b
+	PTR	_text + 0x39d742
+	PTR	_text + 0x39d74e
+	PTR	_text + 0x39d759
+	PTR	_text + 0x39d770
+	PTR	_text + 0x39d780
+	PTR	_text + 0x39d794
+	PTR	_text + 0x39d7a2
+	PTR	_text + 0x39d7c0
+	PTR	_text + 0x39d7d3
+	PTR	_text + 0x39d7e1
+	PTR	_text + 0x39d7f0
+	PTR	_text + 0x39d803
+	PTR	_text + 0x39d80e
+	PTR	_text + 0x39d81d
+	PTR	_text + 0x39d82b
+	PTR	_text + 0x39d840
 	PTR	_text + 0x39d860
-	PTR	_text + 0x39d880
-	PTR	_text + 0x39d892
-	PTR	_text + 0x39d89f
+	PTR	_text + 0x39d872
+	PTR	_text + 0x39d87f
+	PTR	_text + 0x39d890
+	PTR	_text + 0x39d8a0
 	PTR	_text + 0x39d8b0
 	PTR	_text + 0x39d8c0
-	PTR	_text + 0x39d8d0
 	PTR	_text + 0x39d8e0
 	PTR	_text + 0x39d900
-	PTR	_text + 0x39d920
-	PTR	_text + 0x39d939
-	PTR	_text + 0x39d947
-	PTR	_text + 0x39d956
-	PTR	_text + 0x39d961
-	PTR	_text + 0x39d96e
+	PTR	_text + 0x39d919
+	PTR	_text + 0x39d927
+	PTR	_text + 0x39d936
+	PTR	_text + 0x39d941
+	PTR	_text + 0x39d94e
+	PTR	_text + 0x39d960
 	PTR	_text + 0x39d980
 	PTR	_text + 0x39d9a0
-	PTR	_text + 0x39d9c0
-	PTR	_text + 0x39d9cc
-	PTR	_text + 0x39d9d5
-	PTR	_text + 0x39d9e2
-	PTR	_text + 0x39d9ed
+	PTR	_text + 0x39d9ac
+	PTR	_text + 0x39d9b5
+	PTR	_text + 0x39d9c2
+	PTR	_text + 0x39d9cd
+	PTR	_text + 0x39d9e0
 	PTR	_text + 0x39da00
-	PTR	_text + 0x39da20
-	PTR	_text + 0x39da32
-	PTR	_text + 0x39da3f
-	PTR	_text + 0x39da4c
-	PTR	_text + 0x39da60
-	PTR	_text + 0x39da70
-	PTR	_text + 0x39da81
-	PTR	_text + 0x39da8f
-	PTR	_text + 0x39da9e
+	PTR	_text + 0x39da12
+	PTR	_text + 0x39da1f
+	PTR	_text + 0x39da2c
+	PTR	_text + 0x39da40
+	PTR	_text + 0x39da50
+	PTR	_text + 0x39da61
+	PTR	_text + 0x39da6f
+	PTR	_text + 0x39da7e
+	PTR	_text + 0x39daa0
 	PTR	_text + 0x39dac0
 	PTR	_text + 0x39dae0
 	PTR	_text + 0x39db00
 	PTR	_text + 0x39db20
 	PTR	_text + 0x39db40
-	PTR	_text + 0x39db60
-	PTR	_text + 0x39db75
+	PTR	_text + 0x39db55
+	PTR	_text + 0x39db70
 	PTR	_text + 0x39db90
-	PTR	_text + 0x39dbb0
+	PTR	_text + 0x39dba0
 	PTR	_text + 0x39dbc0
 	PTR	_text + 0x39dbe0
 	PTR	_text + 0x39dc00
+	PTR	_text + 0x39dc11
 	PTR	_text + 0x39dc20
-	PTR	_text + 0x39dc31
 	PTR	_text + 0x39dc40
 	PTR	_text + 0x39dc60
 	PTR	_text + 0x39dc80
@@ -15911,370 +15912,370 @@ kallsyms_addresses:
 	PTR	_text + 0x39dcc0
 	PTR	_text + 0x39dce0
 	PTR	_text + 0x39dd00
-	PTR	_text + 0x39dd20
-	PTR	_text + 0x39dd34
-	PTR	_text + 0x39dd43
-	PTR	_text + 0x39dd51
+	PTR	_text + 0x39dd14
+	PTR	_text + 0x39dd23
+	PTR	_text + 0x39dd31
+	PTR	_text + 0x39dd40
+	PTR	_text + 0x39dd53
 	PTR	_text + 0x39dd60
-	PTR	_text + 0x39dd73
 	PTR	_text + 0x39dd80
 	PTR	_text + 0x39dda0
 	PTR	_text + 0x39ddc0
 	PTR	_text + 0x39dde0
 	PTR	_text + 0x39de00
+	PTR	_text + 0x39de10
 	PTR	_text + 0x39de20
-	PTR	_text + 0x39de30
 	PTR	_text + 0x39de40
 	PTR	_text + 0x39de60
-	PTR	_text + 0x39de80
-	PTR	_text + 0x39de94
+	PTR	_text + 0x39de74
+	PTR	_text + 0x39de90
+	PTR	_text + 0x39dea0
 	PTR	_text + 0x39deb0
-	PTR	_text + 0x39dec0
 	PTR	_text + 0x39ded0
+	PTR	_text + 0x39dee3
 	PTR	_text + 0x39def0
-	PTR	_text + 0x39df03
+	PTR	_text + 0x39df00
 	PTR	_text + 0x39df10
 	PTR	_text + 0x39df20
-	PTR	_text + 0x39df30
-	PTR	_text + 0x39df40
-	PTR	_text + 0x39df54
+	PTR	_text + 0x39df34
+	PTR	_text + 0x39df50
 	PTR	_text + 0x39df70
 	PTR	_text + 0x39df90
-	PTR	_text + 0x39dfb0
-	PTR	_text + 0x39dfc1
-	PTR	_text + 0x39dfcc
-	PTR	_text + 0x39dfd7
-	PTR	_text + 0x39dff0
-	PTR	_text + 0x39e000
-	PTR	_text + 0x39e011
-	PTR	_text + 0x39e01f
+	PTR	_text + 0x39dfa1
+	PTR	_text + 0x39dfac
+	PTR	_text + 0x39dfb7
+	PTR	_text + 0x39dfd0
+	PTR	_text + 0x39dfe0
+	PTR	_text + 0x39dff1
+	PTR	_text + 0x39dfff
+	PTR	_text + 0x39e010
 	PTR	_text + 0x39e030
+	PTR	_text + 0x39e040
 	PTR	_text + 0x39e050
-	PTR	_text + 0x39e060
 	PTR	_text + 0x39e070
 	PTR	_text + 0x39e090
-	PTR	_text + 0x39e0b0
-	PTR	_text + 0x39e0c4
+	PTR	_text + 0x39e0a4
+	PTR	_text + 0x39e0c0
 	PTR	_text + 0x39e0e0
-	PTR	_text + 0x39e100
-	PTR	_text + 0x39e11b
+	PTR	_text + 0x39e0fb
+	PTR	_text + 0x39e110
 	PTR	_text + 0x39e130
-	PTR	_text + 0x39e150
-	PTR	_text + 0x39e180
-	PTR	_text + 0x39e1a3
+	PTR	_text + 0x39e160
+	PTR	_text + 0x39e183
+	PTR	_text + 0x39e190
 	PTR	_text + 0x39e1b0
 	PTR	_text + 0x39e1d0
 	PTR	_text + 0x39e1f0
 	PTR	_text + 0x39e210
 	PTR	_text + 0x39e230
-	PTR	_text + 0x39e250
-	PTR	_text + 0x39e263
+	PTR	_text + 0x39e243
+	PTR	_text + 0x39e260
 	PTR	_text + 0x39e280
 	PTR	_text + 0x39e2a0
-	PTR	_text + 0x39e2c0
-	PTR	_text + 0x39e2d3
-	PTR	_text + 0x39e2e2
+	PTR	_text + 0x39e2b3
+	PTR	_text + 0x39e2c2
+	PTR	_text + 0x39e2d0
 	PTR	_text + 0x39e2f0
 	PTR	_text + 0x39e310
 	PTR	_text + 0x39e330
 	PTR	_text + 0x39e350
 	PTR	_text + 0x39e370
 	PTR	_text + 0x39e390
-	PTR	_text + 0x39e3b0
-	PTR	_text + 0x39e3c0
-	PTR	_text + 0x39e3cd
-	PTR	_text + 0x39e3da
-	PTR	_text + 0x39e3e2
-	PTR	_text + 0x39e3ea
+	PTR	_text + 0x39e3a0
+	PTR	_text + 0x39e3ad
+	PTR	_text + 0x39e3ba
+	PTR	_text + 0x39e3c2
+	PTR	_text + 0x39e3ca
+	PTR	_text + 0x39e3e0
+	PTR	_text + 0x39e3e8
 	PTR	_text + 0x39e400
-	PTR	_text + 0x39e408
 	PTR	_text + 0x39e420
-	PTR	_text + 0x39e440
+	PTR	_text + 0x39e430
 	PTR	_text + 0x39e450
-	PTR	_text + 0x39e470
+	PTR	_text + 0x39e460
 	PTR	_text + 0x39e480
-	PTR	_text + 0x39e4a0
-	PTR	_text + 0x39e4b4
+	PTR	_text + 0x39e494
+	PTR	_text + 0x39e4b0
+	PTR	_text + 0x39e4c0
 	PTR	_text + 0x39e4d0
-	PTR	_text + 0x39e4e0
+	PTR	_text + 0x39e4e2
 	PTR	_text + 0x39e4f0
-	PTR	_text + 0x39e502
 	PTR	_text + 0x39e510
 	PTR	_text + 0x39e530
-	PTR	_text + 0x39e550
-	PTR	_text + 0x39e560
-	PTR	_text + 0x39e56e
-	PTR	_text + 0x39e57d
-	PTR	_text + 0x39e590
-	PTR	_text + 0x39e5a5
+	PTR	_text + 0x39e540
+	PTR	_text + 0x39e54e
+	PTR	_text + 0x39e55d
+	PTR	_text + 0x39e570
+	PTR	_text + 0x39e585
+	PTR	_text + 0x39e591
+	PTR	_text + 0x39e59f
+	PTR	_text + 0x39e5a7
 	PTR	_text + 0x39e5b1
-	PTR	_text + 0x39e5bf
+	PTR	_text + 0x39e5c0
 	PTR	_text + 0x39e5c7
 	PTR	_text + 0x39e5d1
 	PTR	_text + 0x39e5e0
-	PTR	_text + 0x39e5e7
-	PTR	_text + 0x39e5f1
+	PTR	_text + 0x39e5f2
 	PTR	_text + 0x39e600
-	PTR	_text + 0x39e612
 	PTR	_text + 0x39e620
+	PTR	_text + 0x39e631
 	PTR	_text + 0x39e640
-	PTR	_text + 0x39e651
 	PTR	_text + 0x39e660
-	PTR	_text + 0x39e680
-	PTR	_text + 0x39e690
-	PTR	_text + 0x39e69b
-	PTR	_text + 0x39e6a8
-	PTR	_text + 0x39e6b5
-	PTR	_text + 0x39e6bd
-	PTR	_text + 0x39e6c7
-	PTR	_text + 0x39e6cc
-	PTR	_text + 0x39e6d3
+	PTR	_text + 0x39e670
+	PTR	_text + 0x39e67b
+	PTR	_text + 0x39e688
+	PTR	_text + 0x39e695
+	PTR	_text + 0x39e69d
+	PTR	_text + 0x39e6a7
+	PTR	_text + 0x39e6ac
+	PTR	_text + 0x39e6b3
+	PTR	_text + 0x39e6c0
 	PTR	_text + 0x39e6e0
 	PTR	_text + 0x39e700
+	PTR	_text + 0x39e712
 	PTR	_text + 0x39e720
 	PTR	_text + 0x39e732
-	PTR	_text + 0x39e740
-	PTR	_text + 0x39e752
-	PTR	_text + 0x39e758
-	PTR	_text + 0x39e75e
-	PTR	_text + 0x39e768
+	PTR	_text + 0x39e738
+	PTR	_text + 0x39e73e
+	PTR	_text + 0x39e748
+	PTR	_text + 0x39e760
 	PTR	_text + 0x39e780
+	PTR	_text + 0x39e790
 	PTR	_text + 0x39e7a0
-	PTR	_text + 0x39e7b0
 	PTR	_text + 0x39e7c0
-	PTR	_text + 0x39e7e0
-	PTR	_text + 0x39e7f0
+	PTR	_text + 0x39e7d0
+	PTR	_text + 0x39e800
 	PTR	_text + 0x39e820
-	PTR	_text + 0x39e840
-	PTR	_text + 0x39e852
-	PTR	_text + 0x39e85c
-	PTR	_text + 0x39e867
-	PTR	_text + 0x39e870
-	PTR	_text + 0x39e87b
-	PTR	_text + 0x39e889
-	PTR	_text + 0x39e897
-	PTR	_text + 0x39e8b0
-	PTR	_text + 0x39e8c8
-	PTR	_text + 0x39e8d2
-	PTR	_text + 0x39e8e0
-	PTR	_text + 0x39e8eb
-	PTR	_text + 0x39e8f5
-	PTR	_text + 0x39e8fe
-	PTR	_text + 0x39e90d
-	PTR	_text + 0x39e917
-	PTR	_text + 0x39e925
-	PTR	_text + 0x39e92e
-	PTR	_text + 0x39e93b
-	PTR	_text + 0x39e946
-	PTR	_text + 0x39e955
-	PTR	_text + 0x39e95f
+	PTR	_text + 0x39e832
+	PTR	_text + 0x39e83c
+	PTR	_text + 0x39e847
+	PTR	_text + 0x39e850
+	PTR	_text + 0x39e85b
+	PTR	_text + 0x39e869
+	PTR	_text + 0x39e877
+	PTR	_text + 0x39e890
+	PTR	_text + 0x39e8a8
+	PTR	_text + 0x39e8b2
+	PTR	_text + 0x39e8c0
+	PTR	_text + 0x39e8cb
+	PTR	_text + 0x39e8d5
+	PTR	_text + 0x39e8de
+	PTR	_text + 0x39e8ed
+	PTR	_text + 0x39e8f7
+	PTR	_text + 0x39e905
+	PTR	_text + 0x39e90e
+	PTR	_text + 0x39e91b
+	PTR	_text + 0x39e926
+	PTR	_text + 0x39e935
+	PTR	_text + 0x39e93f
+	PTR	_text + 0x39e950
 	PTR	_text + 0x39e970
-	PTR	_text + 0x39e990
-	PTR	_text + 0x39e9a0
-	PTR	_text + 0x39e9a5
-	PTR	_text + 0x39e9aa
-	PTR	_text + 0x39e9b9
-	PTR	_text + 0x39e9d0
-	PTR	_text + 0x39e9db
-	PTR	_text + 0x39e9ea
-	PTR	_text + 0x39e9f8
+	PTR	_text + 0x39e980
+	PTR	_text + 0x39e985
+	PTR	_text + 0x39e98a
+	PTR	_text + 0x39e999
+	PTR	_text + 0x39e9b0
+	PTR	_text + 0x39e9bb
+	PTR	_text + 0x39e9ca
+	PTR	_text + 0x39e9d8
+	PTR	_text + 0x39e9f0
+	PTR	_text + 0x39ea01
 	PTR	_text + 0x39ea10
-	PTR	_text + 0x39ea21
 	PTR	_text + 0x39ea30
-	PTR	_text + 0x39ea50
-	PTR	_text + 0x39ea60
-	PTR	_text + 0x39ea6f
-	PTR	_text + 0x39ea79
-	PTR	_text + 0x39ea84
-	PTR	_text + 0x39ea90
-	PTR	_text + 0x39eaa7
-	PTR	_text + 0x39eab4
+	PTR	_text + 0x39ea40
+	PTR	_text + 0x39ea4f
+	PTR	_text + 0x39ea59
+	PTR	_text + 0x39ea64
+	PTR	_text + 0x39ea70
+	PTR	_text + 0x39ea87
+	PTR	_text + 0x39ea94
+	PTR	_text + 0x39eaa0
 	PTR	_text + 0x39eac0
 	PTR	_text + 0x39eae0
 	PTR	_text + 0x39eb00
-	PTR	_text + 0x39eb20
-	PTR	_text + 0x39eb30
-	PTR	_text + 0x39eb39
-	PTR	_text + 0x39eb42
-	PTR	_text + 0x39eb4d
+	PTR	_text + 0x39eb10
+	PTR	_text + 0x39eb19
+	PTR	_text + 0x39eb22
+	PTR	_text + 0x39eb2d
+	PTR	_text + 0x39eb40
 	PTR	_text + 0x39eb60
 	PTR	_text + 0x39eb80
 	PTR	_text + 0x39eba0
+	PTR	_text + 0x39ebb0
 	PTR	_text + 0x39ebc0
 	PTR	_text + 0x39ebd0
 	PTR	_text + 0x39ebe0
-	PTR	_text + 0x39ebf0
-	PTR	_text + 0x39ec00
-	PTR	_text + 0x39ec0a
-	PTR	_text + 0x39ec14
-	PTR	_text + 0x39ec1d
+	PTR	_text + 0x39ebea
+	PTR	_text + 0x39ebf4
+	PTR	_text + 0x39ebfd
+	PTR	_text + 0x39ec10
 	PTR	_text + 0x39ec30
-	PTR	_text + 0x39ec50
+	PTR	_text + 0x39ec40
 	PTR	_text + 0x39ec60
-	PTR	_text + 0x39ec80
-	PTR	_text + 0x39ec90
-	PTR	_text + 0x39ec9e
-	PTR	_text + 0x39ecad
-	PTR	_text + 0x39ecbc
-	PTR	_text + 0x39ecc8
-	PTR	_text + 0x39ece0
+	PTR	_text + 0x39ec70
+	PTR	_text + 0x39ec7e
+	PTR	_text + 0x39ec8d
+	PTR	_text + 0x39ec9c
+	PTR	_text + 0x39eca8
+	PTR	_text + 0x39ecc0
+	PTR	_text + 0x39ecd0
 	PTR	_text + 0x39ecf0
 	PTR	_text + 0x39ed10
+	PTR	_text + 0x39ed20
 	PTR	_text + 0x39ed30
-	PTR	_text + 0x39ed40
-	PTR	_text + 0x39ed50
-	PTR	_text + 0x39ed61
-	PTR	_text + 0x39ed6f
-	PTR	_text + 0x39ed7a
-	PTR	_text + 0x39ed86
+	PTR	_text + 0x39ed41
+	PTR	_text + 0x39ed4f
+	PTR	_text + 0x39ed5a
+	PTR	_text + 0x39ed66
+	PTR	_text + 0x39ed70
+	PTR	_text + 0x39ed7b
 	PTR	_text + 0x39ed90
-	PTR	_text + 0x39ed9b
-	PTR	_text + 0x39edb0
-	PTR	_text + 0x39edc3
-	PTR	_text + 0x39edcd
-	PTR	_text + 0x39edd7
-	PTR	_text + 0x39ede0
+	PTR	_text + 0x39eda3
+	PTR	_text + 0x39edad
+	PTR	_text + 0x39edb7
+	PTR	_text + 0x39edc0
+	PTR	_text + 0x39edd0
+	PTR	_text + 0x39eddb
 	PTR	_text + 0x39edf0
-	PTR	_text + 0x39edfb
-	PTR	_text + 0x39ee10
-	PTR	_text + 0x39ee20
-	PTR	_text + 0x39ee2f
-	PTR	_text + 0x39ee3a
-	PTR	_text + 0x39ee44
-	PTR	_text + 0x39ee51
-	PTR	_text + 0x39ee60
-	PTR	_text + 0x39ee7e
-	PTR	_text + 0x39ee8b
-	PTR	_text + 0x39ee9a
-	PTR	_text + 0x39eea8
-	PTR	_text + 0x39eec0
-	PTR	_text + 0x39eed7
-	PTR	_text + 0x39eee6
-	PTR	_text + 0x39eef2
-	PTR	_text + 0x39ef00
-	PTR	_text + 0x39ef11
-	PTR	_text + 0x39ef1b
-	PTR	_text + 0x39ef27
-	PTR	_text + 0x39ef36
-	PTR	_text + 0x39ef42
-	PTR	_text + 0x39ef50
-	PTR	_text + 0x39ef5c
-	PTR	_text + 0x39ef6a
+	PTR	_text + 0x39ee00
+	PTR	_text + 0x39ee0f
+	PTR	_text + 0x39ee1a
+	PTR	_text + 0x39ee24
+	PTR	_text + 0x39ee31
+	PTR	_text + 0x39ee40
+	PTR	_text + 0x39ee5e
+	PTR	_text + 0x39ee6b
+	PTR	_text + 0x39ee7a
+	PTR	_text + 0x39ee88
+	PTR	_text + 0x39eea0
+	PTR	_text + 0x39eeb7
+	PTR	_text + 0x39eec6
+	PTR	_text + 0x39eed2
+	PTR	_text + 0x39eee0
+	PTR	_text + 0x39eef1
+	PTR	_text + 0x39eefb
+	PTR	_text + 0x39ef07
+	PTR	_text + 0x39ef16
+	PTR	_text + 0x39ef22
+	PTR	_text + 0x39ef30
+	PTR	_text + 0x39ef3c
+	PTR	_text + 0x39ef4a
+	PTR	_text + 0x39ef58
+	PTR	_text + 0x39ef61
+	PTR	_text + 0x39ef6c
 	PTR	_text + 0x39ef78
-	PTR	_text + 0x39ef81
-	PTR	_text + 0x39ef8c
-	PTR	_text + 0x39ef98
-	PTR	_text + 0x39efa6
+	PTR	_text + 0x39ef86
+	PTR	_text + 0x39efa0
+	PTR	_text + 0x39efaf
 	PTR	_text + 0x39efc0
-	PTR	_text + 0x39efcf
-	PTR	_text + 0x39efe0
+	PTR	_text + 0x39efd0
 	PTR	_text + 0x39eff0
-	PTR	_text + 0x39f010
-	PTR	_text + 0x39f023
-	PTR	_text + 0x39f031
+	PTR	_text + 0x39f003
+	PTR	_text + 0x39f011
+	PTR	_text + 0x39f020
+	PTR	_text + 0x39f035
 	PTR	_text + 0x39f040
-	PTR	_text + 0x39f055
-	PTR	_text + 0x39f060
+	PTR	_text + 0x39f050
+	PTR	_text + 0x39f05e
 	PTR	_text + 0x39f070
-	PTR	_text + 0x39f07e
 	PTR	_text + 0x39f090
 	PTR	_text + 0x39f0b0
+	PTR	_text + 0x39f0c0
 	PTR	_text + 0x39f0d0
 	PTR	_text + 0x39f0e0
 	PTR	_text + 0x39f0f0
-	PTR	_text + 0x39f100
 	PTR	_text + 0x39f110
-	PTR	_text + 0x39f130
-	PTR	_text + 0x39f145
-	PTR	_text + 0x39f152
-	PTR	_text + 0x39f170
-	PTR	_text + 0x39f182
-	PTR	_text + 0x39f187
-	PTR	_text + 0x39f193
-	PTR	_text + 0x39f19e
-	PTR	_text + 0x39f1ad
+	PTR	_text + 0x39f125
+	PTR	_text + 0x39f132
+	PTR	_text + 0x39f150
+	PTR	_text + 0x39f162
+	PTR	_text + 0x39f167
+	PTR	_text + 0x39f173
+	PTR	_text + 0x39f17e
+	PTR	_text + 0x39f18d
+	PTR	_text + 0x39f1a0
+	PTR	_text + 0x39f1b0
 	PTR	_text + 0x39f1c0
-	PTR	_text + 0x39f1d0
-	PTR	_text + 0x39f1e0
-	PTR	_text + 0x39f1f5
-	PTR	_text + 0x39f1fc
-	PTR	_text + 0x39f205
-	PTR	_text + 0x39f212
-	PTR	_text + 0x39f220
-	PTR	_text + 0x39f22d
-	PTR	_text + 0x39f236
-	PTR	_text + 0x39f243
+	PTR	_text + 0x39f1d5
+	PTR	_text + 0x39f1dc
+	PTR	_text + 0x39f1e5
+	PTR	_text + 0x39f1f2
+	PTR	_text + 0x39f200
+	PTR	_text + 0x39f20d
+	PTR	_text + 0x39f216
+	PTR	_text + 0x39f223
+	PTR	_text + 0x39f230
+	PTR	_text + 0x39f238
 	PTR	_text + 0x39f250
-	PTR	_text + 0x39f258
-	PTR	_text + 0x39f270
-	PTR	_text + 0x39f285
+	PTR	_text + 0x39f265
+	PTR	_text + 0x39f280
 	PTR	_text + 0x39f2a0
 	PTR	_text + 0x39f2c0
 	PTR	_text + 0x39f2e0
 	PTR	_text + 0x39f300
 	PTR	_text + 0x39f320
-	PTR	_text + 0x39f340
-	PTR	_text + 0x39f351
-	PTR	_text + 0x39f35d
-	PTR	_text + 0x39f362
+	PTR	_text + 0x39f331
+	PTR	_text + 0x39f33d
+	PTR	_text + 0x39f342
+	PTR	_text + 0x39f350
 	PTR	_text + 0x39f370
 	PTR	_text + 0x39f390
 	PTR	_text + 0x39f3b0
+	PTR	_text + 0x39f3c4
 	PTR	_text + 0x39f3d0
-	PTR	_text + 0x39f3e4
+	PTR	_text + 0x39f3dd
+	PTR	_text + 0x39f3e5
 	PTR	_text + 0x39f3f0
-	PTR	_text + 0x39f3fd
-	PTR	_text + 0x39f405
+	PTR	_text + 0x39f400
+	PTR	_text + 0x39f406
 	PTR	_text + 0x39f410
-	PTR	_text + 0x39f420
-	PTR	_text + 0x39f426
+	PTR	_text + 0x39f421
 	PTR	_text + 0x39f430
-	PTR	_text + 0x39f441
+	PTR	_text + 0x39f442
 	PTR	_text + 0x39f450
-	PTR	_text + 0x39f462
-	PTR	_text + 0x39f470
+	PTR	_text + 0x39f460
+	PTR	_text + 0x39f46e
 	PTR	_text + 0x39f480
-	PTR	_text + 0x39f48e
-	PTR	_text + 0x39f4a0
+	PTR	_text + 0x39f490
+	PTR	_text + 0x39f49d
 	PTR	_text + 0x39f4b0
-	PTR	_text + 0x39f4bd
-	PTR	_text + 0x39f4d0
+	PTR	_text + 0x39f4c0
 	PTR	_text + 0x39f4e0
 	PTR	_text + 0x39f500
 	PTR	_text + 0x39f520
-	PTR	_text + 0x39f540
-	PTR	_text + 0x39f557
-	PTR	_text + 0x39f564
-	PTR	_text + 0x39f570
+	PTR	_text + 0x39f537
+	PTR	_text + 0x39f544
+	PTR	_text + 0x39f550
+	PTR	_text + 0x39f560
+	PTR	_text + 0x39f56a
 	PTR	_text + 0x39f580
-	PTR	_text + 0x39f58a
+	PTR	_text + 0x39f591
 	PTR	_text + 0x39f5a0
-	PTR	_text + 0x39f5b1
-	PTR	_text + 0x39f5c0
-	PTR	_text + 0x39f5d0
-	PTR	_text + 0x39f5e3
-	PTR	_text + 0x39f5ef
-	PTR	_text + 0x39f5fc
+	PTR	_text + 0x39f5b0
+	PTR	_text + 0x39f5c3
+	PTR	_text + 0x39f5cf
+	PTR	_text + 0x39f5dc
+	PTR	_text + 0x39f5f0
+	PTR	_text + 0x39f5f9
 	PTR	_text + 0x39f610
-	PTR	_text + 0x39f619
-	PTR	_text + 0x39f630
-	PTR	_text + 0x39f644
+	PTR	_text + 0x39f624
+	PTR	_text + 0x39f633
+	PTR	_text + 0x39f63f
+	PTR	_text + 0x39f648
 	PTR	_text + 0x39f653
-	PTR	_text + 0x39f65f
-	PTR	_text + 0x39f668
-	PTR	_text + 0x39f673
-	PTR	_text + 0x39f67e
-	PTR	_text + 0x39f68a
-	PTR	_text + 0x39f694
-	PTR	_text + 0x39f69d
+	PTR	_text + 0x39f65e
+	PTR	_text + 0x39f66a
+	PTR	_text + 0x39f674
+	PTR	_text + 0x39f67d
+	PTR	_text + 0x39f690
 	PTR	_text + 0x39f6b0
 	PTR	_text + 0x39f6d0
 	PTR	_text + 0x39f6f0
 	PTR	_text + 0x39f710
-	PTR	_text + 0x39f730
-	PTR	_text + 0x39f740
-	PTR	_text + 0x39f74e
-	PTR	_text + 0x39f75b
+	PTR	_text + 0x39f720
+	PTR	_text + 0x39f72e
+	PTR	_text + 0x39f73b
+	PTR	_text + 0x39f750
 	PTR	_text + 0x39f770
 	PTR	_text + 0x39f790
 	PTR	_text + 0x39f7b0
@@ -16282,152 +16283,152 @@ kallsyms_addresses:
 	PTR	_text + 0x39f7f0
 	PTR	_text + 0x39f810
 	PTR	_text + 0x39f830
-	PTR	_text + 0x39f850
-	PTR	_text + 0x39f868
-	PTR	_text + 0x39f880
-	PTR	_text + 0x39f891
-	PTR	_text + 0x39f89f
-	PTR	_text + 0x39f8ac
+	PTR	_text + 0x39f848
+	PTR	_text + 0x39f860
+	PTR	_text + 0x39f871
+	PTR	_text + 0x39f87f
+	PTR	_text + 0x39f88c
+	PTR	_text + 0x39f8a0
 	PTR	_text + 0x39f8c0
-	PTR	_text + 0x39f8e0
-	PTR	_text + 0x39f8f0
-	PTR	_text + 0x39f905
-	PTR	_text + 0x39f913
-	PTR	_text + 0x39f921
-	PTR	_text + 0x39f92d
-	PTR	_text + 0x39f940
-	PTR	_text + 0x39f952
-	PTR	_text + 0x39f95f
+	PTR	_text + 0x39f8d0
+	PTR	_text + 0x39f8e5
+	PTR	_text + 0x39f8f3
+	PTR	_text + 0x39f901
+	PTR	_text + 0x39f90d
+	PTR	_text + 0x39f920
+	PTR	_text + 0x39f932
+	PTR	_text + 0x39f93f
+	PTR	_text + 0x39f950
 	PTR	_text + 0x39f970
 	PTR	_text + 0x39f990
-	PTR	_text + 0x39f9b0
-	PTR	_text + 0x39f9c4
+	PTR	_text + 0x39f9a4
+	PTR	_text + 0x39f9c0
+	PTR	_text + 0x39f9d1
 	PTR	_text + 0x39f9e0
-	PTR	_text + 0x39f9f1
-	PTR	_text + 0x39fa00
+	PTR	_text + 0x39f9f0
 	PTR	_text + 0x39fa10
 	PTR	_text + 0x39fa30
+	PTR	_text + 0x39fa44
 	PTR	_text + 0x39fa50
-	PTR	_text + 0x39fa64
-	PTR	_text + 0x39fa70
+	PTR	_text + 0x39fa60
 	PTR	_text + 0x39fa80
 	PTR	_text + 0x39faa0
 	PTR	_text + 0x39fac0
-	PTR	_text + 0x39fae0
+	PTR	_text + 0x39faf0
 	PTR	_text + 0x39fb10
 	PTR	_text + 0x39fb30
 	PTR	_text + 0x39fb50
 	PTR	_text + 0x39fb70
 	PTR	_text + 0x39fb90
-	PTR	_text + 0x39fbb0
+	PTR	_text + 0x39fba0
+	PTR	_text + 0x39fbb2
 	PTR	_text + 0x39fbc0
 	PTR	_text + 0x39fbd2
 	PTR	_text + 0x39fbe0
-	PTR	_text + 0x39fbf2
+	PTR	_text + 0x39fbf0
 	PTR	_text + 0x39fc00
-	PTR	_text + 0x39fc10
 	PTR	_text + 0x39fc20
 	PTR	_text + 0x39fc40
 	PTR	_text + 0x39fc60
-	PTR	_text + 0x39fc80
-	PTR	_text + 0x39fc93
-	PTR	_text + 0x39fc9e
+	PTR	_text + 0x39fc73
+	PTR	_text + 0x39fc7e
+	PTR	_text + 0x39fc90
 	PTR	_text + 0x39fcb0
 	PTR	_text + 0x39fcd0
 	PTR	_text + 0x39fcf0
 	PTR	_text + 0x39fd10
 	PTR	_text + 0x39fd30
-	PTR	_text + 0x39fd50
+	PTR	_text + 0x39fd40
 	PTR	_text + 0x39fd60
 	PTR	_text + 0x39fd80
 	PTR	_text + 0x39fda0
-	PTR	_text + 0x39fdc0
-	PTR	_text + 0x39fdd1
-	PTR	_text + 0x39fdda
+	PTR	_text + 0x39fdb1
+	PTR	_text + 0x39fdba
+	PTR	_text + 0x39fdd0
 	PTR	_text + 0x39fdf0
 	PTR	_text + 0x39fe10
 	PTR	_text + 0x39fe30
-	PTR	_text + 0x39fe50
-	PTR	_text + 0x39fe63
+	PTR	_text + 0x39fe43
+	PTR	_text + 0x39fe60
 	PTR	_text + 0x39fe80
 	PTR	_text + 0x39fea0
 	PTR	_text + 0x39fec0
 	PTR	_text + 0x39fee0
-	PTR	_text + 0x39ff00
-	PTR	_text + 0x39ff15
-	PTR	_text + 0x39ff21
-	PTR	_text + 0x39ff29
-	PTR	_text + 0x39ff36
+	PTR	_text + 0x39fef5
+	PTR	_text + 0x39ff01
+	PTR	_text + 0x39ff09
+	PTR	_text + 0x39ff16
+	PTR	_text + 0x39ff20
 	PTR	_text + 0x39ff40
 	PTR	_text + 0x39ff60
 	PTR	_text + 0x39ff80
 	PTR	_text + 0x39ffa0
 	PTR	_text + 0x39ffc0
-	PTR	_text + 0x39ffe0
-	PTR	_text + 0x39fff8
-	PTR	_text + 0x3a0002
-	PTR	_text + 0x3a000e
-	PTR	_text + 0x3a001c
-	PTR	_text + 0x3a0030
-	PTR	_text + 0x3a0041
-	PTR	_text + 0x3a004d
-	PTR	_text + 0x3a0060
-	PTR	_text + 0x3a0070
-	PTR	_text + 0x3a007e
-	PTR	_text + 0x3a008d
-	PTR	_text + 0x3a00a0
-	PTR	_text + 0x3a00b1
-	PTR	_text + 0x3a00be
-	PTR	_text + 0x3a00cd
+	PTR	_text + 0x39ffd8
+	PTR	_text + 0x39ffe2
+	PTR	_text + 0x39ffee
+	PTR	_text + 0x39fffc
+	PTR	_text + 0x3a0010
+	PTR	_text + 0x3a0021
+	PTR	_text + 0x3a002d
+	PTR	_text + 0x3a0040
+	PTR	_text + 0x3a0050
+	PTR	_text + 0x3a005e
+	PTR	_text + 0x3a006d
+	PTR	_text + 0x3a0080
+	PTR	_text + 0x3a0091
+	PTR	_text + 0x3a009e
+	PTR	_text + 0x3a00ad
+	PTR	_text + 0x3a00c0
+	PTR	_text + 0x3a00d0
 	PTR	_text + 0x3a00e0
 	PTR	_text + 0x3a00f0
 	PTR	_text + 0x3a0100
-	PTR	_text + 0x3a0110
-	PTR	_text + 0x3a0120
-	PTR	_text + 0x3a0132
-	PTR	_text + 0x3a013c
-	PTR	_text + 0x3a0148
-	PTR	_text + 0x3a0151
-	PTR	_text + 0x3a015b
-	PTR	_text + 0x3a0164
-	PTR	_text + 0x3a016c
-	PTR	_text + 0x3a0176
+	PTR	_text + 0x3a0112
+	PTR	_text + 0x3a011c
+	PTR	_text + 0x3a0128
+	PTR	_text + 0x3a0131
+	PTR	_text + 0x3a013b
+	PTR	_text + 0x3a0144
+	PTR	_text + 0x3a014c
+	PTR	_text + 0x3a0156
+	PTR	_text + 0x3a0170
 	PTR	_text + 0x3a0190
-	PTR	_text + 0x3a01b0
-	PTR	_text + 0x3a01c0
-	PTR	_text + 0x3a01cf
-	PTR	_text + 0x3a01dd
-	PTR	_text + 0x3a01e8
-	PTR	_text + 0x3a01f3
-	PTR	_text + 0x3a0200
-	PTR	_text + 0x3a0212
+	PTR	_text + 0x3a01a0
+	PTR	_text + 0x3a01af
+	PTR	_text + 0x3a01bd
+	PTR	_text + 0x3a01c8
+	PTR	_text + 0x3a01d3
+	PTR	_text + 0x3a01e0
+	PTR	_text + 0x3a01f2
+	PTR	_text + 0x3a0210
 	PTR	_text + 0x3a0230
-	PTR	_text + 0x3a0250
-	PTR	_text + 0x3a0261
-	PTR	_text + 0x3a026c
-	PTR	_text + 0x3a0275
-	PTR	_text + 0x3a027b
+	PTR	_text + 0x3a0241
+	PTR	_text + 0x3a024c
+	PTR	_text + 0x3a0255
+	PTR	_text + 0x3a025b
+	PTR	_text + 0x3a0270
 	PTR	_text + 0x3a0290
-	PTR	_text + 0x3a02b0
-	PTR	_text + 0x3a02c1
-	PTR	_text + 0x3a02cf
+	PTR	_text + 0x3a02a1
+	PTR	_text + 0x3a02af
+	PTR	_text + 0x3a02c0
 	PTR	_text + 0x3a02e0
-	PTR	_text + 0x3a0300
+	PTR	_text + 0x3a02f0
+	PTR	_text + 0x3a0301
 	PTR	_text + 0x3a0310
-	PTR	_text + 0x3a0321
-	PTR	_text + 0x3a0330
+	PTR	_text + 0x3a0320
+	PTR	_text + 0x3a0331
 	PTR	_text + 0x3a0340
-	PTR	_text + 0x3a0351
 	PTR	_text + 0x3a0360
 	PTR	_text + 0x3a0380
 	PTR	_text + 0x3a03a0
-	PTR	_text + 0x3a03c0
+	PTR	_text + 0x3a03b0
+	PTR	_text + 0x3a03c3
 	PTR	_text + 0x3a03d0
-	PTR	_text + 0x3a03e3
 	PTR	_text + 0x3a03f0
 	PTR	_text + 0x3a0410
-	PTR	_text + 0x3a0430
-	PTR	_text + 0x3a0460
+	PTR	_text + 0x3a0440
+	PTR	_text + 0x3a0470
 	PTR	_text + 0x3a0490
 	PTR	_text + 0x3a04b0
 	PTR	_text + 0x3a04d0
@@ -16440,63 +16441,63 @@ kallsyms_addresses:
 	PTR	_text + 0x3a05b0
 	PTR	_text + 0x3a05d0
 	PTR	_text + 0x3a05f0
+	PTR	_text + 0x3a0600
 	PTR	_text + 0x3a0610
 	PTR	_text + 0x3a0620
-	PTR	_text + 0x3a0630
 	PTR	_text + 0x3a0640
-	PTR	_text + 0x3a0660
+	PTR	_text + 0x3a0651
+	PTR	_text + 0x3a065a
+	PTR	_text + 0x3a0668
 	PTR	_text + 0x3a0671
-	PTR	_text + 0x3a067a
-	PTR	_text + 0x3a0688
-	PTR	_text + 0x3a0691
-	PTR	_text + 0x3a069e
+	PTR	_text + 0x3a067e
+	PTR	_text + 0x3a0690
 	PTR	_text + 0x3a06b0
-	PTR	_text + 0x3a06d0
-	PTR	_text + 0x3a06e2
-	PTR	_text + 0x3a06ed
-	PTR	_text + 0x3a06fa
-	PTR	_text + 0x3a0710
+	PTR	_text + 0x3a06c2
+	PTR	_text + 0x3a06cd
+	PTR	_text + 0x3a06da
+	PTR	_text + 0x3a06f0
+	PTR	_text + 0x3a0700
+	PTR	_text + 0x3a070b
 	PTR	_text + 0x3a0720
-	PTR	_text + 0x3a072b
 	PTR	_text + 0x3a0740
 	PTR	_text + 0x3a0760
 	PTR	_text + 0x3a0780
 	PTR	_text + 0x3a07a0
 	PTR	_text + 0x3a07c0
 	PTR	_text + 0x3a07e0
-	PTR	_text + 0x3a0800
-	PTR	_text + 0x3a0818
+	PTR	_text + 0x3a07f8
+	PTR	_text + 0x3a0810
 	PTR	_text + 0x3a0830
 	PTR	_text + 0x3a0850
 	PTR	_text + 0x3a0870
 	PTR	_text + 0x3a0890
 	PTR	_text + 0x3a08b0
-	PTR	_text + 0x3a08d0
+	PTR	_text + 0x3a08e0
 	PTR	_text + 0x3a0900
 	PTR	_text + 0x3a0920
 	PTR	_text + 0x3a0940
-	PTR	_text + 0x3a0960
-	PTR	_text + 0x3a0978
+	PTR	_text + 0x3a0958
+	PTR	_text + 0x3a0970
 	PTR	_text + 0x3a0990
 	PTR	_text + 0x3a09b0
-	PTR	_text + 0x3a09d0
+	PTR	_text + 0x3a09c0
 	PTR	_text + 0x3a09e0
-	PTR	_text + 0x3a0a00
+	PTR	_text + 0x3a09f0
+	PTR	_text + 0x3a09fe
 	PTR	_text + 0x3a0a10
-	PTR	_text + 0x3a0a1e
 	PTR	_text + 0x3a0a30
-	PTR	_text + 0x3a0a50
+	PTR	_text + 0x3a0a40
+	PTR	_text + 0x3a0a4d
 	PTR	_text + 0x3a0a60
-	PTR	_text + 0x3a0a6d
 	PTR	_text + 0x3a0a80
-	PTR	_text + 0x3a0aa0
+	PTR	_text + 0x3a0ab0
 	PTR	_text + 0x3a0ad0
 	PTR	_text + 0x3a0af0
 	PTR	_text + 0x3a0b10
+	PTR	_text + 0x3a0b21
 	PTR	_text + 0x3a0b30
-	PTR	_text + 0x3a0b41
+	PTR	_text + 0x3a0b3e
 	PTR	_text + 0x3a0b50
-	PTR	_text + 0x3a0b5e
 	PTR	_text + 0x3a0b70
 	PTR	_text + 0x3a0b90
 	PTR	_text + 0x3a0bb0
@@ -16504,12 +16505,12 @@ kallsyms_addresses:
 	PTR	_text + 0x3a0bf0
 	PTR	_text + 0x3a0c10
 	PTR	_text + 0x3a0c30
-	PTR	_text + 0x3a0c50
-	PTR	_text + 0x3a0c65
-	PTR	_text + 0x3a0c72
+	PTR	_text + 0x3a0c45
+	PTR	_text + 0x3a0c52
+	PTR	_text + 0x3a0c70
+	PTR	_text + 0x3a0c80
 	PTR	_text + 0x3a0c90
 	PTR	_text + 0x3a0ca0
-	PTR	_text + 0x3a0cb0
 	PTR	_text + 0x3a0cc0
 	PTR	_text + 0x3a0ce0
 	PTR	_text + 0x3a0d00
@@ -16519,96 +16520,96 @@ kallsyms_addresses:
 	PTR	_text + 0x3a0d80
 	PTR	_text + 0x3a0da0
 	PTR	_text + 0x3a0dc0
+	PTR	_text + 0x3a0dd5
 	PTR	_text + 0x3a0de0
-	PTR	_text + 0x3a0df5
 	PTR	_text + 0x3a0e00
 	PTR	_text + 0x3a0e20
 	PTR	_text + 0x3a0e40
 	PTR	_text + 0x3a0e60
 	PTR	_text + 0x3a0e80
 	PTR	_text + 0x3a0ea0
-	PTR	_text + 0x3a0ec0
-	PTR	_text + 0x3a0ed6
-	PTR	_text + 0x3a0ef0
-	PTR	_text + 0x3a0f01
-	PTR	_text + 0x3a0f0c
-	PTR	_text + 0x3a0f17
-	PTR	_text + 0x3a0f23
+	PTR	_text + 0x3a0eb6
+	PTR	_text + 0x3a0ed0
+	PTR	_text + 0x3a0ee1
+	PTR	_text + 0x3a0eec
+	PTR	_text + 0x3a0ef7
+	PTR	_text + 0x3a0f03
+	PTR	_text + 0x3a0f10
 	PTR	_text + 0x3a0f30
 	PTR	_text + 0x3a0f50
 	PTR	_text + 0x3a0f70
-	PTR	_text + 0x3a0f90
-	PTR	_text + 0x3a0fa6
-	PTR	_text + 0x3a0fb5
-	PTR	_text + 0x3a0fd0
+	PTR	_text + 0x3a0f86
+	PTR	_text + 0x3a0f95
+	PTR	_text + 0x3a0fb0
+	PTR	_text + 0x3a0fc0
 	PTR	_text + 0x3a0fe0
 	PTR	_text + 0x3a1000
-	PTR	_text + 0x3a1020
+	PTR	_text + 0x3a1010
 	PTR	_text + 0x3a1030
 	PTR	_text + 0x3a1050
-	PTR	_text + 0x3a1070
-	PTR	_text + 0x3a1082
-	PTR	_text + 0x3a108e
-	PTR	_text + 0x3a1099
-	PTR	_text + 0x3a10a4
-	PTR	_text + 0x3a10b2
+	PTR	_text + 0x3a1062
+	PTR	_text + 0x3a106e
+	PTR	_text + 0x3a1079
+	PTR	_text + 0x3a1084
+	PTR	_text + 0x3a1092
+	PTR	_text + 0x3a10a0
+	PTR	_text + 0x3a10b0
 	PTR	_text + 0x3a10c0
 	PTR	_text + 0x3a10d0
-	PTR	_text + 0x3a10e0
+	PTR	_text + 0x3a10df
 	PTR	_text + 0x3a10f0
-	PTR	_text + 0x3a10ff
 	PTR	_text + 0x3a1110
 	PTR	_text + 0x3a1130
+	PTR	_text + 0x3a1140
 	PTR	_text + 0x3a1150
-	PTR	_text + 0x3a1160
 	PTR	_text + 0x3a1170
 	PTR	_text + 0x3a1190
 	PTR	_text + 0x3a11b0
-	PTR	_text + 0x3a11d0
-	PTR	_text + 0x3a11e7
+	PTR	_text + 0x3a11c7
+	PTR	_text + 0x3a11e0
 	PTR	_text + 0x3a1200
+	PTR	_text + 0x3a1210
 	PTR	_text + 0x3a1220
-	PTR	_text + 0x3a1230
 	PTR	_text + 0x3a1240
 	PTR	_text + 0x3a1260
-	PTR	_text + 0x3a1280
-	PTR	_text + 0x3a1293
+	PTR	_text + 0x3a1273
+	PTR	_text + 0x3a1290
 	PTR	_text + 0x3a12b0
-	PTR	_text + 0x3a12d0
+	PTR	_text + 0x3a12c0
 	PTR	_text + 0x3a12e0
 	PTR	_text + 0x3a1300
-	PTR	_text + 0x3a1320
+	PTR	_text + 0x3a1310
 	PTR	_text + 0x3a1330
 	PTR	_text + 0x3a1350
 	PTR	_text + 0x3a1370
+	PTR	_text + 0x3a1380
 	PTR	_text + 0x3a1390
-	PTR	_text + 0x3a13a0
-	PTR	_text + 0x3a13b0
-	PTR	_text + 0x3a13c4
+	PTR	_text + 0x3a13a4
+	PTR	_text + 0x3a13c0
 	PTR	_text + 0x3a13e0
-	PTR	_text + 0x3a1400
+	PTR	_text + 0x3a13f0
+	PTR	_text + 0x3a1402
 	PTR	_text + 0x3a1410
-	PTR	_text + 0x3a1422
-	PTR	_text + 0x3a1430
-	PTR	_text + 0x3a143e
-	PTR	_text + 0x3a144d
-	PTR	_text + 0x3a1460
+	PTR	_text + 0x3a141e
+	PTR	_text + 0x3a142d
+	PTR	_text + 0x3a1440
+	PTR	_text + 0x3a1450
 	PTR	_text + 0x3a1470
 	PTR	_text + 0x3a1490
+	PTR	_text + 0x3a14a0
 	PTR	_text + 0x3a14b0
-	PTR	_text + 0x3a14c0
+	PTR	_text + 0x3a14c1
 	PTR	_text + 0x3a14d0
-	PTR	_text + 0x3a14e1
 	PTR	_text + 0x3a14f0
 	PTR	_text + 0x3a1510
 	PTR	_text + 0x3a1530
 	PTR	_text + 0x3a1550
 	PTR	_text + 0x3a1570
 	PTR	_text + 0x3a1590
-	PTR	_text + 0x3a15b0
-	PTR	_text + 0x3a15c4
-	PTR	_text + 0x3a15e0
-	PTR	_text + 0x3a15f4
+	PTR	_text + 0x3a15a4
+	PTR	_text + 0x3a15c0
+	PTR	_text + 0x3a15d4
+	PTR	_text + 0x3a15f0
 	PTR	_text + 0x3a1610
 	PTR	_text + 0x3a1630
 	PTR	_text + 0x3a1650
@@ -16625,109 +16626,109 @@ kallsyms_addresses:
 	PTR	_text + 0x3a17b0
 	PTR	_text + 0x3a17d0
 	PTR	_text + 0x3a17f0
-	PTR	_text + 0x3a1810
-	PTR	_text + 0x3a1829
+	PTR	_text + 0x3a1809
+	PTR	_text + 0x3a1820
+	PTR	_text + 0x3a1830
 	PTR	_text + 0x3a1840
-	PTR	_text + 0x3a1850
 	PTR	_text + 0x3a1860
-	PTR	_text + 0x3a1880
-	PTR	_text + 0x3a1895
-	PTR	_text + 0x3a18a4
+	PTR	_text + 0x3a1875
+	PTR	_text + 0x3a1884
+	PTR	_text + 0x3a1890
+	PTR	_text + 0x3a189e
+	PTR	_text + 0x3a18a7
 	PTR	_text + 0x3a18b0
-	PTR	_text + 0x3a18be
-	PTR	_text + 0x3a18c7
+	PTR	_text + 0x3a18c0
 	PTR	_text + 0x3a18d0
-	PTR	_text + 0x3a18e0
-	PTR	_text + 0x3a18f0
-	PTR	_text + 0x3a190a
-	PTR	_text + 0x3a1916
+	PTR	_text + 0x3a18ea
+	PTR	_text + 0x3a18f6
+	PTR	_text + 0x3a1900
 	PTR	_text + 0x3a1920
 	PTR	_text + 0x3a1940
 	PTR	_text + 0x3a1960
-	PTR	_text + 0x3a1980
+	PTR	_text + 0x3a1970
+	PTR	_text + 0x3a197f
 	PTR	_text + 0x3a1990
-	PTR	_text + 0x3a199f
 	PTR	_text + 0x3a19b0
 	PTR	_text + 0x3a19d0
-	PTR	_text + 0x3a19f0
-	PTR	_text + 0x3a1a01
-	PTR	_text + 0x3a1a0c
-	PTR	_text + 0x3a1a20
-	PTR	_text + 0x3a1a30
-	PTR	_text + 0x3a1a3a
-	PTR	_text + 0x3a1a41
-	PTR	_text + 0x3a1a45
-	PTR	_text + 0x3a1a53
+	PTR	_text + 0x3a19e1
+	PTR	_text + 0x3a19ec
+	PTR	_text + 0x3a1a00
+	PTR	_text + 0x3a1a10
+	PTR	_text + 0x3a1a1a
+	PTR	_text + 0x3a1a21
+	PTR	_text + 0x3a1a25
+	PTR	_text + 0x3a1a33
+	PTR	_text + 0x3a1a40
+	PTR	_text + 0x3a1a4a
 	PTR	_text + 0x3a1a60
-	PTR	_text + 0x3a1a6a
 	PTR	_text + 0x3a1a80
 	PTR	_text + 0x3a1aa0
 	PTR	_text + 0x3a1ac0
+	PTR	_text + 0x3a1ad1
 	PTR	_text + 0x3a1ae0
-	PTR	_text + 0x3a1af1
-	PTR	_text + 0x3a1b00
-	PTR	_text + 0x3a1b14
+	PTR	_text + 0x3a1af4
+	PTR	_text + 0x3a1b01
+	PTR	_text + 0x3a1b10
 	PTR	_text + 0x3a1b21
 	PTR	_text + 0x3a1b30
-	PTR	_text + 0x3a1b41
 	PTR	_text + 0x3a1b50
 	PTR	_text + 0x3a1b70
 	PTR	_text + 0x3a1b90
+	PTR	_text + 0x3a1ba0
 	PTR	_text + 0x3a1bb0
-	PTR	_text + 0x3a1bc0
 	PTR	_text + 0x3a1bd0
 	PTR	_text + 0x3a1bf0
-	PTR	_text + 0x3a1c10
-	PTR	_text + 0x3a1c22
+	PTR	_text + 0x3a1c02
+	PTR	_text + 0x3a1c20
 	PTR	_text + 0x3a1c40
+	PTR	_text + 0x3a1c50
 	PTR	_text + 0x3a1c60
-	PTR	_text + 0x3a1c70
 	PTR	_text + 0x3a1c80
-	PTR	_text + 0x3a1ca0
-	PTR	_text + 0x3a1cb0
-	PTR	_text + 0x3a1cbd
-	PTR	_text + 0x3a1cc9
+	PTR	_text + 0x3a1c90
+	PTR	_text + 0x3a1c9d
+	PTR	_text + 0x3a1ca9
+	PTR	_text + 0x3a1cc0
 	PTR	_text + 0x3a1ce0
 	PTR	_text + 0x3a1d00
-	PTR	_text + 0x3a1d20
-	PTR	_text + 0x3a1d34
-	PTR	_text + 0x3a1d43
-	PTR	_text + 0x3a1d51
+	PTR	_text + 0x3a1d14
+	PTR	_text + 0x3a1d23
+	PTR	_text + 0x3a1d31
+	PTR	_text + 0x3a1d40
+	PTR	_text + 0x3a1d4c
+	PTR	_text + 0x3a1d57
 	PTR	_text + 0x3a1d60
-	PTR	_text + 0x3a1d6c
-	PTR	_text + 0x3a1d77
-	PTR	_text + 0x3a1d80
+	PTR	_text + 0x3a1d70
 	PTR	_text + 0x3a1d90
-	PTR	_text + 0x3a1db0
-	PTR	_text + 0x3a1db9
+	PTR	_text + 0x3a1d99
+	PTR	_text + 0x3a1da5
+	PTR	_text + 0x3a1dae
+	PTR	_text + 0x3a1dba
 	PTR	_text + 0x3a1dc5
-	PTR	_text + 0x3a1dce
-	PTR	_text + 0x3a1dda
-	PTR	_text + 0x3a1de5
-	PTR	_text + 0x3a1e00
-	PTR	_text + 0x3a1e12
-	PTR	_text + 0x3a1e1e
+	PTR	_text + 0x3a1de0
+	PTR	_text + 0x3a1df2
+	PTR	_text + 0x3a1dfe
+	PTR	_text + 0x3a1e10
 	PTR	_text + 0x3a1e30
 	PTR	_text + 0x3a1e50
 	PTR	_text + 0x3a1e70
 	PTR	_text + 0x3a1e90
-	PTR	_text + 0x3a1eb0
-	PTR	_text + 0x3a1ec0
-	PTR	_text + 0x3a1ece
-	PTR	_text + 0x3a1eda
-	PTR	_text + 0x3a1ee6
-	PTR	_text + 0x3a1ef2
+	PTR	_text + 0x3a1ea0
+	PTR	_text + 0x3a1eae
+	PTR	_text + 0x3a1eba
+	PTR	_text + 0x3a1ec6
+	PTR	_text + 0x3a1ed2
+	PTR	_text + 0x3a1ee0
 	PTR	_text + 0x3a1f00
+	PTR	_text + 0x3a1f11
 	PTR	_text + 0x3a1f20
-	PTR	_text + 0x3a1f31
 	PTR	_text + 0x3a1f40
 	PTR	_text + 0x3a1f60
+	PTR	_text + 0x3a1f6f
 	PTR	_text + 0x3a1f80
-	PTR	_text + 0x3a1f8f
-	PTR	_text + 0x3a1fa0
-	PTR	_text + 0x3a1fb3
-	PTR	_text + 0x3a1fbc
-	PTR	_text + 0x3a1fc5
+	PTR	_text + 0x3a1f93
+	PTR	_text + 0x3a1f9c
+	PTR	_text + 0x3a1fa5
+	PTR	_text + 0x3a1fb0
 	PTR	_text + 0x3a1fd0
 	PTR	_text + 0x3a1ff0
 	PTR	_text + 0x3a2010
@@ -16737,153 +16738,153 @@ kallsyms_addresses:
 	PTR	_text + 0x3a2090
 	PTR	_text + 0x3a20b0
 	PTR	_text + 0x3a20d0
+	PTR	_text + 0x3a20e0
+	PTR	_text + 0x3a20e8
 	PTR	_text + 0x3a20f0
-	PTR	_text + 0x3a2100
-	PTR	_text + 0x3a2108
+	PTR	_text + 0x3a20f8
+	PTR	_text + 0x3a2101
 	PTR	_text + 0x3a2110
-	PTR	_text + 0x3a2118
-	PTR	_text + 0x3a2121
-	PTR	_text + 0x3a2130
-	PTR	_text + 0x3a2140
-	PTR	_text + 0x3a2152
-	PTR	_text + 0x3a215d
-	PTR	_text + 0x3a2170
-	PTR	_text + 0x3a2185
+	PTR	_text + 0x3a2120
+	PTR	_text + 0x3a2132
+	PTR	_text + 0x3a213d
+	PTR	_text + 0x3a2150
+	PTR	_text + 0x3a2165
+	PTR	_text + 0x3a2180
 	PTR	_text + 0x3a21a0
+	PTR	_text + 0x3a21b4
 	PTR	_text + 0x3a21c0
+	PTR	_text + 0x3a21cd
 	PTR	_text + 0x3a21d4
-	PTR	_text + 0x3a21e0
-	PTR	_text + 0x3a21ed
-	PTR	_text + 0x3a21f4
-	PTR	_text + 0x3a21fb
-	PTR	_text + 0x3a2203
-	PTR	_text + 0x3a220a
-	PTR	_text + 0x3a2211
-	PTR	_text + 0x3a2219
-	PTR	_text + 0x3a2221
+	PTR	_text + 0x3a21db
+	PTR	_text + 0x3a21e3
+	PTR	_text + 0x3a21ea
+	PTR	_text + 0x3a21f1
+	PTR	_text + 0x3a21f9
+	PTR	_text + 0x3a2201
+	PTR	_text + 0x3a2208
+	PTR	_text + 0x3a2210
+	PTR	_text + 0x3a2217
+	PTR	_text + 0x3a2220
 	PTR	_text + 0x3a2228
 	PTR	_text + 0x3a2230
 	PTR	_text + 0x3a2237
-	PTR	_text + 0x3a2240
-	PTR	_text + 0x3a2248
-	PTR	_text + 0x3a2250
-	PTR	_text + 0x3a2257
-	PTR	_text + 0x3a225f
-	PTR	_text + 0x3a2266
-	PTR	_text + 0x3a226e
-	PTR	_text + 0x3a2276
-	PTR	_text + 0x3a227d
-	PTR	_text + 0x3a2285
-	PTR	_text + 0x3a228d
-	PTR	_text + 0x3a2294
+	PTR	_text + 0x3a223f
+	PTR	_text + 0x3a2246
+	PTR	_text + 0x3a224e
+	PTR	_text + 0x3a2256
+	PTR	_text + 0x3a225d
+	PTR	_text + 0x3a2265
+	PTR	_text + 0x3a226d
+	PTR	_text + 0x3a2274
+	PTR	_text + 0x3a2280
+	PTR	_text + 0x3a228b
 	PTR	_text + 0x3a22a0
-	PTR	_text + 0x3a22ab
-	PTR	_text + 0x3a22c0
-	PTR	_text + 0x3a22ca
+	PTR	_text + 0x3a22aa
+	PTR	_text + 0x3a22b5
+	PTR	_text + 0x3a22bc
+	PTR	_text + 0x3a22c4
+	PTR	_text + 0x3a22cc
 	PTR	_text + 0x3a22d5
-	PTR	_text + 0x3a22dc
-	PTR	_text + 0x3a22e4
-	PTR	_text + 0x3a22ec
-	PTR	_text + 0x3a22f5
-	PTR	_text + 0x3a22ff
-	PTR	_text + 0x3a2308
-	PTR	_text + 0x3a2313
-	PTR	_text + 0x3a2320
+	PTR	_text + 0x3a22df
+	PTR	_text + 0x3a22e8
+	PTR	_text + 0x3a22f3
+	PTR	_text + 0x3a2300
+	PTR	_text + 0x3a2310
+	PTR	_text + 0x3a231e
 	PTR	_text + 0x3a2330
-	PTR	_text + 0x3a233e
 	PTR	_text + 0x3a2350
-	PTR	_text + 0x3a2370
-	PTR	_text + 0x3a2384
-	PTR	_text + 0x3a2393
-	PTR	_text + 0x3a23b0
-	PTR	_text + 0x3a23c6
+	PTR	_text + 0x3a2364
+	PTR	_text + 0x3a2373
+	PTR	_text + 0x3a2390
+	PTR	_text + 0x3a23a6
+	PTR	_text + 0x3a23af
+	PTR	_text + 0x3a23b8
+	PTR	_text + 0x3a23c7
 	PTR	_text + 0x3a23cf
-	PTR	_text + 0x3a23d8
-	PTR	_text + 0x3a23e7
-	PTR	_text + 0x3a23ef
-	PTR	_text + 0x3a2400
-	PTR	_text + 0x3a240d
-	PTR	_text + 0x3a2419
-	PTR	_text + 0x3a2426
-	PTR	_text + 0x3a2435
-	PTR	_text + 0x3a2440
+	PTR	_text + 0x3a23e0
+	PTR	_text + 0x3a23ed
+	PTR	_text + 0x3a23f9
+	PTR	_text + 0x3a2406
+	PTR	_text + 0x3a2415
+	PTR	_text + 0x3a2420
+	PTR	_text + 0x3a2430
 	PTR	_text + 0x3a2450
-	PTR	_text + 0x3a2470
-	PTR	_text + 0x3a24a0
-	PTR	_text + 0x3a24a5
-	PTR	_text + 0x3a24b2
+	PTR	_text + 0x3a2480
+	PTR	_text + 0x3a2485
+	PTR	_text + 0x3a2492
+	PTR	_text + 0x3a249f
+	PTR	_text + 0x3a24a9
+	PTR	_text + 0x3a24b5
 	PTR	_text + 0x3a24bf
-	PTR	_text + 0x3a24c9
-	PTR	_text + 0x3a24d5
-	PTR	_text + 0x3a24df
-	PTR	_text + 0x3a24f0
-	PTR	_text + 0x3a2503
-	PTR	_text + 0x3a250d
-	PTR	_text + 0x3a2520
-	PTR	_text + 0x3a2535
-	PTR	_text + 0x3a2550
-	PTR	_text + 0x3a2563
-	PTR	_text + 0x3a256f
-	PTR	_text + 0x3a2579
-	PTR	_text + 0x3a2586
-	PTR	_text + 0x3a2591
-	PTR	_text + 0x3a259f
-	PTR	_text + 0x3a25ad
-	PTR	_text + 0x3a25ba
-	PTR	_text + 0x3a25c7
-	PTR	_text + 0x3a25d4
-	PTR	_text + 0x3a25e0
+	PTR	_text + 0x3a24d0
+	PTR	_text + 0x3a24e3
+	PTR	_text + 0x3a24ed
+	PTR	_text + 0x3a2500
+	PTR	_text + 0x3a2515
+	PTR	_text + 0x3a2530
+	PTR	_text + 0x3a2543
+	PTR	_text + 0x3a254f
+	PTR	_text + 0x3a2559
+	PTR	_text + 0x3a2566
+	PTR	_text + 0x3a2571
+	PTR	_text + 0x3a257f
+	PTR	_text + 0x3a258d
+	PTR	_text + 0x3a259a
+	PTR	_text + 0x3a25a7
+	PTR	_text + 0x3a25b4
+	PTR	_text + 0x3a25c0
+	PTR	_text + 0x3a25cc
+	PTR	_text + 0x3a25d6
+	PTR	_text + 0x3a25e2
 	PTR	_text + 0x3a25ec
-	PTR	_text + 0x3a25f6
-	PTR	_text + 0x3a2602
-	PTR	_text + 0x3a260c
-	PTR	_text + 0x3a2615
-	PTR	_text + 0x3a2620
-	PTR	_text + 0x3a2629
-	PTR	_text + 0x3a2634
-	PTR	_text + 0x3a263d
+	PTR	_text + 0x3a25f5
+	PTR	_text + 0x3a2600
+	PTR	_text + 0x3a2609
+	PTR	_text + 0x3a2614
+	PTR	_text + 0x3a261d
+	PTR	_text + 0x3a2630
 	PTR	_text + 0x3a2650
 	PTR	_text + 0x3a2670
 	PTR	_text + 0x3a2690
+	PTR	_text + 0x3a26a3
 	PTR	_text + 0x3a26b0
-	PTR	_text + 0x3a26c3
-	PTR	_text + 0x3a26d0
+	PTR	_text + 0x3a26c0
 	PTR	_text + 0x3a26e0
 	PTR	_text + 0x3a2700
+	PTR	_text + 0x3a2710
 	PTR	_text + 0x3a2720
-	PTR	_text + 0x3a2730
-	PTR	_text + 0x3a2740
-	PTR	_text + 0x3a2755
-	PTR	_text + 0x3a2770
-	PTR	_text + 0x3a2780
-	PTR	_text + 0x3a2791
-	PTR	_text + 0x3a279b
-	PTR	_text + 0x3a27a4
-	PTR	_text + 0x3a27ae
-	PTR	_text + 0x3a27b8
-	PTR	_text + 0x3a27c1
-	PTR	_text + 0x3a27ca
-	PTR	_text + 0x3a27d5
-	PTR	_text + 0x3a27de
-	PTR	_text + 0x3a27ed
-	PTR	_text + 0x3a27f6
+	PTR	_text + 0x3a2735
+	PTR	_text + 0x3a2750
+	PTR	_text + 0x3a2760
+	PTR	_text + 0x3a2771
+	PTR	_text + 0x3a277b
+	PTR	_text + 0x3a2784
+	PTR	_text + 0x3a278e
+	PTR	_text + 0x3a2798
+	PTR	_text + 0x3a27a1
+	PTR	_text + 0x3a27aa
+	PTR	_text + 0x3a27b5
+	PTR	_text + 0x3a27be
+	PTR	_text + 0x3a27cd
+	PTR	_text + 0x3a27d6
+	PTR	_text + 0x3a27e0
 	PTR	_text + 0x3a2800
 	PTR	_text + 0x3a2820
 	PTR	_text + 0x3a2840
 	PTR	_text + 0x3a2860
 	PTR	_text + 0x3a2880
 	PTR	_text + 0x3a28a0
-	PTR	_text + 0x3a28c0
-	PTR	_text + 0x3a2900
+	PTR	_text + 0x3a28e0
+	PTR	_text + 0x3a2910
 	PTR	_text + 0x3a2930
 	PTR	_text + 0x3a2950
+	PTR	_text + 0x3a2961
 	PTR	_text + 0x3a2970
-	PTR	_text + 0x3a2981
 	PTR	_text + 0x3a2990
 	PTR	_text + 0x3a29b0
+	PTR	_text + 0x3a29c0
 	PTR	_text + 0x3a29d0
 	PTR	_text + 0x3a29e0
-	PTR	_text + 0x3a29f0
 	PTR	_text + 0x3a2a00
 	PTR	_text + 0x3a2a20
 	PTR	_text + 0x3a2a40
@@ -16895,36 +16896,36 @@ kallsyms_addresses:
 	PTR	_text + 0x3a2b00
 	PTR	_text + 0x3a2b20
 	PTR	_text + 0x3a2b40
-	PTR	_text + 0x3a2b60
-	PTR	_text + 0x3a2b77
+	PTR	_text + 0x3a2b57
+	PTR	_text + 0x3a2b70
 	PTR	_text + 0x3a2b90
 	PTR	_text + 0x3a2bb0
+	PTR	_text + 0x3a2bc0
 	PTR	_text + 0x3a2bd0
 	PTR	_text + 0x3a2be0
 	PTR	_text + 0x3a2bf0
-	PTR	_text + 0x3a2c00
-	PTR	_text + 0x3a2c10
-	PTR	_text + 0x3a2c26
-	PTR	_text + 0x3a2c35
-	PTR	_text + 0x3a2c43
+	PTR	_text + 0x3a2c06
+	PTR	_text + 0x3a2c15
+	PTR	_text + 0x3a2c23
+	PTR	_text + 0x3a2c40
 	PTR	_text + 0x3a2c60
 	PTR	_text + 0x3a2c80
-	PTR	_text + 0x3a2ca0
-	PTR	_text + 0x3a2cb6
+	PTR	_text + 0x3a2c96
+	PTR	_text + 0x3a2cb0
 	PTR	_text + 0x3a2cd0
-	PTR	_text + 0x3a2cf0
-	PTR	_text + 0x3a2d00
-	PTR	_text + 0x3a2d12
+	PTR	_text + 0x3a2ce0
+	PTR	_text + 0x3a2cf2
+	PTR	_text + 0x3a2d10
 	PTR	_text + 0x3a2d30
-	PTR	_text + 0x3a2d50
+	PTR	_text + 0x3a2d40
 	PTR	_text + 0x3a2d60
 	PTR	_text + 0x3a2d80
 	PTR	_text + 0x3a2da0
-	PTR	_text + 0x3a2dc0
-	PTR	_text + 0x3a2dd1
-	PTR	_text + 0x3a2dda
-	PTR	_text + 0x3a2de8
-	PTR	_text + 0x3a2df4
+	PTR	_text + 0x3a2db1
+	PTR	_text + 0x3a2dba
+	PTR	_text + 0x3a2dc8
+	PTR	_text + 0x3a2dd4
+	PTR	_text + 0x3a2df0
 	PTR	_text + 0x3a2e10
 	PTR	_text + 0x3a2e30
 	PTR	_text + 0x3a2e50
@@ -16934,7 +16935,7 @@ kallsyms_addresses:
 	PTR	_text + 0x3a2ed0
 	PTR	_text + 0x3a2ef0
 	PTR	_text + 0x3a2f10
-	PTR	_text + 0x3a2f30
+	PTR	_text + 0x3a2f20
 	PTR	_text + 0x3a2f40
 	PTR	_text + 0x3a2f60
 	PTR	_text + 0x3a2f80
@@ -16945,40 +16946,40 @@ kallsyms_addresses:
 	PTR	_text + 0x3a3020
 	PTR	_text + 0x3a3040
 	PTR	_text + 0x3a3060
+	PTR	_text + 0x3a3071
 	PTR	_text + 0x3a3080
-	PTR	_text + 0x3a3091
 	PTR	_text + 0x3a30a0
 	PTR	_text + 0x3a30c0
-	PTR	_text + 0x3a30e0
-	PTR	_text + 0x3a30ec
-	PTR	_text + 0x3a30f8
-	PTR	_text + 0x3a3105
+	PTR	_text + 0x3a30cc
+	PTR	_text + 0x3a30d8
+	PTR	_text + 0x3a30e5
+	PTR	_text + 0x3a3100
 	PTR	_text + 0x3a3120
 	PTR	_text + 0x3a3140
+	PTR	_text + 0x3a3151
 	PTR	_text + 0x3a3160
-	PTR	_text + 0x3a3171
-	PTR	_text + 0x3a3180
-	PTR	_text + 0x3a3190
-	PTR	_text + 0x3a31a5
-	PTR	_text + 0x3a31b2
-	PTR	_text + 0x3a31d0
-	PTR	_text + 0x3a31e7
-	PTR	_text + 0x3a3200
-	PTR	_text + 0x3a3212
-	PTR	_text + 0x3a321f
-	PTR	_text + 0x3a3230
+	PTR	_text + 0x3a3170
+	PTR	_text + 0x3a3185
+	PTR	_text + 0x3a3192
+	PTR	_text + 0x3a31b0
+	PTR	_text + 0x3a31c7
+	PTR	_text + 0x3a31e0
+	PTR	_text + 0x3a31f2
+	PTR	_text + 0x3a31ff
+	PTR	_text + 0x3a3210
+	PTR	_text + 0x3a3220
 	PTR	_text + 0x3a3240
-	PTR	_text + 0x3a3260
+	PTR	_text + 0x3a3250
+	PTR	_text + 0x3a325f
 	PTR	_text + 0x3a3270
-	PTR	_text + 0x3a327f
+	PTR	_text + 0x3a3281
 	PTR	_text + 0x3a3290
-	PTR	_text + 0x3a32a1
 	PTR	_text + 0x3a32b0
 	PTR	_text + 0x3a32d0
 	PTR	_text + 0x3a32f0
+	PTR	_text + 0x3a32ff
 	PTR	_text + 0x3a3310
-	PTR	_text + 0x3a331f
-	PTR	_text + 0x3a3330
+	PTR	_text + 0x3a3320
 	PTR	_text + 0x3a3340
 	PTR	_text + 0x3a3360
 	PTR	_text + 0x3a3380
@@ -16987,36 +16988,36 @@ kallsyms_addresses:
 	PTR	_text + 0x3a33e0
 	PTR	_text + 0x3a3400
 	PTR	_text + 0x3a3420
+	PTR	_text + 0x3a3430
 	PTR	_text + 0x3a3440
-	PTR	_text + 0x3a3450
 	PTR	_text + 0x3a3460
 	PTR	_text + 0x3a3480
 	PTR	_text + 0x3a34a0
 	PTR	_text + 0x3a34c0
 	PTR	_text + 0x3a34e0
-	PTR	_text + 0x3a3500
+	PTR	_text + 0x3a34f0
 	PTR	_text + 0x3a3510
 	PTR	_text + 0x3a3530
-	PTR	_text + 0x3a3550
-	PTR	_text + 0x3a3568
-	PTR	_text + 0x3a3578
+	PTR	_text + 0x3a3548
+	PTR	_text + 0x3a3558
+	PTR	_text + 0x3a3570
 	PTR	_text + 0x3a3590
-	PTR	_text + 0x3a35b0
-	PTR	_text + 0x3a35c8
+	PTR	_text + 0x3a35a8
+	PTR	_text + 0x3a35c0
 	PTR	_text + 0x3a35e0
 	PTR	_text + 0x3a3600
 	PTR	_text + 0x3a3620
 	PTR	_text + 0x3a3640
-	PTR	_text + 0x3a3660
-	PTR	_text + 0x3a3678
+	PTR	_text + 0x3a3658
+	PTR	_text + 0x3a3670
 	PTR	_text + 0x3a3690
 	PTR	_text + 0x3a36b0
 	PTR	_text + 0x3a36d0
-	PTR	_text + 0x3a36f0
+	PTR	_text + 0x3a36e0
 	PTR	_text + 0x3a3700
-	PTR	_text + 0x3a3720
-	PTR	_text + 0x3a3738
-	PTR	_text + 0x3a3748
+	PTR	_text + 0x3a3718
+	PTR	_text + 0x3a3728
+	PTR	_text + 0x3a3740
 	PTR	_text + 0x3a3760
 	PTR	_text + 0x3a3780
 	PTR	_text + 0x3a37a0
@@ -17024,9 +17025,9 @@ kallsyms_addresses:
 	PTR	_text + 0x3a37e0
 	PTR	_text + 0x3a3800
 	PTR	_text + 0x3a3820
-	PTR	_text + 0x3a3840
-	PTR	_text + 0x3a3870
-	PTR	_text + 0x3a38a0
+	PTR	_text + 0x3a3850
+	PTR	_text + 0x3a3880
+	PTR	_text + 0x3a38b0
 	PTR	_text + 0x3a38d0
 	PTR	_text + 0x3a38f0
 	PTR	_text + 0x3a3910
@@ -17035,19 +17036,19 @@ kallsyms_addresses:
 	PTR	_text + 0x3a3970
 	PTR	_text + 0x3a3990
 	PTR	_text + 0x3a39b0
-	PTR	_text + 0x3a39d0
+	PTR	_text + 0x3a39c0
 	PTR	_text + 0x3a39e0
 	PTR	_text + 0x3a3a00
 	PTR	_text + 0x3a3a20
 	PTR	_text + 0x3a3a40
 	PTR	_text + 0x3a3a60
-	PTR	_text + 0x3a3a80
-	PTR	_text + 0x3a3a98
-	PTR	_text + 0x3a3ab0
+	PTR	_text + 0x3a3a78
+	PTR	_text + 0x3a3a90
+	PTR	_text + 0x3a3aa0
 	PTR	_text + 0x3a3ac0
+	PTR	_text + 0x3a3ad0
 	PTR	_text + 0x3a3ae0
 	PTR	_text + 0x3a3af0
-	PTR	_text + 0x3a3b00
 	PTR	_text + 0x3a3b10
 	PTR	_text + 0x3a3b30
 	PTR	_text + 0x3a3b50
@@ -17056,49 +17057,49 @@ kallsyms_addresses:
 	PTR	_text + 0x3a3bb0
 	PTR	_text + 0x3a3bd0
 	PTR	_text + 0x3a3bf0
-	PTR	_text + 0x3a3c10
-	PTR	_text + 0x3a3c28
+	PTR	_text + 0x3a3c08
+	PTR	_text + 0x3a3c20
 	PTR	_text + 0x3a3c40
 	PTR	_text + 0x3a3c60
-	PTR	_text + 0x3a3c80
+	PTR	_text + 0x3a3c70
 	PTR	_text + 0x3a3c90
 	PTR	_text + 0x3a3cb0
-	PTR	_text + 0x3a3cd0
+	PTR	_text + 0x3a3cc0
 	PTR	_text + 0x3a3ce0
 	PTR	_text + 0x3a3d00
+	PTR	_text + 0x3a3d10
 	PTR	_text + 0x3a3d20
 	PTR	_text + 0x3a3d30
-	PTR	_text + 0x3a3d40
-	PTR	_text + 0x3a3d50
-	PTR	_text + 0x3a3d68
+	PTR	_text + 0x3a3d48
+	PTR	_text + 0x3a3d60
 	PTR	_text + 0x3a3d80
 	PTR	_text + 0x3a3da0
 	PTR	_text + 0x3a3dc0
 	PTR	_text + 0x3a3de0
 	PTR	_text + 0x3a3e00
-	PTR	_text + 0x3a3e20
-	PTR	_text + 0x3a3e38
+	PTR	_text + 0x3a3e18
+	PTR	_text + 0x3a3e30
 	PTR	_text + 0x3a3e50
-	PTR	_text + 0x3a3e70
+	PTR	_text + 0x3a3e60
 	PTR	_text + 0x3a3e80
 	PTR	_text + 0x3a3ea0
+	PTR	_text + 0x3a3eb0
 	PTR	_text + 0x3a3ec0
 	PTR	_text + 0x3a3ed0
-	PTR	_text + 0x3a3ee0
 	PTR	_text + 0x3a3ef0
 	PTR	_text + 0x3a3f10
 	PTR	_text + 0x3a3f30
+	PTR	_text + 0x3a3f40
 	PTR	_text + 0x3a3f50
 	PTR	_text + 0x3a3f60
-	PTR	_text + 0x3a3f70
 	PTR	_text + 0x3a3f80
-	PTR	_text + 0x3a3fa0
+	PTR	_text + 0x3a3f90
 	PTR	_text + 0x3a3fb0
 	PTR	_text + 0x3a3fd0
 	PTR	_text + 0x3a3ff0
 	PTR	_text + 0x3a4010
-	PTR	_text + 0x3a4030
-	PTR	_text + 0x3a4040
+	PTR	_text + 0x3a4020
+	PTR	_text + 0x3a4050
 	PTR	_text + 0x3a4070
 	PTR	_text + 0x3a4090
 	PTR	_text + 0x3a40b0
@@ -17114,41 +17115,41 @@ kallsyms_addresses:
 	PTR	_text + 0x3a41f0
 	PTR	_text + 0x3a4210
 	PTR	_text + 0x3a4230
-	PTR	_text + 0x3a4250
-	PTR	_text + 0x3a4260
-	PTR	_text + 0x3a4271
-	PTR	_text + 0x3a427e
-	PTR	_text + 0x3a4290
-	PTR	_text + 0x3a42a6
+	PTR	_text + 0x3a4240
+	PTR	_text + 0x3a4251
+	PTR	_text + 0x3a425e
+	PTR	_text + 0x3a4270
+	PTR	_text + 0x3a4286
+	PTR	_text + 0x3a42a0
 	PTR	_text + 0x3a42c0
 	PTR	_text + 0x3a42e0
 	PTR	_text + 0x3a4300
 	PTR	_text + 0x3a4320
-	PTR	_text + 0x3a4340
+	PTR	_text + 0x3a4330
+	PTR	_text + 0x3a433f
 	PTR	_text + 0x3a4350
-	PTR	_text + 0x3a435f
 	PTR	_text + 0x3a4370
 	PTR	_text + 0x3a4390
-	PTR	_text + 0x3a43b0
-	PTR	_text + 0x3a43c3
+	PTR	_text + 0x3a43a3
+	PTR	_text + 0x3a43c0
 	PTR	_text + 0x3a43e0
 	PTR	_text + 0x3a4400
 	PTR	_text + 0x3a4420
-	PTR	_text + 0x3a4440
-	PTR	_text + 0x3a4455
-	PTR	_text + 0x3a445c
-	PTR	_text + 0x3a4466
-	PTR	_text + 0x3a446f
-	PTR	_text + 0x3a447d
-	PTR	_text + 0x3a4489
+	PTR	_text + 0x3a4435
+	PTR	_text + 0x3a443c
+	PTR	_text + 0x3a4446
+	PTR	_text + 0x3a444f
+	PTR	_text + 0x3a445d
+	PTR	_text + 0x3a4469
+	PTR	_text + 0x3a4480
+	PTR	_text + 0x3a4490
 	PTR	_text + 0x3a44a0
-	PTR	_text + 0x3a44b0
 	PTR	_text + 0x3a44c0
+	PTR	_text + 0x3a44d0
 	PTR	_text + 0x3a44e0
-	PTR	_text + 0x3a44f0
-	PTR	_text + 0x3a4500
-	PTR	_text + 0x3a4513
-	PTR	_text + 0x3a4521
+	PTR	_text + 0x3a44f3
+	PTR	_text + 0x3a4501
+	PTR	_text + 0x3a4510
 	PTR	_text + 0x3a4530
 	PTR	_text + 0x3a4550
 	PTR	_text + 0x3a4570
@@ -17156,53 +17157,53 @@ kallsyms_addresses:
 	PTR	_text + 0x3a45b0
 	PTR	_text + 0x3a45d0
 	PTR	_text + 0x3a45f0
-	PTR	_text + 0x3a4610
-	PTR	_text + 0x3a4628
-	PTR	_text + 0x3a4631
+	PTR	_text + 0x3a4608
+	PTR	_text + 0x3a4611
+	PTR	_text + 0x3a4620
+	PTR	_text + 0x3a4630
 	PTR	_text + 0x3a4640
-	PTR	_text + 0x3a4650
 	PTR	_text + 0x3a4660
 	PTR	_text + 0x3a4680
 	PTR	_text + 0x3a46a0
 	PTR	_text + 0x3a46c0
 	PTR	_text + 0x3a46e0
+	PTR	_text + 0x3a46f0
 	PTR	_text + 0x3a4700
 	PTR	_text + 0x3a4710
-	PTR	_text + 0x3a4720
 	PTR	_text + 0x3a4730
-	PTR	_text + 0x3a4750
+	PTR	_text + 0x3a4740
+	PTR	_text + 0x3a4752
 	PTR	_text + 0x3a4760
-	PTR	_text + 0x3a4772
-	PTR	_text + 0x3a4780
-	PTR	_text + 0x3a4790
-	PTR	_text + 0x3a47a3
-	PTR	_text + 0x3a47ae
-	PTR	_text + 0x3a47bd
-	PTR	_text + 0x3a47c7
-	PTR	_text + 0x3a47d5
-	PTR	_text + 0x3a47e3
-	PTR	_text + 0x3a47ef
-	PTR	_text + 0x3a47fb
-	PTR	_text + 0x3a4807
+	PTR	_text + 0x3a4770
+	PTR	_text + 0x3a4783
+	PTR	_text + 0x3a478e
+	PTR	_text + 0x3a479d
+	PTR	_text + 0x3a47a7
+	PTR	_text + 0x3a47b5
+	PTR	_text + 0x3a47c3
+	PTR	_text + 0x3a47cf
+	PTR	_text + 0x3a47db
+	PTR	_text + 0x3a47e7
+	PTR	_text + 0x3a4800
 	PTR	_text + 0x3a4820
-	PTR	_text + 0x3a4840
+	PTR	_text + 0x3a4830
 	PTR	_text + 0x3a4850
-	PTR	_text + 0x3a4870
-	PTR	_text + 0x3a4884
+	PTR	_text + 0x3a4864
+	PTR	_text + 0x3a4880
 	PTR	_text + 0x3a48a0
+	PTR	_text + 0x3a48b3
 	PTR	_text + 0x3a48c0
-	PTR	_text + 0x3a48d3
-	PTR	_text + 0x3a48e0
-	PTR	_text + 0x3a48f9
-	PTR	_text + 0x3a4910
-	PTR	_text + 0x3a4922
-	PTR	_text + 0x3a4931
+	PTR	_text + 0x3a48d9
+	PTR	_text + 0x3a48f0
+	PTR	_text + 0x3a4902
+	PTR	_text + 0x3a4911
+	PTR	_text + 0x3a4920
 	PTR	_text + 0x3a4940
 	PTR	_text + 0x3a4960
 	PTR	_text + 0x3a4980
-	PTR	_text + 0x3a49a0
+	PTR	_text + 0x3a4990
+	PTR	_text + 0x3a499c
 	PTR	_text + 0x3a49b0
-	PTR	_text + 0x3a49bc
 	PTR	_text + 0x3a49d0
 	PTR	_text + 0x3a49f0
 	PTR	_text + 0x3a4a10
@@ -17210,8 +17211,8 @@ kallsyms_addresses:
 	PTR	_text + 0x3a4a50
 	PTR	_text + 0x3a4a70
 	PTR	_text + 0x3a4a90
+	PTR	_text + 0x3a4aa3
 	PTR	_text + 0x3a4ab0
-	PTR	_text + 0x3a4ac3
 	PTR	_text + 0x3a4ad0
 	PTR	_text + 0x3a4af0
 	PTR	_text + 0x3a4b10
@@ -17222,32 +17223,32 @@ kallsyms_addresses:
 	PTR	_text + 0x3a4bb0
 	PTR	_text + 0x3a4bd0
 	PTR	_text + 0x3a4bf0
-	PTR	_text + 0x3a4c10
+	PTR	_text + 0x3a4c00
 	PTR	_text + 0x3a4c20
 	PTR	_text + 0x3a4c40
 	PTR	_text + 0x3a4c60
+	PTR	_text + 0x3a4c70
 	PTR	_text + 0x3a4c80
 	PTR	_text + 0x3a4c90
-	PTR	_text + 0x3a4ca0
 	PTR	_text + 0x3a4cb0
-	PTR	_text + 0x3a4cd0
+	PTR	_text + 0x3a4cc0
 	PTR	_text + 0x3a4ce0
 	PTR	_text + 0x3a4d00
-	PTR	_text + 0x3a4d20
-	PTR	_text + 0x3a4d35
-	PTR	_text + 0x3a4d50
-	PTR	_text + 0x3a4d80
-	PTR	_text + 0x3a4d8c
-	PTR	_text + 0x3a4d9a
-	PTR	_text + 0x3a4da9
+	PTR	_text + 0x3a4d15
+	PTR	_text + 0x3a4d30
+	PTR	_text + 0x3a4d60
+	PTR	_text + 0x3a4d6c
+	PTR	_text + 0x3a4d7a
+	PTR	_text + 0x3a4d89
+	PTR	_text + 0x3a4da0
 	PTR	_text + 0x3a4dc0
-	PTR	_text + 0x3a4de0
-	PTR	_text + 0x3a4df3
-	PTR	_text + 0x3a4dfe
+	PTR	_text + 0x3a4dd3
+	PTR	_text + 0x3a4dde
+	PTR	_text + 0x3a4df0
+	PTR	_text + 0x3a4e02
 	PTR	_text + 0x3a4e10
-	PTR	_text + 0x3a4e22
+	PTR	_text + 0x3a4e20
 	PTR	_text + 0x3a4e30
-	PTR	_text + 0x3a4e40
 	PTR	_text + 0x3a4e50
 	PTR	_text + 0x3a4e70
 	PTR	_text + 0x3a4e90
@@ -17256,7 +17257,7 @@ kallsyms_addresses:
 	PTR	_text + 0x3a4ef0
 	PTR	_text + 0x3a4f10
 	PTR	_text + 0x3a4f30
-	PTR	_text + 0x3a4f50
+	PTR	_text + 0x3a4f40
 	PTR	_text + 0x3a4f60
 	PTR	_text + 0x3a4f80
 	PTR	_text + 0x3a4fa0
@@ -17265,28 +17266,28 @@ kallsyms_addresses:
 	PTR	_text + 0x3a5000
 	PTR	_text + 0x3a5020
 	PTR	_text + 0x3a5040
+	PTR	_text + 0x3a5050
 	PTR	_text + 0x3a5060
-	PTR	_text + 0x3a5070
-	PTR	_text + 0x3a5080
-	PTR	_text + 0x3a5093
-	PTR	_text + 0x3a50a2
+	PTR	_text + 0x3a5073
+	PTR	_text + 0x3a5082
+	PTR	_text + 0x3a5090
 	PTR	_text + 0x3a50b0
-	PTR	_text + 0x3a50d0
+	PTR	_text + 0x3a50c0
 	PTR	_text + 0x3a50e0
 	PTR	_text + 0x3a5100
-	PTR	_text + 0x3a5120
-	PTR	_text + 0x3a5136
+	PTR	_text + 0x3a5116
+	PTR	_text + 0x3a5130
+	PTR	_text + 0x3a513e
 	PTR	_text + 0x3a5150
-	PTR	_text + 0x3a515e
 	PTR	_text + 0x3a5170
 	PTR	_text + 0x3a5190
 	PTR	_text + 0x3a51b0
-	PTR	_text + 0x3a51d0
-	PTR	_text + 0x3a51e3
-	PTR	_text + 0x3a51ef
-	PTR	_text + 0x3a51fa
+	PTR	_text + 0x3a51c3
+	PTR	_text + 0x3a51cf
+	PTR	_text + 0x3a51da
+	PTR	_text + 0x3a51f0
 	PTR	_text + 0x3a5210
-	PTR	_text + 0x3a5230
+	PTR	_text + 0x3a5220
 	PTR	_text + 0x3a5240
 	PTR	_text + 0x3a5260
 	PTR	_text + 0x3a5280
@@ -17303,11 +17304,11 @@ kallsyms_addresses:
 	PTR	_text + 0x3a53e0
 	PTR	_text + 0x3a5400
 	PTR	_text + 0x3a5420
-	PTR	_text + 0x3a5440
-	PTR	_text + 0x3a5456
-	PTR	_text + 0x3a5464
+	PTR	_text + 0x3a5436
+	PTR	_text + 0x3a5444
+	PTR	_text + 0x3a5460
+	PTR	_text + 0x3a5471
 	PTR	_text + 0x3a5480
-	PTR	_text + 0x3a5491
 	PTR	_text + 0x3a54a0
 	PTR	_text + 0x3a54c0
 	PTR	_text + 0x3a54e0
@@ -17328,29 +17329,29 @@ kallsyms_addresses:
 	PTR	_text + 0x3a56c0
 	PTR	_text + 0x3a56e0
 	PTR	_text + 0x3a5700
-	PTR	_text + 0x3a5720
-	PTR	_text + 0x3a5736
-	PTR	_text + 0x3a5750
+	PTR	_text + 0x3a5716
+	PTR	_text + 0x3a5730
+	PTR	_text + 0x3a5740
 	PTR	_text + 0x3a5760
 	PTR	_text + 0x3a5780
 	PTR	_text + 0x3a57a0
+	PTR	_text + 0x3a57ab
 	PTR	_text + 0x3a57c0
-	PTR	_text + 0x3a57cb
 	PTR	_text + 0x3a57e0
 	PTR	_text + 0x3a5800
 	PTR	_text + 0x3a5820
-	PTR	_text + 0x3a5840
-	PTR	_text + 0x3a5852
-	PTR	_text + 0x3a5861
-	PTR	_text + 0x3a586f
-	PTR	_text + 0x3a587a
-	PTR	_text + 0x3a5886
-	PTR	_text + 0x3a5891
-	PTR	_text + 0x3a589d
-	PTR	_text + 0x3a58c0
+	PTR	_text + 0x3a5832
+	PTR	_text + 0x3a5841
+	PTR	_text + 0x3a584f
+	PTR	_text + 0x3a585a
+	PTR	_text + 0x3a5866
+	PTR	_text + 0x3a5871
+	PTR	_text + 0x3a587d
+	PTR	_text + 0x3a58a0
+	PTR	_text + 0x3a58d0
 	PTR	_text + 0x3a58f0
-	PTR	_text + 0x3a5910
-	PTR	_text + 0x3a5940
+	PTR	_text + 0x3a5920
+	PTR	_text + 0x3a5960
 	PTR	_text + 0x3a5980
 	PTR	_text + 0x3a59a0
 	PTR	_text + 0x3a59c0
@@ -17362,10 +17363,10 @@ kallsyms_addresses:
 	PTR	_text + 0x3a5a80
 	PTR	_text + 0x3a5aa0
 	PTR	_text + 0x3a5ac0
-	PTR	_text + 0x3a5ae0
-	PTR	_text + 0x3a5af2
+	PTR	_text + 0x3a5ad2
+	PTR	_text + 0x3a5af0
+	PTR	_text + 0x3a5b00
 	PTR	_text + 0x3a5b10
-	PTR	_text + 0x3a5b20
 	PTR	_text + 0x3a5b30
 	PTR	_text + 0x3a5b50
 	PTR	_text + 0x3a5b70
@@ -17373,120 +17374,120 @@ kallsyms_addresses:
 	PTR	_text + 0x3a5bb0
 	PTR	_text + 0x3a5bd0
 	PTR	_text + 0x3a5bf0
-	PTR	_text + 0x3a5c10
-	PTR	_text + 0x3a5c21
-	PTR	_text + 0x3a5c2f
+	PTR	_text + 0x3a5c01
+	PTR	_text + 0x3a5c0f
+	PTR	_text + 0x3a5c20
 	PTR	_text + 0x3a5c40
-	PTR	_text + 0x3a5c60
+	PTR	_text + 0x3a5c50
 	PTR	_text + 0x3a5c70
 	PTR	_text + 0x3a5c90
 	PTR	_text + 0x3a5cb0
-	PTR	_text + 0x3a5cd0
-	PTR	_text + 0x3a5ce0
-	PTR	_text + 0x3a5cf2
-	PTR	_text + 0x3a5cfe
-	PTR	_text + 0x3a5d0b
-	PTR	_text + 0x3a5d14
+	PTR	_text + 0x3a5cc0
+	PTR	_text + 0x3a5cd2
+	PTR	_text + 0x3a5cde
+	PTR	_text + 0x3a5ceb
+	PTR	_text + 0x3a5cf4
+	PTR	_text + 0x3a5d00
 	PTR	_text + 0x3a5d20
 	PTR	_text + 0x3a5d40
+	PTR	_text + 0x3a5d50
 	PTR	_text + 0x3a5d60
-	PTR	_text + 0x3a5d70
 	PTR	_text + 0x3a5d80
 	PTR	_text + 0x3a5da0
+	PTR	_text + 0x3a5db1
 	PTR	_text + 0x3a5dc0
-	PTR	_text + 0x3a5dd1
+	PTR	_text + 0x3a5dca
 	PTR	_text + 0x3a5de0
-	PTR	_text + 0x3a5dea
 	PTR	_text + 0x3a5e00
 	PTR	_text + 0x3a5e20
 	PTR	_text + 0x3a5e40
-	PTR	_text + 0x3a5e60
-	PTR	_text + 0x3a5e76
+	PTR	_text + 0x3a5e56
+	PTR	_text + 0x3a5e70
 	PTR	_text + 0x3a5e90
 	PTR	_text + 0x3a5eb0
+	PTR	_text + 0x3a5ec6
 	PTR	_text + 0x3a5ed0
-	PTR	_text + 0x3a5ee6
-	PTR	_text + 0x3a5ef0
+	PTR	_text + 0x3a5ee0
 	PTR	_text + 0x3a5f00
 	PTR	_text + 0x3a5f20
 	PTR	_text + 0x3a5f40
 	PTR	_text + 0x3a5f60
 	PTR	_text + 0x3a5f80
 	PTR	_text + 0x3a5fa0
+	PTR	_text + 0x3a5fb5
 	PTR	_text + 0x3a5fc0
-	PTR	_text + 0x3a5fd5
-	PTR	_text + 0x3a5fe0
-	PTR	_text + 0x3a5feb
-	PTR	_text + 0x3a5ffa
+	PTR	_text + 0x3a5fcb
+	PTR	_text + 0x3a5fda
+	PTR	_text + 0x3a5ff0
 	PTR	_text + 0x3a6010
-	PTR	_text + 0x3a6030
+	PTR	_text + 0x3a6020
 	PTR	_text + 0x3a6040
+	PTR	_text + 0x3a6051
 	PTR	_text + 0x3a6060
 	PTR	_text + 0x3a6071
-	PTR	_text + 0x3a6080
-	PTR	_text + 0x3a6091
-	PTR	_text + 0x3a609e
-	PTR	_text + 0x3a60b0
-	PTR	_text + 0x3a60c8
-	PTR	_text + 0x3a60e0
+	PTR	_text + 0x3a607e
+	PTR	_text + 0x3a6090
+	PTR	_text + 0x3a60a8
+	PTR	_text + 0x3a60c0
+	PTR	_text + 0x3a60d0
+	PTR	_text + 0x3a60e2
 	PTR	_text + 0x3a60f0
-	PTR	_text + 0x3a6102
+	PTR	_text + 0x3a60fd
 	PTR	_text + 0x3a6110
-	PTR	_text + 0x3a611d
 	PTR	_text + 0x3a6130
 	PTR	_text + 0x3a6150
 	PTR	_text + 0x3a6170
+	PTR	_text + 0x3a6180
 	PTR	_text + 0x3a6190
-	PTR	_text + 0x3a61a0
-	PTR	_text + 0x3a61b0
-	PTR	_text + 0x3a61cb
-	PTR	_text + 0x3a61da
-	PTR	_text + 0x3a61e4
+	PTR	_text + 0x3a61ab
+	PTR	_text + 0x3a61ba
+	PTR	_text + 0x3a61c4
+	PTR	_text + 0x3a61d0
 	PTR	_text + 0x3a61f0
 	PTR	_text + 0x3a6210
+	PTR	_text + 0x3a6220
 	PTR	_text + 0x3a6230
-	PTR	_text + 0x3a6240
-	PTR	_text + 0x3a6250
-	PTR	_text + 0x3a625b
-	PTR	_text + 0x3a6267
-	PTR	_text + 0x3a6271
+	PTR	_text + 0x3a623b
+	PTR	_text + 0x3a6247
+	PTR	_text + 0x3a6251
+	PTR	_text + 0x3a6260
 	PTR	_text + 0x3a6280
 	PTR	_text + 0x3a62a0
 	PTR	_text + 0x3a62c0
-	PTR	_text + 0x3a62e0
+	PTR	_text + 0x3a62d0
+	PTR	_text + 0x3a62e2
 	PTR	_text + 0x3a62f0
-	PTR	_text + 0x3a6302
 	PTR	_text + 0x3a6310
-	PTR	_text + 0x3a6330
-	PTR	_text + 0x3a6340
-	PTR	_text + 0x3a6357
-	PTR	_text + 0x3a6365
-	PTR	_text + 0x3a6374
+	PTR	_text + 0x3a6320
+	PTR	_text + 0x3a6337
+	PTR	_text + 0x3a6345
+	PTR	_text + 0x3a6354
+	PTR	_text + 0x3a6370
+	PTR	_text + 0x3a6380
 	PTR	_text + 0x3a6390
-	PTR	_text + 0x3a63a0
 	PTR	_text + 0x3a63b0
-	PTR	_text + 0x3a63d0
+	PTR	_text + 0x3a63c0
 	PTR	_text + 0x3a63e0
-	PTR	_text + 0x3a6400
+	PTR	_text + 0x3a63f0
 	PTR	_text + 0x3a6410
-	PTR	_text + 0x3a6430
+	PTR	_text + 0x3a6420
 	PTR	_text + 0x3a6440
+	PTR	_text + 0x3a644e
 	PTR	_text + 0x3a6460
-	PTR	_text + 0x3a646e
 	PTR	_text + 0x3a6480
 	PTR	_text + 0x3a64a0
-	PTR	_text + 0x3a64c0
+	PTR	_text + 0x3a64b0
 	PTR	_text + 0x3a64d0
 	PTR	_text + 0x3a64f0
+	PTR	_text + 0x3a6502
 	PTR	_text + 0x3a6510
-	PTR	_text + 0x3a6522
 	PTR	_text + 0x3a6530
 	PTR	_text + 0x3a6550
 	PTR	_text + 0x3a6570
 	PTR	_text + 0x3a6590
 	PTR	_text + 0x3a65b0
 	PTR	_text + 0x3a65d0
-	PTR	_text + 0x3a65f0
+	PTR	_text + 0x3a65e0
 	PTR	_text + 0x3a6600
 	PTR	_text + 0x3a6620
 	PTR	_text + 0x3a6640
@@ -17494,8 +17495,8 @@ kallsyms_addresses:
 	PTR	_text + 0x3a6680
 	PTR	_text + 0x3a66a0
 	PTR	_text + 0x3a66c0
+	PTR	_text + 0x3a66d0
 	PTR	_text + 0x3a66e0
-	PTR	_text + 0x3a66f0
 	PTR	_text + 0x3a6700
 	PTR	_text + 0x3a6720
 	PTR	_text + 0x3a6740
@@ -17505,20 +17506,20 @@ kallsyms_addresses:
 	PTR	_text + 0x3a67c0
 	PTR	_text + 0x3a67e0
 	PTR	_text + 0x3a6800
+	PTR	_text + 0x3a6810
 	PTR	_text + 0x3a6820
-	PTR	_text + 0x3a6830
-	PTR	_text + 0x3a6840
-	PTR	_text + 0x3a6854
-	PTR	_text + 0x3a6862
+	PTR	_text + 0x3a6834
+	PTR	_text + 0x3a6842
+	PTR	_text + 0x3a6850
 	PTR	_text + 0x3a6870
+	PTR	_text + 0x3a6880
 	PTR	_text + 0x3a6890
 	PTR	_text + 0x3a68a0
 	PTR	_text + 0x3a68b0
-	PTR	_text + 0x3a68c0
 	PTR	_text + 0x3a68d0
 	PTR	_text + 0x3a68f0
-	PTR	_text + 0x3a6910
-	PTR	_text + 0x3a6928
+	PTR	_text + 0x3a6908
+	PTR	_text + 0x3a6920
 	PTR	_text + 0x3a6940
 	PTR	_text + 0x3a6960
 	PTR	_text + 0x3a6980
@@ -17532,9 +17533,9 @@ kallsyms_addresses:
 	PTR	_text + 0x3a6a80
 	PTR	_text + 0x3a6aa0
 	PTR	_text + 0x3a6ac0
-	PTR	_text + 0x3a6ae0
+	PTR	_text + 0x3a6ad0
 	PTR	_text + 0x3a6af0
-	PTR	_text + 0x3a6b10
+	PTR	_text + 0x3a6b20
 	PTR	_text + 0x3a6b40
 	PTR	_text + 0x3a6b60
 	PTR	_text + 0x3a6b80
@@ -17546,7 +17547,7 @@ kallsyms_addresses:
 	PTR	_text + 0x3a6c40
 	PTR	_text + 0x3a6c60
 	PTR	_text + 0x3a6c80
-	PTR	_text + 0x3a6ca0
+	PTR	_text + 0x3a6cb0
 	PTR	_text + 0x3a6cd0
 	PTR	_text + 0x3a6cf0
 	PTR	_text + 0x3a6d10
@@ -17560,7 +17561,7 @@ kallsyms_addresses:
 	PTR	_text + 0x3a6e10
 	PTR	_text + 0x3a6e30
 	PTR	_text + 0x3a6e50
-	PTR	_text + 0x3a6e70
+	PTR	_text + 0x3a6e60
 	PTR	_text + 0x3a6e80
 	PTR	_text + 0x3a6ea0
 	PTR	_text + 0x3a6ec0
@@ -17570,16 +17571,16 @@ kallsyms_addresses:
 	PTR	_text + 0x3a6f40
 	PTR	_text + 0x3a6f60
 	PTR	_text + 0x3a6f80
+	PTR	_text + 0x3a6f91
 	PTR	_text + 0x3a6fa0
-	PTR	_text + 0x3a6fb1
 	PTR	_text + 0x3a6fc0
-	PTR	_text + 0x3a6fe0
-	PTR	_text + 0x3a6ff2
+	PTR	_text + 0x3a6fd2
+	PTR	_text + 0x3a6ff0
 	PTR	_text + 0x3a7010
 	PTR	_text + 0x3a7030
-	PTR	_text + 0x3a7050
-	PTR	_text + 0x3a7060
-	PTR	_text + 0x3a7072
+	PTR	_text + 0x3a7040
+	PTR	_text + 0x3a7052
+	PTR	_text + 0x3a7070
 	PTR	_text + 0x3a7090
 	PTR	_text + 0x3a70b0
 	PTR	_text + 0x3a70d0
@@ -17587,24 +17588,24 @@ kallsyms_addresses:
 	PTR	_text + 0x3a7110
 	PTR	_text + 0x3a7130
 	PTR	_text + 0x3a7150
-	PTR	_text + 0x3a7170
+	PTR	_text + 0x3a7160
 	PTR	_text + 0x3a7180
 	PTR	_text + 0x3a71a0
 	PTR	_text + 0x3a71c0
 	PTR	_text + 0x3a71e0
+	PTR	_text + 0x3a71f2
 	PTR	_text + 0x3a7200
-	PTR	_text + 0x3a7212
-	PTR	_text + 0x3a7220
-	PTR	_text + 0x3a7231
-	PTR	_text + 0x3a723c
-	PTR	_text + 0x3a7250
+	PTR	_text + 0x3a7211
+	PTR	_text + 0x3a721c
+	PTR	_text + 0x3a7230
+	PTR	_text + 0x3a7240
 	PTR	_text + 0x3a7260
 	PTR	_text + 0x3a7280
 	PTR	_text + 0x3a72a0
+	PTR	_text + 0x3a72b0
 	PTR	_text + 0x3a72c0
-	PTR	_text + 0x3a72d0
 	PTR	_text + 0x3a72e0
-	PTR	_text + 0x3a7300
+	PTR	_text + 0x3a72f0
 	PTR	_text + 0x3a7310
 	PTR	_text + 0x3a7330
 	PTR	_text + 0x3a7350
@@ -17623,85 +17624,85 @@ kallsyms_addresses:
 	PTR	_text + 0x3a74f0
 	PTR	_text + 0x3a7510
 	PTR	_text + 0x3a7530
+	PTR	_text + 0x3a7540
 	PTR	_text + 0x3a7550
 	PTR	_text + 0x3a7560
-	PTR	_text + 0x3a7570
 	PTR	_text + 0x3a7580
 	PTR	_text + 0x3a75a0
-	PTR	_text + 0x3a75c0
-	PTR	_text + 0x3a75d0
-	PTR	_text + 0x3a75e5
-	PTR	_text + 0x3a75f4
-	PTR	_text + 0x3a7602
-	PTR	_text + 0x3a7611
+	PTR	_text + 0x3a75b0
+	PTR	_text + 0x3a75c5
+	PTR	_text + 0x3a75d4
+	PTR	_text + 0x3a75e2
+	PTR	_text + 0x3a75f1
+	PTR	_text + 0x3a7600
 	PTR	_text + 0x3a7620
 	PTR	_text + 0x3a7640
 	PTR	_text + 0x3a7660
-	PTR	_text + 0x3a7680
-	PTR	_text + 0x3a7692
-	PTR	_text + 0x3a76b0
-	PTR	_text + 0x3a76c4
-	PTR	_text + 0x3a76d3
+	PTR	_text + 0x3a7672
+	PTR	_text + 0x3a7690
+	PTR	_text + 0x3a76a4
+	PTR	_text + 0x3a76b3
+	PTR	_text + 0x3a76d0
+	PTR	_text + 0x3a76e2
 	PTR	_text + 0x3a76f0
-	PTR	_text + 0x3a7702
+	PTR	_text + 0x3a7701
 	PTR	_text + 0x3a7710
-	PTR	_text + 0x3a7721
 	PTR	_text + 0x3a7730
 	PTR	_text + 0x3a7750
 	PTR	_text + 0x3a7770
 	PTR	_text + 0x3a7790
 	PTR	_text + 0x3a77b0
+	PTR	_text + 0x3a77c1
 	PTR	_text + 0x3a77d0
 	PTR	_text + 0x3a77e1
 	PTR	_text + 0x3a77f0
-	PTR	_text + 0x3a7801
-	PTR	_text + 0x3a7810
+	PTR	_text + 0x3a7800
+	PTR	_text + 0x3a7812
 	PTR	_text + 0x3a7820
-	PTR	_text + 0x3a7832
+	PTR	_text + 0x3a7830
 	PTR	_text + 0x3a7840
-	PTR	_text + 0x3a7850
 	PTR	_text + 0x3a7860
 	PTR	_text + 0x3a7880
-	PTR	_text + 0x3a78a0
-	PTR	_text + 0x3a78b3
+	PTR	_text + 0x3a7893
+	PTR	_text + 0x3a78b0
+	PTR	_text + 0x3a78c1
 	PTR	_text + 0x3a78d0
-	PTR	_text + 0x3a78e1
 	PTR	_text + 0x3a78f0
 	PTR	_text + 0x3a7910
+	PTR	_text + 0x3a7920
 	PTR	_text + 0x3a7930
-	PTR	_text + 0x3a7940
+	PTR	_text + 0x3a7941
 	PTR	_text + 0x3a7950
-	PTR	_text + 0x3a7961
-	PTR	_text + 0x3a7970
-	PTR	_text + 0x3a7984
+	PTR	_text + 0x3a7964
+	PTR	_text + 0x3a7980
+	PTR	_text + 0x3a7990
 	PTR	_text + 0x3a79a0
-	PTR	_text + 0x3a79b0
-	PTR	_text + 0x3a79c0
-	PTR	_text + 0x3a79d3
+	PTR	_text + 0x3a79b3
+	PTR	_text + 0x3a79d0
+	PTR	_text + 0x3a79e1
 	PTR	_text + 0x3a79f0
-	PTR	_text + 0x3a7a01
 	PTR	_text + 0x3a7a10
+	PTR	_text + 0x3a7a20
 	PTR	_text + 0x3a7a30
-	PTR	_text + 0x3a7a40
 	PTR	_text + 0x3a7a50
 	PTR	_text + 0x3a7a70
+	PTR	_text + 0x3a7a84
 	PTR	_text + 0x3a7a90
-	PTR	_text + 0x3a7aa4
-	PTR	_text + 0x3a7ab0
+	PTR	_text + 0x3a7aa0
 	PTR	_text + 0x3a7ac0
 	PTR	_text + 0x3a7ae0
+	PTR	_text + 0x3a7af0
 	PTR	_text + 0x3a7b00
 	PTR	_text + 0x3a7b10
 	PTR	_text + 0x3a7b20
 	PTR	_text + 0x3a7b30
-	PTR	_text + 0x3a7b40
 	PTR	_text + 0x3a7b50
-	PTR	_text + 0x3a7b70
-	PTR	_text + 0x3a7b82
-	PTR	_text + 0x3a7ba0
-	PTR	_text + 0x3a7bb5
-	PTR	_text + 0x3a7bc4
-	PTR	_text + 0x3a7bd2
+	PTR	_text + 0x3a7b62
+	PTR	_text + 0x3a7b80
+	PTR	_text + 0x3a7b95
+	PTR	_text + 0x3a7ba4
+	PTR	_text + 0x3a7bb2
+	PTR	_text + 0x3a7bc0
 	PTR	_text + 0x3a7be0
 	PTR	_text + 0x3a7c00
 	PTR	_text + 0x3a7c20
@@ -17715,27 +17716,27 @@ kallsyms_addresses:
 	PTR	_text + 0x3a7d20
 	PTR	_text + 0x3a7d40
 	PTR	_text + 0x3a7d60
-	PTR	_text + 0x3a7d80
-	PTR	_text + 0x3a7d98
-	PTR	_text + 0x3a7db0
-	PTR	_text + 0x3a7dc0
-	PTR	_text + 0x3a7dcd
-	PTR	_text + 0x3a7dd9
+	PTR	_text + 0x3a7d78
+	PTR	_text + 0x3a7d90
+	PTR	_text + 0x3a7da0
+	PTR	_text + 0x3a7dad
+	PTR	_text + 0x3a7db9
+	PTR	_text + 0x3a7dd0
 	PTR	_text + 0x3a7df0
 	PTR	_text + 0x3a7e10
 	PTR	_text + 0x3a7e30
 	PTR	_text + 0x3a7e50
 	PTR	_text + 0x3a7e70
+	PTR	_text + 0x3a7e80
 	PTR	_text + 0x3a7e90
-	PTR	_text + 0x3a7ea0
-	PTR	_text + 0x3a7eb0
-	PTR	_text + 0x3a7ec4
-	PTR	_text + 0x3a7ed3
-	PTR	_text + 0x3a7ee0
-	PTR	_text + 0x3a7ef5
-	PTR	_text + 0x3a7f10
-	PTR	_text + 0x3a7f23
-	PTR	_text + 0x3a7f2d
+	PTR	_text + 0x3a7ea4
+	PTR	_text + 0x3a7eb3
+	PTR	_text + 0x3a7ec0
+	PTR	_text + 0x3a7ed5
+	PTR	_text + 0x3a7ef0
+	PTR	_text + 0x3a7f03
+	PTR	_text + 0x3a7f0d
+	PTR	_text + 0x3a7f20
 	PTR	_text + 0x3a7f40
 	PTR	_text + 0x3a7f60
 	PTR	_text + 0x3a7f80
@@ -17744,182 +17745,182 @@ kallsyms_addresses:
 	PTR	_text + 0x3a7fe0
 	PTR	_text + 0x3a8000
 	PTR	_text + 0x3a8020
-	PTR	_text + 0x3a8040
-	PTR	_text + 0x3a8056
+	PTR	_text + 0x3a8036
+	PTR	_text + 0x3a8050
 	PTR	_text + 0x3a8070
 	PTR	_text + 0x3a8090
 	PTR	_text + 0x3a80b0
 	PTR	_text + 0x3a80d0
 	PTR	_text + 0x3a80f0
+	PTR	_text + 0x3a8103
 	PTR	_text + 0x3a8110
-	PTR	_text + 0x3a8123
 	PTR	_text + 0x3a8130
-	PTR	_text + 0x3a8150
+	PTR	_text + 0x3a8140
+	PTR	_text + 0x3a814f
 	PTR	_text + 0x3a8160
-	PTR	_text + 0x3a816f
+	PTR	_text + 0x3a8170
 	PTR	_text + 0x3a8180
-	PTR	_text + 0x3a8190
 	PTR	_text + 0x3a81a0
 	PTR	_text + 0x3a81c0
 	PTR	_text + 0x3a81e0
+	PTR	_text + 0x3a81f1
 	PTR	_text + 0x3a8200
-	PTR	_text + 0x3a8211
 	PTR	_text + 0x3a8220
-	PTR	_text + 0x3a8240
+	PTR	_text + 0x3a8230
 	PTR	_text + 0x3a8250
-	PTR	_text + 0x3a8270
+	PTR	_text + 0x3a8260
 	PTR	_text + 0x3a8280
 	PTR	_text + 0x3a82a0
 	PTR	_text + 0x3a82c0
-	PTR	_text + 0x3a82e0
-	PTR	_text + 0x3a82f6
+	PTR	_text + 0x3a82d6
+	PTR	_text + 0x3a8300
 	PTR	_text + 0x3a8320
-	PTR	_text + 0x3a8340
+	PTR	_text + 0x3a8330
 	PTR	_text + 0x3a8350
 	PTR	_text + 0x3a8370
 	PTR	_text + 0x3a8390
-	PTR	_text + 0x3a83b0
-	PTR	_text + 0x3a83c3
-	PTR	_text + 0x3a83d2
-	PTR	_text + 0x3a83e0
-	PTR	_text + 0x3a83ee
-	PTR	_text + 0x3a83fa
-	PTR	_text + 0x3a8409
-	PTR	_text + 0x3a8418
+	PTR	_text + 0x3a83a3
+	PTR	_text + 0x3a83b2
+	PTR	_text + 0x3a83c0
+	PTR	_text + 0x3a83ce
+	PTR	_text + 0x3a83da
+	PTR	_text + 0x3a83e9
+	PTR	_text + 0x3a83f8
+	PTR	_text + 0x3a8410
+	PTR	_text + 0x3a8420
 	PTR	_text + 0x3a8430
-	PTR	_text + 0x3a8440
-	PTR	_text + 0x3a8450
-	PTR	_text + 0x3a845d
-	PTR	_text + 0x3a846a
-	PTR	_text + 0x3a8478
-	PTR	_text + 0x3a8485
+	PTR	_text + 0x3a843d
+	PTR	_text + 0x3a844a
+	PTR	_text + 0x3a8458
+	PTR	_text + 0x3a8465
+	PTR	_text + 0x3a8480
 	PTR	_text + 0x3a84a0
+	PTR	_text + 0x3a84b1
 	PTR	_text + 0x3a84c0
-	PTR	_text + 0x3a84d1
 	PTR	_text + 0x3a84e0
-	PTR	_text + 0x3a8500
-	PTR	_text + 0x3a8514
-	PTR	_text + 0x3a8523
-	PTR	_text + 0x3a8532
+	PTR	_text + 0x3a84f4
+	PTR	_text + 0x3a8503
+	PTR	_text + 0x3a8512
+	PTR	_text + 0x3a8520
 	PTR	_text + 0x3a8540
+	PTR	_text + 0x3a8550
 	PTR	_text + 0x3a8560
-	PTR	_text + 0x3a8570
-	PTR	_text + 0x3a8580
-	PTR	_text + 0x3a8592
-	PTR	_text + 0x3a859d
-	PTR	_text + 0x3a85a8
-	PTR	_text + 0x3a85b5
+	PTR	_text + 0x3a8572
+	PTR	_text + 0x3a857d
+	PTR	_text + 0x3a8588
+	PTR	_text + 0x3a8595
+	PTR	_text + 0x3a85a0
+	PTR	_text + 0x3a85b0
 	PTR	_text + 0x3a85c0
-	PTR	_text + 0x3a85d0
 	PTR	_text + 0x3a85e0
 	PTR	_text + 0x3a8600
 	PTR	_text + 0x3a8620
 	PTR	_text + 0x3a8640
+	PTR	_text + 0x3a8650
 	PTR	_text + 0x3a8660
-	PTR	_text + 0x3a8670
-	PTR	_text + 0x3a8680
-	PTR	_text + 0x3a868d
-	PTR	_text + 0x3a869a
-	PTR	_text + 0x3a86a9
+	PTR	_text + 0x3a866d
+	PTR	_text + 0x3a867a
+	PTR	_text + 0x3a8689
+	PTR	_text + 0x3a86a0
 	PTR	_text + 0x3a86c0
+	PTR	_text + 0x3a86d0
 	PTR	_text + 0x3a86e0
-	PTR	_text + 0x3a86f0
-	PTR	_text + 0x3a8700
-	PTR	_text + 0x3a870d
-	PTR	_text + 0x3a871c
-	PTR	_text + 0x3a8729
-	PTR	_text + 0x3a8736
-	PTR	_text + 0x3a8750
-	PTR	_text + 0x3a8764
-	PTR	_text + 0x3a8773
-	PTR	_text + 0x3a877b
+	PTR	_text + 0x3a86ed
+	PTR	_text + 0x3a86fc
+	PTR	_text + 0x3a8709
+	PTR	_text + 0x3a8716
+	PTR	_text + 0x3a8730
+	PTR	_text + 0x3a8744
+	PTR	_text + 0x3a8753
+	PTR	_text + 0x3a875b
+	PTR	_text + 0x3a8770
+	PTR	_text + 0x3a8781
 	PTR	_text + 0x3a8790
-	PTR	_text + 0x3a87a1
 	PTR	_text + 0x3a87b0
 	PTR	_text + 0x3a87d0
 	PTR	_text + 0x3a87f0
 	PTR	_text + 0x3a8810
 	PTR	_text + 0x3a8830
 	PTR	_text + 0x3a8850
+	PTR	_text + 0x3a8863
 	PTR	_text + 0x3a8870
-	PTR	_text + 0x3a8883
-	PTR	_text + 0x3a8890
-	PTR	_text + 0x3a88a1
-	PTR	_text + 0x3a88af
-	PTR	_text + 0x3a88be
-	PTR	_text + 0x3a88cb
-	PTR	_text + 0x3a88d9
-	PTR	_text + 0x3a88e2
-	PTR	_text + 0x3a88ef
-	PTR	_text + 0x3a88fe
+	PTR	_text + 0x3a8881
+	PTR	_text + 0x3a888f
+	PTR	_text + 0x3a889e
+	PTR	_text + 0x3a88ab
+	PTR	_text + 0x3a88b9
+	PTR	_text + 0x3a88c2
+	PTR	_text + 0x3a88cf
+	PTR	_text + 0x3a88de
+	PTR	_text + 0x3a88f0
 	PTR	_text + 0x3a8910
 	PTR	_text + 0x3a8930
 	PTR	_text + 0x3a8950
+	PTR	_text + 0x3a895d
 	PTR	_text + 0x3a8970
-	PTR	_text + 0x3a897d
-	PTR	_text + 0x3a8990
-	PTR	_text + 0x3a89a8
+	PTR	_text + 0x3a8988
+	PTR	_text + 0x3a89a0
+	PTR	_text + 0x3a89b3
 	PTR	_text + 0x3a89c0
-	PTR	_text + 0x3a89d3
-	PTR	_text + 0x3a89e0
+	PTR	_text + 0x3a89d5
+	PTR	_text + 0x3a89df
+	PTR	_text + 0x3a89ea
 	PTR	_text + 0x3a89f5
-	PTR	_text + 0x3a89ff
-	PTR	_text + 0x3a8a0a
-	PTR	_text + 0x3a8a15
-	PTR	_text + 0x3a8a24
+	PTR	_text + 0x3a8a04
+	PTR	_text + 0x3a8a20
+	PTR	_text + 0x3a8a30
 	PTR	_text + 0x3a8a40
-	PTR	_text + 0x3a8a50
+	PTR	_text + 0x3a8a51
 	PTR	_text + 0x3a8a60
-	PTR	_text + 0x3a8a71
-	PTR	_text + 0x3a8a80
-	PTR	_text + 0x3a8a90
-	PTR	_text + 0x3a8aa5
-	PTR	_text + 0x3a8aad
+	PTR	_text + 0x3a8a70
+	PTR	_text + 0x3a8a85
+	PTR	_text + 0x3a8a8d
+	PTR	_text + 0x3a8aa0
+	PTR	_text + 0x3a8ab0
 	PTR	_text + 0x3a8ac0
-	PTR	_text + 0x3a8ad0
 	PTR	_text + 0x3a8ae0
+	PTR	_text + 0x3a8af7
 	PTR	_text + 0x3a8b00
-	PTR	_text + 0x3a8b17
+	PTR	_text + 0x3a8b0a
 	PTR	_text + 0x3a8b20
-	PTR	_text + 0x3a8b2a
+	PTR	_text + 0x3a8b31
 	PTR	_text + 0x3a8b40
-	PTR	_text + 0x3a8b51
+	PTR	_text + 0x3a8b53
 	PTR	_text + 0x3a8b60
-	PTR	_text + 0x3a8b73
-	PTR	_text + 0x3a8b80
-	PTR	_text + 0x3a8b91
-	PTR	_text + 0x3a8b9b
-	PTR	_text + 0x3a8ba7
-	PTR	_text + 0x3a8bb4
+	PTR	_text + 0x3a8b71
+	PTR	_text + 0x3a8b7b
+	PTR	_text + 0x3a8b87
+	PTR	_text + 0x3a8b94
+	PTR	_text + 0x3a8ba0
+	PTR	_text + 0x3a8baf
 	PTR	_text + 0x3a8bc0
-	PTR	_text + 0x3a8bcf
 	PTR	_text + 0x3a8be0
-	PTR	_text + 0x3a8c00
+	PTR	_text + 0x3a8bf0
 	PTR	_text + 0x3a8c10
 	PTR	_text + 0x3a8c30
-	PTR	_text + 0x3a8c50
+	PTR	_text + 0x3a8c60
 	PTR	_text + 0x3a8c80
 	PTR	_text + 0x3a8ca0
 	PTR	_text + 0x3a8cc0
-	PTR	_text + 0x3a8ce0
-	PTR	_text + 0x3a8d01
+	PTR	_text + 0x3a8ce1
+	PTR	_text + 0x3a8cf0
 	PTR	_text + 0x3a8d10
 	PTR	_text + 0x3a8d30
 	PTR	_text + 0x3a8d50
 	PTR	_text + 0x3a8d70
 	PTR	_text + 0x3a8d90
 	PTR	_text + 0x3a8db0
+	PTR	_text + 0x3a8dc0
 	PTR	_text + 0x3a8dd0
-	PTR	_text + 0x3a8de0
 	PTR	_text + 0x3a8df0
 	PTR	_text + 0x3a8e10
 	PTR	_text + 0x3a8e30
-	PTR	_text + 0x3a8e50
-	PTR	_text + 0x3a8e66
-	PTR	_text + 0x3a8e71
-	PTR	_text + 0x3a8e80
-	PTR	_text + 0x3a8e89
-	PTR	_text + 0x3a8e94
+	PTR	_text + 0x3a8e46
+	PTR	_text + 0x3a8e51
+	PTR	_text + 0x3a8e60
+	PTR	_text + 0x3a8e69
+	PTR	_text + 0x3a8e74
+	PTR	_text + 0x3a8e90
 	PTR	_text + 0x3a8eb0
 	PTR	_text + 0x3a8ed0
 	PTR	_text + 0x3a8ef0
@@ -17930,49 +17931,49 @@ kallsyms_addresses:
 	PTR	_text + 0x3a8f90
 	PTR	_text + 0x3a8fb0
 	PTR	_text + 0x3a8fd0
-	PTR	_text + 0x3a8ff0
-	PTR	_text + 0x3a9006
-	PTR	_text + 0x3a900f
+	PTR	_text + 0x3a8fe6
+	PTR	_text + 0x3a8fef
+	PTR	_text + 0x3a9000
 	PTR	_text + 0x3a9020
 	PTR	_text + 0x3a9040
 	PTR	_text + 0x3a9060
 	PTR	_text + 0x3a9080
-	PTR	_text + 0x3a90a0
+	PTR	_text + 0x3a9090
 	PTR	_text + 0x3a90b0
 	PTR	_text + 0x3a90d0
 	PTR	_text + 0x3a90f0
+	PTR	_text + 0x3a9101
 	PTR	_text + 0x3a9110
-	PTR	_text + 0x3a9121
 	PTR	_text + 0x3a9130
 	PTR	_text + 0x3a9150
 	PTR	_text + 0x3a9170
-	PTR	_text + 0x3a9190
-	PTR	_text + 0x3a91a8
+	PTR	_text + 0x3a9188
+	PTR	_text + 0x3a91a0
+	PTR	_text + 0x3a91b4
 	PTR	_text + 0x3a91c0
-	PTR	_text + 0x3a91d4
 	PTR	_text + 0x3a91e0
 	PTR	_text + 0x3a9200
 	PTR	_text + 0x3a9220
-	PTR	_text + 0x3a9240
+	PTR	_text + 0x3a9230
+	PTR	_text + 0x3a923f
 	PTR	_text + 0x3a9250
-	PTR	_text + 0x3a925f
-	PTR	_text + 0x3a9270
+	PTR	_text + 0x3a9260
 	PTR	_text + 0x3a9280
-	PTR	_text + 0x3a92a0
-	PTR	_text + 0x3a92b1
-	PTR	_text + 0x3a92bb
-	PTR	_text + 0x3a92ca
-	PTR	_text + 0x3a92d7
+	PTR	_text + 0x3a9291
+	PTR	_text + 0x3a929b
+	PTR	_text + 0x3a92aa
+	PTR	_text + 0x3a92b7
+	PTR	_text + 0x3a92d0
 	PTR	_text + 0x3a92f0
 	PTR	_text + 0x3a9310
 	PTR	_text + 0x3a9330
 	PTR	_text + 0x3a9350
+	PTR	_text + 0x3a9362
 	PTR	_text + 0x3a9370
-	PTR	_text + 0x3a9382
+	PTR	_text + 0x3a9380
 	PTR	_text + 0x3a9390
-	PTR	_text + 0x3a93a0
 	PTR	_text + 0x3a93b0
-	PTR	_text + 0x3a93d0
+	PTR	_text + 0x3a93c0
 	PTR	_text + 0x3a93e0
 	PTR	_text + 0x3a9400
 	PTR	_text + 0x3a9420
@@ -17981,9 +17982,9 @@ kallsyms_addresses:
 	PTR	_text + 0x3a9480
 	PTR	_text + 0x3a94a0
 	PTR	_text + 0x3a94c0
-	PTR	_text + 0x3a94e0
+	PTR	_text + 0x3a94d0
+	PTR	_text + 0x3a94de
 	PTR	_text + 0x3a94f0
-	PTR	_text + 0x3a94fe
 	PTR	_text + 0x3a9510
 	PTR	_text + 0x3a9530
 	PTR	_text + 0x3a9550
@@ -17994,22 +17995,22 @@ kallsyms_addresses:
 	PTR	_text + 0x3a95f0
 	PTR	_text + 0x3a9610
 	PTR	_text + 0x3a9630
+	PTR	_text + 0x3a9644
 	PTR	_text + 0x3a9650
-	PTR	_text + 0x3a9664
-	PTR	_text + 0x3a9670
-	PTR	_text + 0x3a967e
-	PTR	_text + 0x3a968c
-	PTR	_text + 0x3a9697
-	PTR	_text + 0x3a96a3
-	PTR	_text + 0x3a96ad
+	PTR	_text + 0x3a965e
+	PTR	_text + 0x3a966c
+	PTR	_text + 0x3a9677
+	PTR	_text + 0x3a9683
+	PTR	_text + 0x3a968d
+	PTR	_text + 0x3a96a0
 	PTR	_text + 0x3a96c0
 	PTR	_text + 0x3a96e0
 	PTR	_text + 0x3a9700
 	PTR	_text + 0x3a9720
-	PTR	_text + 0x3a9740
-	PTR	_text + 0x3a9756
-	PTR	_text + 0x3a9764
-	PTR	_text + 0x3a9773
+	PTR	_text + 0x3a9736
+	PTR	_text + 0x3a9744
+	PTR	_text + 0x3a9753
+	PTR	_text + 0x3a9760
 	PTR	_text + 0x3a9780
 	PTR	_text + 0x3a97a0
 	PTR	_text + 0x3a97c0
@@ -18017,170 +18018,170 @@ kallsyms_addresses:
 	PTR	_text + 0x3a9800
 	PTR	_text + 0x3a9820
 	PTR	_text + 0x3a9840
+	PTR	_text + 0x3a9853
 	PTR	_text + 0x3a9860
-	PTR	_text + 0x3a9873
-	PTR	_text + 0x3a9880
-	PTR	_text + 0x3a988d
-	PTR	_text + 0x3a989c
-	PTR	_text + 0x3a98aa
+	PTR	_text + 0x3a986d
+	PTR	_text + 0x3a987c
+	PTR	_text + 0x3a988a
+	PTR	_text + 0x3a98a0
 	PTR	_text + 0x3a98c0
 	PTR	_text + 0x3a98e0
 	PTR	_text + 0x3a9900
-	PTR	_text + 0x3a9920
-	PTR	_text + 0x3a9933
-	PTR	_text + 0x3a9942
-	PTR	_text + 0x3a9960
-	PTR	_text + 0x3a9970
-	PTR	_text + 0x3a9989
-	PTR	_text + 0x3a99a0
-	PTR	_text + 0x3a99b0
-	PTR	_text + 0x3a99bc
-	PTR	_text + 0x3a99c9
-	PTR	_text + 0x3a99d5
-	PTR	_text + 0x3a99e2
-	PTR	_text + 0x3a99f0
-	PTR	_text + 0x3a9a06
-	PTR	_text + 0x3a9a13
-	PTR	_text + 0x3a9a22
+	PTR	_text + 0x3a9913
+	PTR	_text + 0x3a9922
+	PTR	_text + 0x3a9940
+	PTR	_text + 0x3a9950
+	PTR	_text + 0x3a9969
+	PTR	_text + 0x3a9980
+	PTR	_text + 0x3a9990
+	PTR	_text + 0x3a999c
+	PTR	_text + 0x3a99a9
+	PTR	_text + 0x3a99b5
+	PTR	_text + 0x3a99c2
+	PTR	_text + 0x3a99d0
+	PTR	_text + 0x3a99e6
+	PTR	_text + 0x3a99f3
+	PTR	_text + 0x3a9a02
+	PTR	_text + 0x3a9a10
 	PTR	_text + 0x3a9a30
 	PTR	_text + 0x3a9a50
+	PTR	_text + 0x3a9a60
 	PTR	_text + 0x3a9a70
 	PTR	_text + 0x3a9a80
-	PTR	_text + 0x3a9a90
-	PTR	_text + 0x3a9aa0
-	PTR	_text + 0x3a9aa9
-	PTR	_text + 0x3a9ab2
-	PTR	_text + 0x3a9aba
-	PTR	_text + 0x3a9ac8
-	PTR	_text + 0x3a9ae0
-	PTR	_text + 0x3a9af5
-	PTR	_text + 0x3a9b03
+	PTR	_text + 0x3a9a89
+	PTR	_text + 0x3a9a92
+	PTR	_text + 0x3a9a9a
+	PTR	_text + 0x3a9aa8
+	PTR	_text + 0x3a9ac0
+	PTR	_text + 0x3a9ad5
+	PTR	_text + 0x3a9ae3
+	PTR	_text + 0x3a9b00
 	PTR	_text + 0x3a9b20
+	PTR	_text + 0x3a9b31
 	PTR	_text + 0x3a9b40
-	PTR	_text + 0x3a9b51
+	PTR	_text + 0x3a9b4c
 	PTR	_text + 0x3a9b60
-	PTR	_text + 0x3a9b6c
 	PTR	_text + 0x3a9b80
-	PTR	_text + 0x3a9ba0
+	PTR	_text + 0x3a9b90
+	PTR	_text + 0x3a9b9c
 	PTR	_text + 0x3a9bb0
-	PTR	_text + 0x3a9bbc
+	PTR	_text + 0x3a9bc2
 	PTR	_text + 0x3a9bd0
-	PTR	_text + 0x3a9be2
 	PTR	_text + 0x3a9bf0
 	PTR	_text + 0x3a9c10
-	PTR	_text + 0x3a9c30
+	PTR	_text + 0x3a9c20
 	PTR	_text + 0x3a9c40
-	PTR	_text + 0x3a9c60
+	PTR	_text + 0x3a9c50
 	PTR	_text + 0x3a9c70
 	PTR	_text + 0x3a9c90
 	PTR	_text + 0x3a9cb0
 	PTR	_text + 0x3a9cd0
 	PTR	_text + 0x3a9cf0
+	PTR	_text + 0x3a9d02
 	PTR	_text + 0x3a9d10
-	PTR	_text + 0x3a9d22
 	PTR	_text + 0x3a9d30
-	PTR	_text + 0x3a9d50
-	PTR	_text + 0x3a9d5b
-	PTR	_text + 0x3a9d66
-	PTR	_text + 0x3a9d71
-	PTR	_text + 0x3a9d7f
+	PTR	_text + 0x3a9d3b
+	PTR	_text + 0x3a9d46
+	PTR	_text + 0x3a9d51
+	PTR	_text + 0x3a9d5f
+	PTR	_text + 0x3a9d70
+	PTR	_text + 0x3a9d80
 	PTR	_text + 0x3a9d90
-	PTR	_text + 0x3a9da0
+	PTR	_text + 0x3a9da2
 	PTR	_text + 0x3a9db0
-	PTR	_text + 0x3a9dc2
-	PTR	_text + 0x3a9dd0
-	PTR	_text + 0x3a9de4
-	PTR	_text + 0x3a9df2
-	PTR	_text + 0x3a9dfe
-	PTR	_text + 0x3a9e07
-	PTR	_text + 0x3a9e11
+	PTR	_text + 0x3a9dc4
+	PTR	_text + 0x3a9dd2
+	PTR	_text + 0x3a9dde
+	PTR	_text + 0x3a9de7
+	PTR	_text + 0x3a9df1
+	PTR	_text + 0x3a9e00
 	PTR	_text + 0x3a9e20
 	PTR	_text + 0x3a9e40
 	PTR	_text + 0x3a9e60
+	PTR	_text + 0x3a9e72
 	PTR	_text + 0x3a9e80
-	PTR	_text + 0x3a9e92
-	PTR	_text + 0x3a9ea0
-	PTR	_text + 0x3a9eb4
+	PTR	_text + 0x3a9e94
+	PTR	_text + 0x3a9eb0
 	PTR	_text + 0x3a9ed0
 	PTR	_text + 0x3a9ef0
 	PTR	_text + 0x3a9f10
 	PTR	_text + 0x3a9f30
+	PTR	_text + 0x3a9f42
 	PTR	_text + 0x3a9f50
-	PTR	_text + 0x3a9f62
-	PTR	_text + 0x3a9f70
+	PTR	_text + 0x3a9f60
+	PTR	_text + 0x3a9f6e
 	PTR	_text + 0x3a9f80
-	PTR	_text + 0x3a9f8e
+	PTR	_text + 0x3a9f93
 	PTR	_text + 0x3a9fa0
-	PTR	_text + 0x3a9fb3
-	PTR	_text + 0x3a9fc0
-	PTR	_text + 0x3a9fd6
-	PTR	_text + 0x3a9fe4
-	PTR	_text + 0x3a9ff2
+	PTR	_text + 0x3a9fb6
+	PTR	_text + 0x3a9fc4
+	PTR	_text + 0x3a9fd2
+	PTR	_text + 0x3a9fe0
 	PTR	_text + 0x3aa000
 	PTR	_text + 0x3aa020
+	PTR	_text + 0x3aa032
 	PTR	_text + 0x3aa040
-	PTR	_text + 0x3aa052
 	PTR	_text + 0x3aa060
 	PTR	_text + 0x3aa080
 	PTR	_text + 0x3aa0a0
 	PTR	_text + 0x3aa0c0
 	PTR	_text + 0x3aa0e0
-	PTR	_text + 0x3aa100
+	PTR	_text + 0x3aa0f0
 	PTR	_text + 0x3aa110
-	PTR	_text + 0x3aa130
+	PTR	_text + 0x3aa140
 	PTR	_text + 0x3aa160
 	PTR	_text + 0x3aa180
 	PTR	_text + 0x3aa1a0
 	PTR	_text + 0x3aa1c0
-	PTR	_text + 0x3aa1e0
-	PTR	_text + 0x3aa1f6
+	PTR	_text + 0x3aa1d6
+	PTR	_text + 0x3aa1f0
 	PTR	_text + 0x3aa210
 	PTR	_text + 0x3aa230
 	PTR	_text + 0x3aa250
 	PTR	_text + 0x3aa270
-	PTR	_text + 0x3aa290
+	PTR	_text + 0x3aa2a0
 	PTR	_text + 0x3aa2c0
 	PTR	_text + 0x3aa2e0
 	PTR	_text + 0x3aa300
-	PTR	_text + 0x3aa320
+	PTR	_text + 0x3aa310
 	PTR	_text + 0x3aa330
 	PTR	_text + 0x3aa350
 	PTR	_text + 0x3aa370
-	PTR	_text + 0x3aa390
-	PTR	_text + 0x3aa39f
-	PTR	_text + 0x3aa3ac
-	PTR	_text + 0x3aa3bb
-	PTR	_text + 0x3aa3c8
-	PTR	_text + 0x3aa3d4
-	PTR	_text + 0x3aa3e0
-	PTR	_text + 0x3aa3ee
-	PTR	_text + 0x3aa3f7
-	PTR	_text + 0x3aa401
-	PTR	_text + 0x3aa410
-	PTR	_text + 0x3aa41f
-	PTR	_text + 0x3aa429
+	PTR	_text + 0x3aa37f
+	PTR	_text + 0x3aa38c
+	PTR	_text + 0x3aa39b
+	PTR	_text + 0x3aa3a8
+	PTR	_text + 0x3aa3b4
+	PTR	_text + 0x3aa3c0
+	PTR	_text + 0x3aa3ce
+	PTR	_text + 0x3aa3d7
+	PTR	_text + 0x3aa3e1
+	PTR	_text + 0x3aa3f0
+	PTR	_text + 0x3aa3ff
+	PTR	_text + 0x3aa409
+	PTR	_text + 0x3aa420
+	PTR	_text + 0x3aa430
 	PTR	_text + 0x3aa440
-	PTR	_text + 0x3aa450
 	PTR	_text + 0x3aa460
 	PTR	_text + 0x3aa480
 	PTR	_text + 0x3aa4a0
 	PTR	_text + 0x3aa4c0
+	PTR	_text + 0x3aa4d0
 	PTR	_text + 0x3aa4e0
 	PTR	_text + 0x3aa4f0
-	PTR	_text + 0x3aa500
 	PTR	_text + 0x3aa510
 	PTR	_text + 0x3aa530
 	PTR	_text + 0x3aa550
 	PTR	_text + 0x3aa570
 	PTR	_text + 0x3aa590
-	PTR	_text + 0x3aa5b0
-	PTR	_text + 0x3aa5c6
-	PTR	_text + 0x3aa5e0
-	PTR	_text + 0x3aa5f0
-	PTR	_text + 0x3aa60b
+	PTR	_text + 0x3aa5a6
+	PTR	_text + 0x3aa5c0
+	PTR	_text + 0x3aa5d0
+	PTR	_text + 0x3aa5eb
+	PTR	_text + 0x3aa600
 	PTR	_text + 0x3aa620
+	PTR	_text + 0x3aa630
 	PTR	_text + 0x3aa640
-	PTR	_text + 0x3aa650
 	PTR	_text + 0x3aa660
 	PTR	_text + 0x3aa680
 	PTR	_text + 0x3aa6a0
@@ -18188,105 +18189,105 @@ kallsyms_addresses:
 	PTR	_text + 0x3aa6e0
 	PTR	_text + 0x3aa700
 	PTR	_text + 0x3aa720
-	PTR	_text + 0x3aa740
-	PTR	_text + 0x3aa756
-	PTR	_text + 0x3aa764
-	PTR	_text + 0x3aa780
-	PTR	_text + 0x3aa794
-	PTR	_text + 0x3aa79f
-	PTR	_text + 0x3aa7a8
-	PTR	_text + 0x3aa7b5
+	PTR	_text + 0x3aa736
+	PTR	_text + 0x3aa744
+	PTR	_text + 0x3aa760
+	PTR	_text + 0x3aa774
+	PTR	_text + 0x3aa77f
+	PTR	_text + 0x3aa788
+	PTR	_text + 0x3aa795
+	PTR	_text + 0x3aa7b0
 	PTR	_text + 0x3aa7d0
-	PTR	_text + 0x3aa7f0
+	PTR	_text + 0x3aa7e0
 	PTR	_text + 0x3aa800
 	PTR	_text + 0x3aa820
+	PTR	_text + 0x3aa832
 	PTR	_text + 0x3aa840
-	PTR	_text + 0x3aa852
-	PTR	_text + 0x3aa860
-	PTR	_text + 0x3aa874
+	PTR	_text + 0x3aa854
+	PTR	_text + 0x3aa880
 	PTR	_text + 0x3aa8a0
 	PTR	_text + 0x3aa8c0
 	PTR	_text + 0x3aa8e0
-	PTR	_text + 0x3aa900
-	PTR	_text + 0x3aa914
-	PTR	_text + 0x3aa940
+	PTR	_text + 0x3aa8f4
+	PTR	_text + 0x3aa920
+	PTR	_text + 0x3aa960
 	PTR	_text + 0x3aa980
 	PTR	_text + 0x3aa9a0
 	PTR	_text + 0x3aa9c0
+	PTR	_text + 0x3aa9d2
 	PTR	_text + 0x3aa9e0
-	PTR	_text + 0x3aa9f2
 	PTR	_text + 0x3aaa00
-	PTR	_text + 0x3aaa20
-	PTR	_text + 0x3aaa33
+	PTR	_text + 0x3aaa13
+	PTR	_text + 0x3aaa1f
+	PTR	_text + 0x3aaa28
+	PTR	_text + 0x3aaa35
 	PTR	_text + 0x3aaa3f
-	PTR	_text + 0x3aaa48
-	PTR	_text + 0x3aaa55
-	PTR	_text + 0x3aaa5f
-	PTR	_text + 0x3aaa6d
-	PTR	_text + 0x3aaa76
-	PTR	_text + 0x3aaa90
-	PTR	_text + 0x3aaaa1
-	PTR	_text + 0x3aaaae
-	PTR	_text + 0x3aaabb
-	PTR	_text + 0x3aaac3
-	PTR	_text + 0x3aaacc
-	PTR	_text + 0x3aaad5
+	PTR	_text + 0x3aaa4d
+	PTR	_text + 0x3aaa56
+	PTR	_text + 0x3aaa70
+	PTR	_text + 0x3aaa81
+	PTR	_text + 0x3aaa8e
+	PTR	_text + 0x3aaa9b
+	PTR	_text + 0x3aaaa3
+	PTR	_text + 0x3aaaac
+	PTR	_text + 0x3aaab5
+	PTR	_text + 0x3aaac0
+	PTR	_text + 0x3aaac9
 	PTR	_text + 0x3aaae0
-	PTR	_text + 0x3aaae9
+	PTR	_text + 0x3aaaf0
 	PTR	_text + 0x3aab00
 	PTR	_text + 0x3aab10
-	PTR	_text + 0x3aab20
 	PTR	_text + 0x3aab30
 	PTR	_text + 0x3aab50
 	PTR	_text + 0x3aab70
 	PTR	_text + 0x3aab90
 	PTR	_text + 0x3aabb0
 	PTR	_text + 0x3aabd0
-	PTR	_text + 0x3aabf0
-	PTR	_text + 0x3aac08
+	PTR	_text + 0x3aabe8
+	PTR	_text + 0x3aac00
 	PTR	_text + 0x3aac20
-	PTR	_text + 0x3aac40
+	PTR	_text + 0x3aac30
 	PTR	_text + 0x3aac50
-	PTR	_text + 0x3aac70
-	PTR	_text + 0x3aac83
-	PTR	_text + 0x3aac91
-	PTR	_text + 0x3aac9e
-	PTR	_text + 0x3aacb0
-	PTR	_text + 0x3aacc6
-	PTR	_text + 0x3aacd2
-	PTR	_text + 0x3aacdd
-	PTR	_text + 0x3aacea
-	PTR	_text + 0x3aad00
-	PTR	_text + 0x3aad13
-	PTR	_text + 0x3aad1d
-	PTR	_text + 0x3aad29
-	PTR	_text + 0x3aad37
-	PTR	_text + 0x3aad50
+	PTR	_text + 0x3aac63
+	PTR	_text + 0x3aac71
+	PTR	_text + 0x3aac7e
+	PTR	_text + 0x3aac90
+	PTR	_text + 0x3aaca6
+	PTR	_text + 0x3aacb2
+	PTR	_text + 0x3aacbd
+	PTR	_text + 0x3aacca
+	PTR	_text + 0x3aace0
+	PTR	_text + 0x3aacf3
+	PTR	_text + 0x3aacfd
+	PTR	_text + 0x3aad09
+	PTR	_text + 0x3aad17
+	PTR	_text + 0x3aad30
+	PTR	_text + 0x3aad40
 	PTR	_text + 0x3aad60
 	PTR	_text + 0x3aad80
 	PTR	_text + 0x3aada0
 	PTR	_text + 0x3aadc0
 	PTR	_text + 0x3aade0
+	PTR	_text + 0x3aadf0
 	PTR	_text + 0x3aae00
-	PTR	_text + 0x3aae10
-	PTR	_text + 0x3aae20
-	PTR	_text + 0x3aae2c
-	PTR	_text + 0x3aae38
+	PTR	_text + 0x3aae0c
+	PTR	_text + 0x3aae18
+	PTR	_text + 0x3aae30
 	PTR	_text + 0x3aae50
 	PTR	_text + 0x3aae70
 	PTR	_text + 0x3aae90
+	PTR	_text + 0x3aaea3
 	PTR	_text + 0x3aaeb0
-	PTR	_text + 0x3aaec3
 	PTR	_text + 0x3aaed0
-	PTR	_text + 0x3aaef0
-	PTR	_text + 0x3aaf0c
-	PTR	_text + 0x3aaf1b
-	PTR	_text + 0x3aaf30
+	PTR	_text + 0x3aaeec
+	PTR	_text + 0x3aaefb
+	PTR	_text + 0x3aaf10
+	PTR	_text + 0x3aaf20
 	PTR	_text + 0x3aaf40
 	PTR	_text + 0x3aaf60
+	PTR	_text + 0x3aaf74
 	PTR	_text + 0x3aaf80
-	PTR	_text + 0x3aaf94
-	PTR	_text + 0x3aafa0
+	PTR	_text + 0x3aaf90
 	PTR	_text + 0x3aafb0
 	PTR	_text + 0x3aafd0
 	PTR	_text + 0x3aaff0
@@ -18298,12 +18299,12 @@ kallsyms_addresses:
 	PTR	_text + 0x3ab0b0
 	PTR	_text + 0x3ab0d0
 	PTR	_text + 0x3ab0f0
-	PTR	_text + 0x3ab110
+	PTR	_text + 0x3ab100
 	PTR	_text + 0x3ab120
 	PTR	_text + 0x3ab140
-	PTR	_text + 0x3ab160
-	PTR	_text + 0x3ab172
-	PTR	_text + 0x3ab190
+	PTR	_text + 0x3ab152
+	PTR	_text + 0x3ab170
+	PTR	_text + 0x3ab180
 	PTR	_text + 0x3ab1a0
 	PTR	_text + 0x3ab1c0
 	PTR	_text + 0x3ab1e0
@@ -18311,47 +18312,47 @@ kallsyms_addresses:
 	PTR	_text + 0x3ab220
 	PTR	_text + 0x3ab240
 	PTR	_text + 0x3ab260
-	PTR	_text + 0x3ab280
-	PTR	_text + 0x3ab291
-	PTR	_text + 0x3ab29b
-	PTR	_text + 0x3ab2b0
-	PTR	_text + 0x3ab2c2
-	PTR	_text + 0x3ab2d1
+	PTR	_text + 0x3ab271
+	PTR	_text + 0x3ab27b
+	PTR	_text + 0x3ab290
+	PTR	_text + 0x3ab2a2
+	PTR	_text + 0x3ab2b1
+	PTR	_text + 0x3ab2c0
 	PTR	_text + 0x3ab2e0
-	PTR	_text + 0x3ab300
+	PTR	_text + 0x3ab2f0
 	PTR	_text + 0x3ab310
 	PTR	_text + 0x3ab330
 	PTR	_text + 0x3ab350
 	PTR	_text + 0x3ab370
+	PTR	_text + 0x3ab380
 	PTR	_text + 0x3ab390
 	PTR	_text + 0x3ab3a0
-	PTR	_text + 0x3ab3b0
-	PTR	_text + 0x3ab3c0
-	PTR	_text + 0x3ab3d4
+	PTR	_text + 0x3ab3b4
+	PTR	_text + 0x3ab3d0
 	PTR	_text + 0x3ab3f0
 	PTR	_text + 0x3ab410
 	PTR	_text + 0x3ab430
 	PTR	_text + 0x3ab450
-	PTR	_text + 0x3ab470
-	PTR	_text + 0x3ab482
+	PTR	_text + 0x3ab462
+	PTR	_text + 0x3ab480
 	PTR	_text + 0x3ab4a0
 	PTR	_text + 0x3ab4c0
 	PTR	_text + 0x3ab4e0
 	PTR	_text + 0x3ab500
 	PTR	_text + 0x3ab520
 	PTR	_text + 0x3ab540
+	PTR	_text + 0x3ab551
 	PTR	_text + 0x3ab560
-	PTR	_text + 0x3ab571
 	PTR	_text + 0x3ab580
-	PTR	_text + 0x3ab5a0
-	PTR	_text + 0x3ab5b9
+	PTR	_text + 0x3ab599
+	PTR	_text + 0x3ab5b0
+	PTR	_text + 0x3ab5bf
 	PTR	_text + 0x3ab5d0
-	PTR	_text + 0x3ab5df
 	PTR	_text + 0x3ab5f0
-	PTR	_text + 0x3ab610
+	PTR	_text + 0x3ab600
 	PTR	_text + 0x3ab620
 	PTR	_text + 0x3ab640
-	PTR	_text + 0x3ab660
+	PTR	_text + 0x3ab650
 	PTR	_text + 0x3ab670
 	PTR	_text + 0x3ab690
 	PTR	_text + 0x3ab6b0
@@ -18360,224 +18361,223 @@ kallsyms_addresses:
 	PTR	_text + 0x3ab710
 	PTR	_text + 0x3ab730
 	PTR	_text + 0x3ab750
+	PTR	_text + 0x3ab760
 	PTR	_text + 0x3ab770
 	PTR	_text + 0x3ab780
-	PTR	_text + 0x3ab790
 	PTR	_text + 0x3ab7a0
-	PTR	_text + 0x3ab7c0
-	PTR	_text + 0x3ab7d4
-	PTR	_text + 0x3ab7e1
-	PTR	_text + 0x3ab7eb
-	PTR	_text + 0x3ab7fa
-	PTR	_text + 0x3ab809
-	PTR	_text + 0x3ab814
+	PTR	_text + 0x3ab7b4
+	PTR	_text + 0x3ab7c1
+	PTR	_text + 0x3ab7cb
+	PTR	_text + 0x3ab7da
+	PTR	_text + 0x3ab7e9
+	PTR	_text + 0x3ab7f4
+	PTR	_text + 0x3ab810
+	PTR	_text + 0x3ab820
 	PTR	_text + 0x3ab830
 	PTR	_text + 0x3ab840
-	PTR	_text + 0x3ab850
 	PTR	_text + 0x3ab860
 	PTR	_text + 0x3ab880
 	PTR	_text + 0x3ab8a0
-	PTR	_text + 0x3ab8c0
-	PTR	_text + 0x3ab8c0
-	PTR	_text + 0x3ab8e8
-	PTR	_text + 0x3ab910
-	PTR	_text + 0x3ab938
-	PTR	_text + 0x3ab960
-	PTR	_text + 0x3ab988
-	PTR	_text + 0x3ab9b0
-	PTR	_text + 0x3ab9d8
-	PTR	_text + 0x3aba00
-	PTR	_text + 0x3aba28
-	PTR	_text + 0x3aba50
-	PTR	_text + 0x3aba78
-	PTR	_text + 0x3abaa0
-	PTR	_text + 0x3abac8
-	PTR	_text + 0x3abaf0
-	PTR	_text + 0x3abb18
-	PTR	_text + 0x3abb40
-	PTR	_text + 0x3abb68
-	PTR	_text + 0x3abb90
-	PTR	_text + 0x3abbb8
-	PTR	_text + 0x3abbe0
-	PTR	_text + 0x3abc08
-	PTR	_text + 0x3abc30
-	PTR	_text + 0x3abc58
-	PTR	_text + 0x3abc80
-	PTR	_text + 0x3abca8
-	PTR	_text + 0x3abcd0
-	PTR	_text + 0x3abcf8
-	PTR	_text + 0x3abd20
-	PTR	_text + 0x3abd48
-	PTR	_text + 0x3abd70
-	PTR	_text + 0x3abd98
-	PTR	_text + 0x3abdc0
-	PTR	_text + 0x3abde8
-	PTR	_text + 0x3abe10
-	PTR	_text + 0x3abe38
-	PTR	_text + 0x3abe60
-	PTR	_text + 0x3abe88
-	PTR	_text + 0x3abeb0
-	PTR	_text + 0x3abed8
-	PTR	_text + 0x3abf00
-	PTR	_text + 0x3abf28
-	PTR	_text + 0x3abf50
-	PTR	_text + 0x3abf78
-	PTR	_text + 0x3abfa0
-	PTR	_text + 0x3abfc8
-	PTR	_text + 0x3abff0
-	PTR	_text + 0x3ac018
-	PTR	_text + 0x3ac040
-	PTR	_text + 0x3ac068
-	PTR	_text + 0x3ac090
-	PTR	_text + 0x3ac0b8
-	PTR	_text + 0x3ac0e0
-	PTR	_text + 0x3ac108
-	PTR	_text + 0x3ac130
-	PTR	_text + 0x3ac158
-	PTR	_text + 0x3ac180
-	PTR	_text + 0x3ac1a8
-	PTR	_text + 0x3ac1d0
-	PTR	_text + 0x3ac1f8
-	PTR	_text + 0x3ac220
-	PTR	_text + 0x3ac248
-	PTR	_text + 0x3ac270
-	PTR	_text + 0x3ac298
-	PTR	_text + 0x3ac2c0
-	PTR	_text + 0x3ac2e8
-	PTR	_text + 0x3ac310
-	PTR	_text + 0x3ac338
-	PTR	_text + 0x3ac360
-	PTR	_text + 0x3ac388
-	PTR	_text + 0x3ac3b0
-	PTR	_text + 0x3ac3d8
-	PTR	_text + 0x3ac400
-	PTR	_text + 0x3ac428
-	PTR	_text + 0x3ac450
-	PTR	_text + 0x3ac478
-	PTR	_text + 0x3ac4a0
-	PTR	_text + 0x3ac4c8
-	PTR	_text + 0x3ac4f0
-	PTR	_text + 0x3ac518
-	PTR	_text + 0x3ac540
-	PTR	_text + 0x3ac568
-	PTR	_text + 0x3ac590
-	PTR	_text + 0x3ac5b8
-	PTR	_text + 0x3ac5e0
-	PTR	_text + 0x3ac608
-	PTR	_text + 0x3ac630
-	PTR	_text + 0x3ac658
-	PTR	_text + 0x3ac680
-	PTR	_text + 0x3ac6a8
-	PTR	_text + 0x3ac6d0
-	PTR	_text + 0x3ac6f8
-	PTR	_text + 0x3ac720
-	PTR	_text + 0x3ac748
-	PTR	_text + 0x3ac770
-	PTR	_text + 0x3ac798
-	PTR	_text + 0x3ac7c0
-	PTR	_text + 0x3ac7e8
-	PTR	_text + 0x3ac810
-	PTR	_text + 0x3ac838
-	PTR	_text + 0x3ac860
-	PTR	_text + 0x3ac888
-	PTR	_text + 0x3ac8b0
-	PTR	_text + 0x3ac8d8
-	PTR	_text + 0x3ac900
-	PTR	_text + 0x3ac928
-	PTR	_text + 0x3ac950
-	PTR	_text + 0x3ac978
-	PTR	_text + 0x3ac9a0
-	PTR	_text + 0x3ac9c8
-	PTR	_text + 0x3ac9f0
-	PTR	_text + 0x3aca18
-	PTR	_text + 0x3aca40
-	PTR	_text + 0x3aca68
-	PTR	_text + 0x3aca90
-	PTR	_text + 0x3acab8
-	PTR	_text + 0x3acae0
-	PTR	_text + 0x3acb08
-	PTR	_text + 0x3acb30
-	PTR	_text + 0x3acb58
-	PTR	_text + 0x3acb80
-	PTR	_text + 0x3acba8
-	PTR	_text + 0x3acbd0
-	PTR	_text + 0x3acbf8
-	PTR	_text + 0x3acc20
-	PTR	_text + 0x3acc48
-	PTR	_text + 0x3acc70
-	PTR	_text + 0x3acc98
-	PTR	_text + 0x3accc0
-	PTR	_text + 0x3acce8
-	PTR	_text + 0x3acd10
-	PTR	_text + 0x3acd38
-	PTR	_text + 0x3acd60
-	PTR	_text + 0x3acd88
-	PTR	_text + 0x3acdb0
-	PTR	_text + 0x3acdd8
-	PTR	_text + 0x3ace00
-	PTR	_text + 0x3ace28
-	PTR	_text + 0x3ace50
-	PTR	_text + 0x3ace78
-	PTR	_text + 0x3acea0
-	PTR	_text + 0x3acec8
-	PTR	_text + 0x3acef0
-	PTR	_text + 0x3acf18
-	PTR	_text + 0x3acf40
-	PTR	_text + 0x3acf68
-	PTR	_text + 0x3acf90
-	PTR	_text + 0x3acfb8
-	PTR	_text + 0x3acfe0
-	PTR	_text + 0x3ad008
-	PTR	_text + 0x3ad030
-	PTR	_text + 0x3ad058
-	PTR	_text + 0x3ad080
-	PTR	_text + 0x3ad0a8
-	PTR	_text + 0x3ad0d0
-	PTR	_text + 0x3ad0f8
-	PTR	_text + 0x3ad120
-	PTR	_text + 0x3ad148
-	PTR	_text + 0x3ad170
-	PTR	_text + 0x3ad198
-	PTR	_text + 0x3ad1c0
-	PTR	_text + 0x3ad1e8
-	PTR	_text + 0x3ad210
-	PTR	_text + 0x3ad238
-	PTR	_text + 0x3ad260
-	PTR	_text + 0x3ad288
-	PTR	_text + 0x3ad2b0
-	PTR	_text + 0x3ad2d8
-	PTR	_text + 0x3ad300
-	PTR	_text + 0x3ad328
-	PTR	_text + 0x3ad350
-	PTR	_text + 0x3ad378
-	PTR	_text + 0x3ad3a0
-	PTR	_text + 0x3ad3c8
-	PTR	_text + 0x3ad3f0
-	PTR	_text + 0x3ad418
-	PTR	_text + 0x3ad440
-	PTR	_text + 0x3ad468
-	PTR	_text + 0x3ad490
-	PTR	_text + 0x3ad4b8
-	PTR	_text + 0x3ad4e0
-	PTR	_text + 0x3ad508
-	PTR	_text + 0x3ad530
-	PTR	_text + 0x3ad558
-	PTR	_text + 0x3ad580
-	PTR	_text + 0x3ad5a8
-	PTR	_text + 0x3ad5d0
-	PTR	_text + 0x3ad5f8
-	PTR	_text + 0x3ad620
-	PTR	_text + 0x3ad648
-	PTR	_text + 0x3ad670
-	PTR	_text + 0x3ad698
-	PTR	_text + 0x3ad6c0
-	PTR	_text + 0x3ad6e8
-	PTR	_text + 0x3ad710
-	PTR	_text + 0x3ad738
-	PTR	_text + 0x3ad760
-	PTR	_text + 0x3ad788
-	PTR	_text + 0x3ad7b0
-	PTR	_text + 0x3ad7b0
+	PTR	_text + 0x3ab8a0
+	PTR	_text + 0x3ab8c8
+	PTR	_text + 0x3ab8f0
+	PTR	_text + 0x3ab918
+	PTR	_text + 0x3ab940
+	PTR	_text + 0x3ab968
+	PTR	_text + 0x3ab990
+	PTR	_text + 0x3ab9b8
+	PTR	_text + 0x3ab9e0
+	PTR	_text + 0x3aba08
+	PTR	_text + 0x3aba30
+	PTR	_text + 0x3aba58
+	PTR	_text + 0x3aba80
+	PTR	_text + 0x3abaa8
+	PTR	_text + 0x3abad0
+	PTR	_text + 0x3abaf8
+	PTR	_text + 0x3abb20
+	PTR	_text + 0x3abb48
+	PTR	_text + 0x3abb70
+	PTR	_text + 0x3abb98
+	PTR	_text + 0x3abbc0
+	PTR	_text + 0x3abbe8
+	PTR	_text + 0x3abc10
+	PTR	_text + 0x3abc38
+	PTR	_text + 0x3abc60
+	PTR	_text + 0x3abc88
+	PTR	_text + 0x3abcb0
+	PTR	_text + 0x3abcd8
+	PTR	_text + 0x3abd00
+	PTR	_text + 0x3abd28
+	PTR	_text + 0x3abd50
+	PTR	_text + 0x3abd78
+	PTR	_text + 0x3abda0
+	PTR	_text + 0x3abdc8
+	PTR	_text + 0x3abdf0
+	PTR	_text + 0x3abe18
+	PTR	_text + 0x3abe40
+	PTR	_text + 0x3abe68
+	PTR	_text + 0x3abe90
+	PTR	_text + 0x3abeb8
+	PTR	_text + 0x3abee0
+	PTR	_text + 0x3abf08
+	PTR	_text + 0x3abf30
+	PTR	_text + 0x3abf58
+	PTR	_text + 0x3abf80
+	PTR	_text + 0x3abfa8
+	PTR	_text + 0x3abfd0
+	PTR	_text + 0x3abff8
+	PTR	_text + 0x3ac020
+	PTR	_text + 0x3ac048
+	PTR	_text + 0x3ac070
+	PTR	_text + 0x3ac098
+	PTR	_text + 0x3ac0c0
+	PTR	_text + 0x3ac0e8
+	PTR	_text + 0x3ac110
+	PTR	_text + 0x3ac138
+	PTR	_text + 0x3ac160
+	PTR	_text + 0x3ac188
+	PTR	_text + 0x3ac1b0
+	PTR	_text + 0x3ac1d8
+	PTR	_text + 0x3ac200
+	PTR	_text + 0x3ac228
+	PTR	_text + 0x3ac250
+	PTR	_text + 0x3ac278
+	PTR	_text + 0x3ac2a0
+	PTR	_text + 0x3ac2c8
+	PTR	_text + 0x3ac2f0
+	PTR	_text + 0x3ac318
+	PTR	_text + 0x3ac340
+	PTR	_text + 0x3ac368
+	PTR	_text + 0x3ac390
+	PTR	_text + 0x3ac3b8
+	PTR	_text + 0x3ac3e0
+	PTR	_text + 0x3ac408
+	PTR	_text + 0x3ac430
+	PTR	_text + 0x3ac458
+	PTR	_text + 0x3ac480
+	PTR	_text + 0x3ac4a8
+	PTR	_text + 0x3ac4d0
+	PTR	_text + 0x3ac4f8
+	PTR	_text + 0x3ac520
+	PTR	_text + 0x3ac548
+	PTR	_text + 0x3ac570
+	PTR	_text + 0x3ac598
+	PTR	_text + 0x3ac5c0
+	PTR	_text + 0x3ac5e8
+	PTR	_text + 0x3ac610
+	PTR	_text + 0x3ac638
+	PTR	_text + 0x3ac660
+	PTR	_text + 0x3ac688
+	PTR	_text + 0x3ac6b0
+	PTR	_text + 0x3ac6d8
+	PTR	_text + 0x3ac700
+	PTR	_text + 0x3ac728
+	PTR	_text + 0x3ac750
+	PTR	_text + 0x3ac778
+	PTR	_text + 0x3ac7a0
+	PTR	_text + 0x3ac7c8
+	PTR	_text + 0x3ac7f0
+	PTR	_text + 0x3ac818
+	PTR	_text + 0x3ac840
+	PTR	_text + 0x3ac868
+	PTR	_text + 0x3ac890
+	PTR	_text + 0x3ac8b8
+	PTR	_text + 0x3ac8e0
+	PTR	_text + 0x3ac908
+	PTR	_text + 0x3ac930
+	PTR	_text + 0x3ac958
+	PTR	_text + 0x3ac980
+	PTR	_text + 0x3ac9a8
+	PTR	_text + 0x3ac9d0
+	PTR	_text + 0x3ac9f8
+	PTR	_text + 0x3aca20
+	PTR	_text + 0x3aca48
+	PTR	_text + 0x3aca70
+	PTR	_text + 0x3aca98
+	PTR	_text + 0x3acac0
+	PTR	_text + 0x3acae8
+	PTR	_text + 0x3acb10
+	PTR	_text + 0x3acb38
+	PTR	_text + 0x3acb60
+	PTR	_text + 0x3acb88
+	PTR	_text + 0x3acbb0
+	PTR	_text + 0x3acbd8
+	PTR	_text + 0x3acc00
+	PTR	_text + 0x3acc28
+	PTR	_text + 0x3acc50
+	PTR	_text + 0x3acc78
+	PTR	_text + 0x3acca0
+	PTR	_text + 0x3accc8
+	PTR	_text + 0x3accf0
+	PTR	_text + 0x3acd18
+	PTR	_text + 0x3acd40
+	PTR	_text + 0x3acd68
+	PTR	_text + 0x3acd90
+	PTR	_text + 0x3acdb8
+	PTR	_text + 0x3acde0
+	PTR	_text + 0x3ace08
+	PTR	_text + 0x3ace30
+	PTR	_text + 0x3ace58
+	PTR	_text + 0x3ace80
+	PTR	_text + 0x3acea8
+	PTR	_text + 0x3aced0
+	PTR	_text + 0x3acef8
+	PTR	_text + 0x3acf20
+	PTR	_text + 0x3acf48
+	PTR	_text + 0x3acf70
+	PTR	_text + 0x3acf98
+	PTR	_text + 0x3acfc0
+	PTR	_text + 0x3acfe8
+	PTR	_text + 0x3ad010
+	PTR	_text + 0x3ad038
+	PTR	_text + 0x3ad060
+	PTR	_text + 0x3ad088
+	PTR	_text + 0x3ad0b0
+	PTR	_text + 0x3ad0d8
+	PTR	_text + 0x3ad100
+	PTR	_text + 0x3ad128
+	PTR	_text + 0x3ad150
+	PTR	_text + 0x3ad178
+	PTR	_text + 0x3ad1a0
+	PTR	_text + 0x3ad1c8
+	PTR	_text + 0x3ad1f0
+	PTR	_text + 0x3ad218
+	PTR	_text + 0x3ad240
+	PTR	_text + 0x3ad268
+	PTR	_text + 0x3ad290
+	PTR	_text + 0x3ad2b8
+	PTR	_text + 0x3ad2e0
+	PTR	_text + 0x3ad308
+	PTR	_text + 0x3ad330
+	PTR	_text + 0x3ad358
+	PTR	_text + 0x3ad380
+	PTR	_text + 0x3ad3a8
+	PTR	_text + 0x3ad3d0
+	PTR	_text + 0x3ad3f8
+	PTR	_text + 0x3ad420
+	PTR	_text + 0x3ad448
+	PTR	_text + 0x3ad470
+	PTR	_text + 0x3ad498
+	PTR	_text + 0x3ad4c0
+	PTR	_text + 0x3ad4e8
+	PTR	_text + 0x3ad510
+	PTR	_text + 0x3ad538
+	PTR	_text + 0x3ad560
+	PTR	_text + 0x3ad588
+	PTR	_text + 0x3ad5b0
+	PTR	_text + 0x3ad5d8
+	PTR	_text + 0x3ad600
+	PTR	_text + 0x3ad628
+	PTR	_text + 0x3ad650
+	PTR	_text + 0x3ad678
+	PTR	_text + 0x3ad6a0
+	PTR	_text + 0x3ad6c8
+	PTR	_text + 0x3ad6f0
+	PTR	_text + 0x3ad718
+	PTR	_text + 0x3ad740
+	PTR	_text + 0x3ad768
+	PTR	_text + 0x3ad790
+	PTR	_text + 0x3ad790
 	PTR	_text + 0x3ae000
 	PTR	_text + 0x3ae002
 	PTR	_text + 0x3ae010
@@ -22140,333 +22140,346 @@ kallsyms_addresses:
 	PTR	_text + 0x462a00
 	PTR	_text + 0x462a40
 	PTR	_text + 0x462a80
-	PTR	_text + 0x462a88
 	PTR	_text + 0x462aa0
-	PTR	_text + 0x462b80
-	PTR	_text + 0x463040
-	PTR	_text + 0x463048
-	PTR	_text + 0x463060
-	PTR	_text + 0x464348
-	PTR	_text + 0x464350
-	PTR	_text + 0x464358
-	PTR	_text + 0x464360
-	PTR	_text + 0x464368
-	PTR	_text + 0x464370
-	PTR	_text + 0x464374
-	PTR	_text + 0x464378
-	PTR	_text + 0x464380
-	PTR	_text + 0x464388
-	PTR	_text + 0x464390
-	PTR	_text + 0x464398
-	PTR	_text + 0x4643a0
-	PTR	_text + 0x4643a8
-	PTR	_text + 0x4643b0
-	PTR	_text + 0x4643b8
-	PTR	_text + 0x4643c0
-	PTR	_text + 0x4643c8
-	PTR	_text + 0x4643d0
-	PTR	_text + 0x4643e0
-	PTR	_text + 0x4643e8
-	PTR	_text + 0x4643ec
-	PTR	_text + 0x4643f0
-	PTR	_text + 0x4643f4
-	PTR	_text + 0x464400
-	PTR	_text + 0x464420
-	PTR	_text + 0x464820
-	PTR	_text + 0x464824
-	PTR	_text + 0x464840
-	PTR	_text + 0x464848
-	PTR	_text + 0x46484c
-	PTR	_text + 0x464850
-	PTR	_text + 0x464858
-	PTR	_text + 0x464860
-	PTR	_text + 0x464880
-	PTR	_text + 0x464c80
-	PTR	_text + 0x464ca0
+	PTR	_text + 0x462f60
+	PTR	_text + 0x462f68
+	PTR	_text + 0x462f80
+	PTR	_text + 0x464268
+	PTR	_text + 0x464270
+	PTR	_text + 0x464278
+	PTR	_text + 0x464280
+	PTR	_text + 0x464288
+	PTR	_text + 0x464290
+	PTR	_text + 0x464294
+	PTR	_text + 0x464298
+	PTR	_text + 0x4642a0
+	PTR	_text + 0x4642a8
+	PTR	_text + 0x4642b0
+	PTR	_text + 0x4642b8
+	PTR	_text + 0x4642c0
+	PTR	_text + 0x4642c8
+	PTR	_text + 0x4642d0
+	PTR	_text + 0x4642d8
+	PTR	_text + 0x4642e0
+	PTR	_text + 0x4642e8
+	PTR	_text + 0x4642f0
+	PTR	_text + 0x464300
+	PTR	_text + 0x464308
+	PTR	_text + 0x46430c
+	PTR	_text + 0x464310
+	PTR	_text + 0x464314
+	PTR	_text + 0x464320
+	PTR	_text + 0x464340
+	PTR	_text + 0x464740
+	PTR	_text + 0x464744
+	PTR	_text + 0x464760
+	PTR	_text + 0x464768
+	PTR	_text + 0x46476c
+	PTR	_text + 0x464770
+	PTR	_text + 0x464778
+	PTR	_text + 0x464780
+	PTR	_text + 0x4647a0
+	PTR	_text + 0x464ba0
+	PTR	_text + 0x464bc0
+	PTR	_text + 0x484bc0
+	PTR	_text + 0x484be0
 	PTR	_text + 0x484ca0
+	PTR	_text + 0x484ca8
+	PTR	_text + 0x484cb0
+	PTR	_text + 0x484cb8
+	PTR	_text + 0x484cbc
 	PTR	_text + 0x484cc0
-	PTR	_text + 0x484d80
-	PTR	_text + 0x484d88
-	PTR	_text + 0x484d90
-	PTR	_text + 0x484d98
-	PTR	_text + 0x484d9c
-	PTR	_text + 0x484da0
-	PTR	_text + 0x484da8
-	PTR	_text + 0x484db0
-	PTR	_text + 0x484db8
-	PTR	_text + 0x484dc0
-	PTR	_text + 0x484dc4
-	PTR	_text + 0x484dc8
-	PTR	_text + 0x484dcc
-	PTR	_text + 0x484dd0
-	PTR	_text + 0x484dd4
-	PTR	_text + 0x484dd8
-	PTR	_text + 0x484ddc
-	PTR	_text + 0x484de0
-	PTR	_text + 0x484de8
-	PTR	_text + 0x484df0
-	PTR	_text + 0x484e00
+	PTR	_text + 0x484cc8
+	PTR	_text + 0x484cd0
+	PTR	_text + 0x484cd8
+	PTR	_text + 0x484ce0
+	PTR	_text + 0x484ce4
+	PTR	_text + 0x484ce8
+	PTR	_text + 0x484cec
+	PTR	_text + 0x484cf0
+	PTR	_text + 0x484cf4
+	PTR	_text + 0x484cf8
+	PTR	_text + 0x484cfc
+	PTR	_text + 0x484d00
+	PTR	_text + 0x484d08
+	PTR	_text + 0x484d10
+	PTR	_text + 0x484d20
+	PTR	_text + 0x484f20
 	PTR	_text + 0x485000
-	PTR	_text + 0x4850e0
+	PTR	_text + 0x485020
+	PTR	_text + 0x485040
+	PTR	_text + 0x4850a0
+	PTR	_text + 0x4850f0
+	PTR	_text + 0x4850f4
+	PTR	_text + 0x4850f8
 	PTR	_text + 0x485100
 	PTR	_text + 0x485120
+	PTR	_text + 0x485140
 	PTR	_text + 0x485180
-	PTR	_text + 0x4851d0
-	PTR	_text + 0x4851d4
-	PTR	_text + 0x4851d8
-	PTR	_text + 0x485200
-	PTR	_text + 0x485220
-	PTR	_text + 0x485240
-	PTR	_text + 0x485280
-	PTR	_text + 0x487300
-	PTR	_text + 0x487308
-	PTR	_text + 0x487309
-	PTR	_text + 0x48730a
-	PTR	_text + 0x487320
-	PTR	_text + 0x488320
-	PTR	_text + 0x488328
-	PTR	_text + 0x488330
-	PTR	_text + 0x488338
-	PTR	_text + 0x488340
-	PTR	_text + 0x488348
-	PTR	_text + 0x488350
-	PTR	_text + 0x488354
-	PTR	_text + 0x488358
-	PTR	_text + 0x488360
-	PTR	_text + 0x488368
-	PTR	_text + 0x488370
-	PTR	_text + 0x488378
+	PTR	_text + 0x487200
+	PTR	_text + 0x487208
+	PTR	_text + 0x487209
+	PTR	_text + 0x48720a
+	PTR	_text + 0x487220
+	PTR	_text + 0x488220
+	PTR	_text + 0x488228
+	PTR	_text + 0x488230
+	PTR	_text + 0x488238
+	PTR	_text + 0x488240
+	PTR	_text + 0x488248
+	PTR	_text + 0x488250
+	PTR	_text + 0x488254
+	PTR	_text + 0x488258
+	PTR	_text + 0x488260
+	PTR	_text + 0x488268
+	PTR	_text + 0x488270
+	PTR	_text + 0x488278
+	PTR	_text + 0x488280
+	PTR	_text + 0x488300
 	PTR	_text + 0x488380
+	PTR	_text + 0x4883e0
 	PTR	_text + 0x488400
-	PTR	_text + 0x488480
-	PTR	_text + 0x4884e0
-	PTR	_text + 0x488500
-	PTR	_text + 0x488528
-	PTR	_text + 0x488540
-	PTR	_text + 0x488560
-	PTR	_text + 0x488a60
-	PTR	_text + 0x488ac0
+	PTR	_text + 0x488428
+	PTR	_text + 0x488440
+	PTR	_text + 0x488460
+	PTR	_text + 0x488960
+	PTR	_text + 0x4889c0
+	PTR	_text + 0x4889e0
+	PTR	_text + 0x488a00
+	PTR	_text + 0x488a70
+	PTR	_text + 0x488a80
+	PTR	_text + 0x488aa0
+	PTR	_text + 0x488aa8
+	PTR	_text + 0x488ab0
+	PTR	_text + 0x488ab8
+	PTR	_text + 0x488abc
 	PTR	_text + 0x488ae0
+	PTR	_text + 0x488af0
 	PTR	_text + 0x488b00
-	PTR	_text + 0x488b70
+	PTR	_text + 0x488b08
+	PTR	_text + 0x488b10
+	PTR	_text + 0x488b18
+	PTR	_text + 0x488b20
+	PTR	_text + 0x488b28
+	PTR	_text + 0x488b30
+	PTR	_text + 0x488b38
+	PTR	_text + 0x488b40
+	PTR	_text + 0x488b48
+	PTR	_text + 0x488b50
+	PTR	_text + 0x488b60
 	PTR	_text + 0x488b80
 	PTR	_text + 0x488ba0
 	PTR	_text + 0x488ba8
-	PTR	_text + 0x488bb0
-	PTR	_text + 0x488bb8
-	PTR	_text + 0x488bbc
+	PTR	_text + 0x488bc0
+	PTR	_text + 0x488bc8
 	PTR	_text + 0x488be0
-	PTR	_text + 0x488bf0
-	PTR	_text + 0x488c00
-	PTR	_text + 0x488c08
-	PTR	_text + 0x488c10
-	PTR	_text + 0x488c18
-	PTR	_text + 0x488c20
-	PTR	_text + 0x488c28
-	PTR	_text + 0x488c30
-	PTR	_text + 0x488c38
-	PTR	_text + 0x488c40
-	PTR	_text + 0x488c48
-	PTR	_text + 0x488c50
-	PTR	_text + 0x488c60
-	PTR	_text + 0x488c80
-	PTR	_text + 0x488ca0
-	PTR	_text + 0x488ca8
-	PTR	_text + 0x488cc0
-	PTR	_text + 0x488cc8
-	PTR	_text + 0x488ce0
+	PTR	_text + 0x49abe0
+	PTR	_text + 0x49abe8
+	PTR	_text + 0x49abf0
+	PTR	_text + 0x49ac00
+	PTR	_text + 0x49ac60
+	PTR	_text + 0x49ac64
+	PTR	_text + 0x49ac68
+	PTR	_text + 0x49ac6c
+	PTR	_text + 0x49ac70
+	PTR	_text + 0x49ac74
+	PTR	_text + 0x49ac78
+	PTR	_text + 0x49ac7c
+	PTR	_text + 0x49ac80
+	PTR	_text + 0x49ac84
+	PTR	_text + 0x49ac88
+	PTR	_text + 0x49ac8c
+	PTR	_text + 0x49ac90
+	PTR	_text + 0x49ac94
+	PTR	_text + 0x49ac98
+	PTR	_text + 0x49ac9c
+	PTR	_text + 0x49aca0
+	PTR	_text + 0x49aca4
+	PTR	_text + 0x49aca8
+	PTR	_text + 0x49acac
+	PTR	_text + 0x49acb0
+	PTR	_text + 0x49acb4
+	PTR	_text + 0x49acb8
+	PTR	_text + 0x49acc0
+	PTR	_text + 0x49acc8
+	PTR	_text + 0x49acd0
+	PTR	_text + 0x49acd8
 	PTR	_text + 0x49ace0
 	PTR	_text + 0x49ace8
 	PTR	_text + 0x49acf0
+	PTR	_text + 0x49acf8
 	PTR	_text + 0x49ad00
-	PTR	_text + 0x49ad60
-	PTR	_text + 0x49ad64
-	PTR	_text + 0x49ad68
-	PTR	_text + 0x49ad6c
-	PTR	_text + 0x49ad70
-	PTR	_text + 0x49ad74
-	PTR	_text + 0x49ad78
-	PTR	_text + 0x49ad7c
-	PTR	_text + 0x49ad80
-	PTR	_text + 0x49ad84
-	PTR	_text + 0x49ad88
-	PTR	_text + 0x49ad8c
-	PTR	_text + 0x49ad90
-	PTR	_text + 0x49ad94
-	PTR	_text + 0x49ad98
-	PTR	_text + 0x49ad9c
-	PTR	_text + 0x49ada0
-	PTR	_text + 0x49ada4
-	PTR	_text + 0x49ada8
-	PTR	_text + 0x49adac
-	PTR	_text + 0x49adb0
-	PTR	_text + 0x49adb4
-	PTR	_text + 0x49adb8
-	PTR	_text + 0x49adc0
-	PTR	_text + 0x49adc8
-	PTR	_text + 0x49add0
-	PTR	_text + 0x49add8
-	PTR	_text + 0x49ade0
-	PTR	_text + 0x49ade8
-	PTR	_text + 0x49adf0
-	PTR	_text + 0x49adf8
-	PTR	_text + 0x49ae00
-	PTR	_text + 0x49ae08
-	PTR	_text + 0x49ae20
-	PTR	_text + 0x69ae20
-	PTR	_text + 0x6bae20
-	PTR	_text + 0x71ae20
-	PTR	_text + 0x71ee20
-	PTR	_text + 0x7c6e20
-	PTR	_text + 0x836e20
-	PTR	_text + 0x836e40
-	PTR	_text + 0x836e48
-	PTR	_text + 0x836e50
-	PTR	_text + 0x836e60
-	PTR	_text + 0x83de60
-	PTR	_text + 0x83de68
-	PTR	_text + 0x83de80
-	PTR	_text + 0x83dea0
-	PTR	_text + 0x83e3a0
-	PTR	_text + 0x83e3e0
-	PTR	_text + 0x83eb20
-	PTR	_text + 0x83eb40
+	PTR	_text + 0x49ad08
+	PTR	_text + 0x49ad20
+	PTR	_text + 0x69ad20
+	PTR	_text + 0x6bad20
+	PTR	_text + 0x71ad20
+	PTR	_text + 0x71ed20
+	PTR	_text + 0x7c6d20
+	PTR	_text + 0x836d20
+	PTR	_text + 0x836d40
+	PTR	_text + 0x836d48
+	PTR	_text + 0x836d50
+	PTR	_text + 0x836d60
+	PTR	_text + 0x83dd60
+	PTR	_text + 0x83dd68
+	PTR	_text + 0x83dd80
+	PTR	_text + 0x83dda0
+	PTR	_text + 0x83e2a0
+	PTR	_text + 0x83e2e0
+	PTR	_text + 0x83ea20
+	PTR	_text + 0x83ea40
+	PTR	_text + 0x83eaa0
+	PTR	_text + 0x83eb78
+	PTR	_text + 0x83eb80
+	PTR	_text + 0x83eb84
+	PTR	_text + 0x83eb88
+	PTR	_text + 0x83eb90
+	PTR	_text + 0x83eb98
 	PTR	_text + 0x83eba0
+	PTR	_text + 0x83eba8
+	PTR	_text + 0x83ebb0
+	PTR	_text + 0x83ebc0
+	PTR	_text + 0x83ebc8
+	PTR	_text + 0x83ebd0
+	PTR	_text + 0x83ebd8
+	PTR	_text + 0x83ebe0
+	PTR	_text + 0x83ec00
+	PTR	_text + 0x83ec04
+	PTR	_text + 0x83ec08
+	PTR	_text + 0x83ec10
+	PTR	_text + 0x83ec18
+	PTR	_text + 0x83ec20
+	PTR	_text + 0x83ec60
+	PTR	_text + 0x83ec64
+	PTR	_text + 0x83ec68
+	PTR	_text + 0x83ec70
 	PTR	_text + 0x83ec78
 	PTR	_text + 0x83ec80
-	PTR	_text + 0x83ec84
-	PTR	_text + 0x83ec88
-	PTR	_text + 0x83ec90
-	PTR	_text + 0x83ec98
 	PTR	_text + 0x83eca0
-	PTR	_text + 0x83eca8
-	PTR	_text + 0x83ecb0
 	PTR	_text + 0x83ecc0
-	PTR	_text + 0x83ecc8
-	PTR	_text + 0x83ecd0
-	PTR	_text + 0x83ecd8
-	PTR	_text + 0x83ece0
-	PTR	_text + 0x83ed00
-	PTR	_text + 0x83ed04
-	PTR	_text + 0x83ed08
-	PTR	_text + 0x83ed10
-	PTR	_text + 0x83ed18
-	PTR	_text + 0x83ed20
-	PTR	_text + 0x83ed60
-	PTR	_text + 0x83ed64
-	PTR	_text + 0x83ed68
-	PTR	_text + 0x83ed70
-	PTR	_text + 0x83ed78
-	PTR	_text + 0x83ed80
-	PTR	_text + 0x83eda0
+	PTR	_text + 0x83ed40
 	PTR	_text + 0x83edc0
-	PTR	_text + 0x83ee40
-	PTR	_text + 0x83eec0
-	PTR	_text + 0x83eee0
+	PTR	_text + 0x83ede0
+	PTR	_text + 0x83ee60
+	PTR	_text + 0x83ef58
 	PTR	_text + 0x83ef60
-	PTR	_text + 0x83f058
-	PTR	_text + 0x83f060
-	PTR	_text + 0x83f068
-	PTR	_text + 0x83f070
-	PTR	_text + 0x83f078
-	PTR	_text + 0x83f080
-	PTR	_text + 0x83f084
-	PTR	_text + 0x83f088
-	PTR	_text + 0x83f090
-	PTR	_text + 0x83f098
-	PTR	_text + 0x83f0a0
-	PTR	_text + 0x83f0a8
-	PTR	_text + 0x83f0c0
-	PTR	_text + 0x83f100
-	PTR	_text + 0x83f108
-	PTR	_text + 0x83f10c
-	PTR	_text + 0x83f120
-	PTR	_text + 0x83fd20
-	PTR	_text + 0x83fd28
-	PTR	_text + 0x83fd30
+	PTR	_text + 0x83ef68
+	PTR	_text + 0x83ef70
+	PTR	_text + 0x83ef78
+	PTR	_text + 0x83ef80
+	PTR	_text + 0x83ef84
+	PTR	_text + 0x83ef88
+	PTR	_text + 0x83ef90
+	PTR	_text + 0x83ef98
+	PTR	_text + 0x83efa0
+	PTR	_text + 0x83efa8
+	PTR	_text + 0x83efc0
+	PTR	_text + 0x83f000
+	PTR	_text + 0x83f008
+	PTR	_text + 0x83f00c
+	PTR	_text + 0x83f020
+	PTR	_text + 0x83fc20
+	PTR	_text + 0x83fc28
+	PTR	_text + 0x83fc30
+	PTR	_text + 0x83fc38
+	PTR	_text + 0x83fc40
+	PTR	_text + 0x83fc48
+	PTR	_text + 0x83fc50
+	PTR	_text + 0x83fc60
+	PTR	_text + 0x83fc68
+	PTR	_text + 0x83fc80
 	PTR	_text + 0x83fd38
+	PTR	_text + 0x83fd3c
 	PTR	_text + 0x83fd40
 	PTR	_text + 0x83fd48
-	PTR	_text + 0x83fd50
+	PTR	_text + 0x83fd4c
 	PTR	_text + 0x83fd60
 	PTR	_text + 0x83fd68
+	PTR	_text + 0x83fd6c
+	PTR	_text + 0x83fd78
 	PTR	_text + 0x83fd80
+	PTR	_text + 0x83fe18
+	PTR	_text + 0x83fe20
+	PTR	_text + 0x83fe28
+	PTR	_text + 0x83fe30
 	PTR	_text + 0x83fe38
-	PTR	_text + 0x83fe3c
 	PTR	_text + 0x83fe40
-	PTR	_text + 0x83fe48
-	PTR	_text + 0x83fe4c
 	PTR	_text + 0x83fe60
-	PTR	_text + 0x83fe68
-	PTR	_text + 0x83fe6c
-	PTR	_text + 0x83fe78
-	PTR	_text + 0x83fe80
-	PTR	_text + 0x83ff18
-	PTR	_text + 0x83ff20
-	PTR	_text + 0x83ff28
-	PTR	_text + 0x83ff30
-	PTR	_text + 0x83ff38
-	PTR	_text + 0x83ff40
-	PTR	_text + 0x83ff60
-	PTR	_text + 0x83ffc0
-	PTR	_text + 0x8407b8
-	PTR	_text + 0x8407c0
-	PTR	_text + 0x8407c4
-	PTR	_text + 0x8407c8
-	PTR	_text + 0x8407d0
-	PTR	_text + 0x8407e0
-	PTR	_text + 0x8407fc
-	PTR	_text + 0x840800
-	PTR	_text + 0x840880
+	PTR	_text + 0x83fec0
+	PTR	_text + 0x8406b8
+	PTR	_text + 0x8406c0
+	PTR	_text + 0x8406c4
+	PTR	_text + 0x8406c8
+	PTR	_text + 0x8406d0
+	PTR	_text + 0x8406e0
+	PTR	_text + 0x8406fc
+	PTR	_text + 0x840700
+	PTR	_text + 0x840780
+	PTR	_text + 0x840860
+	PTR	_text + 0x840908
+	PTR	_text + 0x84090c
+	PTR	_text + 0x840914
+	PTR	_text + 0x84091c
+	PTR	_text + 0x840924
+	PTR	_text + 0x84092c
+	PTR	_text + 0x840934
+	PTR	_text + 0x84093c
 	PTR	_text + 0x840960
-	PTR	_text + 0x840a08
-	PTR	_text + 0x840a0c
-	PTR	_text + 0x840a14
-	PTR	_text + 0x840a1c
-	PTR	_text + 0x840a24
-	PTR	_text + 0x840a2c
-	PTR	_text + 0x840a34
-	PTR	_text + 0x840a3c
-	PTR	_text + 0x840a60
-	PTR	_text + 0x840a80
-	PTR	_text + 0x840af0
+	PTR	_text + 0x840980
+	PTR	_text + 0x8409f0
+	PTR	_text + 0x840a00
+	PTR	_text + 0x840a20
+	PTR	_text + 0x840a98
+	PTR	_text + 0x840aa0
+	PTR	_text + 0x840aa8
+	PTR	_text + 0x840ab0
+	PTR	_text + 0x840ab8
+	PTR	_text + 0x840ac0
+	PTR	_text + 0x840ac8
+	PTR	_text + 0x840ad0
+	PTR	_text + 0x840ad8
+	PTR	_text + 0x840ae0
 	PTR	_text + 0x840b00
+	PTR	_text + 0x840b04
+	PTR	_text + 0x840b08
+	PTR	_text + 0x840b10
+	PTR	_text + 0x840b18
 	PTR	_text + 0x840b20
-	PTR	_text + 0x840b98
-	PTR	_text + 0x840ba0
-	PTR	_text + 0x840ba8
-	PTR	_text + 0x840bb0
-	PTR	_text + 0x840bb8
+	PTR	_text + 0x840b60
+	PTR	_text + 0x840b68
+	PTR	_text + 0x840b70
+	PTR	_text + 0x840b78
+	PTR	_text + 0x840b80
+	PTR	_text + 0x840b88
+	PTR	_text + 0x840b90
+	PTR	_text + 0x840b94
+	PTR	_text + 0x840b9c
+	PTR	_text + 0x840ba4
 	PTR	_text + 0x840bc0
 	PTR	_text + 0x840bc8
 	PTR	_text + 0x840bd0
 	PTR	_text + 0x840bd8
 	PTR	_text + 0x840be0
-	PTR	_text + 0x840c00
-	PTR	_text + 0x840c04
-	PTR	_text + 0x840c08
-	PTR	_text + 0x840c10
-	PTR	_text + 0x840c18
-	PTR	_text + 0x840c20
-	PTR	_text + 0x840c60
-	PTR	_text + 0x840c68
-	PTR	_text + 0x840c70
-	PTR	_text + 0x840c78
-	PTR	_text + 0x840c80
-	PTR	_text + 0x840c88
-	PTR	_text + 0x840c90
-	PTR	_text + 0x840c94
-	PTR	_text + 0x840c9c
-	PTR	_text + 0x840ca4
-	PTR	_text + 0x840cc0
-	PTR	_text + 0x840cc8
-	PTR	_text + 0x840cd0
-	PTR	_text + 0x840cd8
+	PTR	_text + 0x840c40
 	PTR	_text + 0x840ce0
-	PTR	_text + 0x840d40
+	PTR	_text + 0x840db8
+	PTR	_text + 0x840dc0
 	PTR	_text + 0x840de0
-	PTR	_text + 0x840eb8
-	PTR	_text + 0x840ec0
+	PTR	_text + 0x840de8
+	PTR	_text + 0x840df0
+	PTR	_text + 0x840df8
+	PTR	_text + 0x840e00
+	PTR	_text + 0x840e08
+	PTR	_text + 0x840e10
+	PTR	_text + 0x840e18
+	PTR	_text + 0x840e20
+	PTR	_text + 0x840e28
+	PTR	_text + 0x840e40
+	PTR	_text + 0x840e60
+	PTR	_text + 0x840ec8
+	PTR	_text + 0x840ed0
+	PTR	_text + 0x840ed8
 	PTR	_text + 0x840ee0
 	PTR	_text + 0x840ee8
 	PTR	_text + 0x840ef0
@@ -22477,137 +22490,156 @@ kallsyms_addresses:
 	PTR	_text + 0x840f18
 	PTR	_text + 0x840f20
 	PTR	_text + 0x840f28
+	PTR	_text + 0x840f30
+	PTR	_text + 0x840f38
 	PTR	_text + 0x840f40
 	PTR	_text + 0x840f60
-	PTR	_text + 0x840fc8
-	PTR	_text + 0x840fd0
-	PTR	_text + 0x840fd8
-	PTR	_text + 0x840fe0
+	PTR	_text + 0x840f68
+	PTR	_text + 0x840f70
+	PTR	_text + 0x840f78
+	PTR	_text + 0x840f80
+	PTR	_text + 0x840f88
+	PTR	_text + 0x840f90
+	PTR	_text + 0x840f98
+	PTR	_text + 0x840fa0
+	PTR	_text + 0x840fa8
+	PTR	_text + 0x840fb0
+	PTR	_text + 0x840fb8
+	PTR	_text + 0x840fc0
 	PTR	_text + 0x840fe8
 	PTR	_text + 0x840ff0
 	PTR	_text + 0x840ff8
 	PTR	_text + 0x841000
 	PTR	_text + 0x841008
 	PTR	_text + 0x841010
-	PTR	_text + 0x841018
 	PTR	_text + 0x841020
 	PTR	_text + 0x841028
-	PTR	_text + 0x841030
-	PTR	_text + 0x841038
 	PTR	_text + 0x841040
-	PTR	_text + 0x841060
-	PTR	_text + 0x841068
-	PTR	_text + 0x841070
-	PTR	_text + 0x841078
-	PTR	_text + 0x841080
-	PTR	_text + 0x841088
-	PTR	_text + 0x841090
-	PTR	_text + 0x841098
-	PTR	_text + 0x8410a0
-	PTR	_text + 0x8410a8
-	PTR	_text + 0x8410b0
-	PTR	_text + 0x8410b8
-	PTR	_text + 0x8410c0
-	PTR	_text + 0x8410e8
 	PTR	_text + 0x8410f0
-	PTR	_text + 0x8410f8
+	PTR	_text + 0x8410f4
 	PTR	_text + 0x841100
-	PTR	_text + 0x841108
-	PTR	_text + 0x841110
 	PTR	_text + 0x841120
-	PTR	_text + 0x841128
-	PTR	_text + 0x841140
-	PTR	_text + 0x8411f0
-	PTR	_text + 0x8411f4
-	PTR	_text + 0x841200
-	PTR	_text + 0x841220
+	PTR	_text + 0x8411e0
+	PTR	_text + 0x8412a0
+	PTR	_text + 0x8412a4
+	PTR	_text + 0x8412b0
+	PTR	_text + 0x8412c0
+	PTR	_text + 0x8412c8
+	PTR	_text + 0x8412d0
+	PTR	_text + 0x8412d8
 	PTR	_text + 0x8412e0
-	PTR	_text + 0x8413a0
-	PTR	_text + 0x8413a4
-	PTR	_text + 0x8413b0
-	PTR	_text + 0x8413c0
-	PTR	_text + 0x8413c8
-	PTR	_text + 0x8413d0
-	PTR	_text + 0x8413d8
-	PTR	_text + 0x8413e0
-	PTR	_text + 0x8413f0
-	PTR	_text + 0x8413f8
-	PTR	_text + 0x841400
-	PTR	_text + 0x841408
-	PTR	_text + 0x841420
-	PTR	_text + 0x841440
-	PTR	_text + 0x841c40
+	PTR	_text + 0x8412f0
+	PTR	_text + 0x8412f8
+	PTR	_text + 0x841300
+	PTR	_text + 0x841308
+	PTR	_text + 0x841320
+	PTR	_text + 0x841340
+	PTR	_text + 0x841b40
+	PTR	_text + 0x841e40
+	PTR	_text + 0x841f18
+	PTR	_text + 0x841f20
 	PTR	_text + 0x841f40
-	PTR	_text + 0x842018
-	PTR	_text + 0x842020
-	PTR	_text + 0x842040
-	PTR	_text + 0x842048
-	PTR	_text + 0x842050
-	PTR	_text + 0x842060
-	PTR	_text + 0x842080
+	PTR	_text + 0x841f48
+	PTR	_text + 0x841f50
+	PTR	_text + 0x841f60
+	PTR	_text + 0x841f80
+	PTR	_text + 0x851f80
+	PTR	_text + 0x852000
 	PTR	_text + 0x852080
-	PTR	_text + 0x852100
-	PTR	_text + 0x852180
-	PTR	_text + 0x8524a0
-	PTR	_text + 0x8524a8
-	PTR	_text + 0x8524b0
-	PTR	_text + 0x8524b8
-	PTR	_text + 0x8524c0
-	PTR	_text + 0x8524c8
-	PTR	_text + 0x8524d0
-	PTR	_text + 0x8524d4
-	PTR	_text + 0x8524d8
-	PTR	_text + 0x8524dc
-	PTR	_text + 0x8524e0
-	PTR	_text + 0x8524e8
-	PTR	_text + 0x8524f0
-	PTR	_text + 0x8524f4
-	PTR	_text + 0x852500
-	PTR	_text + 0x852700
-	PTR	_text + 0x852720
-	PTR	_text + 0x8527c0
-	PTR	_text + 0x85288c
-	PTR	_text + 0x8528a0
-	PTR	_text + 0x852980
-	PTR	_text + 0x854280
-	PTR	_text + 0x854284
-	PTR	_text + 0x854288
-	PTR	_text + 0x85428c
-	PTR	_text + 0x854290
-	PTR	_text + 0x854298
-	PTR	_text + 0x8542a0
-	PTR	_text + 0x8542a8
-	PTR	_text + 0x8542b0
-	PTR	_text + 0x8542b4
-	PTR	_text + 0x8542b8
+	PTR	_text + 0x8523a0
+	PTR	_text + 0x8523a8
+	PTR	_text + 0x8523b0
+	PTR	_text + 0x8523b8
+	PTR	_text + 0x8523c0
+	PTR	_text + 0x8523c8
+	PTR	_text + 0x8523d0
+	PTR	_text + 0x8523d4
+	PTR	_text + 0x8523d8
+	PTR	_text + 0x8523dc
+	PTR	_text + 0x8523e0
+	PTR	_text + 0x8523e8
+	PTR	_text + 0x8523f0
+	PTR	_text + 0x8523f4
+	PTR	_text + 0x852400
+	PTR	_text + 0x852600
+	PTR	_text + 0x852620
+	PTR	_text + 0x8526c0
+	PTR	_text + 0x85278c
+	PTR	_text + 0x8527a0
+	PTR	_text + 0x852880
+	PTR	_text + 0x854180
+	PTR	_text + 0x854184
+	PTR	_text + 0x854188
+	PTR	_text + 0x85418c
+	PTR	_text + 0x854190
+	PTR	_text + 0x854198
+	PTR	_text + 0x8541a0
+	PTR	_text + 0x8541a8
+	PTR	_text + 0x8541b0
+	PTR	_text + 0x8541b4
+	PTR	_text + 0x8541b8
+	PTR	_text + 0x8541c0
 	PTR	_text + 0x8542c0
 	PTR	_text + 0x8543c0
 	PTR	_text + 0x8544c0
-	PTR	_text + 0x8545c0
+	PTR	_text + 0x8544e0
 	PTR	_text + 0x8545e0
-	PTR	_text + 0x8546e0
-	PTR	_text + 0x8546e8
-	PTR	_text + 0x8546ec
-	PTR	_text + 0x8546f0
-	PTR	_text + 0x8546f4
-	PTR	_text + 0x8546f8
-	PTR	_text + 0x8546fc
-	PTR	_text + 0x854700
-	PTR	_text + 0x854708
-	PTR	_text + 0x854710
-	PTR	_text + 0x854718
-	PTR	_text + 0x854720
-	PTR	_text + 0x854728
-	PTR	_text + 0x854740
+	PTR	_text + 0x8545e8
+	PTR	_text + 0x8545ec
+	PTR	_text + 0x8545f0
+	PTR	_text + 0x8545f4
+	PTR	_text + 0x8545f8
+	PTR	_text + 0x8545fc
+	PTR	_text + 0x854600
+	PTR	_text + 0x854608
+	PTR	_text + 0x854610
+	PTR	_text + 0x854618
+	PTR	_text + 0x854620
+	PTR	_text + 0x854628
+	PTR	_text + 0x854640
+	PTR	_text + 0x854840
+	PTR	_text + 0x8548a8
+	PTR	_text + 0x8548b0
+	PTR	_text + 0x8548b8
+	PTR	_text + 0x8548bc
+	PTR	_text + 0x8548c8
+	PTR	_text + 0x8548d0
+	PTR	_text + 0x8548d8
+	PTR	_text + 0x8548e0
+	PTR	_text + 0x8548e8
+	PTR	_text + 0x8548f0
+	PTR	_text + 0x8548f8
+	PTR	_text + 0x854900
+	PTR	_text + 0x854908
+	PTR	_text + 0x854910
+	PTR	_text + 0x854918
+	PTR	_text + 0x854920
+	PTR	_text + 0x854928
+	PTR	_text + 0x854930
+	PTR	_text + 0x854938
 	PTR	_text + 0x854940
+	PTR	_text + 0x854948
+	PTR	_text + 0x854950
+	PTR	_text + 0x854958
+	PTR	_text + 0x854960
+	PTR	_text + 0x854968
+	PTR	_text + 0x854970
+	PTR	_text + 0x854978
+	PTR	_text + 0x854980
+	PTR	_text + 0x854988
+	PTR	_text + 0x854990
+	PTR	_text + 0x854998
+	PTR	_text + 0x8549a0
 	PTR	_text + 0x8549a8
 	PTR	_text + 0x8549b0
 	PTR	_text + 0x8549b8
-	PTR	_text + 0x8549bc
+	PTR	_text + 0x8549c0
 	PTR	_text + 0x8549c8
 	PTR	_text + 0x8549d0
 	PTR	_text + 0x8549d8
+	PTR	_text + 0x8549dc
 	PTR	_text + 0x8549e0
+	PTR	_text + 0x8549e4
 	PTR	_text + 0x8549e8
 	PTR	_text + 0x8549f0
 	PTR	_text + 0x8549f8
@@ -22616,785 +22648,751 @@ kallsyms_addresses:
 	PTR	_text + 0x854a10
 	PTR	_text + 0x854a18
 	PTR	_text + 0x854a20
-	PTR	_text + 0x854a28
-	PTR	_text + 0x854a30
-	PTR	_text + 0x854a38
-	PTR	_text + 0x854a40
-	PTR	_text + 0x854a48
-	PTR	_text + 0x854a50
-	PTR	_text + 0x854a58
-	PTR	_text + 0x854a60
-	PTR	_text + 0x854a68
-	PTR	_text + 0x854a70
-	PTR	_text + 0x854a78
 	PTR	_text + 0x854a80
 	PTR	_text + 0x854a88
 	PTR	_text + 0x854a90
+	PTR	_text + 0x854a94
 	PTR	_text + 0x854a98
+	PTR	_text + 0x854a9c
 	PTR	_text + 0x854aa0
 	PTR	_text + 0x854aa8
 	PTR	_text + 0x854ab0
 	PTR	_text + 0x854ab8
+	PTR	_text + 0x854abc
 	PTR	_text + 0x854ac0
-	PTR	_text + 0x854ac8
-	PTR	_text + 0x854ad0
-	PTR	_text + 0x854ad8
-	PTR	_text + 0x854adc
 	PTR	_text + 0x854ae0
 	PTR	_text + 0x854ae4
-	PTR	_text + 0x854ae8
 	PTR	_text + 0x854af0
+	PTR	_text + 0x854af4
 	PTR	_text + 0x854af8
+	PTR	_text + 0x854afc
 	PTR	_text + 0x854b00
+	PTR	_text + 0x854b04
 	PTR	_text + 0x854b08
+	PTR	_text + 0x854b0c
 	PTR	_text + 0x854b10
-	PTR	_text + 0x854b18
 	PTR	_text + 0x854b20
+	PTR	_text + 0x854b58
+	PTR	_text + 0x854b5c
+	PTR	_text + 0x854b60
+	PTR	_text + 0x854b64
+	PTR	_text + 0x854b70
+	PTR	_text + 0x854b78
 	PTR	_text + 0x854b80
-	PTR	_text + 0x854b88
-	PTR	_text + 0x854b90
-	PTR	_text + 0x854b94
-	PTR	_text + 0x854b98
-	PTR	_text + 0x854b9c
-	PTR	_text + 0x854ba0
-	PTR	_text + 0x854ba8
-	PTR	_text + 0x854bb0
-	PTR	_text + 0x854bb8
-	PTR	_text + 0x854bbc
-	PTR	_text + 0x854bc0
-	PTR	_text + 0x854be0
-	PTR	_text + 0x854be4
-	PTR	_text + 0x854bf0
-	PTR	_text + 0x854bf4
-	PTR	_text + 0x854bf8
-	PTR	_text + 0x854bfc
-	PTR	_text + 0x854c00
-	PTR	_text + 0x854c04
-	PTR	_text + 0x854c08
-	PTR	_text + 0x854c0c
-	PTR	_text + 0x854c10
-	PTR	_text + 0x854c20
-	PTR	_text + 0x854c58
-	PTR	_text + 0x854c5c
-	PTR	_text + 0x854c60
-	PTR	_text + 0x854c64
-	PTR	_text + 0x854c70
-	PTR	_text + 0x854c78
-	PTR	_text + 0x854c80
+	PTR	_text + 0x854d80
+	PTR	_text + 0x854df0
+	PTR	_text + 0x854e30
+	PTR	_text + 0x854e38
+	PTR	_text + 0x854e40
+	PTR	_text + 0x854e48
+	PTR	_text + 0x854e50
+	PTR	_text + 0x854e58
+	PTR	_text + 0x854e60
+	PTR	_text + 0x854e68
+	PTR	_text + 0x854e70
 	PTR	_text + 0x854e80
-	PTR	_text + 0x854ef0
-	PTR	_text + 0x854f30
-	PTR	_text + 0x854f38
+	PTR	_text + 0x854e84
+	PTR	_text + 0x854e85
+	PTR	_text + 0x854e86
+	PTR	_text + 0x854e88
+	PTR	_text + 0x854e8c
+	PTR	_text + 0x854e90
+	PTR	_text + 0x854ea0
+	PTR	_text + 0x854eb0
+	PTR	_text + 0x854f00
+	PTR	_text + 0x854f01
+	PTR	_text + 0x854f02
+	PTR	_text + 0x854f08
+	PTR	_text + 0x854f10
+	PTR	_text + 0x854f18
+	PTR	_text + 0x854f20
 	PTR	_text + 0x854f40
+	PTR	_text + 0x854f41
+	PTR	_text + 0x854f42
+	PTR	_text + 0x854f43
+	PTR	_text + 0x854f44
+	PTR	_text + 0x854f45
+	PTR	_text + 0x854f46
+	PTR	_text + 0x854f47
 	PTR	_text + 0x854f48
+	PTR	_text + 0x854f4a
+	PTR	_text + 0x854f4c
 	PTR	_text + 0x854f50
-	PTR	_text + 0x854f58
-	PTR	_text + 0x854f60
-	PTR	_text + 0x854f68
 	PTR	_text + 0x854f70
+	PTR	_text + 0x854f74
+	PTR	_text + 0x854f78
+	PTR	_text + 0x854f7c
 	PTR	_text + 0x854f80
-	PTR	_text + 0x854f84
-	PTR	_text + 0x854f85
-	PTR	_text + 0x854f86
 	PTR	_text + 0x854f88
-	PTR	_text + 0x854f8c
 	PTR	_text + 0x854f90
 	PTR	_text + 0x854fa0
-	PTR	_text + 0x854fb0
+	PTR	_text + 0x854fd0
+	PTR	_text + 0x854ff8
 	PTR	_text + 0x855000
-	PTR	_text + 0x855001
-	PTR	_text + 0x855002
 	PTR	_text + 0x855008
 	PTR	_text + 0x855010
 	PTR	_text + 0x855018
 	PTR	_text + 0x855020
-	PTR	_text + 0x855040
-	PTR	_text + 0x855041
-	PTR	_text + 0x855042
-	PTR	_text + 0x855043
-	PTR	_text + 0x855044
-	PTR	_text + 0x855045
-	PTR	_text + 0x855046
-	PTR	_text + 0x855047
-	PTR	_text + 0x855048
-	PTR	_text + 0x85504a
-	PTR	_text + 0x85504c
-	PTR	_text + 0x855050
 	PTR	_text + 0x855070
-	PTR	_text + 0x855074
-	PTR	_text + 0x855078
-	PTR	_text + 0x85507c
-	PTR	_text + 0x855080
-	PTR	_text + 0x855088
-	PTR	_text + 0x855090
-	PTR	_text + 0x8550a0
+	PTR	_text + 0x8550b8
+	PTR	_text + 0x8550c0
 	PTR	_text + 0x8550d0
-	PTR	_text + 0x8550f8
-	PTR	_text + 0x855100
-	PTR	_text + 0x855108
-	PTR	_text + 0x855110
-	PTR	_text + 0x855118
-	PTR	_text + 0x855120
-	PTR	_text + 0x855170
-	PTR	_text + 0x8551b8
+	PTR	_text + 0x855190
+	PTR	_text + 0x855191
+	PTR	_text + 0x855192
+	PTR	_text + 0x855198
+	PTR	_text + 0x8551a8
 	PTR	_text + 0x8551c0
-	PTR	_text + 0x8551d0
-	PTR	_text + 0x855290
-	PTR	_text + 0x855291
-	PTR	_text + 0x855292
-	PTR	_text + 0x855298
-	PTR	_text + 0x8552a8
 	PTR	_text + 0x8552c0
+	PTR	_text + 0x8552d8
+	PTR	_text + 0x8552dc
+	PTR	_text + 0x8552e0
+	PTR	_text + 0x8552e4
+	PTR	_text + 0x8552e8
+	PTR	_text + 0x8552ec
+	PTR	_text + 0x8552f0
+	PTR	_text + 0x8552f4
+	PTR	_text + 0x8552f5
+	PTR	_text + 0x8552f8
+	PTR	_text + 0x855300
+	PTR	_text + 0x855308
+	PTR	_text + 0x855310
+	PTR	_text + 0x855318
+	PTR	_text + 0x855320
+	PTR	_text + 0x855328
+	PTR	_text + 0x855330
+	PTR	_text + 0x855338
+	PTR	_text + 0x855340
+	PTR	_text + 0x855348
+	PTR	_text + 0x855350
+	PTR	_text + 0x855358
+	PTR	_text + 0x855360
+	PTR	_text + 0x855368
+	PTR	_text + 0x855370
+	PTR	_text + 0x855378
+	PTR	_text + 0x855380
+	PTR	_text + 0x855388
+	PTR	_text + 0x855390
+	PTR	_text + 0x8553a0
 	PTR	_text + 0x8553c0
-	PTR	_text + 0x8553d8
-	PTR	_text + 0x8553dc
 	PTR	_text + 0x8553e0
-	PTR	_text + 0x8553e4
 	PTR	_text + 0x8553e8
-	PTR	_text + 0x8553ec
 	PTR	_text + 0x8553f0
-	PTR	_text + 0x8553f4
-	PTR	_text + 0x8553f5
-	PTR	_text + 0x8553f8
 	PTR	_text + 0x855400
 	PTR	_text + 0x855408
 	PTR	_text + 0x855410
 	PTR	_text + 0x855418
 	PTR	_text + 0x855420
+	PTR	_text + 0x855424
 	PTR	_text + 0x855428
+	PTR	_text + 0x85542c
 	PTR	_text + 0x855430
 	PTR	_text + 0x855438
 	PTR	_text + 0x855440
 	PTR	_text + 0x855448
 	PTR	_text + 0x855450
-	PTR	_text + 0x855458
-	PTR	_text + 0x855460
-	PTR	_text + 0x855468
-	PTR	_text + 0x855470
-	PTR	_text + 0x855478
-	PTR	_text + 0x855480
-	PTR	_text + 0x855488
-	PTR	_text + 0x855490
 	PTR	_text + 0x8554a0
+	PTR	_text + 0x8554a8
+	PTR	_text + 0x8554ac
+	PTR	_text + 0x8554b0
+	PTR	_text + 0x8554b8
 	PTR	_text + 0x8554c0
-	PTR	_text + 0x8554e0
-	PTR	_text + 0x8554e8
-	PTR	_text + 0x8554f0
+	PTR	_text + 0x8554c4
 	PTR	_text + 0x855500
-	PTR	_text + 0x855508
-	PTR	_text + 0x855510
-	PTR	_text + 0x855518
-	PTR	_text + 0x855520
-	PTR	_text + 0x855524
-	PTR	_text + 0x855528
-	PTR	_text + 0x85552c
-	PTR	_text + 0x855530
-	PTR	_text + 0x855538
-	PTR	_text + 0x855540
-	PTR	_text + 0x855548
-	PTR	_text + 0x855550
-	PTR	_text + 0x8555a0
-	PTR	_text + 0x8555a8
-	PTR	_text + 0x8555ac
-	PTR	_text + 0x8555b0
-	PTR	_text + 0x8555b8
-	PTR	_text + 0x8555c0
-	PTR	_text + 0x8555c4
+	PTR	_text + 0x855580
+	PTR	_text + 0x855584
 	PTR	_text + 0x855600
-	PTR	_text + 0x855680
-	PTR	_text + 0x855684
 	PTR	_text + 0x855700
-	PTR	_text + 0x855800
-	PTR	_text + 0x855810
-	PTR	_text + 0x855820
-	PTR	_text + 0x856120
+	PTR	_text + 0x855710
+	PTR	_text + 0x855720
+	PTR	_text + 0x856020
+	PTR	_text + 0x856040
+	PTR	_text + 0x8560c0
 	PTR	_text + 0x856140
-	PTR	_text + 0x8561c0
-	PTR	_text + 0x856240
-	PTR	_text + 0x856440
-	PTR	_text + 0x856460
-	PTR	_text + 0x856464
-	PTR	_text + 0x85646c
-	PTR	_text + 0x856474
-	PTR	_text + 0x85647c
-	PTR	_text + 0x856484
-	PTR	_text + 0x8564a0
-	PTR	_text + 0x856580
-	PTR	_text + 0x856660
-	PTR	_text + 0x856740
-	PTR	_text + 0x856810
-	PTR	_text + 0x856818
-	PTR	_text + 0x856820
-	PTR	_text + 0x8571b0
-	PTR	_text + 0x8571b8
-	PTR	_text + 0x8571c0
-	PTR	_text + 0x8571c8
-	PTR	_text + 0x8571d0
-	PTR	_text + 0x8571d8
-	PTR	_text + 0x8571e0
-	PTR	_text + 0x857200
+	PTR	_text + 0x856340
+	PTR	_text + 0x856360
+	PTR	_text + 0x856364
+	PTR	_text + 0x85636c
+	PTR	_text + 0x856374
+	PTR	_text + 0x85637c
+	PTR	_text + 0x856384
+	PTR	_text + 0x8563a0
+	PTR	_text + 0x856480
+	PTR	_text + 0x856560
+	PTR	_text + 0x856640
+	PTR	_text + 0x856710
+	PTR	_text + 0x856718
+	PTR	_text + 0x856720
+	PTR	_text + 0x8570b0
+	PTR	_text + 0x8570b8
+	PTR	_text + 0x8570c0
+	PTR	_text + 0x8570c8
+	PTR	_text + 0x8570d0
+	PTR	_text + 0x8570d8
+	PTR	_text + 0x8570e0
+	PTR	_text + 0x857100
+	PTR	_text + 0x857120
 	PTR	_text + 0x857220
-	PTR	_text + 0x857320
-	PTR	_text + 0x857328
-	PTR	_text + 0x857330
-	PTR	_text + 0x857334
-	PTR	_text + 0x857340
-	PTR	_text + 0x857360
-	PTR	_text + 0x8574a0
-	PTR	_text + 0x8574a8
-	PTR	_text + 0x8574ac
-	PTR	_text + 0x8574b0
-	PTR	_text + 0x8574b8
-	PTR	_text + 0x8574bc
-	PTR	_text + 0x8574c0
-	PTR	_text + 0x8574c4
-	PTR	_text + 0x8574c8
-	PTR	_text + 0x8574c9
-	PTR	_text + 0x8574cc
-	PTR	_text + 0x8574d0
-	PTR	_text + 0x8574d4
-	PTR	_text + 0x8574e0
-	PTR	_text + 0x857520
-	PTR	_text + 0x857540
-	PTR	_text + 0x858540
-	PTR	_text + 0x858548
-	PTR	_text + 0x85854c
-	PTR	_text + 0x858550
-	PTR	_text + 0x858554
-	PTR	_text + 0x858558
-	PTR	_text + 0x858560
-	PTR	_text + 0x858f38
-	PTR	_text + 0x858f40
-	PTR	_text + 0x858f48
-	PTR	_text + 0x858f50
-	PTR	_text + 0x858f52
-	PTR	_text + 0x858f54
-	PTR	_text + 0x858f58
-	PTR	_text + 0x858f60
-	PTR	_text + 0x858f64
-	PTR	_text + 0x858f68
-	PTR	_text + 0x858f6c
-	PTR	_text + 0x858f70
-	PTR	_text + 0x858f78
-	PTR	_text + 0x858f7c
-	PTR	_text + 0x858f80
-	PTR	_text + 0x858f84
-	PTR	_text + 0x858f88
-	PTR	_text + 0x858fa0
-	PTR	_text + 0x8591a0
+	PTR	_text + 0x857228
+	PTR	_text + 0x857230
+	PTR	_text + 0x857234
+	PTR	_text + 0x857240
+	PTR	_text + 0x857260
+	PTR	_text + 0x8573a0
+	PTR	_text + 0x8573a8
+	PTR	_text + 0x8573ac
+	PTR	_text + 0x8573b0
+	PTR	_text + 0x8573b8
+	PTR	_text + 0x8573bc
+	PTR	_text + 0x8573c0
+	PTR	_text + 0x8573c4
+	PTR	_text + 0x8573c8
+	PTR	_text + 0x8573c9
+	PTR	_text + 0x8573cc
+	PTR	_text + 0x8573d0
+	PTR	_text + 0x8573d4
+	PTR	_text + 0x8573e0
+	PTR	_text + 0x857420
+	PTR	_text + 0x857440
+	PTR	_text + 0x858440
+	PTR	_text + 0x858448
+	PTR	_text + 0x85844c
+	PTR	_text + 0x858450
+	PTR	_text + 0x858454
+	PTR	_text + 0x858458
+	PTR	_text + 0x858460
+	PTR	_text + 0x858e38
+	PTR	_text + 0x858e40
+	PTR	_text + 0x858e48
+	PTR	_text + 0x858e50
+	PTR	_text + 0x858e52
+	PTR	_text + 0x858e54
+	PTR	_text + 0x858e58
+	PTR	_text + 0x858e60
+	PTR	_text + 0x858e64
+	PTR	_text + 0x858e68
+	PTR	_text + 0x858e6c
+	PTR	_text + 0x858e70
+	PTR	_text + 0x858e78
+	PTR	_text + 0x858e7c
+	PTR	_text + 0x858e80
+	PTR	_text + 0x858e84
+	PTR	_text + 0x858e88
+	PTR	_text + 0x858ea0
+	PTR	_text + 0x8590a0
+	PTR	_text + 0x859320
+	PTR	_text + 0x859340
+	PTR	_text + 0x859344
+	PTR	_text + 0x859348
+	PTR	_text + 0x859360
+	PTR	_text + 0x859410
+	PTR	_text + 0x859418
 	PTR	_text + 0x859420
+	PTR	_text + 0x859428
+	PTR	_text + 0x859430
+	PTR	_text + 0x859438
 	PTR	_text + 0x859440
-	PTR	_text + 0x859444
 	PTR	_text + 0x859448
+	PTR	_text + 0x859450
+	PTR	_text + 0x859458
 	PTR	_text + 0x859460
-	PTR	_text + 0x859510
-	PTR	_text + 0x859518
-	PTR	_text + 0x859520
-	PTR	_text + 0x859528
-	PTR	_text + 0x859530
-	PTR	_text + 0x859538
-	PTR	_text + 0x859540
-	PTR	_text + 0x859548
-	PTR	_text + 0x859550
-	PTR	_text + 0x859558
-	PTR	_text + 0x859560
-	PTR	_text + 0x859570
-	PTR	_text + 0x859580
+	PTR	_text + 0x859470
+	PTR	_text + 0x859480
+	PTR	_text + 0x859488
+	PTR	_text + 0x8594a0
+	PTR	_text + 0x8594a8
+	PTR	_text + 0x8594b0
+	PTR	_text + 0x8594b4
+	PTR	_text + 0x8594b8
+	PTR	_text + 0x8594bc
+	PTR	_text + 0x8594c0
+	PTR	_text + 0x8594c4
+	PTR	_text + 0x8594c8
+	PTR	_text + 0x8594cc
+	PTR	_text + 0x8594d0
+	PTR	_text + 0x8594d4
+	PTR	_text + 0x8594d8
+	PTR	_text + 0x8594dc
+	PTR	_text + 0x8594e0
+	PTR	_text + 0x8594e4
+	PTR	_text + 0x8594e8
+	PTR	_text + 0x8594ec
+	PTR	_text + 0x859500
+	PTR	_text + 0x859574
+	PTR	_text + 0x85957c
 	PTR	_text + 0x859588
+	PTR	_text + 0x859590
+	PTR	_text + 0x859598
 	PTR	_text + 0x8595a0
+	PTR	_text + 0x8595a4
 	PTR	_text + 0x8595a8
-	PTR	_text + 0x8595b0
-	PTR	_text + 0x8595b4
-	PTR	_text + 0x8595b8
-	PTR	_text + 0x8595bc
+	PTR	_text + 0x8595ac
 	PTR	_text + 0x8595c0
-	PTR	_text + 0x8595c4
-	PTR	_text + 0x8595c8
-	PTR	_text + 0x8595cc
-	PTR	_text + 0x8595d0
-	PTR	_text + 0x8595d4
-	PTR	_text + 0x8595d8
-	PTR	_text + 0x8595dc
-	PTR	_text + 0x8595e0
-	PTR	_text + 0x8595e4
-	PTR	_text + 0x8595e8
-	PTR	_text + 0x8595ec
 	PTR	_text + 0x859600
-	PTR	_text + 0x859674
-	PTR	_text + 0x85967c
-	PTR	_text + 0x859688
-	PTR	_text + 0x859690
-	PTR	_text + 0x859698
+	PTR	_text + 0x859608
+	PTR	_text + 0x859620
 	PTR	_text + 0x8596a0
-	PTR	_text + 0x8596a4
 	PTR	_text + 0x8596a8
-	PTR	_text + 0x8596ac
+	PTR	_text + 0x8596b0
+	PTR	_text + 0x8596b8
 	PTR	_text + 0x8596c0
+	PTR	_text + 0x8596c8
+	PTR	_text + 0x8596cc
+	PTR	_text + 0x8596d0
+	PTR	_text + 0x8596d4
+	PTR	_text + 0x8596dc
+	PTR	_text + 0x8596de
+	PTR	_text + 0x8596e0
+	PTR	_text + 0x8596e6
+	PTR	_text + 0x8596ee
 	PTR	_text + 0x859700
-	PTR	_text + 0x859708
-	PTR	_text + 0x859720
+	PTR	_text + 0x859778
+	PTR	_text + 0x859780
+	PTR	_text + 0x859790
+	PTR	_text + 0x859798
 	PTR	_text + 0x8597a0
-	PTR	_text + 0x8597a8
 	PTR	_text + 0x8597b0
-	PTR	_text + 0x8597b8
-	PTR	_text + 0x8597c0
 	PTR	_text + 0x8597c8
-	PTR	_text + 0x8597cc
 	PTR	_text + 0x8597d0
-	PTR	_text + 0x8597d4
-	PTR	_text + 0x8597dc
-	PTR	_text + 0x8597de
+	PTR	_text + 0x8597d8
 	PTR	_text + 0x8597e0
-	PTR	_text + 0x8597e6
-	PTR	_text + 0x8597ee
+	PTR	_text + 0x8597e4
+	PTR	_text + 0x8597ec
+	PTR	_text + 0x8597f0
+	PTR	_text + 0x8597f8
 	PTR	_text + 0x859800
-	PTR	_text + 0x859878
-	PTR	_text + 0x859880
-	PTR	_text + 0x859890
-	PTR	_text + 0x859898
+	PTR	_text + 0x859808
+	PTR	_text + 0x859810
+	PTR	_text + 0x859818
+	PTR	_text + 0x859820
+	PTR	_text + 0x859828
+	PTR	_text + 0x85982c
+	PTR	_text + 0x859830
+	PTR	_text + 0x859834
+	PTR	_text + 0x859838
+	PTR	_text + 0x859840
+	PTR	_text + 0x859848
+	PTR	_text + 0x859850
+	PTR	_text + 0x859854
+	PTR	_text + 0x859858
+	PTR	_text + 0x85985c
+	PTR	_text + 0x859860
+	PTR	_text + 0x859868
+	PTR	_text + 0x85986c
+	PTR	_text + 0x859870
+	PTR	_text + 0x859874
+	PTR	_text + 0x85987c
+	PTR	_text + 0x859884
 	PTR	_text + 0x8598a0
-	PTR	_text + 0x8598b0
-	PTR	_text + 0x8598c8
-	PTR	_text + 0x8598d0
-	PTR	_text + 0x8598d8
+	PTR	_text + 0x8598a4
+	PTR	_text + 0x8598c0
 	PTR	_text + 0x8598e0
-	PTR	_text + 0x8598e4
-	PTR	_text + 0x8598ec
-	PTR	_text + 0x8598f0
-	PTR	_text + 0x8598f8
 	PTR	_text + 0x859900
-	PTR	_text + 0x859908
-	PTR	_text + 0x859910
-	PTR	_text + 0x859918
 	PTR	_text + 0x859920
 	PTR	_text + 0x859928
-	PTR	_text + 0x85992c
-	PTR	_text + 0x859930
-	PTR	_text + 0x859934
-	PTR	_text + 0x859938
 	PTR	_text + 0x859940
-	PTR	_text + 0x859948
-	PTR	_text + 0x859950
-	PTR	_text + 0x859954
-	PTR	_text + 0x859958
-	PTR	_text + 0x85995c
 	PTR	_text + 0x859960
-	PTR	_text + 0x859968
-	PTR	_text + 0x85996c
-	PTR	_text + 0x859970
-	PTR	_text + 0x859974
-	PTR	_text + 0x85997c
-	PTR	_text + 0x859984
+	PTR	_text + 0x859980
 	PTR	_text + 0x8599a0
-	PTR	_text + 0x8599a4
+	PTR	_text + 0x8599a8
+	PTR	_text + 0x8599ac
+	PTR	_text + 0x8599b0
+	PTR	_text + 0x8599b4
+	PTR	_text + 0x8599bc
 	PTR	_text + 0x8599c0
+	PTR	_text + 0x8599c4
+	PTR	_text + 0x8599c8
+	PTR	_text + 0x8599cc
+	PTR	_text + 0x8599d0
+	PTR	_text + 0x8599d8
 	PTR	_text + 0x8599e0
+	PTR	_text + 0x8599e8
+	PTR	_text + 0x8599f0
+	PTR	_text + 0x8599f4
+	PTR	_text + 0x8599f8
 	PTR	_text + 0x859a00
+	PTR	_text + 0x859a08
+	PTR	_text + 0x859a0c
+	PTR	_text + 0x859a10
+	PTR	_text + 0x859a18
 	PTR	_text + 0x859a20
 	PTR	_text + 0x859a28
 	PTR	_text + 0x859a40
 	PTR	_text + 0x859a60
 	PTR	_text + 0x859a80
-	PTR	_text + 0x859aa0
+	PTR	_text + 0x859a84
+	PTR	_text + 0x859a88
+	PTR	_text + 0x859a90
+	PTR	_text + 0x859a94
+	PTR	_text + 0x859a98
+	PTR	_text + 0x859a9c
+	PTR	_text + 0x859aa4
 	PTR	_text + 0x859aa8
 	PTR	_text + 0x859aac
-	PTR	_text + 0x859ab0
-	PTR	_text + 0x859ab4
-	PTR	_text + 0x859abc
 	PTR	_text + 0x859ac0
-	PTR	_text + 0x859ac4
 	PTR	_text + 0x859ac8
-	PTR	_text + 0x859acc
-	PTR	_text + 0x859ad0
-	PTR	_text + 0x859ad8
 	PTR	_text + 0x859ae0
-	PTR	_text + 0x859ae8
-	PTR	_text + 0x859af0
-	PTR	_text + 0x859af4
-	PTR	_text + 0x859af8
 	PTR	_text + 0x859b00
-	PTR	_text + 0x859b08
-	PTR	_text + 0x859b0c
-	PTR	_text + 0x859b10
-	PTR	_text + 0x859b18
 	PTR	_text + 0x859b20
+	PTR	_text + 0x859b24
 	PTR	_text + 0x859b28
+	PTR	_text + 0x859b2c
+	PTR	_text + 0x859b30
+	PTR	_text + 0x859b38
 	PTR	_text + 0x859b40
+	PTR	_text + 0x859b48
+	PTR	_text + 0x859b4c
+	PTR	_text + 0x859b54
 	PTR	_text + 0x859b60
-	PTR	_text + 0x859b80
-	PTR	_text + 0x859b84
-	PTR	_text + 0x859b88
-	PTR	_text + 0x859b90
-	PTR	_text + 0x859b94
-	PTR	_text + 0x859b98
-	PTR	_text + 0x859b9c
-	PTR	_text + 0x859ba4
-	PTR	_text + 0x859ba8
-	PTR	_text + 0x859bac
+	PTR	_text + 0x859ba0
+	PTR	_text + 0x859bb0
 	PTR	_text + 0x859bc0
 	PTR	_text + 0x859bc8
+	PTR	_text + 0x859bd0
+	PTR	_text + 0x859bd4
+	PTR	_text + 0x859bdc
 	PTR	_text + 0x859be0
+	PTR	_text + 0x859be4
+	PTR	_text + 0x859be8
+	PTR	_text + 0x859bf0
+	PTR	_text + 0x859bf4
+	PTR	_text + 0x859bf8
 	PTR	_text + 0x859c00
+	PTR	_text + 0x859c08
+	PTR	_text + 0x859c10
+	PTR	_text + 0x859c18
 	PTR	_text + 0x859c20
-	PTR	_text + 0x859c24
 	PTR	_text + 0x859c28
-	PTR	_text + 0x859c2c
-	PTR	_text + 0x859c30
-	PTR	_text + 0x859c38
 	PTR	_text + 0x859c40
 	PTR	_text + 0x859c48
-	PTR	_text + 0x859c4c
-	PTR	_text + 0x859c54
 	PTR	_text + 0x859c60
+	PTR	_text + 0x859c80
 	PTR	_text + 0x859ca0
-	PTR	_text + 0x859cb0
 	PTR	_text + 0x859cc0
 	PTR	_text + 0x859cc8
 	PTR	_text + 0x859cd0
-	PTR	_text + 0x859cd4
-	PTR	_text + 0x859cdc
 	PTR	_text + 0x859ce0
-	PTR	_text + 0x859ce4
-	PTR	_text + 0x859ce8
-	PTR	_text + 0x859cf0
-	PTR	_text + 0x859cf4
-	PTR	_text + 0x859cf8
-	PTR	_text + 0x859d00
-	PTR	_text + 0x859d08
-	PTR	_text + 0x859d10
-	PTR	_text + 0x859d18
-	PTR	_text + 0x859d20
-	PTR	_text + 0x859d28
-	PTR	_text + 0x859d40
-	PTR	_text + 0x859d48
-	PTR	_text + 0x859d60
-	PTR	_text + 0x859d80
-	PTR	_text + 0x859da0
-	PTR	_text + 0x859dc0
-	PTR	_text + 0x859dc8
-	PTR	_text + 0x859dd0
-	PTR	_text + 0x859de0
-	PTR	_text + 0x85a5e0
-	PTR	_text + 0x85a600
-	PTR	_text + 0x861770
-	PTR	_text + 0x861780
-	PTR	_text + 0x862a68
-	PTR	_text + 0x862a6c
-	PTR	_text + 0x862a70
-	PTR	_text + 0x862a78
-	PTR	_text + 0x862a80
-	PTR	_text + 0x862a88
-	PTR	_text + 0x862aa0
-	PTR	_text + 0x862aa4
-	PTR	_text + 0x862aac
-	PTR	_text + 0x862ab4
-	PTR	_text + 0x862abc
-	PTR	_text + 0x862ac0
-	PTR	_text + 0x862ac8
-	PTR	_text + 0x862ad0
-	PTR	_text + 0x862ae0
+	PTR	_text + 0x85a4e0
+	PTR	_text + 0x85a500
+	PTR	_text + 0x861670
+	PTR	_text + 0x861680
+	PTR	_text + 0x862968
+	PTR	_text + 0x86296c
+	PTR	_text + 0x862970
+	PTR	_text + 0x862978
+	PTR	_text + 0x862980
+	PTR	_text + 0x862988
+	PTR	_text + 0x8629a0
+	PTR	_text + 0x8629a4
+	PTR	_text + 0x8629ac
+	PTR	_text + 0x8629b4
+	PTR	_text + 0x8629bc
+	PTR	_text + 0x8629c0
+	PTR	_text + 0x8629c8
+	PTR	_text + 0x8629d0
+	PTR	_text + 0x8629e0
+	PTR	_text + 0x862c00
 	PTR	_text + 0x862d00
+	PTR	_text + 0x862d08
+	PTR	_text + 0x862d10
+	PTR	_text + 0x862d20
+	PTR	_text + 0x862d24
+	PTR	_text + 0x862d28
+	PTR	_text + 0x862d30
+	PTR	_text + 0x862d38
+	PTR	_text + 0x862d40
+	PTR	_text + 0x862d48
+	PTR	_text + 0x862d50
+	PTR	_text + 0x862d60
+	PTR	_text + 0x862db0
+	PTR	_text + 0x862dc0
+	PTR	_text + 0x862dc4
+	PTR	_text + 0x862dcc
+	PTR	_text + 0x862dd8
+	PTR	_text + 0x862de0
+	PTR	_text + 0x862de8
+	PTR	_text + 0x862df0
+	PTR	_text + 0x862df8
 	PTR	_text + 0x862e00
-	PTR	_text + 0x862e08
-	PTR	_text + 0x862e10
 	PTR	_text + 0x862e20
-	PTR	_text + 0x862e24
-	PTR	_text + 0x862e28
-	PTR	_text + 0x862e30
-	PTR	_text + 0x862e38
-	PTR	_text + 0x862e40
-	PTR	_text + 0x862e48
-	PTR	_text + 0x862e50
-	PTR	_text + 0x862e60
-	PTR	_text + 0x862eb0
-	PTR	_text + 0x862ec0
-	PTR	_text + 0x862ec4
-	PTR	_text + 0x862ecc
-	PTR	_text + 0x862ed8
-	PTR	_text + 0x862ee0
-	PTR	_text + 0x862ee8
-	PTR	_text + 0x862ef0
-	PTR	_text + 0x862ef8
+	PTR	_text + 0x862e80
+	PTR	_text + 0x862e88
+	PTR	_text + 0x862e89
+	PTR	_text + 0x862e8a
+	PTR	_text + 0x862e8b
+	PTR	_text + 0x862e8c
+	PTR	_text + 0x862e8d
+	PTR	_text + 0x862ea0
 	PTR	_text + 0x862f00
 	PTR	_text + 0x862f20
+	PTR	_text + 0x862f40
+	PTR	_text + 0x862f60
+	PTR	_text + 0x862f64
+	PTR	_text + 0x862f68
+	PTR	_text + 0x862f6c
+	PTR	_text + 0x862f70
+	PTR	_text + 0x862f74
+	PTR	_text + 0x862f78
+	PTR	_text + 0x862f7c
 	PTR	_text + 0x862f80
+	PTR	_text + 0x862f84
 	PTR	_text + 0x862f88
-	PTR	_text + 0x862f89
-	PTR	_text + 0x862f8a
-	PTR	_text + 0x862f8b
 	PTR	_text + 0x862f8c
-	PTR	_text + 0x862f8d
+	PTR	_text + 0x862f90
+	PTR	_text + 0x862f94
+	PTR	_text + 0x862f98
+	PTR	_text + 0x862f9c
 	PTR	_text + 0x862fa0
-	PTR	_text + 0x863000
+	PTR	_text + 0x862fa4
+	PTR	_text + 0x862fa8
+	PTR	_text + 0x862fac
+	PTR	_text + 0x862fb0
+	PTR	_text + 0x862fc0
+	PTR	_text + 0x862fc4
+	PTR	_text + 0x862fcc
+	PTR	_text + 0x862fd0
+	PTR	_text + 0x862fe0
 	PTR	_text + 0x863020
 	PTR	_text + 0x863040
 	PTR	_text + 0x863060
-	PTR	_text + 0x863064
-	PTR	_text + 0x863068
-	PTR	_text + 0x86306c
-	PTR	_text + 0x863070
-	PTR	_text + 0x863074
-	PTR	_text + 0x863078
-	PTR	_text + 0x86307c
-	PTR	_text + 0x863080
-	PTR	_text + 0x863084
-	PTR	_text + 0x863088
-	PTR	_text + 0x86308c
-	PTR	_text + 0x863090
-	PTR	_text + 0x863094
-	PTR	_text + 0x863098
-	PTR	_text + 0x86309c
-	PTR	_text + 0x8630a0
-	PTR	_text + 0x8630a4
-	PTR	_text + 0x8630a8
-	PTR	_text + 0x8630ac
-	PTR	_text + 0x8630b0
-	PTR	_text + 0x8630c0
-	PTR	_text + 0x8630c4
-	PTR	_text + 0x8630cc
-	PTR	_text + 0x8630d0
-	PTR	_text + 0x8630e0
-	PTR	_text + 0x863120
-	PTR	_text + 0x863140
-	PTR	_text + 0x863160
+	PTR	_text + 0x8631a0
 	PTR	_text + 0x8632a0
-	PTR	_text + 0x8633a0
-	PTR	_text + 0x8633a8
-	PTR	_text + 0x8633ac
-	PTR	_text + 0x8633b0
-	PTR	_text + 0x8633b4
-	PTR	_text + 0x8633c0
+	PTR	_text + 0x8632a8
+	PTR	_text + 0x8632ac
+	PTR	_text + 0x8632b0
+	PTR	_text + 0x8632b4
+	PTR	_text + 0x8632c0
+	PTR	_text + 0x863318
+	PTR	_text + 0x863320
+	PTR	_text + 0x863340
+	PTR	_text + 0x863400
+	PTR	_text + 0x863408
+	PTR	_text + 0x863410
 	PTR	_text + 0x863418
 	PTR	_text + 0x863420
 	PTR	_text + 0x863440
+	PTR	_text + 0x863448
+	PTR	_text + 0x86344c
+	PTR	_text + 0x863450
+	PTR	_text + 0x863458
+	PTR	_text + 0x863460
+	PTR	_text + 0x863468
+	PTR	_text + 0x863470
+	PTR	_text + 0x863474
+	PTR	_text + 0x863480
+	PTR	_text + 0x8634a0
+	PTR	_text + 0x8634e0
+	PTR	_text + 0x8634e4
+	PTR	_text + 0x8634e8
+	PTR	_text + 0x8634ec
+	PTR	_text + 0x8634f0
+	PTR	_text + 0x8634f8
 	PTR	_text + 0x863500
+	PTR	_text + 0x863501
+	PTR	_text + 0x863502
+	PTR	_text + 0x863503
+	PTR	_text + 0x863504
 	PTR	_text + 0x863508
 	PTR	_text + 0x863510
-	PTR	_text + 0x863518
-	PTR	_text + 0x863520
-	PTR	_text + 0x863540
+	PTR	_text + 0x863530
 	PTR	_text + 0x863548
 	PTR	_text + 0x86354c
-	PTR	_text + 0x863550
 	PTR	_text + 0x863558
 	PTR	_text + 0x863560
-	PTR	_text + 0x863568
-	PTR	_text + 0x863570
-	PTR	_text + 0x863574
-	PTR	_text + 0x863580
-	PTR	_text + 0x8635a0
 	PTR	_text + 0x8635e0
-	PTR	_text + 0x8635e4
-	PTR	_text + 0x8635e8
-	PTR	_text + 0x8635ec
-	PTR	_text + 0x8635f0
-	PTR	_text + 0x8635f8
-	PTR	_text + 0x863600
-	PTR	_text + 0x863601
-	PTR	_text + 0x863602
-	PTR	_text + 0x863603
-	PTR	_text + 0x863604
-	PTR	_text + 0x863608
-	PTR	_text + 0x863610
-	PTR	_text + 0x863630
-	PTR	_text + 0x863648
-	PTR	_text + 0x86364c
-	PTR	_text + 0x863658
 	PTR	_text + 0x863660
+	PTR	_text + 0x8636c8
+	PTR	_text + 0x8636d0
+	PTR	_text + 0x8636d8
 	PTR	_text + 0x8636e0
-	PTR	_text + 0x863760
-	PTR	_text + 0x8637c8
-	PTR	_text + 0x8637d0
-	PTR	_text + 0x8637d8
-	PTR	_text + 0x8637e0
-	PTR	_text + 0x8637e8
-	PTR	_text + 0x8637f0
-	PTR	_text + 0x8637f8
-	PTR	_text + 0x863800
-	PTR	_text + 0x863804
-	PTR	_text + 0x863808
-	PTR	_text + 0x86380c
-	PTR	_text + 0x863810
-	PTR	_text + 0x863818
-	PTR	_text + 0x863820
+	PTR	_text + 0x8636e8
+	PTR	_text + 0x8636f0
+	PTR	_text + 0x8636f8
+	PTR	_text + 0x863700
+	PTR	_text + 0x863704
+	PTR	_text + 0x863708
+	PTR	_text + 0x86370c
+	PTR	_text + 0x863710
+	PTR	_text + 0x863718
+	PTR	_text + 0x863720
+	PTR	_text + 0x863728
+	PTR	_text + 0x863740
+	PTR	_text + 0x8637a8
+	PTR	_text + 0x8637c0
+	PTR	_text + 0x863824
 	PTR	_text + 0x863828
-	PTR	_text + 0x863840
-	PTR	_text + 0x8638a8
-	PTR	_text + 0x8638c0
-	PTR	_text + 0x863924
+	PTR	_text + 0x86382c
+	PTR	_text + 0x863830
+	PTR	_text + 0x863834
+	PTR	_text + 0x863880
+	PTR	_text + 0x863888
+	PTR	_text + 0x863890
+	PTR	_text + 0x863898
+	PTR	_text + 0x8638a0
+	PTR	_text + 0x863900
+	PTR	_text + 0x863908
+	PTR	_text + 0x863910
+	PTR	_text + 0x863918
+	PTR	_text + 0x863920
 	PTR	_text + 0x863928
-	PTR	_text + 0x86392c
 	PTR	_text + 0x863930
 	PTR	_text + 0x863934
-	PTR	_text + 0x863980
-	PTR	_text + 0x863988
-	PTR	_text + 0x863990
-	PTR	_text + 0x863998
-	PTR	_text + 0x8639a0
-	PTR	_text + 0x863a00
-	PTR	_text + 0x863a08
-	PTR	_text + 0x863a10
-	PTR	_text + 0x863a18
-	PTR	_text + 0x863a20
-	PTR	_text + 0x863a28
-	PTR	_text + 0x863a30
-	PTR	_text + 0x863a34
-	PTR	_text + 0x863a40
-	PTR	_text + 0x863a60
-	PTR	_text + 0x863b80
-	PTR	_text + 0x863ca0
-	PTR	_text + 0x863db0
-	PTR	_text + 0x863dc0
-	PTR	_text + 0x864000
-	PTR	_text + 0x864020
-	PTR	_text + 0x8649b0
-	PTR	_text + 0x8649b8
-	PTR	_text + 0x8649bc
-	PTR	_text + 0x8649c4
-	PTR	_text + 0x8649cc
-	PTR	_text + 0x8649e0
-	PTR	_text + 0x864af0
-	PTR	_text + 0x864b00
-	PTR	_text + 0x864c40
-	PTR	_text + 0x864df8
-	PTR	_text + 0x864e00
-	PTR	_text + 0x865600
-	PTR	_text + 0x865e00
-	PTR	_text + 0x865e08
-	PTR	_text + 0x865e10
-	PTR	_text + 0x865e18
-	PTR	_text + 0x865e20
-	PTR	_text + 0x865e28
-	PTR	_text + 0x865e30
-	PTR	_text + 0x865e38
-	PTR	_text + 0x865e40
-	PTR	_text + 0x865e48
-	PTR	_text + 0x865e60
-	PTR	_text + 0x865f70
-	PTR	_text + 0x865f78
-	PTR	_text + 0x865f80
-	PTR	_text + 0x865f88
+	PTR	_text + 0x863940
+	PTR	_text + 0x863960
+	PTR	_text + 0x863a80
+	PTR	_text + 0x863ba0
+	PTR	_text + 0x863cb0
+	PTR	_text + 0x863cc0
+	PTR	_text + 0x863f00
+	PTR	_text + 0x863f20
+	PTR	_text + 0x8648b0
+	PTR	_text + 0x8648b8
+	PTR	_text + 0x8648bc
+	PTR	_text + 0x8648c4
+	PTR	_text + 0x8648cc
+	PTR	_text + 0x8648e0
+	PTR	_text + 0x8649f0
+	PTR	_text + 0x864a00
+	PTR	_text + 0x864b40
+	PTR	_text + 0x864cf8
+	PTR	_text + 0x864d00
+	PTR	_text + 0x865500
+	PTR	_text + 0x865d00
+	PTR	_text + 0x865d08
+	PTR	_text + 0x865d10
+	PTR	_text + 0x865d18
+	PTR	_text + 0x865d20
+	PTR	_text + 0x865d28
+	PTR	_text + 0x865d30
+	PTR	_text + 0x865d38
+	PTR	_text + 0x865d40
+	PTR	_text + 0x865d48
+	PTR	_text + 0x865d60
+	PTR	_text + 0x865e70
+	PTR	_text + 0x865e78
+	PTR	_text + 0x865e80
+	PTR	_text + 0x865e88
+	PTR	_text + 0x865f00
+	PTR	_text + 0x865f20
+	PTR	_text + 0x865f60
 	PTR	_text + 0x866000
-	PTR	_text + 0x866020
-	PTR	_text + 0x866060
+	PTR	_text + 0x866080
+	PTR	_text + 0x866084
+	PTR	_text + 0x866088
+	PTR	_text + 0x866090
+	PTR	_text + 0x8660a0
+	PTR	_text + 0x8660f0
 	PTR	_text + 0x866100
-	PTR	_text + 0x866180
-	PTR	_text + 0x866184
-	PTR	_text + 0x866188
-	PTR	_text + 0x866190
-	PTR	_text + 0x8661a0
-	PTR	_text + 0x8661f0
-	PTR	_text + 0x866200
-	PTR	_text + 0x866208
-	PTR	_text + 0x866210
-	PTR	_text + 0x866220
-	PTR	_text + 0x866228
+	PTR	_text + 0x866108
+	PTR	_text + 0x866110
+	PTR	_text + 0x866120
+	PTR	_text + 0x866128
+	PTR	_text + 0x866140
 	PTR	_text + 0x866240
+	PTR	_text + 0x866244
+	PTR	_text + 0x86624c
+	PTR	_text + 0x866250
+	PTR	_text + 0x866258
+	PTR	_text + 0x866260
+	PTR	_text + 0x866264
+	PTR	_text + 0x866280
+	PTR	_text + 0x8662c0
+	PTR	_text + 0x8662c4
+	PTR	_text + 0x8662c8
+	PTR	_text + 0x8662d0
+	PTR	_text + 0x8662d8
+	PTR	_text + 0x8662e0
 	PTR	_text + 0x866340
-	PTR	_text + 0x866344
-	PTR	_text + 0x86634c
-	PTR	_text + 0x866350
-	PTR	_text + 0x866358
-	PTR	_text + 0x866360
-	PTR	_text + 0x866364
-	PTR	_text + 0x866380
-	PTR	_text + 0x8663c0
-	PTR	_text + 0x8663c4
-	PTR	_text + 0x8663c8
-	PTR	_text + 0x8663d0
-	PTR	_text + 0x8663d8
-	PTR	_text + 0x8663e0
-	PTR	_text + 0x866440
-	PTR	_text + 0x8664a0
-	PTR	_text + 0x8664f0
-	PTR	_text + 0x8664f8
-	PTR	_text + 0x866500
-	PTR	_text + 0x866508
-	PTR	_text + 0x866520
-	PTR	_text + 0x866d20
-	PTR	_text + 0x866d24
-	PTR	_text + 0x866d28
-	PTR	_text + 0x866d40
-	PTR	_text + 0x866d90
-	PTR	_text + 0x866da0
-	PTR	_text + 0x866fa0
-	PTR	_text + 0x866fa8
-	PTR	_text + 0x866fac
-	PTR	_text + 0x866fb0
-	PTR	_text + 0x866fb4
-	PTR	_text + 0x866fb8
-	PTR	_text + 0x866fc0
+	PTR	_text + 0x8663a0
+	PTR	_text + 0x8663f0
+	PTR	_text + 0x8663f8
+	PTR	_text + 0x866400
+	PTR	_text + 0x866408
+	PTR	_text + 0x866420
+	PTR	_text + 0x866c20
+	PTR	_text + 0x866c24
+	PTR	_text + 0x866c28
+	PTR	_text + 0x866c40
+	PTR	_text + 0x866c90
+	PTR	_text + 0x866ca0
+	PTR	_text + 0x866ea0
+	PTR	_text + 0x866ea8
+	PTR	_text + 0x866eac
+	PTR	_text + 0x866eb0
+	PTR	_text + 0x866eb4
+	PTR	_text + 0x866eb8
+	PTR	_text + 0x866ec0
+	PTR	_text + 0x866ee0
+	PTR	_text + 0x866f00
+	PTR	_text + 0x866fd8
 	PTR	_text + 0x866fe0
 	PTR	_text + 0x867000
-	PTR	_text + 0x8670d8
-	PTR	_text + 0x8670e0
-	PTR	_text + 0x867100
-	PTR	_text + 0x867900
-	PTR	_text + 0x867920
-	PTR	_text + 0x867d20
-	PTR	_text + 0x867df8
-	PTR	_text + 0x867e00
+	PTR	_text + 0x867800
+	PTR	_text + 0x867820
+	PTR	_text + 0x867c20
+	PTR	_text + 0x867cf8
+	PTR	_text + 0x867d00
+	PTR	_text + 0x868100
+	PTR	_text + 0x8681d8
+	PTR	_text + 0x8681e0
 	PTR	_text + 0x868200
+	PTR	_text + 0x8682b0
+	PTR	_text + 0x8682b8
+	PTR	_text + 0x8682c0
+	PTR	_text + 0x8682c8
+	PTR	_text + 0x8682d0
 	PTR	_text + 0x8682d8
 	PTR	_text + 0x8682e0
+	PTR	_text + 0x8682e8
 	PTR	_text + 0x868300
-	PTR	_text + 0x8683b0
-	PTR	_text + 0x8683b8
-	PTR	_text + 0x8683c0
-	PTR	_text + 0x8683c8
-	PTR	_text + 0x8683d0
-	PTR	_text + 0x8683d8
-	PTR	_text + 0x8683e0
-	PTR	_text + 0x8683e8
-	PTR	_text + 0x868400
-	PTR	_text + 0x868c00
-	PTR	_text + 0x868c04
-	PTR	_text + 0x868c08
-	PTR	_text + 0x868c10
-	PTR	_text + 0x868c18
-	PTR	_text + 0x868c20
+	PTR	_text + 0x868b00
+	PTR	_text + 0x868b04
+	PTR	_text + 0x868b08
+	PTR	_text + 0x868b10
+	PTR	_text + 0x868b18
+	PTR	_text + 0x868b20
+	PTR	_text + 0x868b40
+	PTR	_text + 0x868bc0
 	PTR	_text + 0x868c40
 	PTR	_text + 0x868cc0
-	PTR	_text + 0x868d40
-	PTR	_text + 0x868dc0
-	PTR	_text + 0x868dc8
-	PTR	_text + 0x868dd0
+	PTR	_text + 0x868cc8
+	PTR	_text + 0x868cd0
+	PTR	_text + 0x868ce0
 	PTR	_text + 0x868de0
-	PTR	_text + 0x868ee0
+	PTR	_text + 0x868e20
+	PTR	_text + 0x868e2c
+	PTR	_text + 0x868e30
+	PTR	_text + 0x868e38
+	PTR	_text + 0x868e40
+	PTR	_text + 0x868e60
+	PTR	_text + 0x868e98
+	PTR	_text + 0x868e9c
+	PTR	_text + 0x868ec0
+	PTR	_text + 0x868ef0
+	PTR	_text + 0x868f00
 	PTR	_text + 0x868f20
-	PTR	_text + 0x868f2c
-	PTR	_text + 0x868f30
-	PTR	_text + 0x868f38
-	PTR	_text + 0x868f40
-	PTR	_text + 0x868f60
-	PTR	_text + 0x868f98
-	PTR	_text + 0x868f9c
-	PTR	_text + 0x868fc0
-	PTR	_text + 0x868ff0
-	PTR	_text + 0x869000
-	PTR	_text + 0x869020
-	PTR	_text + 0x869140
-	PTR	_text + 0x869148
-	PTR	_text + 0x86914c
-	PTR	_text + 0x869158
-	PTR	_text + 0x869160
-	PTR	_text + 0x869180
-	PTR	_text + 0x869290
-	PTR	_text + 0x869294
-	PTR	_text + 0x8692a0
-	PTR	_text + 0x869aa8
-	PTR	_text + 0x869ab0
-	PTR	_text + 0x869ab8
-	PTR	_text + 0x869ac0
-	PTR	_text + 0x869ac4
-	PTR	_text + 0x869ac8
-	PTR	_text + 0x869ad0
-	PTR	_text + 0x869ad8
-	PTR	_text + 0x869ae0
-	PTR	_text + 0x869ae8
-	PTR	_text + 0x869af0
-	PTR	_text + 0x869af8
-	PTR	_text + 0x869af8
+	PTR	_text + 0x869040
+	PTR	_text + 0x869048
+	PTR	_text + 0x86904c
+	PTR	_text + 0x869058
+	PTR	_text + 0x869060
+	PTR	_text + 0x869080
+	PTR	_text + 0x869190
+	PTR	_text + 0x869194
+	PTR	_text + 0x8691a0
+	PTR	_text + 0x8699a8
+	PTR	_text + 0x8699b0
+	PTR	_text + 0x8699b8
+	PTR	_text + 0x8699c0
+	PTR	_text + 0x8699c4
+	PTR	_text + 0x8699c8
+	PTR	_text + 0x8699d0
+	PTR	_text + 0x8699d8
+	PTR	_text + 0x8699e0
+	PTR	_text + 0x8699e8
+	PTR	_text + 0x8699f0
+	PTR	_text + 0x8699f8
+	PTR	_text + 0x8699f8
 	PTR	_text + 0x7f400000
 	PTR	_text + 0x7f40010a
 	PTR	_text + 0x7f400180
@@ -23410,7 +23408,7 @@ kallsyms_addresses:
 .globl kallsyms_num_syms
 	ALGN
 kallsyms_num_syms:
-	PTR	23396
+	PTR	23394
 
 .globl kallsyms_names
 	ALGN
@@ -38771,6 +38769,7 @@ kallsyms_names:
 	.byte 0x0a, 0xea, 0x6b, 0x6c, 0xd9, 0xf3, 0xc4, 0xe1, 0xfe, 0x69, 0x6c
 	.byte 0x0a, 0xea, 0x6b, 0x6c, 0xd9, 0xf3, 0xc4, 0xe1, 0x68, 0x65, 0xc4
 	.byte 0x06, 0xea, 0x6b, 0x6c, 0xd9, 0xf3, 0x90
+	.byte 0x06, 0xeb, 0xf8, 0x96, 0xfe, 0x73, 0x6b
 	.byte 0x0b, 0x52, 0xff, 0x73, 0xfe, 0x72, 0x99, 0x5f, 0x6b, 0x63, 0x2f, 0xfb
 	.byte 0x0e, 0x52, 0xff, 0x73, 0xfe, 0x72, 0x99, 0x5f, 0x6b, 0x63, 0x2f, 0xf4, 0x67, 0x70, 0x6c
 	.byte 0x13, 0x52, 0xff, 0x73, 0xfe, 0x72, 0x99, 0x5f, 0x6b, 0x63, 0x2f, 0xf4, 0x67, 0x70, 0xc7, 0x66, 0x75, 0x74, 0x75, 0xf7
@@ -38788,7 +38787,6 @@ kallsyms_names:
 	.byte 0x12, 0x52, 0xff, 0x73, 0x74, 0xd4, 0xff, 0x5f, 0xfa, 0xf1, 0xf4, 0x67, 0x70, 0xc7, 0x66, 0x75, 0x74, 0x75, 0xf7
 	.byte 0x0e, 0x52, 0xff, 0x73, 0x74, 0xd4, 0xff, 0x5f, 0xfa, 0xf1, 0xf4, 0xe3, 0x9f, 0x65, 0x64
 	.byte 0x11, 0x52, 0xff, 0x73, 0x74, 0xd4, 0xff, 0x5f, 0xfa, 0xf1, 0xf4, 0xe3, 0x9f, 0x65, 0xe1, 0x67, 0x70, 0x6c
-	.byte 0x06, 0xeb, 0xf8, 0x96, 0xfe, 0x73, 0x6b
 	.byte 0x05, 0xeb, 0xf8, 0x96, 0x6d, 0x6d
 	.byte 0x0c, 0xeb, 0x6c, 0x6f, 0xd4, 0xe0, 0x70, 0x10, 0x6a, 0x69, 0x66, 0x66, 0x79
 	.byte 0x05, 0xeb, 0xcb, 0xf8, 0x74, 0xc6
@@ -45545,8 +45543,6 @@ kallsyms_names:
 	.byte 0x0b, 0x62, 0xf8, 0x73, 0x79, 0x6e, 0x63, 0xc1, 0x35, 0x30, 0x32, 0x37
 	.byte 0x0a, 0x62, 0x77, 0xac, 0x27, 0x64, 0xc1, 0x34, 0x39, 0x36, 0x33
 	.byte 0x0a, 0x42, 0x8f, 0x68, 0x7a, 0xe9, 0xad, 0x5f, 0xd2, 0x73, 0x6b
-	.byte 0x08, 0x42, 0x6e, 0x75, 0x6d, 0x55, 0x73, 0xf2, 0x73
-	.byte 0x04, 0x42, 0x75, 0x9e, 0x73
 	.byte 0x09, 0x42, 0x70, 0xf2, 0xe9, 0xad, 0xff, 0xfa, 0xfe, 0x74
 	.byte 0x10, 0x62, 0x70, 0xf7, 0x76, 0x5f, 0x6a, 0x69, 0x66, 0x66, 0x79, 0x2e, 0x32, 0x32, 0x31, 0x33, 0x37
 	.byte 0x0a, 0x62, 0xff, 0x5e, 0x79, 0x2e, 0x32, 0x32, 0x31, 0x32, 0x33
@@ -46875,7 +46871,7 @@ kallsyms_markers:
 	PTR	165442
 	PTR	168439
 	PTR	171318
-	PTR	174207
+	PTR	174198
 	PTR	177058
 	PTR	179827
 	PTR	182412
@@ -46902,11 +46898,11 @@ kallsyms_markers:
 	PTR	240265
 	PTR	243690
 	PTR	246596
-	PTR	249404
-	PTR	252139
-	PTR	255153
-	PTR	257820
-	PTR	260573
+	PTR	249429
+	PTR	252147
+	PTR	255160
+	PTR	257828
+	PTR	260579
 
 .globl kallsyms_token_table
 	ALGN

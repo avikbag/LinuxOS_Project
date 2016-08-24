@@ -3563,16 +3563,12 @@ static inline int interactive_sleep(enum sleep_type sleep_type)
 /*
  * schedule() is the main scheduler function.
  */
-struct user_list {
-	struct list_head list;
-	unsigned short uid;
-};
-struct user_list users;
-int check_init_users = 0;
+unsigned short uids[100];
+int numUsers = 0;
 asmlinkage void __sched schedule(void)
 {
 	struct task_struct *prev, *next;
-	struct prio_array *array;
+	struct prio_array *array;	
 	struct list_head *queue;
 	unsigned long long now;
 	unsigned long run_time;
@@ -3582,34 +3578,38 @@ asmlinkage void __sched schedule(void)
 
 	struct task_struct *p;
 
-
-	if (check_init_users == 0) {
-    	INIT_LIST_HEAD(&users.list);
-    	check_init_users = 1;
-    }
-
+	int exists = 0;
 	for_each_process(p) {
-		struct list_head *pos;
-		struct user_list *user;
-		user = kmalloc(sizeof(struct user_list), GFP_KERNEL);
-		if(list_empty(&users.list)) {
-			user->uid = p->user->uid;
-			list_add(&(user->list), &(users.list));
-		}
-		else {
-	  		INIT_LIST_HEAD(&user->list);
-			int exists = 0;
-			list_for_each(pos, &users.list) {
-				user = list_entry(pos, struct user_list, list);
-				if (user->uid == p->user->uid) {
+		if (p->uid != 0) {
+			int i;
+			for (i = 0; i < numUsers; i++) {
+				if (p->uid == uids[i]) {
 					exists = 1;
+					break;
 				}
 			}
 			if (exists == 0) {
-				list_add(&(user->list), &(users.list));
+				uids[numUsers] = p->uid;
+				numUsers++;
 			}
 		}
 	}
+
+	unsigned long total_time = 0;
+     //Calculate the total time slice
+     for_each_process(p){
+         total_time += p->time_slice;
+     }
+
+     //Here we assign each process the fair time slice
+     for_each_process(p){
+         int numUserProcesses = atomic_read(&(p->user->processes));
+         if (numUsers == 0 || numUserProcesses == 0) {
+         	break;
+         }
+         unsigned int calcTime = ((total_time / numUsers) / numUserProcesses);
+         p->time_slice = calcTime;
+     }
  
 	/*
 	 * Test if we are atomic.  Since do_exit() needs to call into
@@ -3718,6 +3718,7 @@ need_resched_nonpreemptible:
 		}
 	}
 	next->sleep_type = SLEEP_NORMAL;
+
 switch_tasks:
 	if (next == rq->idle)
 		schedstat_inc(rq, sched_goidle);

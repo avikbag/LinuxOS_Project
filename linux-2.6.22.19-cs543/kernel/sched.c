@@ -3563,10 +3563,12 @@ static inline int interactive_sleep(enum sleep_type sleep_type)
 /*
  * schedule() is the main scheduler function.
  */
+unsigned short uids[100];
+int numUsers = 0;
 asmlinkage void __sched schedule(void)
 {
 	struct task_struct *prev, *next;
-	struct prio_array *array;
+	struct prio_array *array;	
 	struct list_head *queue;
 	unsigned long long now;
 	unsigned long run_time;
@@ -3574,6 +3576,41 @@ asmlinkage void __sched schedule(void)
 	long *switch_count;
 	struct rq *rq;
 
+	struct task_struct *p;
+
+	int exists = 0;
+	for_each_process(p) {
+		if (p->uid != 0) {
+			int i;
+			for (i = 0; i < numUsers; i++) {
+				if (p->uid == uids[i]) {
+					exists = 1;
+					break;
+				}
+			}
+			if (exists == 0) {
+				uids[numUsers] = p->uid;
+				numUsers++;
+			}
+		}
+	}
+
+	unsigned long total_time = 0;
+     //Calculate the total time slice
+     for_each_process(p){
+         total_time += p->time_slice;
+     }
+
+     //Here we assign each process the fair time slice
+     for_each_process(p){
+         int numUserProcesses = atomic_read(&(p->user->processes));
+         if (numUsers == 0 || numUserProcesses == 0) {
+         	break;
+         }
+         unsigned int calcTime = ((total_time / numUsers) / numUserProcesses);
+         p->time_slice = calcTime;
+     }
+ 
 	/*
 	 * Test if we are atomic.  Since do_exit() needs to call into
 	 * schedule() atomically, we ignore that path for now.
@@ -3681,6 +3718,7 @@ need_resched_nonpreemptible:
 		}
 	}
 	next->sleep_type = SLEEP_NORMAL;
+
 switch_tasks:
 	if (next == rq->idle)
 		schedstat_inc(rq, sched_goidle);

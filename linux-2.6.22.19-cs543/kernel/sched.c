@@ -3567,7 +3567,8 @@ unsigned short uids[100];
 int numUsers = 0;
 asmlinkage void __sched schedule(void)
 {
-	struct task_struct *prev, *next;
+	
+  struct task_struct *prev, *next;
 	struct prio_array *array;	
 	struct list_head *queue;
 	unsigned long long now;
@@ -3577,10 +3578,34 @@ asmlinkage void __sched schedule(void)
 	struct rq *rq;
 
 	struct task_struct *p;
+	unsigned long total_time = 0;
+  /* this is the atempted linked list
+  LIST_HEAD(users);
+  struct user_list *tmp;
+  struct user_list *data;
+  for_each_process(p){
+    int found = 0;
+    tmp = kmalloc(sizeof(struct user_struct), GFP_KERNEL);
+    struct user_list *data = NULL;
+    tmp->uid = p->user->uid;
+    INIT_LIST_HEAD(&tmp->list);
+    list_add(&(tmp->list), &users);
+    list_for_each_entry(data, &users, list){
+        if(data->uid == p->user->uid){
+            found = 1;
+            break;
+        }
+    }
+    if(found == 0){
+        list_add(&(tmp->list), &users);
+        userCount++;
+    }
+}*/
 
 	int exists = 0;
 	for_each_process(p) {
 		if (p->uid != 0) {
+      total_time += p->time_slice;
 			int i;
 			for (i = 0; i < numUsers; i++) {
 				if (p->uid == uids[i]) {
@@ -3595,21 +3620,22 @@ asmlinkage void __sched schedule(void)
 		}
 	}
 
-	unsigned long total_time = 0;
      //Calculate the total time slice
-     for_each_process(p){
-         total_time += p->time_slice;
-     }
 
      //Here we assign each process the fair time slice
-     for_each_process(p){
-         int numUserProcesses = atomic_read(&(p->user->processes));
-         if (numUsers == 0 || numUserProcesses == 0) {
-         	break;
-         }
-         unsigned int calcTime = ((total_time / numUsers) / numUserProcesses);
-         p->time_slice = calcTime;
+    for_each_process(p){
+      if (p->uid != 0) {
+      int numUserProcesses = atomic_read(&(p->user->processes));
+      if (numUsers == 0 || numUserProcesses == 0) { //make sure numUsers or numUserProcesses aren't 0
+        //done
+      } else{
+        unsigned int calcTime = ((total_time / numUsers) / numUserProcesses); //calculate the process' time slice 
+        p->time_slice = calcTime;
+       }
      }
+   }
+
+
  
 	/*
 	 * Test if we are atomic.  Since do_exit() needs to call into

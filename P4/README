@@ -1,0 +1,9 @@
+Tyler Boswell, Avik Bag, John Wang
+CS 370 Project 4
+----------------------------------
+Our changes to sched.c work as follows:
+First, we go through each process. We add each process' time slice to a total time slice. Then, we check to see if the process' associated uid is unique (not already found). If it is, we add it to our array of user ids. We also keep a running total of the number of users.
+
+Next, we go through each process again. This time, we find the number of processes for a user. We calculate the new timeslice for the process by taking the total time calculated before, divide it by the number of unique users found above, and then divide it by how many processes the user has. The process' time slice is then set to this value.
+
+We initially tried to implement a linked list for finding the list of unique users, but we faced issues with several implementations and were not able to correctly implement it. 

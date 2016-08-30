@@ -737,6 +737,21 @@ static int execdomains_read_proc(char *page, char **start, off_t off,
 	return proc_calc_metrics(page, start, off, count, eof, len);
 }
 
+#define BUF_LEN        100
+
+static int get_info(char *sys_buffer, char **my_buffer, off_t file_pos, int my_buffer_length)
+{
+    static char buffer[BUF_LEN];
+    int len;
+
+    /*
+     * Get the current time and format it.
+     */
+    len = sprintf(buffer, "this is what you need to implement\n");
+    *my_buffer = buffer;
+    return len;
+}
+
 #ifdef CONFIG_MAGIC_SYSRQ
 /*
  * writing 'C' to /proc/sysrq-trigger is like sysrq-C
@@ -789,6 +804,7 @@ void __init proc_misc_init(void)
 		{"cmdline",	cmdline_read_proc},
 		{"locks",	locks_read_proc},
 		{"execdomains",	execdomains_read_proc},
+		{"info", get_info},
 		{NULL,}
 	};
 	for (p = simple_ones; p->name; p++)

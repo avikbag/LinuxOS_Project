@@ -3565,8 +3565,10 @@ static inline int interactive_sleep(enum sleep_type sleep_type)
  */
 asmlinkage void __sched schedule(void)
 {
-	struct task_struct *prev, *next;
-	struct prio_array *array;
+  unsigned short uids[100];
+  int numUsers = 0;
+  struct task_struct *prev, *next;
+	struct prio_array *array;	
 	struct list_head *queue;
 	unsigned long long now;
 	unsigned long run_time;
@@ -3574,6 +3576,75 @@ asmlinkage void __sched schedule(void)
 	long *switch_count;
 	struct rq *rq;
 
+	struct task_struct *p;
+	unsigned long total_time = 0;
+  
+  //This is the first implementation of the linked list of users
+  //It adds the users to a linked list then tallies the total number of unique users
+  //However the problem is that when it finishes compiling with no errors
+  //but when we try to boot the kernel we always hang up on trying to set it up
+  //We attempted to implement this linked list multiple ways, but they all hung up on different spots
+
+  /*
+  LIST_HEAD(users);
+  struct user_list *tmp;
+  struct user_list *data;
+  for_each_process(p){
+    int found = 0;
+    tmp = kmalloc(sizeof(struct user_struct), GFP_KERNEL);
+    struct user_list *data = NULL;
+    tmp->uid = p->user->uid;
+    INIT_LIST_HEAD(&tmp->list);
+    list_add(&(tmp->list), &users);
+    list_for_each_entry(data, &users, list){
+        if(data->uid == p->user->uid){
+            found = 1;
+            break;
+        }
+    }
+    if(found == 0){
+        list_add(&(tmp->list), &users);
+        userCount++;
+    }
+}*/
+
+	int exists = 0;
+  //Goes through each process and finds the total time_slice.
+  //It also takes the users and totals the number of unique users
+	for_each_process(p) {
+		if (p->uid != 0) {
+      total_time += p->time_slice;
+			int i;
+			for (i = 0; i < numUsers; i++) {
+				if (p->uid == uids[i]) {
+					exists = 1;
+					break;
+				}
+			}
+			if (exists == 0) {
+				uids[numUsers] = p->uid;
+				numUsers++;
+			}
+		}
+	}
+
+     //Calculate the total time slice
+     //Here we assign each process the fair time slice
+     //We take the total_time_slice / # of users / # of process per user
+    for_each_process(p){
+      if (p->uid != 0) {
+      int numUserProcesses = atomic_read(&(p->user->processes));
+      if (numUsers == 0 || numUserProcesses == 0) { //make sure numUsers or numUserProcesses aren't 0
+        //done
+      } else{
+        unsigned int calcTime = ((total_time / numUsers) / numUserProcesses); //calculate the process' time slice 
+        p->time_slice = calcTime;
+       }
+     }
+   }
+
+
+ 
 	/*
 	 * Test if we are atomic.  Since do_exit() needs to call into
 	 * schedule() atomically, we ignore that path for now.
@@ -3681,6 +3752,7 @@ need_resched_nonpreemptible:
 		}
 	}
 	next->sleep_type = SLEEP_NORMAL;
+
 switch_tasks:
 	if (next == rq->idle)
 		schedstat_inc(rq, sched_goidle);

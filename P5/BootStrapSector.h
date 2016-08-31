@@ -39,6 +39,7 @@ class BootStrapSector {
            int getNumBytesInReservedSectors();
            int getNumCopiesFAT();
            int getNumBytesPerCluster();
+           int getNumSecFAT();
            byte memAccess(int i);
            /*
            BYTE* getVolumeLabel();

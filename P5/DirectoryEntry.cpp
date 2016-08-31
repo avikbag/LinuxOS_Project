@@ -6,6 +6,7 @@
 #include <cstdio>
 #include <fcntl.h>
 #include "byte.h"
+#include "BootStrapSector.h"
 
 using namespace std;
 

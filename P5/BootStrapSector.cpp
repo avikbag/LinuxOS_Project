@@ -73,6 +73,15 @@ int BootStrapSector::getNumCopiesFAT()
 
   return res.toInt();
 }
+int BootStrapSector::getNumSecFAT()
+{
+  byte temp1 = mem[22];
+  byte temp2 = mem[23];
+  byte res = temp1 + temp2;
+  res = res.toSmallEnd();
+
+  return res.toInt();
+}
 int BootStrapSector::getNumBytesPerCluster()
 {
   byte temp1 = mem[11];

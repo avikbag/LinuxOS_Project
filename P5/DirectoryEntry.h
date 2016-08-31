@@ -16,15 +16,17 @@
  */
 
 #ifndef DIRECTORY_ENTRY_H
-#define BIRECTORY_ENTRY_H
+#define DIRECTORY_ENTRY_H
 
 #include "byte.h"
+#include "BootStrapSector.h"
+#include<string>
 
 class DirectoryEntry {
 	public:
-		DirectoryEntry(String fileName, int start);
-		byte* getFileName();
-		byte* getFileExtension();
+		DirectoryEntry(string fileName);
+		byte getFileName();
+		byte getFileExtension();
 		int getTime();
 		int getDate();
 		int getStartCluster();
@@ -32,6 +34,6 @@ class DirectoryEntry {
 
 	private:
 		void readDirectoryEntry(string fileName, int start);
-		char* mem;
-}
+    BootStrapSector local;
+};
 #endif

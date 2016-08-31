@@ -100,10 +100,10 @@ byte BootStrapSector::memAccess(int i)
   byte temp = mem[i];
   return temp;
 }
-
+/*
 int main()
 {
   BootStrapSector test("samplefat.bin");
   cout << test.memAccess(1) << endl;
   return 0;
-}
+}*/

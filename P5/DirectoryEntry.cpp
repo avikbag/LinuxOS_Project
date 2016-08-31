@@ -10,9 +10,12 @@
 
 using namespace std;
 
-DirectoryEntry::DirectoryEntry(BootStrapSector b, int start){
-	readDirectoryEntry(b, start);
+DirectoryEntry::DirectoryEntry(string fileName): local(fileName){
+	cout << "check" << endl;
+  //local(fileName);
+  //readDirectoryEntry(b, start);
 }
+/*
 void DirectoryEntry::readDirectoryEntry(BootStrapSector b, int start){
 	for(int i = 0; i < b.getNumEntriesInRootDir(); i++){
 		for(int j = 0; j < 32; j++){
@@ -34,6 +37,7 @@ byte* DirectoryEntry::getFileExtension(){
 	}
 	cout << temp << endl;
 }
+
 int DirectoryEntry::getHour(){
 
 }
@@ -57,4 +61,9 @@ int DirectoryEntry::getStartCluster(){
 }
 int DirectoryEntry::getFileSize(){
 	
+}*/
+
+int main()
+{
+  DirectoryEntry d("samplefat.bin");
 }

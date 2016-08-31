@@ -22,5 +22,4 @@ int main(int argc, char *argv[]){
 		d[i]->getFileName();
 		d[i]->getFileExtension();
 	}
-
 }

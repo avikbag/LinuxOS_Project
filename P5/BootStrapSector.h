@@ -26,43 +26,27 @@
 #ifndef BOOTSTRAP_SECTOR_H
 #define BOOTSTRAP_SECTOR_H
 
-#include "types.h"
+#include<string>
+using namespace std;
 
 class BootStrapSector {
 	public:
-           BootStrapSector(int is);
-           int getNumBytesInFAT();
+           BootStrapSector(string name);
+           int getBytesPerSec();
            int getNumClusters();
            int getNumEntriesInRootDir();
            int getNumBytesInReservedSectors();
            int getNumCopiesFAT();
            int getNumBytesPerCluster();
+           /*
            BYTE* getVolumeLabel();
            BYTE* getVolumeSerialNumber();
            BYTE* getFormatType();
-		
+		*/
 	private:
-            void readBootStrapSector();
+            void readBootStrapSector(string fileName);
+            char* mem;
             
-            int imageStream;
-            
-            BYTE firstInstruction[3];  // This is often a jump instruction to the boot sector code itself
-            BYTE OEM[8];		
-            BYTE numBytesPerSector[2];
-            BYTE numSectorsPerCluster[1];
-            BYTE numReservedSectors[2];
-            BYTE numCopiesFAT[1];
-            BYTE numEntriesRootDir[2];
-            BYTE numSectors[2];
-            BYTE mediaDescriptor[1];
-            BYTE numSectorsInFAT[2];
-            BYTE numSectorsPerTrack[2];
-            BYTE numSides[2];
-            BYTE numHiddenSectors[2];
-            BYTE formatType[8]; // FAT12 or FAT16 in this program
-            BYTE hex55AA[2];	// the last bytes of the boot sector are, by definition, 55 AA.  This is a sanity check.
-            BYTE volumeLabel[11];
-            BYTE volumeSN[4];
 };
 
 #endif

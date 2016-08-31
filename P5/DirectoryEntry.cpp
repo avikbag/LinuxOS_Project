@@ -1,4 +1,5 @@
 #include "DirectoryEntry.h"
+#include "BootStrapSector.h"
 #include <iostream>
 #include <unistd.h>
 #include <fstream>
@@ -8,38 +9,51 @@
 
 using namespace std;
 
-DirectoryEntry::DirectoryEntry(Sting file, int start){
-	readDirectoryEntry(file, start);
+DirectoryEntry::DirectoryEntry(BootStrapSector b, int start){
+	readDirectoryEntry(b, start);
 }
-void DirectoryEntry::readDirectoryEntry(string fileName, int start){
-	char buffer[2];
-	ifstream file(fileName, ios::binary | ios::in | ios::ate);
-	streampos size;
-	if(file.is_open()){
-		size = file.tellg();
-		mem = new char[size];
-		file.seekg (0, ios::beg);
-		file.read(mem, size);
-	} else {
-		cout <<"Read bin file failed" << endl;
+void DirectoryEntry::readDirectoryEntry(BootStrapSector b, int start){
+	for(int i = 0; i < b.getNumEntriesInRootDir(); i++){
+		for(int j = 0; j < 32; j++){
+			mem[j] = b.memAccess(start + (i*32) + j);
+		}
 	}
 }
 byte* DirectoryEntry::getFileName(){
-	return fileName;
+	byte temp = mem[0];
+	for(int i = 1; i < 7; i++){
+		temp = temp + mem[i];
+	}
+	cout << temp << endl;
 }
 byte* DirectoryEntry::getFileExtension(){
-	return extension;
+	byte temp = mem[8];
+	for(int i = 9; i < 10; i++){
+		temp = temp + mem[i];
+	}
+	cout << temp << endl;
 }
-int DirectoryEntry::getTime(){
-	return time;
+int DirectoryEntry::getHour(){
+
 }
-int DirectoryEntry::getDate(){
-	return date;
+int DirectoryEntry::getMin(){
+
+}
+int DirectoryEntry::getSec(){
+
+}
+int DirectoryEntry::getYear(){
+
+}
+int DirectoryEntry::getMonth(){
+
+}
+int DirectoryEntry::getDay(){
+
 }
 int DirectoryEntry::getStartCluster(){
-	return startCluster;
+	
 }
 int DirectoryEntry::getFileSize(){
-	return fileSize;
+	
 }
-

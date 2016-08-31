@@ -86,10 +86,15 @@ int BootStrapSector::getNumBytesPerCluster()
   
   return ((bytesPerSec.toInt())*(sectorsPerCluster.toInt()));
 }
-/*
+byte BootStrapSector::memAccess(int i)
+{
+  byte temp = mem[i];
+  return temp;
+}
+
 int main()
 {
   BootStrapSector test("samplefat.bin");
-  test.getBytesPerSec();
+  cout << test.memAccess(1) << endl;
   return 0;
-}*/
+}

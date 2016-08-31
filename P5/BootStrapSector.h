@@ -27,6 +27,7 @@
 #define BOOTSTRAP_SECTOR_H
 
 #include<string>
+#include"byte.h"
 using namespace std;
 
 class BootStrapSector {
@@ -38,6 +39,7 @@ class BootStrapSector {
            int getNumBytesInReservedSectors();
            int getNumCopiesFAT();
            int getNumBytesPerCluster();
+           byte memAccess(int i);
            /*
            BYTE* getVolumeLabel();
            BYTE* getVolumeSerialNumber();

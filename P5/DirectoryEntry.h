@@ -18,29 +18,20 @@
 #ifndef DIRECTORY_ENTRY_H
 #define BIRECTORY_ENTRY_H
 
-#include "types.h"
+#include "byte.h"
 
 class DirectoryEntry {
 	public:
-		DirectoryEntry(int is);
-		BYTE* getFileName();
-		BYTE* getFileExtension();
+		DirectoryEntry(String fileName, int start);
+		byte* getFileName();
+		byte* getFileExtension();
 		int getTime();
 		int getDate();
 		int getStartCluster();
 		int getFileSize();
 
 	private:
-		void readDirectoryEntry();
-		int imageStream;
-
-		BYTE fileName[8];
-		BYTE extension[3];
-		BYTE attributes[1];
-		BYTE reserved[10];
-		BYTE time[2];
-		BYTE date[2];
-		BYTE startCluster[2];
-		BYTE fileSize[4];
+		void readDirectoryEntry(string fileName, int start);
+		char* mem;
 }
 #endif

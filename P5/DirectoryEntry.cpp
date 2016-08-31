@@ -1,19 +1,33 @@
 #include "DirectoryEntry.h"
 #include <iostream>
 #include <unistd.h>
+#include <fstream>
+#include <cstdio>
 #include <fcntl.h>
+#include "byte.h"
 
 using namespace std;
 
-DirectoryEntry::DirectoryEntry(int is){
-	imageStream = is;
-	readDirectoryEntry();
+DirectoryEntry::DirectoryEntry(Sting file, int start){
+	readDirectoryEntry(file, start);
 }
-
-BYTE* DirectoryEntry::getFileName(){
+void DirectoryEntry::readDirectoryEntry(string fileName, int start){
+	char buffer[2];
+	ifstream file(fileName, ios::binary | ios::in | ios::ate);
+	streampos size;
+	if(file.is_open()){
+		size = file.tellg();
+		mem = new char[size];
+		file.seekg (0, ios::beg);
+		file.read(mem, size);
+	} else {
+		cout <<"Read bin file failed" << endl;
+	}
+}
+byte* DirectoryEntry::getFileName(){
 	return fileName;
 }
-BYTE* DirectoryEntry::getFileExtension(){
+byte* DirectoryEntry::getFileExtension(){
 	return extension;
 }
 int DirectoryEntry::getTime(){
@@ -29,13 +43,3 @@ int DirectoryEntry::getFileSize(){
 	return fileSize;
 }
 
-void readDirectoryEntry(){
-	read(imageStream, fileName, 8);
-	read(imageStream, extension, 3);
-	read(imageStream, attributes, 1);
-	read(imageStream, reserved, 10);
-	read(imageStream, time, 2);
-	read(imageStream, date, 2);
-	read(imageStream, startCluster, 2);
-	read(imageStream, fileSize, 4);
-}

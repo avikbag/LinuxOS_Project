@@ -27,10 +27,18 @@
 class DirectoryListing {
   public:
     DirectoryListing(string fileName);
-    
+
   private:
     void read();
     string getName(vector<byte> b);
+    string getExt(vector<byte> b);
+    int getFileSize(vector<byte> b);
+    int getHour(vector<byte> b);
+    int getMin(vector<byte> b);
+    int getSec(vector<byte> b);
+    int getYear(vector<byte> b);
+    int getMonth(vector<byte> b);
+    int getDay(vector<byte> b);
     int _offset;
     BootStrapSector _local;
     vector<DirectoryEntry> _dirs;

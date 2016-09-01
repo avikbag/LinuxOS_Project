@@ -41,7 +41,7 @@ void DirectoryListing::read()
 string DirectoryListing::getName(vector<byte> b)
 {
   string str;
-  for(int i = 0; i < 7; i++)
+  for(int i = 0; i < 8; i++)
   {
     str+=(char)b[i].toInt();
   }
@@ -97,7 +97,7 @@ int DirectoryListing::getDay(vector<byte> b)
 int DirectoryListing::getClusterNumber(vector<byte> b)
 {
   int number;
-  for(int i = 26; i < 29; i++){
+  for(int i = 26; i < 27; i++){
     number+=b[i].toInt();
   }
   if(b[28].toInt() != 0){

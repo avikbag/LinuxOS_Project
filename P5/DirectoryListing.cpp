@@ -76,23 +76,23 @@ int DirectoryListing::getHour(vector<byte> b)
 }
 int DirectoryListing::getMin(vector<byte> b)
 {
-  return (((b[23] & 0x07) << 3) + (b[24] >> 5)).toInt();
+  return (((b[23] & 0x07) << 3) + (b[22] >> 5)).toInt();
 }
 int DirectoryListing::getSec(vector<byte> b)
 {
-  return (b[24] & 0x1F).toInt();
+  return (b[22] & 0x1F).toInt();
 }
 int DirectoryListing::getYear(vector<byte> b)
 {
-  return 1980 + ((b[26] >> 1)).toInt();
+  return 1980 + ((b[25] >> 1)).toInt();
 }
 int DirectoryListing::getMonth(vector<byte> b)
 {
-  return (((b[26] & 0x01) << 3) + (b[25] >> 5)).toInt();
+  return (((b[25] & 0x01) << 3) + (b[24] >> 5)).toInt();
 }
 int DirectoryListing::getDay(vector<byte> b)
 {
-  return (b[25] & 0x1F).toInt();
+  return (b[24] & 0x1F).toInt();
 }
 int DirectoryListing::getClusterNumber(vector<byte> b)
 {

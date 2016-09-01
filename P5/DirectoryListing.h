@@ -30,7 +30,7 @@ class DirectoryListing {
     
   private:
     void read();
-    void setName(vector<byte> b);
+    string getName(vector<byte> b);
     int _offset;
     BootStrapSector _local;
     vector<DirectoryEntry> _dirs;

@@ -31,22 +31,20 @@ void DirectoryListing::read()
     {
       dirChunks.push_back(_local.memAccess(_offset + (i*32) + j));
     }
-    setName(dirChunks);
+    //DirectoryEntry temp(getName(dirChunks));
     dirChunks.clear();
   }
 }
-void DirectoryListing::setName(vector<byte> b)
+string DirectoryListing::getName(vector<byte> b)
 {
   string str;
   for(int i = 0; i < 11; i++)
   {
-    //cout << (char)b[i].toInt() << " " ;
     str+=(char)b[i].toInt();
   }
   //cout << b[0].toInt() << " ";
   if(b[0].toInt() != 0)
-    cout << str << endl;
-  str = "";
+    return str;
 }
 
 int main()

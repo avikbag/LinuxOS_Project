@@ -25,20 +25,29 @@
 class DirectoryEntry {
 	public:
 		DirectoryEntry();
-    DirectoryEntry(int time, int date, int startCluster, int fileSize, string name, string ext);
-    DirectoryEntry(const DirectoryEntry &d);
+    DirectoryEntry(int hour, int min, int sec, int day, int month, int year, int startCluster, int fileSize, string name, string ext);
+    // DirectoryEntry(const DirectoryEntry &d);
 		string getFileName();
 		string getFileExt();
-		int getTime();
-		int getDate();
+        int getHour();
+        int getMin();
+        int getSec();
+        int getDay();
+        int getMonth();
+        int getYear();
 		int getStartCluster();
 		int getFileSize();
+        void print();
 
 	private:
     string _name;
     string _ext;
-    int _time;
-    int _date;
+    int _hour;
+    int _min;
+    int _sec;
+    int _day;
+    int _month;
+    int _year;
     int _startCluster;
     int _fileSize;
 };

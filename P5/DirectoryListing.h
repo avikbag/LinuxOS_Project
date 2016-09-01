@@ -27,6 +27,8 @@
 class DirectoryListing {
   public:
     DirectoryListing(string fileName);
+    DirectoryEntry getEntry(int i);
+    int getSize();
 
   private:
     void read();

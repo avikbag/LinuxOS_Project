@@ -31,9 +31,8 @@ void DirectoryListing::read()
     {
       dirChunks.push_back(_local.memAccess(_offset + (i*32) + j));
     }
-    // cout << getHour(dirChunks) << " " << getMin(dirChunks) << " " << getSec(dirChunks) << endl;
     if (getName(dirChunks).compare(" ") > 0) {
-      DirectoryEntry temp(getHour(dirChunks), getMin(dirChunks), getSec(dirChunks), getDay(dirChunks), getMonth(dirChunks), getYear(dirChunks), 123, getFileSize(dirChunks), getName(dirChunks), getExt(dirChunks));
+      DirectoryEntry temp(getHour(dirChunks), getMin(dirChunks), getSec(dirChunks), getDay(dirChunks), getMonth(dirChunks), getYear(dirChunks), getClusterNumber(dirChunks), getFileSize(dirChunks), getName(dirChunks), getExt(dirChunks));
       _dirs.push_back(temp);
     }
     dirChunks.clear();
@@ -94,6 +93,16 @@ int DirectoryListing::getMonth(vector<byte> b)
 int DirectoryListing::getDay(vector<byte> b)
 {
   return (b[25] & 0x1F).toInt();
+}
+int DirectoryListing::getClusterNumber(vector<byte> b)
+{
+  int number;
+  for(int i = 26; i < 29; i++){
+    number+=b[i].toInt();
+  }
+  if(b[28].toInt() != 0){
+    return number;
+  }
 }
 int DirectoryListing::getSize()
 {

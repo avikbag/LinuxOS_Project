@@ -41,6 +41,7 @@ class DirectoryListing {
     int getYear(vector<byte> b);
     int getMonth(vector<byte> b);
     int getDay(vector<byte> b);
+    int getClusterNumber(vector<byte> b);
     int _offset;
     BootStrapSector _local;
     vector<DirectoryEntry> _dirs;

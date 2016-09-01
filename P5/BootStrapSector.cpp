@@ -34,62 +34,61 @@ void BootStrapSector::readBootStrapSector(string fileName)
 }
 int BootStrapSector::getBytesPerSec()
 {
-  byte temp1 = mem[11];
-  byte temp2 = mem[12];
-  byte res = temp1 + temp2;
-  res = res.toSmallEnd();
+  byte temp1 = (unsigned char)mem[11];
+  byte temp2 = (unsigned char)mem[12];
+  byte res = temp2 + temp1;
+  //res = res.toSmallEnd();
 
   return res.toInt();
 }
 int BootStrapSector::getNumClusters()
 {
   byte res = mem[13];
-  res = res.toSmallEnd();
+  //res = res.toSmallEnd();
 
   return res.toInt();
 }
 int BootStrapSector::getNumEntriesInRootDir()
 {
-  byte temp1 = mem[17];
-  byte temp2 = mem[18];
-  byte res = temp1 + temp2;
-  res = res.toSmallEnd();
+  byte temp1 = (unsigned char)mem[17];
+  byte temp2 = (unsigned char)mem[18];
+  byte res = temp2 + temp1;
 
   return res.toInt();
 }
-int BootStrapSector::getNumBytesInReservedSectors()
+int BootStrapSector::getNumReservedSectors()
 {
-  byte temp1 = mem[14];
-  byte temp2 = mem[15];
-  byte res = temp1 + temp2;
-  res = res.toSmallEnd();
+  byte temp1 = (unsigned char)mem[14];
+  byte temp2 = (unsigned char)mem[15];
+  byte res = temp2 + temp1;
+  //res = res.toSmallEnd();
 
   return res.toInt();
 }
 int BootStrapSector::getNumCopiesFAT()
 {
-  byte res = mem[16];
-  res = res.toSmallEnd();
+  byte res = (unsigned char)mem[16];
+  //res = res.toSmallEnd();
 
   return res.toInt();
 }
 int BootStrapSector::getNumSecFAT()
 {
-  byte temp1 = mem[22];
-  byte temp2 = mem[23];
-  byte res = temp1 + temp2;
-  res = res.toSmallEnd();
+  byte temp1 = (unsigned char)mem[22];
+  byte temp2 = (unsigned char)mem[23];
+  byte res = temp2 + temp1;
+  //res = res.toSmallEnd();
 
   return res.toInt();
 }
 int BootStrapSector::getNumBytesPerCluster()
 {
-  byte temp1 = mem[11];
-  byte temp2 = mem[12];
-  byte bytesPerSec = temp1 + temp2;
+  byte temp1 = (unsigned char)mem[11];
+  byte temp2 = (unsigned char)mem[12];
+  byte bytesPerSec = temp2 + temp1;
   bytesPerSec = bytesPerSec.toSmallEnd();
 
-  byte sectorsPerCluster = mem[13];
+  byte sectorsPerCluster = (unsigned char)mem[13];
   sectorsPerCluster = sectorsPerCluster.toSmallEnd();
   
   
@@ -97,13 +96,16 @@ int BootStrapSector::getNumBytesPerCluster()
 }
 byte BootStrapSector::memAccess(int i)
 {
-  byte temp = mem[i];
+  byte temp = (unsigned char)mem[i];
   return temp;
 }
 /*
 int main()
 {
   BootStrapSector test("samplefat.bin");
-  cout << test.memAccess(1) << endl;
+  for (int i = 0; i < 50000; i++){
+    cout << test.memAccess(i) << " ";
+  }
   return 0;
-}*/
+}
+*/

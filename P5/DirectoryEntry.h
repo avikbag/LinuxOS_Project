@@ -19,21 +19,27 @@
 #define DIRECTORY_ENTRY_H
 
 #include "byte.h"
-#include "BootStrapSector.h"
+//#include "BootStrapSector.h"
 #include<string>
 
 class DirectoryEntry {
 	public:
-		DirectoryEntry(string fileName);
-		byte getFileName();
-		byte getFileExtension();
+		DirectoryEntry();
+    DirectoryEntry(int time, int date, int startCluster, int fileSize, string name, string ext);
+    DirectoryEntry(const DirectoryEntry &d);
+		string getFileName();
+		string getFileExt();
 		int getTime();
 		int getDate();
 		int getStartCluster();
 		int getFileSize();
 
 	private:
-		void readDirectoryEntry(string fileName, int start);
-    BootStrapSector local;
+    string _name;
+    string _ext;
+    int _time;
+    int _date;
+    int _startCluster;
+    int _fileSize;
 };
 #endif

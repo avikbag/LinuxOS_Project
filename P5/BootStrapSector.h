@@ -36,7 +36,7 @@ class BootStrapSector {
            int getBytesPerSec();
            int getNumClusters();
            int getNumEntriesInRootDir();
-           int getNumBytesInReservedSectors();
+           int getNumReservedSectors();
            int getNumCopiesFAT();
            int getNumBytesPerCluster();
            int getNumSecFAT();

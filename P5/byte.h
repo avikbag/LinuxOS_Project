@@ -14,7 +14,7 @@ class byte
     byte lower();
     byte toSmallEnd(); // It's defaulted to big Endian, this converts it to little endian 
     const unsigned int raw() const;
-    int toInt();
+    unsigned int toInt();
     byte operator+(const byte &b); // meant to concat two hex values. e.g 0xe3 + 0x1a = 0xe31a
     byte operator&(const byte &b);
     byte operator|(const byte &b);

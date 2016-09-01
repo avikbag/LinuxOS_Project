@@ -51,7 +51,7 @@ void byte::operator=(unsigned int b)
 }
 void byte::operator=(char b)
 {
-  data = (unsigned char)b;
+  data = (unsigned int)b;
   width = 2;
 }
 void byte::operator=(byte b)
@@ -109,22 +109,21 @@ byte byte::toSmallEnd()
     res = res | rightVal;
     shft -= 2;
   }
-  //cout << "fin" << dec << res.data << endl;
   data = res.data;
   return res;
 }
-int byte::toInt()
+unsigned int byte::toInt()
 { 
   return data;
 }
 /*
 int main()
 {
-  byte a = 0x11;
-  byte b = 0x02;
-  byte c = (a + b);
-  c = c.toSmallEnd();
-  cout << c << endl;
+  byte a = 0xff;
+  byte b = 2333;
+  //byte c = (a + b);
+  //c = c.toSmallEnd();
+  cout << a << endl;
   return 0;
 }
 */

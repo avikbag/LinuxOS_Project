@@ -31,8 +31,11 @@ void DirectoryListing::read()
     {
       dirChunks.push_back(_local.memAccess(_offset + (i*32) + j));
     }
-    cout << getHour(dirChunks) << " " << getMin(dirChunks) << " " << getSec(dirChunks) << endl;
-    //DirectoryEntry temp(getName(dirChunks));
+    // cout << getHour(dirChunks) << " " << getMin(dirChunks) << " " << getSec(dirChunks) << endl;
+    if (getName(dirChunks).compare(" ") > 0) {
+      DirectoryEntry temp(getHour(dirChunks), getMin(dirChunks), getSec(dirChunks), getDay(dirChunks), getMonth(dirChunks), getYear(dirChunks), 123, getFileSize(dirChunks), getName(dirChunks), getExt(dirChunks));
+      _dirs.push_back(temp);
+    }
     dirChunks.clear();
   }
 }
@@ -62,7 +65,7 @@ int DirectoryListing::getFileSize(vector<byte> b)
 {
   int size;
   for(int i = 28; i < 32; i++){
-    size+=(char)b[i].toInt();
+    size+=b[i].toInt();
   }
   if(b[28].toInt() != 0){
     return size;
@@ -92,9 +95,17 @@ int DirectoryListing::getDay(vector<byte> b)
 {
   return (b[25] & 0x1F).toInt();
 }
-
-int main()
+int DirectoryListing::getSize()
 {
-  DirectoryListing("samplefat.bin");
-  return 0;
+  return _dirs.size();
 }
+DirectoryEntry DirectoryListing::getEntry(int i)
+{
+  return _dirs.at(i);
+}
+
+// int main()
+// {
+//   DirectoryListing("samplefat.bin");
+//   return 0;
+// }

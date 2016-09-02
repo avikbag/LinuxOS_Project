@@ -1,0 +1,979 @@
+diff --git a/.gitignore b/.gitignore
+index b963a53..5769de6 100644
+--- a/.gitignore
++++ b/.gitignore
+@@ -1,3 +1,4 @@
++linux-2.6.22.19-cs543/
+ *.o
+ vmlinux
+ *.o.cmd
+diff --git a/P5/BootStrapSector.cpp b/P5/BootStrapSector.cpp
+new file mode 100644
+index 0000000..06b998e
+--- /dev/null
++++ b/P5/BootStrapSector.cpp
+@@ -0,0 +1,111 @@
++#include<fstream>
++#include<iostream>
++#include<string>
++#include<cstdlib>
++#include<cstdio>
++#include "BootStrapSector.h"
++#include "byte.h"
++using namespace std;
++
++BootStrapSector::BootStrapSector(string file)
++{
++  readBootStrapSector(file);
++}
++
++void BootStrapSector::readBootStrapSector(string fileName)
++{
++  char buffer[2];
++  ifstream file(fileName, ios::binary | ios::in | ios::ate);
++  streampos size; 
++  
++  if(file.is_open())
++  {
++    size = file.tellg();
++    mem = new char[size];
++    file.seekg (0, ios::beg);
++    file.read(mem, size);
++    
++  }
++  else
++  {
++    cout << "Read bin file failed" << endl;
++  }
++  
++}
++int BootStrapSector::getBytesPerSec()
++{
++  byte temp1 = (unsigned char)mem[11];
++  byte temp2 = (unsigned char)mem[12];
++  byte res = temp2 + temp1;
++  //res = res.toSmallEnd();
++
++  return res.toInt();
++}
++int BootStrapSector::getNumClusters()
++{
++  byte res = mem[13];
++  //res = res.toSmallEnd();
++
++  return res.toInt();
++}
++int BootStrapSector::getNumEntriesInRootDir()
++{
++  byte temp1 = (unsigned char)mem[17];
++  byte temp2 = (unsigned char)mem[18];
++  byte res = temp2 + temp1;
++
++  return res.toInt();
++}
++int BootStrapSector::getNumReservedSectors()
++{
++  byte temp1 = (unsigned char)mem[14];
++  byte temp2 = (unsigned char)mem[15];
++  byte res = temp2 + temp1;
++  //res = res.toSmallEnd();
++
++  return res.toInt();
++}
++int BootStrapSector::getNumCopiesFAT()
++{
++  byte res = (unsigned char)mem[16];
++  //res = res.toSmallEnd();
++
++  return res.toInt();
++}
++int BootStrapSector::getNumSecFAT()
++{
++  byte temp1 = (unsigned char)mem[22];
++  byte temp2 = (unsigned char)mem[23];
++  byte res = temp2 + temp1;
++  //res = res.toSmallEnd();
++
++  return res.toInt();
++}
++int BootStrapSector::getNumBytesPerCluster()
++{
++  byte temp1 = (unsigned char)mem[11];
++  byte temp2 = (unsigned char)mem[12];
++  byte bytesPerSec = temp2 + temp1;
++  bytesPerSec = bytesPerSec.toSmallEnd();
++
++  byte sectorsPerCluster = (unsigned char)mem[13];
++  sectorsPerCluster = sectorsPerCluster.toSmallEnd();
++  
++  
++  return ((bytesPerSec.toInt())*(sectorsPerCluster.toInt()));
++}
++byte BootStrapSector::memAccess(int i)
++{
++  byte temp = (unsigned char)mem[i];
++  return temp;
++}
++/*
++int main()
++{
++  BootStrapSector test("samplefat.bin");
++  for (int i = 0; i < 50000; i++){
++    cout << test.memAccess(i) << " ";
++  }
++  return 0;
++}
++*/
+diff --git a/P5/BootStrapSector.h b/P5/BootStrapSector.h
+new file mode 100644
+index 0000000..2a830e1
+--- /dev/null
++++ b/P5/BootStrapSector.h
+@@ -0,0 +1,55 @@
++/**
++ * BootStrapSector is the first 512 bytes of the FAT.
++ * Two byte fields are little-endian
++ *
++ * The format of this sector is:
++ * byte(s) contents
++ * ------- -------------------------------------------------------
++ *  0-2 first instruction of bootstrap routine
++ *  3-10 OEM name
++ *  11-12 number of bytes per sector
++ *  13 number of sectors per cluster
++ *  14-15 number of reserved sectors
++ *  16 number of copies of the file allocation table
++ *  17-18 number of entries in root directory
++ *  19-20 total number of sectors
++ *  21 media descriptor byte
++ *  22-23 number of sectors in each copy of file allocation table
++ *  24-25 number of sectors per track
++ *  26-27 number of sides
++ *  28-29 number of hidden sectors
++ *  30-509 bootstrap routine and partition information
++ *  510 hexadecimal 55
++ *  511 hexadecimal AA
++ */
++ 
++#ifndef BOOTSTRAP_SECTOR_H
++#define BOOTSTRAP_SECTOR_H
++
++#include<string>
++#include"byte.h"
++using namespace std;
++
++class BootStrapSector {
++	public:
++           BootStrapSector(string name);
++           int getBytesPerSec();
++           int getNumClusters();
++           int getNumEntriesInRootDir();
++           int getNumReservedSectors();
++           int getNumCopiesFAT();
++           int getNumBytesPerCluster();
++           int getNumSecFAT();
++           byte memAccess(int i);
++           /*
++           BYTE* getVolumeLabel();
++           BYTE* getVolumeSerialNumber();
++           BYTE* getFormatType();
++		*/
++	private:
++            void readBootStrapSector(string fileName);
++            char* mem;
++            
++};
++
++#endif
+diff --git a/P5/DirectoryEntry.cpp b/P5/DirectoryEntry.cpp
+new file mode 100644
+index 0000000..5dcd653
+--- /dev/null
++++ b/P5/DirectoryEntry.cpp
+@@ -0,0 +1,112 @@
++#include <iostream>
++#include <unistd.h>
++#include <fstream>
++#include <cstdio>
++#include <fcntl.h>
++#include <string>
++#include "byte.h"
++#include "DirectoryEntry.h"
++//#include "BootStrapSector.h"
++
++using namespace std;
++
++DirectoryEntry::DirectoryEntry()
++{
++  _hour = 0;
++  _min = 0;
++  _sec = 0;
++  _day = 0;
++  _month = 0;
++  _year = 0;
++  _startCluster = 0;
++  _fileSize = 0;
++  _name = "";
++  _ext = "";
++}
++
++DirectoryEntry::DirectoryEntry(int hour, int min, int sec, int day, int month, int year, int startCluster, int fileSize, string name, string ext)
++{
++  _hour = hour;
++  _min = min;
++  _sec = sec;
++  _day = day;
++  _month = month;
++  _year = year;
++  _startCluster = startCluster;
++  _fileSize = fileSize;
++  _name = name;
++  _ext = ext;
++}
++
++// DirectoryEntry::DirectoryEntry(const DirectoryEntry &d)
++// {
++//   _time = d._time;
++//   _date = d._date;
++//   _startCluster = d._startCluster;
++//   _fileSize = d._fileSize;
++//   _name = d._name;
++//   _ext = d._ext;
++// }
++int DirectoryEntry::getHour()
++{
++    return _hour;
++}
++int DirectoryEntry::getMin()
++{
++    return _min;
++}
++int DirectoryEntry::getSec()
++{
++    return _sec;
++}
++int DirectoryEntry::getDay()
++{
++    return _day;
++}
++int DirectoryEntry::getMonth()
++{
++    return _month;
++}
++int DirectoryEntry::getYear()
++{
++    return _year;
++}
++int DirectoryEntry::getStartCluster()
++{
++  return _startCluster;
++}
++int DirectoryEntry::getFileSize()
++{
++  return _fileSize;
++}
++
++string DirectoryEntry::getFileName()
++{
++  return _name;
++}
++string DirectoryEntry::getFileExt()
++{
++  return _ext;
++}
++void DirectoryEntry::print()
++{
++  cout << _name << " " << _ext << " " << _fileSize << " " << _month << "-"<< _day << "-" << _year << " " << _hour << ":" << _min << endl;
++}
++/*
++int main()
++{
++  DirectoryEntry d[10];
++  DirectoryEntry temp;
++  
++  for(int i = 0; i < 10; i ++)
++  {
++    DirectoryEntry temp(i, i, i, i, "hi", "bye");
++    d[i] = temp;
++  }
++  for(int i = 0; i < 10; i ++)
++  {
++    //DirectoryEntry temp(i, i, i, i, "hi", "bye");
++    cout << d[i].getTime() << endl;
++  }
++
++}*/
+diff --git a/P5/DirectoryEntry.h b/P5/DirectoryEntry.h
+new file mode 100644
+index 0000000..7d1b34b
+--- /dev/null
++++ b/P5/DirectoryEntry.h
+@@ -0,0 +1,54 @@
++/**
++ *	Directory Entry for FAT
++ *  Two byte fields are little-endian
++ *
++ *	The format of this sector is:
++ *	Byte(s) contain
++ *	--------------------------------------------------------------------------
++ *		0-7 Filename
++ *		8-10 Extension
++ *		11 Bit Field for Attributes
++ *		12-21 Reserved
++ *		22-23 Time
++ *		24-25 Date
++ *		26-27 Starting Cluster Number
++ *		28-31 File Size (in Bytes)
++ */
++
++#ifndef DIRECTORY_ENTRY_H
++#define DIRECTORY_ENTRY_H
++
++#include "byte.h"
++//#include "BootStrapSector.h"
++#include<string>
++
++class DirectoryEntry {
++	public:
++		DirectoryEntry();
++    DirectoryEntry(int hour, int min, int sec, int day, int month, int year, int startCluster, int fileSize, string name, string ext);
++    // DirectoryEntry(const DirectoryEntry &d);
++		string getFileName();
++		string getFileExt();
++        int getHour();
++        int getMin();
++        int getSec();
++        int getDay();
++        int getMonth();
++        int getYear();
++		int getStartCluster();
++		int getFileSize();
++        void print();
++
++	private:
++    string _name;
++    string _ext;
++    int _hour;
++    int _min;
++    int _sec;
++    int _day;
++    int _month;
++    int _year;
++    int _startCluster;
++    int _fileSize;
++};
++#endif
+diff --git a/P5/DirectoryListing.cpp b/P5/DirectoryListing.cpp
+new file mode 100644
+index 0000000..1ad9b06
+--- /dev/null
++++ b/P5/DirectoryListing.cpp
+@@ -0,0 +1,120 @@
++#include <string>
++#include <iostream>
++#include <vector>
++#include "byte.h"
++#include "BootStrapSector.h"
++#include "DirectoryEntry.h"
++#include "DirectoryListing.h"
++
++DirectoryListing::DirectoryListing(string fileName) : _local(fileName)
++{
++  // Simply sets up the Bootsector object for memory access.
++  // Sets the number of bytes to skip to reach directory area
++  //cout << _local.getNumCopiesFAT() << endl;
++  //cout << _local.getNumSecFAT() << endl;
++  //cout << _local.getBytesPerSec() << endl;
++  //cout << _local.getNumReservedSectors() << endl;
++  //cout << _local.getNumEntriesInRootDir() << endl;
++
++  _offset = (_local.getNumCopiesFAT() * _local.getNumSecFAT() * _local.getBytesPerSec()) + (_local.getBytesPerSec() * _local.getNumReservedSectors());
++  //cout << _offset << endl;
++  //_offset = 9728;
++  read();
++}
++
++void DirectoryListing::read()
++{
++  vector<byte> dirChunks;
++  for(int i = 0; i < _local.getNumEntriesInRootDir(); i++)
++  {
++    for(int j = 0; j < 32; j++)
++    {
++      dirChunks.push_back(_local.memAccess(_offset + (i*32) + j));
++    }
++    if (getName(dirChunks).compare(" ") > 0) {
++      DirectoryEntry temp(getHour(dirChunks), getMin(dirChunks), getSec(dirChunks), getDay(dirChunks), getMonth(dirChunks), getYear(dirChunks), getClusterNumber(dirChunks), getFileSize(dirChunks), getName(dirChunks), getExt(dirChunks));
++      _dirs.push_back(temp);
++    }
++    dirChunks.clear();
++  }
++}
++string DirectoryListing::getName(vector<byte> b)
++{
++  string str;
++  for(int i = 0; i < 8; i++)
++  {
++    str+=(char)b[i].toInt();
++  }
++  //cout << b[0].toInt() << " ";
++  if(b[0].toInt() != 0)
++    return str;
++}
++string DirectoryListing::getExt(vector<byte> b)
++{
++	string str;
++  for(int i = 8; i < 11; i++){
++    str+=(char)b[i].toInt();
++  }
++  //cout << b[8].toInt() << " ";
++  if(b[8].toInt() != 0){
++    return str;
++  }
++}
++int DirectoryListing::getFileSize(vector<byte> b)
++{
++  int size;
++  for(int i = 28; i < 32; i++){
++    size+=b[i].toInt();
++  }
++  if(b[28].toInt() != 0){
++    return size;
++  }
++}
++int DirectoryListing::getHour(vector<byte> b)
++{
++  return (b[23] >> 3).toInt();
++}
++int DirectoryListing::getMin(vector<byte> b)
++{
++  return (((b[23] & 0x07) << 3) + (b[22] >> 5)).toInt();
++}
++int DirectoryListing::getSec(vector<byte> b)
++{
++  return (b[22] & 0x1F).toInt();
++}
++int DirectoryListing::getYear(vector<byte> b)
++{
++  return 1980 + ((b[25] >> 1)).toInt();
++}
++int DirectoryListing::getMonth(vector<byte> b)
++{
++  return (((b[25] & 0x01) << 3) + (b[24] >> 5)).toInt();
++}
++int DirectoryListing::getDay(vector<byte> b)
++{
++  return (b[24] & 0x1F).toInt();
++}
++int DirectoryListing::getClusterNumber(vector<byte> b)
++{
++  int number;
++  for(int i = 26; i < 27; i++){
++    number+=b[i].toInt();
++  }
++  if(b[28].toInt() != 0){
++    return number;
++  }
++}
++int DirectoryListing::getSize()
++{
++  return _dirs.size();
++}
++DirectoryEntry DirectoryListing::getEntry(int i)
++{
++  return _dirs.at(i);
++}
++
++// int main()
++// {
++//   DirectoryListing("samplefat.bin");
++//   return 0;
++// }
+diff --git a/P5/DirectoryListing.h b/P5/DirectoryListing.h
+new file mode 100644
+index 0000000..099b183
+--- /dev/null
++++ b/P5/DirectoryListing.h
+@@ -0,0 +1,49 @@
++/**
++ *  Directory Entry for FAT
++ *  Two byte fields are little-endian
++ *
++ *  The format of this sector is:
++ *  Byte(s) contain
++ *  --------------------------------------------------------------------------
++ *    0-7 Filename
++ *    8-10 Extension
++ *    11 Bit Field for Attributes
++ *    12-21 Reserved
++ *    22-23 Time
++ *    24-25 Date
++ *    26-27 Starting Cluster Number
++ *    28-31 File Size (in Bytes)
++ */
++
++#ifndef DIRECTORY_LISTING_H
++#define DIRECTORY_LISTING_H
++
++#include "byte.h"
++#include "BootStrapSector.h"
++#include "DirectoryEntry.h"
++#include <string>
++#include <vector>
++
++class DirectoryListing {
++  public:
++    DirectoryListing(string fileName);
++    DirectoryEntry getEntry(int i);
++    int getSize();
++
++  private:
++    void read();
++    string getName(vector<byte> b);
++    string getExt(vector<byte> b);
++    int getFileSize(vector<byte> b);
++    int getHour(vector<byte> b);
++    int getMin(vector<byte> b);
++    int getSec(vector<byte> b);
++    int getYear(vector<byte> b);
++    int getMonth(vector<byte> b);
++    int getDay(vector<byte> b);
++    int getClusterNumber(vector<byte> b);
++    int _offset;
++    BootStrapSector _local;
++    vector<DirectoryEntry> _dirs;
++};
++#endif
+diff --git a/P5/README.md b/P5/README.md
+new file mode 100644
+index 0000000..448a4f4
+--- /dev/null
++++ b/P5/README.md
+@@ -0,0 +1,14 @@
++Project 5
++Avik Bag, John Wang, Tyler Boswell
++
++To run, simply type make. This will create an executable. It takes the file name as an argument to the exec.
++
++make
++msdosdir samplefat.bin
++
++
++The Byte object is implemented to allow byte manipulation. You can extract the upper bit, lower bit, convert from big endian to little endian, and concatenate two separate byte objects since we need it to get the FAT entry that is 1.5 bytes. Byte objects can be simply used with cout to output the values in hex, but can easily be represented in decimal if need be. 
++
++The Bootsector object creates a memory allocation of all the data that is contained within the sample.bin file. each byte is accessible by address, e.g., if you want to access byte 512, you simply have to call the method memAccess associated with the Bootsector object and pass the index as it's argument to get the byte at the location. The return type is a byte object. Also, it contains all the necesary information that is needed to traverse the binary file. 
++
++The DirectoryEntry object is made to to allow for storing directory entries. Each directory comes with 6 relevant fields that we are concerned with for this project. Once we had this set up, we could implement a DirectoryLising object, which was responsible for having a list of DirectoryEntry objects, accessing the mem from BootStrapSector, and parsing the necessary data. One thing to note is that some of the directory names start with a strange character. This is completely normal, as this is called the kludge. This is used to keep track of any deleted directory. We are also listing those directories. 
+diff --git a/P5/a.out b/P5/a.out
+new file mode 100755
+index 0000000..893f415
+Binary files /dev/null and b/P5/a.out differ
+diff --git a/P5/byte.cpp b/P5/byte.cpp
+new file mode 100644
+index 0000000..130c862
+--- /dev/null
++++ b/P5/byte.cpp
+@@ -0,0 +1,129 @@
++#include "byte.h"
++#include<string>
++#include<iostream>
++#include<iomanip>
++
++byte::byte()
++{
++  data = 0;
++  width = 0;
++}
++byte::byte(unsigned int inp)
++{
++  data = inp;
++  width = 2;
++}
++byte::byte(const byte &b)
++{
++  data = b.raw();
++  width = b.width;
++}
++byte byte::operator&(const byte &b)
++{
++  byte temp = this->data & b.data;
++  return temp;
++}
++byte byte::operator|(const byte &b)
++{
++  byte temp = this->data | b.data;
++  return temp;
++}
++byte byte::operator+(const byte &b)
++{
++  byte temp = (this->data << (4*(b.width))) | b.data;
++  width += b.width;
++  temp.width = width;
++  return temp;
++}
++const unsigned int byte::raw() const
++{
++  return data;
++}
++ostream& operator<<(ostream& os, const byte& bt)
++{
++  os << setfill('0') << setw(2) << hex << bt.raw();
++  return os;
++}
++void byte::operator=(unsigned int b)
++{
++  data = b;
++  width = 2;
++}
++void byte::operator=(char b)
++{
++  data = (unsigned int)b;
++  width = 2;
++}
++void byte::operator=(byte b)
++{
++  data = b.data;
++  width = b.width;
++}
++byte byte::operator<<(int n)
++{
++  byte temp;
++  data = data << n;
++  temp = data;
++  return data;
++}
++byte byte::operator>>(int n)
++{
++  byte temp;
++  data = data >> n;
++  temp = data;
++  return data;
++}
++byte byte::upper()
++{
++  byte temp = (data & 0xf0);
++  width = 1;
++  return temp;
++}
++byte byte::lower()
++{
++  byte temp = (data & 0x0f);
++  width = 1;
++  return temp;
++}
++byte byte::toSmallEnd()
++{
++  byte temp;
++  byte left  = (0xf << ((width-1) * 4));
++  byte right = 0xf;
++  byte res = 0x0;
++  byte rightVal, leftVal;
++  //cout << "test" << hex << data << endl;
++  int shft = width - 1;
++  for(int i = 0; i < width/2; i++)
++  {
++    left >> (width * i);
++    right << (width * i);
++
++    rightVal = right & data;
++    leftVal = left & data;
++
++    rightVal = rightVal << (shft*4);
++    leftVal = leftVal >> (shft*4);
++    
++    res = res | leftVal;
++    res = res | rightVal;
++    shft -= 2;
++  }
++  data = res.data;
++  return res;
++}
++unsigned int byte::toInt()
++{ 
++  return data;
++}
++/*
++int main()
++{
++  byte a = 0xff;
++  byte b = 2333;
++  //byte c = (a + b);
++  //c = c.toSmallEnd();
++  cout << a << endl;
++  return 0;
++}
++*/
+diff --git a/P5/byte.h b/P5/byte.h
+new file mode 100644
+index 0000000..8433f4e
+--- /dev/null
++++ b/P5/byte.h
+@@ -0,0 +1,33 @@
++#ifndef BYTE_H
++#define BYTE_H
++
++#include<ostream>
++using namespace std;
++
++class byte
++{
++  public:
++    byte();
++    byte(const byte &b);
++    byte(unsigned int inp);
++    byte upper();
++    byte lower();
++    byte toSmallEnd(); // It's defaulted to big Endian, this converts it to little endian 
++    const unsigned int raw() const;
++    unsigned int toInt();
++    byte operator+(const byte &b); // meant to concat two hex values. e.g 0xe3 + 0x1a = 0xe31a
++    byte operator&(const byte &b);
++    byte operator|(const byte &b);
++    byte operator<<(int n);
++    byte operator>>(int n);
++    void operator=(unsigned int b);
++    void operator=(char b);
++    void operator=(byte b);
++  
++  private:
++    unsigned int data;
++    int width;
++};
++ostream& operator<<(ostream& os, const byte& bt);    
++
++#endif
+diff --git a/P5/makefile b/P5/makefile
+new file mode 100644
+index 0000000..5b64d24
+--- /dev/null
++++ b/P5/makefile
+@@ -0,0 +1,8 @@
++CC = g++
++FLAG = c++11
++MSDOSDIR = msdosdir.cpp BootStrapSector.cpp DirectoryEntry.cpp DirectoryListing.cpp byte.cpp
++# TESTING = test.cpp BootStrapSector.cpp DirectoryEntry.cpp byte.cpp
++FILE = samplefat.bin
++
++msdosdir : $(MSDOSDIR)
++	$(CC) -std=$(FLAG) -o msdosdir $(MSDOSDIR)
+diff --git a/P5/msdosdir b/P5/msdosdir
+new file mode 100755
+index 0000000..efbc185
+Binary files /dev/null and b/P5/msdosdir differ
+diff --git a/P5/msdosdir.cpp b/P5/msdosdir.cpp
+new file mode 100644
+index 0000000..4702fa1
+--- /dev/null
++++ b/P5/msdosdir.cpp
+@@ -0,0 +1,46 @@
++#include <fcntl.h>
++#include <iostream>
++#include <unistd.h>
++
++#include "byte.h"
++#include "DirectoryEntry.h"
++#include "BootStrapSector.h"
++#include "DirectoryListing.h"
++
++using namespace std;
++
++int main(int argc, char *argv[]){
++
++	BootStrapSector *b = NULL;
++	DirectoryListing *d = NULL;
++	DirectoryEntry *e = NULL;
++
++	byte* serialNumber;
++	string volLabel;
++
++	int totalFiles = 0; //init num of files
++	int totalSize = 0;
++
++	if(argc != 2){
++		printf("Usage: %s FILE\n", argv[0]);
++		return -1;
++	}
++	
++	b = new BootStrapSector(argv[1]);
++	d = new DirectoryListing(argv[1]);
++	// serialNumber = b->getVolumeSerialNumber();
++	// cout << "Volume Serial Number is " << serialNumber << endl;
++	DirectoryEntry *temp = new DirectoryEntry(d->getEntry(d->getSize() - 1));	
++	volLabel = temp->getFileName() + temp->getFileExt();
++	cout << "Volume name is " << volLabel << endl;
++
++	for(int i = 0; i < d->getSize() - 1; i ++){
++		e = new DirectoryEntry(d->getEntry(i));
++		e->print();
++		totalFiles++;
++		totalSize += e->getFileSize();
++	}
++	
++	cout << totalFiles << " file(s) " << totalSize << " bytes" << endl;
++
++}
+diff --git a/P5/msdosdir_sampleoutput.txt b/P5/msdosdir_sampleoutput.txt
+new file mode 100644
+index 0000000..61106de
+--- /dev/null
++++ b/P5/msdosdir_sampleoutput.txt
+@@ -0,0 +1,62 @@
++Volume name is DISK      2
++ADDNAME  EX_ 262 2048-31-1994 0:0
++AVEXTRA  TXT 144 2-28-1994 10:4099
++DNR      EX_ 251 2052-16-1994 18:10247
++EMSBFR   EX_ 132 2048-31-1994 0:0
++HOSTS        205 2048-31-1994 19:8197
++IPCONFIG EX_ 94 2048-31-1994 0:0
++LICENSE  TXT 120 3-28-1995 17:4103
++LMHOSTS      52 2048-31-1994 19:8196
++NEMM     DO_ 234 2048-31-1994 0:0
++NETBIND  COM 98 2048-31-1994 0:0
++NETWORKS     140 2048-31-1994 18:12292
++NMTSR    EX_ 194 2048-31-1994 0:0
++PING     EX_ 357 2048-31-1994 0:0
++PROTOCOL     30 2048-31-1994 18:12292
++SERVICES     108 5-8-1995 14:8194
++SOCKETS  EX_ 212 2049-1-1994 13:4102
++TCPDRV   DO_ 260 2048-31-1994 0:0
++TCPTSR   EX_ 238 2048-31-1994 0:0
++TCPUTILS INI 233 2048-31-1994 0:0
++TINYRFC  EX_ 101 2052-1-1994 19:8199
++UMB      CO_ 58 2048-31-1994 0:0
++VBAPI    386 89 2048-31-1994 0:0
++VSOCKETS 386 100 2048-31-1994 0:0
++WINSOCK  DL_ 246 1-23-1995 15:4101
++WIN_SOCK DL_ 312 2048-31-1994 0:0
++WSAHDAPP EX_ 211 2048-31-1994 0:0
++WSOCKETS DL_ 307 2048-31-1994 0:0
++åNTERLNK EX_ 265 5-31-1994 6:4102
++åNTERSVR EX_ 181 5-31-1994 6:4102
++åABEL    EX_ 56 5-31-1994 6:4102
++åOADFIX  CO_ 139 5-31-1994 6:4102
++åEMMAKER EXE 217 5-31-1994 6:4102
++åEMMAKER HL_ 152 5-31-1994 6:4102
++åEMMAKER IN_ 31 5-31-1994 6:4102
++åODE     CO_ 109 5-31-1994 6:4102
++åONOUMB  38_ 185 5-31-1994 6:4102
++åORE     COM 250 5-31-1994 6:4102
++åOVE     EX_ 227 5-31-1994 6:4102
++åSBACKUP EX_ 192 5-31-1994 6:4102
++åSBCONFG HL_ 189 5-31-1994 6:4102
++åSBCONFG OVL 290 5-31-1994 6:4102
++åSD      EXE 369 5-31-1994 6:4102
++åSTOOLS  DL_ 250 5-31-1994 6:4102
++åWBACKR  DL_ 316 5-31-1994 6:4102
++åOWER    EX_ 194 5-31-1994 6:4102
++åRINT    EX_ 183 5-31-1994 6:4102
++åBASIC   HL_ 395 5-31-1994 6:4102
++åAMDRIVE SY_ 222 5-31-1994 6:4102
++åETVER   EX_ 242 5-31-1994 6:4102
++åHARE    EX_ 215 5-31-1994 6:4102
++åIZER    EX_ 56 5-31-1994 6:4102
++åMARTDRV EX_ 180 5-31-1994 6:4102
++åMARTMON EX_ 232 5-31-1994 6:4102
++åMARTMON HL_ 179 5-31-1994 6:4102
++åORT     EX_ 25 5-31-1994 6:4102
++åUBST    EX_ 246 5-31-1994 6:4102
++åREE     CO_ 205 5-31-1994 6:4102
++åNFORMAT COM 243 5-31-1994 6:4102
++åFINTD   38_ 14 5-31-1994 6:4102
++åINA20   38_ 111 5-31-1994 6:4102
++60 file(s) 11148 bytes
+diff --git a/P5/msdosextr.cpp b/P5/msdosextr.cpp
+new file mode 100644
+index 0000000..787b4e6
+--- /dev/null
++++ b/P5/msdosextr.cpp
+@@ -0,0 +1,56 @@
++#include <fcntl.h>
++#include <iostream>
++#include <unistd.h>
++
++#include "byte.h"
++#include "DirectoryEntry.h"
++#include "BootStrapSector.h"
++
++using namespace std;
++
++void extract(BootStrapSector *b, DirectoryEntry *d, int dataStart) {
++    byte fileName = d->getFileName();
++    byte fileExtension = d->getFileExtension(); 
++    int cluster = d->getStartCluster();
++
++    while (cluster < 0xFF8) { //until last cluster
++        //read data from the cluster
++        //get the next next cluster
++        // cluster = nextCluster;
++    }
++}
++
++int main(int argc, char *argv[]) {
++    int numEntries;
++    int rootDirBytes;
++    int fatBytes;
++    int dataStart;
++    int rootStart;
++
++    BootStrapSector *b = NULL;
++    DirectoryEntry *d = NULL;
++    DirectoryEntry **entries = NULL;
++
++    if(argc != 2) {
++        cout << "Usage: " << argv[0] << " FILE" << endl;
++        return -1;
++    }
++
++    b = new BootStrapSector(argv[1]);
++    
++    fatBytes = b->getNumCopiesFAT() * b->getNumSecFAT() * b->getBytesPerSec();
++    numEntries = b->getNumEntriesInRootDir();
++    rootDirBytes = numEntries * 32;
++    rootStart = b->getNumBytesInReservedSectors() + fatBytes;
++    dataStart = rootStart + rootDirBytes;
++
++    entries = new DirectoryEntry*[numEntries];
++
++    for(int i = 0; i < numEntries; i ++) {
++        entries[i] = new DirectoryEntry(argv[1], rootStart[i * 32]);
++    }
++    for (int j = 0; j < numEntries; j ++) {
++        extract(b, entries[j], dataStart);
++    }
++    
++}
+diff --git a/P5/samplefat.bin b/P5/samplefat.bin
+new file mode 100644
+index 0000000..6e3ecf7
+Binary files /dev/null and b/P5/samplefat.bin differ
+diff --git a/P5/test.cpp b/P5/test.cpp
+new file mode 100644
+index 0000000..3a3f4cc
+--- /dev/null
++++ b/P5/test.cpp
+@@ -0,0 +1,25 @@
++#include "byte.h"
++#include "DirectoryEntry.h"
++#include "BootStrapSector.h"
++#include <iostream>
++#include <fcntl.h>
++
++
++using namespace std;
++
++int main(int argc, char *argv[]){
++	BootStrapSector b("samplefat.bin");
++	DirectoryEntry **d = NULL;
++
++	cout << "num Entries " << b.getNumEntriesInRootDir() << endl;
++
++	int fatSector = b.getNumCopiesFAT() * b.getNumSecFAT();
++	int rootStart = b.getNumBytesInReservedSectors() + fatSector;
++
++	d = new DirectoryEntry*[b.getNumEntriesInRootDir()];
++	for(int i = 0; i < b.getNumEntriesInRootDir(); i++){
++		d[i] = new DirectoryEntry(b, rootStart + (i * 32));
++		d[i]->getFileName();
++		d[i]->getFileExtension();
++	}
++}
